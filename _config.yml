@@ -16,7 +16,7 @@ timezone:
 
 title: Research Notes  # the main title
 
-tagline: Notes concerning projectes in scientific computing # it will display as the subtitle
+tagline: Projects in scientific computing # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
   Research notes in scientific computing
