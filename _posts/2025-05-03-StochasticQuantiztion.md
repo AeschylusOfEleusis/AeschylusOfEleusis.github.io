@@ -25,7 +25,7 @@ $$
 \frac{\partial}{\partial \tau} \Phi^{\mathfrak{k}}\bigl(\tau, x^{a}\bigr) = \frac{\delta }{\delta \Phi^{\mathfrak{k}}} S\left[\Phi^{\mathfrak{m}}\bigl(\tau, x^{a}\bigr)\right] + \xi^{\mathfrak{k}}\bigl(\tau,x^{a}\bigr).
 $$
 
-Gaussian noise functionals are considered almost exclusively in the general theory of stochastic partial differential equations; although  non-gaussian and L\'evy type noise are handled analogously in the general theory of stochastic partial differential equations.
+Gaussian noise functionals are considered almost exclusively in study of stochastic partial differential equations; although  non-gaussian and L\'evy type noise are handled analogously.
 
 
 Consider the following action for a scalar field
@@ -40,7 +40,7 @@ where
 - $\mathcal{A}_{b}$ is a connection field of a gauge-symmetry fibre bundle $\mathcal{E}$ over $\mathcal{M}$,
 - $\nabla_{a} \equiv \partial_{a} - \mathcal{A}_{a}$ is the covariant derivative of the connection,
 - $\mathfrak{g}_{\mathfrak{j}\mathfrak{k}}$ governs the trace over the internal symmetry, and
-- $U(\Phi)$ is a generalized potential governing dynamics and self-interactions.
+- $U(\Phi^{\mathfrak{j}})$ is a generalized potential governing dynamics and self-interactions.
 
 This example is sufficient to study effects of:
 
@@ -50,7 +50,7 @@ This example is sufficient to study effects of:
 
 
 
-For example, in the limit of zero spatial dimensions $n=1$, singule particle quantum mechanics is formulated as the following stochastic PDE:
+For example, in the limit of zero spatial dimensions $n=1$, single particle quantum mechanics is formulated as the following stochastic PDE:
 
 $$
 \frac{\partial}{\partial \tau}\,x^{a}(\tau,t) = -\,\frac{\delta}{\delta x^{a}}\,S\bigl[x^{b}(\tau,t)\bigr] + \xi^{a}(\tau,t),
@@ -77,7 +77,7 @@ More specifically, this approach permits numerical analysis of:
 
 ---
 
-For base manifolds with dimension $n \ge 2$, stochastic quantization enables study of interacting problems in quantum field theory.  For example, on a flat Minkowski background the following problems are of immediate interest:
+For base manifolds with dimension $n \ge 2$, stochastic quantization enables study of general problems in quantum field theory.  For example, on a flat Minkowski background the following problems are of immediate interest:
 
 - Conformal field theories in $1+1$ dimensions,
 - Fractional quantum Hall effect and Chern–Simons theory in $2+1$ dimensions,
@@ -115,9 +115,7 @@ $$
 \frac{\alpha'}{\alpha} - \frac{a^{2}-1}{2r} - 2\pi r\bigl(\Phi^{2} + \Pi^{2}\bigr) = 0.
 $$
 
-Example problems to consider here include $a$ and $\alpha$ fixed as the Schwarzschild solution (black hole physics) or deSitter space (cosmology of the early universe). Then, the dynamics of the associated stochastic partial differential equations correspond to quantum field theory on a curved spacetime. However, when the dynamics of the back reaction of the gravitational field are included  (by simultaneous solution of Einstein's equations) the result is a theory of quantum gravity; approached in the context of numerical relativity and stochastic quantization (formulated as stochastic partial differential equations). As an intermediate step, the semi-classical Einstein Langevin equation appears naturally in the stochastic quantization considered here. Additionally, scalar fields and the associated BTZ black holes in lower dimensional 2+1 gravity are natural to consider in the numerical approach to stochastic quantization considered here. 
-
-Finally, translating the algorithms above from the domain of pseudo random number generation to full quantum computation is an immediate extension; one consistent with the goal of quantum computational field theory. 
+Example problems to consider here include $a$ and $\alpha$ fixed as the Schwarzschild solution (black hole physics) or deSitter space (cosmology of the early universe). Then, the dynamics of the associated stochastic partial differential equations correspond to quantum field theory on a curved spacetime. However, when the dynamics of the back reaction of the gravitational field are included  (by simultaneous solution of Einstein's equations) the result is a quantum theory of gravity; approached in the context of numerical relativity and stochastic quantization. As an intermediate step, the semi-classical Einstein Langevin equation appears naturally. Additionally, scalar fields and the associated BTZ black holes in lower dimensional 2+1 gravity are natural to consider in this numerical approach. 
 
 ---
 
