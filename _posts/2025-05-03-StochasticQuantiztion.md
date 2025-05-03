@@ -9,7 +9,7 @@ math:       true        # enable KaTeX
 # Notes on Stochastic Quantization (Draft)
 
 ## Abstract
-
+$` `$
 A view of stochastic quantization is sketched here; written from the perspective of numerical relativity. Examples from mathematical physics are considered as illustration.
 
 
