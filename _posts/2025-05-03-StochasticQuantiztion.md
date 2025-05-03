@@ -3,6 +3,9 @@ title: "Stochastic Quantization"
 date: 2025-05-03
 categories: [Stochastic Quantization]
 tags: [Stochastic Quantization, Numerical Relativity,Quantum Field Theory, Stochastic Calculus, Triviality ]
+<script type="text/javascript"
+  src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
 ---
 # Notes on Stochastic Quantization (Draft)
 
