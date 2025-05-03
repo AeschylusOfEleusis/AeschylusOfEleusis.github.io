@@ -12,12 +12,11 @@ math:       true        # enable KaTeX
 
 A view of stochastic quantization is sketched here; written from the perspective of numerical relativity. Examples from mathematical physics are considered as illustration.
 
-$` `$
-Let $\Phi^{\mathfrak{i}}(x^{a})$ satisfy a principle of stationary action with classical equations of motion
-
+Consider a principle of stationary action with classical equations of motion
 $$
-\frac{\delta }{\delta \Phi^{\mathfrak{k}}} S\left[\Phi^{\mathfrak{m}}\left(x^{a}\right)\right] = 0.
+\frac{\delta }{\delta \Phi^{\mathfrak{k}}} S\left[\Phi^{\mathfrak{m}}\left(\tau,x^{a}\right)\right] = 0
 $$
+for the field $ \Phi^{\mathfrak{k}}\bigl(\tau, x^{a}\bigr)$,
 
 In this notation, the background spacetime is $x^{a} = (t,x^{i})$ with $n-1$ spatial dimensions,  and the index $\mathfrak{k}$ indicates internal symmetries.  Let $\tau$ be proper time along a world line and let $\xi^{\mathfrak{k}}(\tau,x^{d})$ be a vector of general noise indexed over the internal symmetry.  The stochastic partial differential equation of stochastic quantization is
 
