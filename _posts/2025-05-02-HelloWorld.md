@@ -1,10 +1,10 @@
 ---
-title: "Hello World"
+title: "Overview"
 date: 2025-05-02
-categories: [Hello World]
-tags: [Hello World]
+categories: [Scientifc Computing]
+tags: [Scientific Computing]
 ---
 
-# Hello World
+# Overview
 
-Hello world! 
+>THe following research notes consider several projects in scientific computing.  
