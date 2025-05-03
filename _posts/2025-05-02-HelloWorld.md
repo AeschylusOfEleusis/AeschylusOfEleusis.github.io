@@ -20,17 +20,16 @@ These research notes cover the following material.
 9. Option Trading. 
 
 >B. [Quantum Field Theory](https://en.wikipedia.org/wiki/Quantum_field_theory)
-1. Historical overview
-2. Path Integrals 
-3. Stochastic Quantization 
-4. Triviality 
-5. QFT on Curved Manifolds 
-6. Nonequilibrium Quantum Field Theory 
-7. Foundations of Quantum Mechanics 
-8. Koopman Von Neumann Mechanics 
+1. History and Overview,
+2. Path Integrals, 
+3. Stochastic Quantization, 
+4. Triviality, 
+5. QFT on Curved Manifolds, 
+6. Nonequilibrium Quantum Field Theory, 
+7. Foundations of Quantum Mechanics, 
+8. Koopman Von Neumann Mechanics. 
 
 >C. [Numerical Relativity](https://en.wikipedia.org/wiki/General_relativity)
-1. Foundations 
-2. Blackholes 
-3. Wormholes
-{: .prompt-tip } 
+1. Foundations, 
+2. Blackholes, 
+3. Wormholes.
