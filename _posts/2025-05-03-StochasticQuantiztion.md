@@ -20,7 +20,7 @@ $$
 In this notation, the background spacetime is $x^{a} = (t,x^{i})$ with $n-1$ spatial dimensions,  and the index $\mathfrak{k}$ indicates internal symmetries.  Let $\tau$ be proper time along a world line and let $\xi^{\mathfrak{k}}(\tau,x^{d})$ be a vector of general noise indexed over the internal symmetry.  The stochastic partial differential equation of stochastic quantization is
 
 $$
-\frac{\partial}{\partial \tau} \Phi^{\mathfrak{k}}\bigl(\tau, x^{a}\bigr) = \frac{\delta }{\delta \Phi^{\mathfrak{k}}} S\left[\Phi^{\mathfrak{m}}\right] + \xi^{\mathfrak{k}}\bigl(\tau,x^{a}\bigr).
+\frac{\partial}{\partial \tau} \Phi^{\mathfrak{k}}\bigl(\tau, x^{a}\bigr) = \frac{\delta }{\delta \Phi^{\mathfrak{k}}} S\left[\Phi^{\mathfrak{m}}\bigl(\tau, x^{a}\bigr)\right] + \xi^{\mathfrak{k}}\bigl(\tau,x^{a}\bigr).
 $$
 
 Gaussian noise functionals are considered almost exclusively in the general theory of stochastic partial differential equations; although  non-gaussian and L\'evy type noise are handled analogously in the general theory of stochastic partial differential equations.
@@ -48,7 +48,7 @@ This example is sufficient to study effects of:
 
 
 
-For example, in the limit of zero spatial dimensions $n=1$, singularized as the following stochastic PDE:
+For example, in the limit of zero spatial dimensions $n=1$, singule particle quantum mechanics is formulated as the following stochastic PDE:
 
 $$
 \frac{\partial}{\partial \tau}\,x^{a}(\tau,t) = -\,\frac{\delta}{\delta x^{a}}\,S\bigl[x^{b}(\tau,t)\bigr] + \xi^{a}(\tau,t),
