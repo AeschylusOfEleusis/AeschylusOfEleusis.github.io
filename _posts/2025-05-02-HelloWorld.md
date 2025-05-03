@@ -32,4 +32,5 @@ These research notes cover the following material.
 >C. [Numerical Relativity](https://en.wikipedia.org/wiki/General_relativity)
 1. Foundations 
 2. Blackholes 
-3. Wormholes 
+3. Wormholes
+{: .prompt-tip } 
