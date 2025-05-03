@@ -7,8 +7,8 @@ tags: [Scientific Computing, Quantum Computing]
 ---
 
 
-> The following research notes cover the following material.
-> A. [Computational Finance](https://en.wikipedia.org/wiki/Computational_finance):
+The following research notes cover the following material.
+A. [Computational Finance](https://en.wikipedia.org/wiki/Computational_finance):
 1. Scientific Computing, 
 2. Quantum Computing, 
 3. Machine Learning,
@@ -18,7 +18,7 @@ tags: [Scientific Computing, Quantum Computing]
 7. Quantitative Finance, 
 8. Machine Trading, 
 9. Option Trading. 
-> B. [Quantum Field Theory](https://en.wikipedia.org/wiki/Quantum_field_theory)
+B. [Quantum Field Theory](https://en.wikipedia.org/wiki/Quantum_field_theory)
 1. Historical overview
 2. Path Integrals 
 3. Stochastic Quantization 
@@ -27,7 +27,7 @@ tags: [Scientific Computing, Quantum Computing]
 6. Nonequilibrium Quantum Field Theory 
 7. Foundations of Quantum Mechanics 
 8. Koopman Von Neumann Mechanics 
-> C. [Numerical Relativity](https://en.wikipedia.org/wiki/General_relativity)
+C. [Numerical Relativity](https://en.wikipedia.org/wiki/General_relativity)
 1. Foundations 
 2. Blackholes 
 3. Wormholes 
