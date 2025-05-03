@@ -5,6 +5,8 @@ categories: [Scientifc Computing]
 tags: [Scientific Computing]
 ---
 
-# Overview
 
->THe following research notes consider several projects in scientific computing.  
+>The following research notes consider several projects in scientific computing.
+>1. Computational Finance
+>2. Stochastic Quantization
+>3. Numerical Relativity
