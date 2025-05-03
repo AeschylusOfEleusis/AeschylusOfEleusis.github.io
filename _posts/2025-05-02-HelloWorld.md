@@ -18,7 +18,7 @@ tags: [Scientific Computing]
   8. Machine Trading 
   9. Option Trading 
 > B. [Quantum Field Theory](https://en.wikipedia.org/wiki/Quantum_field_theory)
-  1. History of Quantum Field Theory
+  1. Historical overview
   2. Path Integrals 
   3. Stochastic Quantization 
   4. Triviality 
