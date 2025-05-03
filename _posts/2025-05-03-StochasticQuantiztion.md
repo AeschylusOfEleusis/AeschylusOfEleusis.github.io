@@ -1,7 +1,7 @@
 ---
 layout:   post
 title: "Stochastic Quantization"
-date: 2025-05-03
+date: 2025-05-03 10:00:00 +0800
 categories: [Stochastic Quantization]
 tags: [Stochastic Quantization, Numerical Relativity,Quantum Field Theory, Stochastic Calculus, Triviality ]
 math:       true        # enable KaTeX
@@ -13,7 +13,7 @@ math:       true        # enable KaTeX
 A view of stochastic quantization is sketched here; written from the perspective of numerical relativity. Examples from mathematical physics are considered as illustration.
 
 
-Let $\Phi^{\mathfrak{i}}(x^{a})$ satisfy a principle of stationary action with classical equations of motion
+Let $`\Phi^{\mathfrak{i}}(x^{a})`$ satisfy a principle of stationary action with classical equations of motion
 
 $$
 \frac{\delta }{\delta \Phi^{\mathfrak{k}}} S\left[\Phi^{\mathfrak{m}}\left(x^{a}\right)\right] = 0.
