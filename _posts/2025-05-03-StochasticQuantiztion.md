@@ -19,7 +19,7 @@ $$
 \frac{\delta }{\delta \Phi^{\mathfrak{k}}} S\left[\Phi^{\mathfrak{m}}\left(x^{a}\right)\right] = 0.
 $$
 
-In this notation, the background spacetime is $`x^{a} = (t,x^{i})`$ with $n-1$ spatial dimensions,  and the index $\mathfrak{k}$ indicates internal symmetries.  Let $\tau$ be proper time along a world line and let $\xi^{\mathfrak{k}}(\tau,x^{d})$ be a vector of general noise indexed over the internal symmetry.  The stochastic partial differential equation of stochastic quantization is
+In this notation, the background spacetime is $x^{a} = (t,x^{i})$ with $n-1$ spatial dimensions,  and the index $\mathfrak{k}$ indicates internal symmetries.  Let $\tau$ be proper time along a world line and let $\xi^{\mathfrak{k}}(\tau,x^{d})$ be a vector of general noise indexed over the internal symmetry.  The stochastic partial differential equation of stochastic quantization is
 
 $$
 \frac{\partial}{\partial \tau} \Phi^{\mathfrak{k}}\bigl(\tau, x^{a}\bigr) = \frac{\delta }{\delta \Phi^{\mathfrak{k}}} S\left[\Phi^{\mathfrak{m}}\bigl(\tau, x^{a}\bigr)\right] + \xi^{\mathfrak{k}}\bigl(\tau,x^{a}\bigr).
@@ -115,12 +115,7 @@ $$
 \frac{\alpha'}{\alpha} - \frac{a^{2}-1}{2r} - 2\pi r\bigl(\Phi^{2} + \Pi^{2}\bigr) = 0.
 $$
 
-Example problems to consider here include $a$ and $\alpha$ fixed as the Schwarzschild solution (black hole physics) or deSitter space (cosmology of the early universe). Then, the dynamics of the associated stochastic partial differential equations correspond
-to quantum field theory on a curved spacetime. However, when the dynamics of the back reaction of the gravitational field are
-included  (by simultaneous solution of Einstein's equations) the result is a quantum theory of gravity; approached in the context
-of numerical relativity and stochastic quantization. As an intermediate step, scalar fields and the associated BTZ black holes in
-lower dimensional 2+1 gravity are natural to consider in this numerical approach. 
-
+Example problems to consider here include $a$ and $\alpha$ fixed as the Schwarzschild solution (black hole physics) or deSitter space (cosmology of the early universe). Then, the dynamics of the associated stochastic partial differential equations correspond to quantum field theory on a curved spacetime. However, when the dynamics of the back reaction of the gravitational field are included  (by simultaneous solution of Einstein's equations) the result is a quantum theory of gravity; approached in the context of numerical relativity and stochastic quantization. As an intermediate step, scalar fields and the associated BTZ black holes in lower dimensional 2+1 gravity are natural to consider in this numerical approach. 
 ---
 
 ## References
