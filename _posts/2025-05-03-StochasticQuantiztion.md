@@ -19,7 +19,7 @@ $$
 \frac{\delta }{\delta \Phi^{\mathfrak{k}}} S\left[\Phi^{\mathfrak{m}}\left(x^{a}\right)\right] = 0.
 $$
 
-In this notation, the background spacetime is $x^{a} = (t,x^{i})$ with $n-1$ spatial dimensions,  and the index $\mathfrak{k}$ indicates internal symmetries.  Let $\tau$ be proper time along a world line and let $\xi^{\mathfrak{k}}(\tau,x^{d})$ be a vector of general noise indexed over the internal symmetry.  The stochastic partial differential equation of stochastic quantization is
+In this notation, the background spacetime is `$x^{a} = (t,x^{i})`$ with $n-1$ spatial dimensions,  and the index $\mathfrak{k}$ indicates internal symmetries.  Let $\tau$ be proper time along a world line and let $\xi^{\mathfrak{k}}(\tau,x^{d})$ be a vector of general noise indexed over the internal symmetry.  The stochastic partial differential equation of stochastic quantization is
 
 $$
 \frac{\partial}{\partial \tau} \Phi^{\mathfrak{k}}\bigl(\tau, x^{a}\bigr) = \frac{\delta }{\delta \Phi^{\mathfrak{k}}} S\left[\Phi^{\mathfrak{m}}\bigl(\tau, x^{a}\bigr)\right] + \xi^{\mathfrak{k}}\bigl(\tau,x^{a}\bigr).
