@@ -12,7 +12,7 @@ math:       true        # enable KaTeX
 
 A view of stochastic quantization is sketched here; written from the perspective of numerical relativity. Examples from mathematical physics are considered as illustration.
 
-Let the field $`\Phi^{\mathfrak{k}}(\tau, x^{a})`$ satisfy a principle of stationary action with classical equations of motion
+Let the field $`\Phi^{\mathfrak{k}}\bigl(\tau, x^{a}\bigr)`$ satisfy a principle of stationary action with classical equations of motion
 
 $$
 \frac{\delta }{\delta \Phi^{\mathfrak{k}}} S\left[\Phi^{\mathfrak{m}}\left(\tau,x^{a}\right)\right] = 0.
