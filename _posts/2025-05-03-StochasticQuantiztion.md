@@ -3,7 +3,7 @@ title: "Stochastic Quantization"
 date: 2025-05-03
 categories: [Stochastic Quantization]
 tags: [Stochastic Quantization, Numerical Relativity,Quantum Field Theory, Stochastic Calculus, Triviality ]
-math:       true        # enable KaTeX
+#math:       true        # enable KaTeX
 ---
 # Notes on Stochastic Quantization (Draft)
 
