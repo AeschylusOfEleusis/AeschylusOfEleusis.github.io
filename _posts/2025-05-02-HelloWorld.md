@@ -1,7 +1,7 @@
 ---
 title: "Overview"
 date: 2025-05-02
-categories: [Overview, Scientifc Computing, Quantum Computing]
+categories: [Overview, Scientific Computing, Quantum Computing]
 tags: [Computational Finance, Stochastic Quantization, Numerical Relativity]
 
 ---
