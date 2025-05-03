@@ -115,8 +115,7 @@ $$
 \frac{\alpha'}{\alpha} - \frac{a^{2}-1}{2r} - 2\pi r\bigl(\Phi^{2} + \Pi^{2}\bigr) = 0.
 $$
 
-Example problems to consider here include $a$ and $\alpha$ fixed as the Schwarzschild solution (black hole physics) or deSitter
-space (cosmology of the early universe). Then, the dynamics of the associated stochastic partial differential equations correspond
+Example problems to consider here include $a$ and $\alpha$ fixed as the Schwarzschild solution (black hole physics) or deSitter space (cosmology of the early universe). Then, the dynamics of the associated stochastic partial differential equations correspond
 to quantum field theory on a curved spacetime. However, when the dynamics of the back reaction of the gravitational field are
 included  (by simultaneous solution of Einstein's equations) the result is a quantum theory of gravity; approached in the context
 of numerical relativity and stochastic quantization. As an intermediate step, scalar fields and the associated BTZ black holes in
