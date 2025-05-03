@@ -2,7 +2,9 @@
 title: "Overview"
 date: 2025-05-02
 categories: [Scientifc Computing]
+categories: [Quantum Computing]
 tags: [Scientific Computing]
+tags: [Quantum Computing]
 ---
 
 
