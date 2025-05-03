@@ -41,7 +41,7 @@ social:
     # - https://twitter.com/username # change to your Twitter homepage
     - https://github.com/AeschylusOfEleusis # change to your GitHub homepage
     # Uncomment below to add more social links
-    #- https://mathstodon.xyz/@ScottCaveny
+    - https://mathstodon.xyz/@ScottCaveny
     - https://www.linkedin.com/in/scott-caveny-mdphd
 
 # Site Verification Settings
