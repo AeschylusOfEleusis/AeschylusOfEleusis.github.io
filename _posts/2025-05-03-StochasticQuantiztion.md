@@ -8,19 +8,19 @@ tags: [Stochastic Quantization, Numerical Relativity,Quantum Field Theory, Stoch
 
 ## Abstract
 
-A view of stochastic quantization is sketched here; written from the prespective of numerical relativity. Examples from mathematical physics are considered as illustration.
+A view of stochastic quantization is sketched here; written from the perspective of numerical relativity. Examples from mathematical physics are considered as illustration.
 
 
 Let $\Phi^{\mathfrak{i}}(x^{a})$ satisfy a principle of stationary action with classical equations of motion
 
 $$
-\frac{\delta }{\delta \Phi^{\mathfrak{k}}} S\left[\Phi^{\mathfrak{l}}\right] = 0.
+\frac{\delta }{\delta \Phi^{\mathfrak{k}}} S\left[\Phi^{\mathfrak{m}}\left(x^{a}\right)\right] = 0.
 $$
 
-In this notation, the background spacetime is $x^{a} = (t,x^{i})$ with $n-1$ spatial dimensions,  and the index $\mathfrak{k}$ indicates internal symmetries.  Let $\tau$ be proper time along a world line and let $\xi^{\mathfrak{i}}(\tau,x^{d})$ be a vector of general noise indexed over the internal symmetry.  The stochastic partial differential equation of stochastic quantization is
+In this notation, the background spacetime is $x^{a} = (t,x^{i})$ with $n-1$ spatial dimensions,  and the index $\mathfrak{k}$ indicates internal symmetries.  Let $\tau$ be proper time along a world line and let $\xi^{\mathfrak{k}}(\tau,x^{d})$ be a vector of general noise indexed over the internal symmetry.  The stochastic partial differential equation of stochastic quantization is
 
 $$
-\frac{\partial}{\partial \tau} \Phi^{\mathfrak{i}}\biggl[\bigl(\tau, x^{b}\bigr)\biggr] + \xi^{\mathfrak{i}}\bigl(\tau,x^{a}\bigr).
+\frac{\partial}{\partial \tau} \Phi^{\mathfrak{k}}\bigl(\tau, x^{a}\bigr) = \frac{\delta }{\delta \Phi^{\mathfrak{k}}} S\left[\Phi^{\mathfrak{m}}\right] + \xi^{\mathfrak{k}}\bigl(\tau,x^{a}\bigr).
 $$
 
 Gaussian noise functionals are considered almost exclusively in the general theory of stochastic partial differential equations; although  non-gaussian and L\'evy type noise are handled analogously in the general theory of stochastic partial differential equations.
