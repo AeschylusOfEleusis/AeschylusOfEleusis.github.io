@@ -7,7 +7,7 @@ tags: [Computational Finance, Stochastic Quantization, Numerical Relativity]
 ---
 
 
-These research notes cover the following material.
+The following subjects are considered in these notes:
 
 
 >A. [Computational Finance](https://en.wikipedia.org/wiki/Computational_finance):
