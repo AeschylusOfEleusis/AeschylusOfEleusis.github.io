@@ -28,7 +28,7 @@ url: "https://AeschylusOfEleusis.github.io"
 github:
   username: AeschylusOfEleusis # change to your GitHub username
 
-#twitter:
+twitter:
 #  username: twitter_username # change to your Twitter username
 
 social:
@@ -41,8 +41,9 @@ social:
     # - https://twitter.com/username # change to your Twitter homepage
     - https://github.com/AeschylusOfEleusis # change to your GitHub homepage
     # Uncomment below to add more social links
-    - https://mathstodon.xyz/@ScottCaveny
+    - https://www.doximity.com/cv/scott-caveny-md-phd
     - https://www.linkedin.com/in/scott-caveny-mdphd
+    - https://mathstodon.xyz/@ScottCaveny
 
 # Site Verification Settings
 webmaster_verifications:
