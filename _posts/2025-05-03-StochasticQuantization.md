@@ -3,7 +3,7 @@ layout:   post
 title: "Stochastic Quantization"
 date: 2025-05-03 10:00:00 +0800
 categories: [Stochastic Quantization]
-tags: [Stochastic Quantization, Numerical Relativity,Quantum Field Theory, Stochastic Calculus, Triviality ]
+tags: [Stochastic Quantization, Numerical Relativity,Quantum Field Theory, Stochastic Calculus, Triviality, Blackholes, NonequilibriumQFT, PathIntegrals, Foundations QM]
 math:       true        # enable KaTeX
 ---
 # Notes on Stochastic Quantization (Draft)
@@ -25,13 +25,13 @@ $$
 \frac{\partial}{\partial \tau} \Phi^{\mathfrak{k}}\bigl(\tau, x^{a}\bigr) = \frac{\delta }{\delta \Phi^{\mathfrak{k}}} S\left[\Phi^{\mathfrak{m}}\bigl(\tau, x^{a}\bigr)\right] + \xi^{\mathfrak{k}}\bigl(\tau,x^{a}\bigr).
 $$
 
-Gaussian noise functionals are considered almost exclusively in study of stochastic partial differential equations; although  non-gaussian and L\'evy type noise are handled analogously.
+Most commonly, gaussian noise $\xi^{\mathfrak{k}}\bigl(\tau,x^{a}\bigr)$ is considered  in study of stochastic partial differential equations; although  non-gaussian and L\'evy type noise are handled analogously.
 
 
-Consider the following action for a scalar field
+Consider the following action for a spacetime scalar field (indexed by $\mathfrak{k}$ over the internal symmetry) 
 
 $$
-S\bigl[\Phi^{\mathfrak{i}}\bigr] = \int d^{n}x\bigl\{ \nabla_{a} \Phi^{\mathfrak{j}} g^{ab} \mathfrak{g}_{\mathfrak{j} \mathfrak{k}} \nabla_{b}  \Phi^{\mathfrak{k}} - U\bigl(\Phi^{\mathfrak{i}}\bigr)\bigr\}
+S\bigl[\Phi^{\mathfrak{i}}\bigr] = \int d^{n}x\bigl\{ \mathfrak{g}_{\mathfrak{j} \mathfrak{k}}\nabla_{a} \Phi^{\mathfrak{j}} g^{ab}  \nabla_{b}  \Phi^{\mathfrak{k}} - U\bigl(\Phi^{\mathfrak{i}}\bigr)\bigr\}
 $$
 
 where
@@ -53,13 +53,13 @@ This example is sufficient to study effects of:
 For example, in the limit of zero spatial dimensions $n=1$, single particle quantum mechanics is formulated as the following stochastic PDE:
 
 $$
-\frac{\partial}{\partial \tau}\,x^{a}(\tau,t) = -\,\frac{\delta}{\delta x^{a}}\,S\bigl[x^{b}(\tau,t)\bigr] + \xi^{a}(\tau,t),
+\frac{\partial}{\partial \tau}\,x^{\mathfrak{a}}(\tau,t) = -\,\frac{\delta}{\delta x^{\mathfrak{a}}}\,S\bigl[x^{\mathfrak{b}}(\tau,t)\bigr] + \xi^{\mathfrak{a}}(\tau,t),
 $$
 
 where
 
 $$
-S[x^{a}] = \int d\tau\;\bigl\{\dot{x}^{a}\,g_{ab}\,\dot{x}^{b} + A_{c}\,\dot{x}^{c} - U(x^{d})\bigr\}.
+S[x^{\mathfrak{a}}] = \int d\tau\;\bigl\{\dot{x}^{\mathfrak{a}}\,g_{\mathfrak{a}\mathfrak{b}}\,\dot{x}^{\mathfrak{b}} + A_{\mathfrak{c}}\,\dot{x}^{\mathfrak{c}} - U(x^{\mathfrak{d}})\bigr\}.
 $$
 
 This generic formalism applies to study of:
