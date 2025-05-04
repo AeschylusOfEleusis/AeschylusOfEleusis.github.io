@@ -50,7 +50,7 @@ This example is sufficient to study effects of:
 
 
 
-For example, in the limit of zero spatial dimensions $n=1$, single particle quantum mechanics is formulated as the following stochastic PDE:
+For example, in the limit of zero spatial dimensions $n=1$, quantum mechanics is formulated as the following stochastic PDE:
 
 $$
 \frac{\partial}{\partial \tau}\,x^{\mathfrak{a}}(\tau,t) = -\,\frac{\delta}{\delta x^{\mathfrak{a}}}\,S\bigl[x^{\mathfrak{b}}(\tau,t)\bigr] + \xi^{\mathfrak{a}}(\tau,t),
