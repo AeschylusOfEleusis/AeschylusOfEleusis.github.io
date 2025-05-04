@@ -10,4 +10,5 @@ The articles are research notes for students and practitioners interested in lea
 
 The archive is hosted by [GitHub](https://github.com) using the [jekyll](https://jekyllrb.com) theme ["chirpy"](https://chirpy.cotes.page). The theme enjoys a light and dark mode available in the lower left hand corner. Like analog chalk on a blackboard, the dark mode helps reading articles heavy with equations. The light mode presents articles as if they were pages in a book. The reader is left to choose the mode that is most helpful to them. 
 
-Above all, in any time you spend here, I hope that you find topics or questions that interest you.{: .prompt-tip }
+Above all, in any time you spend here, I hope that you find topics or questions that interest you.
+{: .prompt-tip }
