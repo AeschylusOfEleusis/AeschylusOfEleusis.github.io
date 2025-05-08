@@ -53,14 +53,16 @@ This example is sufficient to study effects of:
 For example, in the limit of zero spatial dimensions $n=1$, quantum mechanics is formulated as the following stochastic PDE:
 
 $$
-\frac{\partial}{\partial \tau}\,x^{\mathfrak{a}}(\tau,t) = -\,\frac{\delta}{\delta x^{\mathfrak{a}}}\,S\bigl[x^{\mathfrak{b}}(\tau,t)\bigr] + \xi^{\mathfrak{a}}(\tau,t),
+\frac{\partial}{\partial \tau}\,x^{\mathfrak{i}}(\tau,s) = -\,\frac{\delta}{\delta x^{\mathfrak{i}}}\,S\bigl[x^{\mathfrak{j}}(\tau,s)\bigr] + \xi^{\mathfrak{i}}(\tau,s),
 $$
 
-where
+where 
 
 $$
-S[x^{\mathfrak{a}}] = \int d\tau\;\bigl\{\dot{x}^{\mathfrak{a}}\,g_{\mathfrak{a}\mathfrak{b}}\,\dot{x}^{\mathfrak{b}} + A_{\mathfrak{c}}\,\dot{x}^{\mathfrak{c}} - U(x^{\mathfrak{d}})\bigr\}.
+S[x^{\mathfrak{l}}] = \int ds\;\bigl\{\mathfrak{g}_{\mathfrak{i}\mathfrak{j}} \dot{x}^{\mathfrak{i}}\dot{x}^{\mathfrak{j}} + A_{\mathfrak{k}}\,\dot{x}^{\mathfrak{k}} - U(x^{\mathfrak{l}})\bigr\}.
 $$
+
+[Here $\dot{x}^{\mathfrak{i}} \equiv \frac{d x^{\mathfrak{i}}}{ds} $ with $s$ denoting parameterization of "time" generalized to include both Newtonian 'clock on the wall' time and relativistic affine proper time.]
 
 This generic formalism applies to study of:
 
