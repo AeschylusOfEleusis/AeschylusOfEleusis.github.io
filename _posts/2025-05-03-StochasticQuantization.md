@@ -12,20 +12,20 @@ math:       true        # enable KaTeX
 
 A view of stochastic quantization is sketched here; written from the perspective of numerical relativity. Examples from mathematical physics are considered as illustration.
 
-Let the field $\Phi^{\mathfrak{k}}\bigl(\tau, x^{a}\bigr)$ satisfy a principle of stationary action with classical equations of motion
+Let the field $\Phi^{\mathfrak{k}}\bigl(s, x^{a}\bigr)$ satisfy a principle of stationary action with classical equations of motion
 
 $$
-\frac{\delta }{\delta \Phi^{\mathfrak{k}}} S\left[\Phi^{\mathfrak{m}}\left(\tau,x^{a}\right)\right] = 0.
+\frac{\delta }{\delta \Phi^{\mathfrak{k}}} S\left[\Phi^{\mathfrak{m}}\left(s,x^{a}\right)\right] = 0.
 $$
 
 
-In this notation, the background spacetime is $x^{a} = (t,x^{i})$ with $n-1$ spatial dimensions,  and the index $\mathfrak{k}$ indicates internal symmetries.  Let $\tau$ be proper time along a world line and let $\xi^{\mathfrak{k}}(\tau,x^{d})$ be a vector of general noise indexed over the internal symmetry.  The stochastic partial differential equation of stochastic quantization is
+In this notation, the background spacetime is $x^{a} = (t,x^{i})$ with $n-1$ spatial dimensions,  and the index $\mathfrak{k}$ indicates internal symmetries.  Let $s$ be proper time along a world line and let $\xi^{\mathfrak{k}}(s,x^{d})$ be a vector of general noise indexed over the internal symmetry.  The stochastic partial differential equation of stochastic quantization is
 
 $$
-\frac{\partial}{\partial \tau} \Phi^{\mathfrak{k}}\bigl(\tau, x^{a}\bigr) = \frac{\delta }{\delta \Phi^{\mathfrak{k}}} S\left[\Phi^{\mathfrak{m}}\bigl(\tau, x^{a}\bigr)\right] + \xi^{\mathfrak{k}}\bigl(\tau,x^{a}\bigr).
+\frac{\partial}{\partial s} \Phi^{\mathfrak{k}}\bigl(s, x^{a}\bigr) = \frac{\delta }{\delta \Phi^{\mathfrak{k}}} S\left[\Phi^{\mathfrak{m}}\bigl(s, x^{a}\bigr)\right] + \xi^{\mathfrak{k}}\bigl(s,x^{a}\bigr).
 $$
 
-Most commonly, gaussian noise $\xi^{\mathfrak{k}}\bigl(\tau,x^{a}\bigr)$ is considered  in study of stochastic partial differential equations; although  non-gaussian and L\'evy type noise are handled analogously.
+Most commonly, gaussian noise $\xi^{\mathfrak{k}}\bigl(s,x^{a}\bigr)$ is considered  in study of stochastic partial differential equations; although  non-gaussian and L\'evy type noise are handled analogously.
 
 
 Consider the following action for a spacetime scalar field (indexed by $\mathfrak{k}$ over the internal symmetry) 
@@ -53,16 +53,16 @@ This example is sufficient to study effects of:
 For example, in the limit of zero spatial dimensions $n=1$, quantum mechanics is formulated as the following stochastic PDE:
 
 $$
-\frac{\partial}{\partial \tau}\,x^{\mathfrak{i}}(\tau,s) = -\,\frac{\delta}{\delta x^{\mathfrak{i}}}\,S\bigl[x^{\mathfrak{j}}(\tau,s)\bigr] + \xi^{\mathfrak{i}}(\tau,s),
+\frac{\partial}{\partial s}\,x^{\mathfrak{i}}(s,t) = -\,\frac{\delta}{\delta x^{\mathfrak{i}}}\,S\bigl[x^{\mathfrak{j}}(s,t)\bigr] + \xi^{\mathfrak{i}}(s,t),
 $$
 
 where 
 
 $$
-S[x^{\mathfrak{l}}] = \int ds\;\bigl\{\mathfrak{g}_{\mathfrak{i}\mathfrak{j}} \dot{x}^{\mathfrak{i}}\dot{x}^{\mathfrak{j}} + A_{\mathfrak{k}}\,\dot{x}^{\mathfrak{k}} - U(x^{\mathfrak{l}})\bigr\}.
+S[x^{\mathfrak{l}}] = \int dt'\;\bigl\{\mathfrak{g}_{\mathfrak{i}\mathfrak{j}} \dot{x}^{\mathfrak{i}}\dot{x}^{\mathfrak{j}} + A_{\mathfrak{k}}\,\dot{x}^{\mathfrak{k}} - U(x^{\mathfrak{l}})\bigr\}.
 $$
 
-[Here $\dot{x}^{\mathfrak{i}} \equiv \frac{d x^{\mathfrak{i}}}{ds} $ with $s$ denoting parameterization of "time" generalized to include both Newtonian 'clock on the wall' time and relativistic affine proper time.]
+[Here $\dot{x}^{\mathfrak{i}} \equiv \frac{d }{dt} x^{\mathfrak{i}}(t)$ with $t$ denoting 'clock on the wall' Newtonian time.]
 
 This generic formalism applies to study of:
 
@@ -83,7 +83,7 @@ For base manifolds with dimension $n \ge 2$, stochastic quantization enables stu
 
 - Conformal field theories in $1+1$ dimensions,
 - Fractional quantum Hall effect and Chern–Simons theory in $2+1$ dimensions,
-- “Triviality” of the self-interaction $U(\Phi)=\lambda[\Phi^{2}]^{2}_{4}$ in $3+1$ dimensions.
+- “Triviality” of the self-interaction $U(\Phi)=\lambda\left[\Phi^{2}\right]^{2}_{4}$ in $3+1$ dimensions.
 
 Fractional noise effects in quantum field theories is an additional direction, introducing fractional noise in the context of the functional integral.
 
