@@ -37,8 +37,8 @@ $$
 where
 
 - $g^{ab}(x^{c})$ is a metric of the background spacetime manifold $\mathcal{M}$,
-- $\nabla_{a} \equiv \partial_{a} - \mathcal{A}_{a}$ is the covariant derivative of the connection,
 - $\mathcal{A}_{b}$ is a connection field of a gauge-symmetry fibre bundle $\mathcal{E}$ over $\mathcal{M}$,
+- $\nabla_{a} \equiv \partial_{a} - \mathcal{A}_{a}$ is the covariant derivative of the connection,
 - $\mathfrak{g}_{\mathfrak{j}\mathfrak{k}}$ governs the trace over the internal symmetry, and
 - $U(\Phi^{\mathfrak{j}})$ is a generalized potential governing dynamics and self-interactions.
 
