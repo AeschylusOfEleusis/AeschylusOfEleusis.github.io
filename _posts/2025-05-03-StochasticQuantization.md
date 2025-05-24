@@ -73,7 +73,7 @@ This generic formalism applies to study of:
 More specifically, this approach permits numerical analysis of:
 
 - The effective action functional and functional renormalization group,
-- The path integral of the non-relativistic particle on a curved spacetime,
+- The path integral of the non-relativistic particle on a curved base manifold,
 - The path integral of the relativistic particle in a curved (pseudo-Riemannian) or flat (Minkowski) spacetime,
 - Quantum chaos.
 
