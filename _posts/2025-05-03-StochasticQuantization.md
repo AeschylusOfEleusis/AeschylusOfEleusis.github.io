@@ -19,7 +19,7 @@ $$
 $$
 
 
-In this notation, the background spacetime is $x^{a} = (t,x^{i})$ with $n-1$ spatial dimensions,  and the index $\mathfrak{k}$ indicates internal symmetries.  Let $s$ be the affine parameter (proper time) along a world line and let $\xi^{\mathfrak{k}}(s,x^{d})$ be a vector of general noise indexed over the internal symmetry.  The stochastic partial differential equation of stochastic quantization is
+In this notation, the background spacetime is $x^{a} = (t,x^{i})$ with $n-1$ spatial dimensions,  and the index $\mathfrak{k}$ indicates internal symmetries.  Let $s$ be the affine parameter (path length) along a world line and let $\xi^{\mathfrak{k}}(s,x^{d})$ be a vector of general noise indexed over the internal symmetry.  The stochastic partial differential equation of stochastic quantization is
 
 $$
 \frac{\partial}{\partial s} \Phi^{\mathfrak{k}}\bigl(s, x^{a}\bigr) = \frac{\delta }{\delta \Phi^{\mathfrak{k}}} S\left[\Phi^{\mathfrak{m}}\bigl(s, x^{a}\bigr)\right] + \xi^{\mathfrak{k}}\bigl(s,x^{a}\bigr).
@@ -53,7 +53,7 @@ This example is sufficient to study effects of:
 For example, in the limit of zero spatial dimensions ($n=1$), quantum mechanics is formulated as the following stochastic PDE:
 
 $$
-\frac{\partial}{\partial s}\,x^{\mathfrak{i}}(s,t) = -\,\frac{\delta}{\delta x^{\mathfrak{i}}}\,S\bigl[x^{\mathfrak{j}}(s,t)\bigr] + \xi^{\mathfrak{i}}(s,t),
+\frac{\partial}{\partial s}\,x^{\mathfrak{i}}(s,\tau) = -\,\frac{\delta}{\delta x^{\mathfrak{i}}}\,S\bigl[x^{\mathfrak{j}}(s,\tau)\bigr] + \xi^{\mathfrak{i}}(s,\tau),
 $$
 
 where 
@@ -62,7 +62,7 @@ $$
 S[x^{\mathfrak{l}}] = \int dt'\;\bigl\{\mathfrak{g}_{\mathfrak{i}\mathfrak{j}} \dot{x}^{\mathfrak{i}}\dot{x}^{\mathfrak{j}} + A_{\mathfrak{k}}\,\dot{x}^{\mathfrak{k}} - U(x^{\mathfrak{l}})\bigr\}.
 $$
 
-[Here $\dot{x}^{\mathfrak{i}} \equiv \frac{d }{dt} x^{\mathfrak{i}}(t)$ with $t$ denoting 'clock on the wall' Newtonian time.]
+[Here $\dot{x}^{\mathfrak{i}} \equiv \frac{d }{d\tau} x^{\mathfrak{i}}(\tau)$ with $\tau$ either denoting 'clock on the wall' Newtonian time in the non relativistic limit or 'proper time' in the relativistic limit.]
 
 This generic formalism applies to study of:
 
