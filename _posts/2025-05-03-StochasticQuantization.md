@@ -19,7 +19,7 @@ $$
 $$
 
 
-In this notation, the background spacetime is $x^{a} = (t,x^{i})$ with $n-1$ spatial dimensions,  and the index $\mathfrak{k}$ indicates internal symmetries.  Let $s$ be the affine parameter (path length) along a world line and let $\xi^{\mathfrak{k}}(s,x^{d})$ be a vector of general noise indexed over the internal symmetry.  The stochastic partial differential equation of stochastic quantization is
+In this notation, the background spacetime is $x^{a} = (t,x^{i})$ with $n-1$ spatial dimensions,  and the index $\mathfrak{k}$ indicates internal symmetries.  Let $s$ be stochastic time of evolution and let $\xi^{\mathfrak{k}}(s,x^{d})$ be a vector of general noise indexed over the internal symmetry.  The stochastic partial differential equation of stochastic quantization is
 
 $$
 \frac{\partial}{\partial s} \Phi^{\mathfrak{k}}\bigl(s, x^{a}\bigr) = \frac{\delta }{\delta \Phi^{\mathfrak{k}}} S\left[\Phi^{\mathfrak{m}}\bigl(s, x^{a}\bigr)\right] + \xi^{\mathfrak{k}}\bigl(s,x^{a}\bigr).
