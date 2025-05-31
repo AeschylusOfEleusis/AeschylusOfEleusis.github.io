@@ -3,7 +3,7 @@ layout:   post
 title: "Machine Learning"
 date: 2025-05-31 10:00:00 +0800
 categories: [Machine Learning]
-tags: [Machine Learning, Probability Information Risk, Numerical Relativity, Quantum Field Theory, Nonequilibrium QFT]
+tags: [Probability Information Risk, Numerical Relativity, Quantum Field Theory]
 math:       true        # enable KaTeX
 ---
 
@@ -11,10 +11,9 @@ math:       true        # enable KaTeX
 # Notes on Machine Learning (Draft)
 
 ## Abstract
+Notes for an annotated bibliography are provided here as bare bones. The framework presented establishes an over-arching probabilistic
+view. Applications and illustrations are obtained from applied mathematics / theoretical physics. Quantum physics and numerical relativity are specific examples considered most frequently in the following.  
 
-Notes for an annotated bibliography are provided as bare bones.
-
----
 *(Textbooks: Bishop-06 [Pattern Recognition and Machine Learning](https://www.microsoft.com/en-us/research/wp-content/uploads/2006/01/Bishop-Pattern-Recognition-and-Machine-Learning-2006.pdf), Goodfellow-16 [Deep Learning](https://www.deeplearningbook.org), Murphy-22 [Probabilistic Machine Learning-Intro](https://probml.github.io/pml-book/book1.html), Murphy-23 [Probabilistic Machine Learning-Adv](https://probml.github.io/pml-book/book2.html), and Bishop-24 [Deep Learning: Foundations and Concepts](https://www.bishopbook.com).
 External hyper-linked references = S1 … S64)*
 
