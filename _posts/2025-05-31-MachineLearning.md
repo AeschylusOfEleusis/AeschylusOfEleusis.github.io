@@ -95,7 +95,7 @@ External references = S1 … S64, each hyper-linked and explained in one unique 
 
 | ID  | Link                                                                                               | Notes                                                                                      |
 | --- | -------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- |
-| S28 | [arXiv 1906.02481](https://arxiv.org/abs/1906.02481) | Linear classifiers endowed with symmetry constraints, elevating the basic perceptron into equivariant spaces. |
+| S28 | [arXiv 1906.02481](https://arxiv.org/abs/1906.02481) | Elevates perceptron into equivariant spaces. |
 
 ---
 
