@@ -3,7 +3,7 @@ layout:   post
 title: "Machine Learning"
 date: 2025-05-31 10:00:00 +0800
 categories: [Machine Learning]
-tags: [Machine Learning, Probability Information Risk, Numerical Relativity, Quantum Field Theory]
+tags: [Machine Learning, Probability Information Risk, Numerical Relativity, Quantum Field Theory, Nonequilibrium QFT]
 math:       true        # enable KaTeX
 ---
 
