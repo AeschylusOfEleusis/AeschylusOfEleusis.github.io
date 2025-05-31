@@ -15,8 +15,8 @@ math:       true        # enable KaTeX
 Notes for an annotated bibliography are provided as bare bones.
 
 ---
-*(Textbooks: Bishop-24 DL, Goodfellow-16 DL, Murphy-22 PML-Intro, Murphy-23 PML-Adv, Bishop-06 PRML.
-External references = S1 … S64, each hyper-linked and explained in one unique sentence.)*
+*(Textbooks: Bishop-06 [Pattern Recognition and Machine Learning](https://www.microsoft.com/en-us/research/wp-content/uploads/2006/01/Bishop-Pattern-Recognition-and-Machine-Learning-2006.pdf), Goodfellow-16 [Deep Learning](https://www.deeplearningbook.org), Murphy-22 [Probabilistic Machine Learning-Intro](https://probml.github.io/pml-book/book1.html), Murphy-23 [Probabilistic Machine Learning-Adv](https://probml.github.io/pml-book/book2.html), and Bishop-24 [Deep Learning: Foundations and Concepts](https://www.bishopbook.com).
+External hyper-linked references = S1 … S64)*
 
 
 ## 1 Overview
