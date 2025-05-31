@@ -179,7 +179,7 @@ External references = S1 … S64, each hyper-linked and explained in one unique 
 
 | ID  | Link                                                                                               | Notes                                                                                      |
 | --- | -------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- |
-| S39 | [Spin-Glass Book](http://www.stat.ucla.edu/~ywu/research/documents/BOOKS/SpinGlassInformation.pdf) | Probabilistic inference as energy minimisation.   |
+| S39 | [Spin-Glass Book](https://www.stat.ucla.edu/~ywu/research/documents/BOOKS/SpinGlassInformation.pdf) | Probabilistic inference as energy minimisation.   |
 | S42 | [arXiv 1901.10416](https://arxiv.org/abs/1901.10416)                                               | Statistical field theory methods and deep nets. |
 | S44 | [Springer SFT-NN 2020](https://link.springer.com/book/10.1007/978-3-030-46444-8)                   | Monograph-length bridge between field theory and deep nets.                         |
 | S45 | [arXiv 2109.13247](https://arxiv.org/abs/2109.13247)                                               | Reviews DL–QFT correspondence.                                         |
