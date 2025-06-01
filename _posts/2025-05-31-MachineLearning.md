@@ -11,8 +11,8 @@ math:       true        # enable KaTeX
 # Notes on Machine Learning (Draft)
 
 ## Abstract
-Notes for an annotated bibliography are provided here as bare bones. The framework presented establishes an over-arching probabilistic
-view. Applications and illustrations are obtained from applied mathematics / theoretical physics. Quantum physics and numerical relativity are specific examples considered most frequently in the following.  
+Notes for an annotated bibliography are provided as bare bones. The framework employs the probabilistic
+view. Applications and illustrations are obtained from applied mathematics / theoretical physics. Quantum physics and numerical relativity are specific fields considered most frequently.  
 
 *(Textbooks: Bishop-06 [Pattern Recognition and Machine Learning](https://www.microsoft.com/en-us/research/wp-content/uploads/2006/01/Bishop-Pattern-Recognition-and-Machine-Learning-2006.pdf), Goodfellow-16 [Deep Learning](https://www.deeplearningbook.org), Murphy-22 [Probabilistic Machine Learning-Intro](https://probml.github.io/pml-book/book1.html), Murphy-23 [Probabilistic Machine Learning-Adv](https://probml.github.io/pml-book/book2.html), and Bishop-24 [Deep Learning: Foundations and Concepts](https://www.bishopbook.com).
 External hyper-linked references = S1 … S64)*
@@ -34,7 +34,7 @@ External hyper-linked references = S1 … S64)*
 | S1  | [arXiv 1301.7115](https://arxiv.org/abs/1301.7115)                             | Early deep-learning breakthroughs.   |
 | S2  | [arXiv 1803.08823](https://arxiv.org/abs/1803.08823)                           | Gives physicists a lay-of-the-land tour of ML. |
 | S4  | [arXiv 1903.10563](https://arxiv.org/abs/1903.10563)                           | Surveys DL’s adoption across the physical sciences.         |
-| S5  | [Springer book 2020](https://link.springer.com/book/10.1007/978-3-030-40245-7) | Quantum-mechanics problems offer DL research.                     |
+| S5  | [Springer book 2020](https://link.springer.com/book/10.1007/978-3-030-40245-7) | Quantum physics DL research.                     |
 | S7  | [Nature Phys 2020](https://www.nature.com/articles/s41567-020-0929-2)          | Snapshot geared toward a physics readership.                            |
 | S8  | [arXiv 2104.03902](https://arxiv.org/abs/2104.03902)                           | Speculates on a universe that trains itself.    |
 | S9  | [arXiv 2104.00008](https://arxiv.org/abs/2104.00008)                           | AI & physics on a single timeline.                   |
@@ -120,7 +120,7 @@ External hyper-linked references = S1 … S64)*
 | S35 | [Nature Rev Phys 2021](https://www.nature.com/articles/s42254-021-00314-5)        | Reviews of physics-informed DL field. Domain priors.X-IML                   |
 | S36 | [arXiv 2203.16797](https://arxiv.org/abs/2203.16797)                              | Recipes for engineering PIML systems.                                            |
 | S37 | [arXiv 2304.14994](https://arxiv.org/abs/2304.14994)                              | U-Nets as neural surrogates for expensive PDE solvers.                                |
-| S41 | [Phys Rev E 98](https://journals.aps.org/pre/abstract/10.1103/PhysRevE.98.062120) | Path integral analysis wide-network learning trajectories. Quantum mechanics and back prop |
+| S41 | [Phys Rev E 98](https://journals.aps.org/pre/abstract/10.1103/PhysRevE.98.062120) | Path integral analysis of wide-network learning trajectories. |
 | S43 | [arXiv 1910.00019](https://arxiv.org/abs/1910.00019)                              | Neural tangent kernel theory for infinite-width MLPs.                           |
 
 ---
@@ -153,10 +153,10 @@ External hyper-linked references = S1 … S64)*
 
 | ID  | Link                                                                                               | Notes                                                                                      |
 | --- | -------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- |
-| S13 | [StatMechDeep PDF](https://ganguli-gang.stanford.edu/pdf/20.StatMechDeep.pdf)         | Free-energy landscapes view of regularisation flattening of minima.                                     |
-| S14 | [Physica A 2023](https://www.sciencedirect.com/science/article/pii/S0378437122007129) | Measures penalties sculpting loss surfaces.   
-| S18 | [arXiv 2306.02108](https://arxiv.org/abs/2306.02108)              | Random-matrix theory for landscape of loss surfaces|                  |
-| S56 | [arXiv 1709.02470](https://arxiv.org/abs/1709.02470)                                  | Double-descent and phase-transitions theory, giving statistical-physics view of ensembles. |
+| S13 | [StatMechDeep PDF](https://ganguli-gang.stanford.edu/pdf/20.StatMechDeep.pdf)         | Free-energy landscapes view of regularisation.                                     |
+| S14 | [Physica A 2023](https://www.sciencedirect.com/science/article/pii/S0378437122007129) | Penalties sculpting loss surfaces.   
+| S18 | [arXiv 2306.02108](https://arxiv.org/abs/2306.02108)              | Random-matrix theory of landscape of loss surfaces|                  |
+| S56 | [arXiv 1709.02470](https://arxiv.org/abs/1709.02470)                                  | Double-descent and phase-transitions theory. Statistical-physics view of ensembles. |
 
 ---
 
@@ -220,7 +220,7 @@ External hyper-linked references = S1 … S64)*
 | S20 | [arXiv 2006.11239](https://arxiv.org/abs/2006.11239) | Invents DDPMs. |
 | S21 | [arXiv 2011.13456](https://arxiv.org/abs/2011.13456) | Score-based SDE sampling and Itô calculus. |
 | S25 | [arXiv 2010.00029](https://arxiv.org/abs/2010.00029) | RG steps as an unsupervised flow. |
-| S52 | [arXiv 1503.03585](https://arxiv.org/abs/1503.03585) | Early nonequilibrium: Foreshadowes modern score-matching diffusions. |
+| S52 | [arXiv 1503.03585](https://arxiv.org/abs/1503.03585) | Early nonequilibrium: Foreshadows modern score-matching diffusions. |
 
 ---
 
