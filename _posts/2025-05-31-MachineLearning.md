@@ -94,7 +94,6 @@ External hyper-linked references = S1 … S64)*
 
 | ID  | Link                                                                                               | Notes                                                                                      |
 | --- | -------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- |
-| S28 | [arXiv 1906.02481](https://arxiv.org/abs/1906.02481) | Elevates perceptron into equivariant spaces. |
 
 ---
 
@@ -115,6 +114,7 @@ External hyper-linked references = S1 … S64)*
 | S6  | [arXiv 2008.01540](https://arxiv.org/abs/2008.01540)                              | Argues cosmological simulation encoded as NN. Underscores expressive power.      |
 | S7  | [Nature Phys 2020](https://www.nature.com/articles/s41567-020-0929-2)             | Gives physicists an architect’s view of DL layers. Complements Goodfellow’s engineering view.        |
 | S10 | [arXiv 2301.00942](https://arxiv.org/abs/2301.00942)                              | Solves computational-physics PDEs with generic DNNs. Depth pays off in science workloads.       |
+| S28 | [arXiv 1906.02481](https://arxiv.org/abs/1906.02481) | Elevates CNN into equivariant spaces. |
 | S29 | [arXiv 2002.12880](https://arxiv.org/abs/2002.12880)                              | CNNs expanded to Lie-group symmetries. See Bishop’s translation-equivariance. |
 | S30 | [arXiv 2104.13478](https://arxiv.org/abs/2104.13478)                              | Geometric DL road maps connecting CNN to manifolds and graphs.                      |
 | S31 | [arXiv 1906.01563](https://arxiv.org/abs/1906.01563)                              | Embeds Hamiltonian mechanics injecting physics priors into deep feed-forward models.   |
@@ -124,7 +124,6 @@ External hyper-linked references = S1 … S64)*
 | S35 | [Nature Rev Phys 2021](https://www.nature.com/articles/s42254-021-00314-5)        | Reviews of physics-informed DL field. Domain priors.X-IML                   |
 | S36 | [arXiv 2203.16797](https://arxiv.org/abs/2203.16797)                              | Recipes for engineering PIML systems.                                            |
 | S37 | [arXiv 2304.14994](https://arxiv.org/abs/2304.14994)                              | U-Nets as neural surrogates for expensive PDE solvers.                                |
-| S38 | [arXiv 2309.01909](https://arxiv.org/abs/2309.01909)                              | Reinforcement learning with physics constraints.                 |
 | S41 | [Phys Rev E 98](https://journals.aps.org/pre/abstract/10.1103/PhysRevE.98.062120) | Path integral analysis wide-network learning trajectories. Quantum mechanics and back prop |
 | S43 | [arXiv 1910.00019](https://arxiv.org/abs/1910.00019)                              | Neural tangent kernel theory for infinite-width MLPs.                           |
 
@@ -134,14 +133,13 @@ External hyper-linked references = S1 … S64)*
 
 ### Chapters
 
-* **Murphy-22 Ch 14** – SVMs, kernel trick and kernel ridge.
+* **Murphy-22 Ch 17** – SVMs, kernel trick and kernel ridge.
 * **Murphy-23 Ch 18** – Full Bayesian treatment of Gaussian processes.
 
 ### Applications & Illustrations
 
 | ID  | Link                                                                                               | Notes                                                                                      |
 | --- | -------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- |
-| S18 | [arXiv 2306.02108](https://arxiv.org/abs/2306.02108)              | Random-matrix theory for spectrum of GP kernels. Inductive bias. |
 | S19 | [RMT4ML notes 2023](https://zhenyu-liao.github.io/pdf/RMT4ML.pdf) | Pedagogy-first walk through of RMT diagnosis of kernel learning dynamics.                    |
 
 ---
@@ -160,7 +158,8 @@ External hyper-linked references = S1 … S64)*
 | ID  | Link                                                                                               | Notes                                                                                      |
 | --- | -------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- |
 | S13 | [StatMechDeep PDF](https://ganguli-gang.stanford.edu/pdf/20.StatMechDeep.pdf)         | Free-energy landscapes view of regularisation flattening of minima.                                     |
-| S14 | [Physica A 2023](https://www.sciencedirect.com/science/article/pii/S0378437122007129) | Measures penalties sculpting loss surfaces.                     |
+| S14 | [Physica A 2023](https://www.sciencedirect.com/science/article/pii/S0378437122007129) | Measures penalties sculpting loss surfaces.   
+| S18 | [arXiv 2306.02108](https://arxiv.org/abs/2306.02108)              | Random-matrix theory for landscape of loss surfaces|                  |
 | S56 | [arXiv 1709.02470](https://arxiv.org/abs/1709.02470)                                  | Double-descent and phase-transitions theory, giving statistical-physics view of ensembles. |
 
 ---
@@ -205,7 +204,7 @@ External hyper-linked references = S1 … S64)*
 | ID  | Link                                                                                               | Notes                                                                                      |
 | --- | -------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- |
 | S54 | [arXiv 1610.09733](https://arxiv.org/abs/1610.09733) | PCA spectra RG flows: dimensionality reduction and scale-finding. |
-| S55 | [J. Stat. Phys. 2017](https://link.springer.com/article/10.1007/s10955-017-1770-6) | PCA–RG connections in biological and financial data. |
+| S55 | [J. Stat. Phys. 2017](https://link.springer.com/article/10.1007/s10955-017-1770-6) | Includes biological and financial data. |
 
 ---
 
@@ -298,7 +297,7 @@ External hyper-linked references = S1 … S64)*
 
 | ID  | Link                                                                                               | Notes                                                                                      |
 | --- | -------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- |
-| S52 | [arXiv 1503.03585](https://arxiv.org/abs/1503.03585) | Learning as a nonequilibrium process,. |
+| S38 | [arXiv 2309.01909](https://arxiv.org/abs/2309.01909)                              | Reinforcement learning with physics constraints.                 |
 | S53 | [arXiv 1906.10228](https://arxiv.org/abs/1906.10228) | Statistical physics view of RL. |
 
 ---
