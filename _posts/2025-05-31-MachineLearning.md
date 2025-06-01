@@ -14,8 +14,13 @@ math:       true        # enable KaTeX
 Notes for an annotated bibliography are provided as bare bones. The framework employs the probabilistic
 view. Applications and illustrations are obtained from applied mathematics / theoretical physics. Quantum physics and numerical relativity are specific fields considered most frequently.  
 
-*(Textbooks: Bishop-06 [Pattern Recognition and Machine Learning](https://www.microsoft.com/en-us/research/wp-content/uploads/2006/01/Bishop-Pattern-Recognition-and-Machine-Learning-2006.pdf), Goodfellow-16 [Deep Learning](https://www.deeplearningbook.org), Murphy-22 [Probabilistic Machine Learning-Intro](https://probml.github.io/pml-book/book1.html), Murphy-23 [Probabilistic Machine Learning-Adv](https://probml.github.io/pml-book/book2.html), and Bishop-24 [Deep Learning: Foundations and Concepts](https://www.bishopbook.com).
-External hyper-linked references = S1 … S64)*
+### Textbooks
+* **Bishop-06** [Pattern Recognition and Machine Learning](https://www.microsoft.com/en-us/research/wp-content/uploads/2006/01/Bishop-Pattern-Recognition-and-Machine-Learning-2006.pdf), 
+* **Goodfellow-16** [Deep Learning](https://www.deeplearningbook.org), 
+* **Murphy-22** [Probabilistic Machine Learning-Intro](https://probml.github.io/pml-book/book1.html), 
+* **Murphy-23** [Probabilistic Machine Learning-Adv](https://probml.github.io/pml-book/book2.html), and 
+* **Bishop-24** [Deep Learning: Foundations and Concepts](https://www.bishopbook.com).
+* External hyper-linked references = S1 … S64
 
 
 ## 1 Overview
