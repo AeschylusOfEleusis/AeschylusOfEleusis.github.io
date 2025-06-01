@@ -31,7 +31,7 @@ Materials concerning option trading are provided with brief notes. The sources n
 
 | ID | Link | Notes |
 |----|------|-------|
-| S5 | [Lipton *Mathematical Methods for Foreign-Exchange* 2003](https://www.worldscientific.com/doi/abs/10.1142/9789812385307_0001?srsltid=AfmBOorXFNlJJ7KISR2nMaFkzAJ6VnfyKOpXRDEDDdFcIksm02_a96yr) | Closed-form solutions and calibrated SV jump-diffusions for financial engineering of FX options. |
+| S5 | [Lipton *Mathematical Methods for Foreign-Exchange* 2003](https://www.worldscientific.com/doi/epdf/10.1142/4694) | Closed-form solutions and calibrated SV jump-diffusions for financial engineering of FX options. |
 | S6 | [Rebonato *Volatility and Correlation* 2004](https://www.wiley.com/en-us/Volatility+and+Correlation%3A+The+Perfect+Hedger+and+the+Fox%2C+2nd+Edition-p-9780470091401) | Empirical smile dynamics and correlation risk. Multi-asset hedging in stochastic-vol frameworks. |
 | S10 | [Gatheral *The Volatility Surface* 2006](https://www.wiley.com/en-us/The+Volatility+Surface%3A+A+Practitioner's+Guide-p-9780471792512) | SVI/SVJ parameterisations and data-driven construction of arbitrage-free surfaces. |
 | S26 | [Guyon & Henry-Labordère *Nonlinear Option Pricing* 2014](https://www.taylorfrancis.com/books/mono/10.1201/b16332/nonlinear-option-pricing-julien-guyon-pierre-henry-labordere) | Dupire PDEs forlocal stochastic volatility and calibration via optimal transport. |
