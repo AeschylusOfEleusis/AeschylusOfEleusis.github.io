@@ -9,7 +9,7 @@ math:       true        # enable KaTeX
 # Notes on Option Trading (Draft)
 
 ## Abstract
-Materials concerning option trading are provided with brief notes. The sources navigate foundations, model building, asset classes, computational implementation and practice. An interdisciplinary perspective is assumed at the level of graduate students and researchers / practitioners in applied mathematics / theoretical physics. 
+Materials concerning option trading are provided with brief notes.  The sources emphasize the financial engineering / computational finance approach. Foundations, model building, asset classes, computational implementation and practice are considered in that order. The interdisciplinary perspective of computational finance / financial engineering is assumed at the level of graduate students and researchers / practitioners in applied mathematics / theoretical physics. 
 
 ### 1 **Quantitative finance (theory to practice)**
 
@@ -27,7 +27,7 @@ Materials concerning option trading are provided with brief notes. The sources n
 ---
 
 
-### 2 **Volatility surface & stochastic volatility (model development)**
+### 2 **Volatility surface & stochastic volatility (model building)**
 
 | ID | Link | Notes |
 |----|------|-------|
@@ -40,16 +40,7 @@ Materials concerning option trading are provided with brief notes. The sources n
 
 ---
 
-### 3 **Interest-rates & fixed-income** 
-
-| ID | Link | Notes |
-|----|------|-------|
-| S9  | [Brigo & Mercurio *Interest-Rate Models — Theory and Practice* 2006](https://link.springer.com/book/10.1007/978-3-540-34604-3) |  LIBOR-market, HJM, and BGM frameworks with implementation details. |
-| S16 | [Rebonato, McKay, & White *LMM-SABR* 2009](https://onlinelibrary.wiley.com/doi/book/10.1002/9781119206392) | Extends SABR dynamics for LMM producing smile-consistent swaption valuation. |
-
----
-
-### 4 **Geometric & field theory approaches**
+### 3 **Geometric & field theory approaches (more model building)**
 
 | ID | Link | Notes |
 |----|------|-------|
@@ -68,7 +59,19 @@ Materials concerning option trading are provided with brief notes. The sources n
 
 ---
 
-### 5 Numerical methods and computational implementation 
+
+### 4 **Interest-rates & fixed-income (asset classes)** 
+
+| ID | Link | Notes |
+|----|------|-------|
+| S9  | [Brigo & Mercurio *Interest-Rate Models — Theory and Practice* 2006](https://link.springer.com/book/10.1007/978-3-540-34604-3) |  LIBOR-market, HJM, and BGM frameworks with implementation details. |
+| S16 | [Rebonato, McKay, & White *LMM-SABR* 2009](https://onlinelibrary.wiley.com/doi/book/10.1002/9781119206392) | Extends SABR dynamics for LMM producing smile-consistent swaption valuation. |
+
+---
+
+
+
+### 5 Numerical methods and computational implementation (financial engineering)
 
 | ID | Link | Notes |
 |----|------|-------|
