@@ -3,7 +3,7 @@ layout:   post
 title: "Option Trading"
 date: 2025-05-31 10:00:00 +0800
 categories: [Computational Finance]
-tags: [Probability Information Risk, Quantum Field Theory, Path Integrals, Computational Finance]
+tags: [Probability Information Risk, Quantum Field Theory, Path Integrals, Machine Learning, Computational Finance]
 math:       true        # enable KaTeX
 ---
 # Notes on Option Trading (Draft)
