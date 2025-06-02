@@ -63,7 +63,6 @@ Brief survey of the foundations and applications of quantum computing is provide
 | 2   | [2018 QC Finance Monte Carlo](https://arxiv.org/abs/1805.00109)                                   | Demonstrates a quantum-accelerated Monte Carlo algorithm for computing risk measures in financial portfolios with provable quadratic speedups. |
 | 3   | [2019 QC Finance](https://arxiv.org/abs/1807.03890)                                              | Surveys emerging quantum computing applications in finance, including credit scoring, derivative pricing, and fraud detection.               |
 | 4   | [2020 Optimal Trading Quantum Annealing](https://arxiv.org/abs/1508.06182)                       | Proposes a quantum annealing framework for constructing optimal trading strategies under transaction-cost constraints.                        |
-| 5   | [2020 Quantum Computing & Blockchain]()                                                          | Discusses potential intersections between quantum computing and blockchain technology, including quantum-resistant cryptographic schemes and smart contract verification. |
 ---
 ### 5: Applications to Machine Learning
 
@@ -88,4 +87,3 @@ Brief survey of the foundations and applications of quantum computing is provide
 | 1   | [2018 QC Chemistry](https://arxiv.org/abs/1808.10402)           | Demonstrates how quantum algorithms can simulate molecular ground states more efficiently than classical methods, with applications to drug design.    |
 | 2   | [2023 QC Many Body](https://arxiv.org/abs/2303.04850)           | Studies quantum algorithms for simulating many-body physics, focusing on fragmentation techniques to reduce circuit depth.                           |
 | 3   | [2024 QC in High Energy](https://arxiv.org/abs/2307.03236)      | Investigates quantum computing approaches to lattice gauge theories and high-energy physics simulations, assessing resource requirements.             |
----
