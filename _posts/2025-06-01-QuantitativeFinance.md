@@ -71,6 +71,7 @@ Several resources in quantatitive finance are provided.  Emphasis is given to st
 |---|---|---|
 | **S35** | [Farmer, *Slippage* (1996)](https://oms-inet.files.svdcdn.com/production/files/slippage.pdf) | Introduction to market-impact cost functions. |
 | **S36** | [Farmer *Market Ecology & Evolution* (1998)](https://arxiv.org/abs/adap-org/9812005) | Models trader populations with Lotka–Volterra dynamics to explain clustered volatility and intraday skew shifts. |
+| **S52** | [Pompian et al, *Behavioral Finance* (2006)](https://onlinelibrary.wiley.com/doi/book/10.1002/9781119202400) | Catalogues cognitive biases that leak into demand‐pressure anomalies exploitable via volatility and skew trades. |
 | **S37** | [Abergel, *Limit Order Books* (2016)](https://www.cambridge.org/us/universitypress/subjects/mathematics/mathematical-finance/limit-order-books?format=HB&isbn=9781107163980) | Empirical order-book stylised facts aand agent based models. |
 | **S38** | [Lehalle & Laruelle, *Market Microstructure* (2018)](https://www.worldscientific.com/worldscibooks/10.1142/10739) | Calibrates Market impact, order-flow clustering, liquidity, regulation, and persistence. |
 | **S39** | [Bouchaud *et al.*, *Trades, Quotes & Prices* (2018)](https://www.cambridge.org/core/books/trades-quotes-and-prices/029A71078EE4C41C0D5D4574211AB1B5) | Market impact, order-flow, liquidity. |
@@ -83,17 +84,16 @@ Several resources in quantatitive finance are provided.  Emphasis is given to st
 | ID | Source | Notes |
 |---|---|---|
 | **S9** | [Sethna, *Statistical Mechanics of Inference* (2017)](https://arxiv.org/abs/1503.06205) | Canonical sectors from unsupervised learning. |
-| **S49** | [Bardoscia *et al.*, *Financial Networks* (2021)](https://arxiv.org/abs/2103.05623) | Propagates margin shocks through derivative counter-parties using graph-Laplacian diffusion. |
-| **S52** | [Pompian et al, *Behavioral Finance* (2006)](https://onlinelibrary.wiley.com/doi/book/10.1002/9781119202400) | Catalogues cognitive biases that leak into demand‐pressure anomalies exploitable via volatility and skew trades. |
+| **S49** | [Bardoscia *et al.*, *Financial Networks* (2021)](https://arxiv.org/abs/2103.05623) | Dynamical evolution of financial networks. |
 | **S53** | [Prigent, *Portfolio Optimization* (2007)](https://www.routledge.com/Portfolio-Optimization-and-Performance-Analysis/Prigent/p/book/9781584885788) | Presents quadratic-programming routines for mean-variance allocation with option and transaction-cost constraints. |
 | **S54** | [Peters, *Ergodicity & the Kelly Criterion* (2010)](https://arxiv.org/abs/0902.2965) | Justifies growth-optimal position sizing and leverage control for volatility-targeting strategies. |
-| **S55** | [Strachman, *Hedge-Fund Management* (2012)](https://www.wiley.com/en-us/The+Fundamentals+of+Hedge+Fund+Management%3A+How+to+Successfully+Launch+and+Operate+a+Hedge+Fund%2C+2nd+Edition-p-9781118239230) | Maps operational and liquidity risks specific to option-writing and volatility-arbitrage funds. |
-| **S56** | [Joshi, *Mathematical Portfolio Theory* (2013)](https://www.cambridge.org/us/universitypress/subjects/mathematics/optimization-or-and-risk-analysis/introduction-mathematical-portfolio-theory?format=HB&isbn=9781107042315) | Provides convex-duality proofs for optimal rebalancing under transaction costs and option overlays. |
-| **S57** | [Rebonato & Denev, *Portfolio Management under Stress* (2013)](https://www.cambridge.org/core/books/portfolio-management-under-stress/481A8284865AAF4894011413D5E2D487) | Uses Bayesian networks to build stress-scenario coherent asset allocations, including option hedges. |
-| **S58** | [Baker & Filbeck, *Hedge Funds* (2021)](https://academic.oup.com/book/25365) | Synthesises performance, regulation, and factor replication techniques across global hedge-fund strategies. |
-| **S59** | [Bodie, Kane & Marcus, *Investments* (2018)](https://www.mheducation.com/highered/product/Investments-Bodie.html) | Benchmarks CAPM and APT baselines that underpin option-factor extensions such as volatility and variance risk premia. |
-| **S60** | [Brealey, Myers & Allen, *Principles of Corporate Finance* (2019)](https://www.mheducation.com/highered/product/Principles-of-Corporate-Finance-Brealey.html) | Links real-option valuation to corporate capital-budgeting decisions and project flexibilities. |
-| **S61** | [Lopez de Prado, *Causal Factor Investing* (2023)](https://www.cambridge.org/core/elements/causal-factor-investing/9AFE270D7099B787B8FD4F4CBADE0C6E) | Introduces causal-inference diagnostics to separate genuine option-carry factors from spurious correlations. |
+| **S55** | [Strachman, *Hedge-Fund Management* (2012)](https://www.wiley.com/en-us/The+Fundamentals+of+Hedge+Fund+Management%3A+How+to+Successfully+Launch+and+Operate+a+Hedge+Fund%2C+2nd+Edition-p-9781118239230) | Industry, regulation, structure, accounting, marketing, risk management. |
+| **S56** | [Joshi, *Mathematical Portfolio Theory* (2013)](https://www.cambridge.org/us/universitypress/subjects/mathematics/optimization-or-and-risk-analysis/introduction-mathematical-portfolio-theory?format=HB&isbn=9781107042315) | Neoclassical approach to efficient frontier. |
+| **S57** | [Rebonato & Denev, *Portfolio Management under Stress* (2013)](https://www.cambridge.org/core/books/portfolio-management-under-stress/481A8284865AAF4894011413D5E2D487) | Uses Bayesian networks for asset allocation. |
+| **S58** | [Baker & Filbeck, *Hedge Funds* (2021)](https://academic.oup.com/book/25365) | Performance, regulation, and factor replication techniques across global hedge-fund sector. |
+| **S59** | [Bodie, Kane & Marcus, *Investments* (2018)](https://www.mheducation.com/highered/product/Investments-Bodie.html) | Neoclassical view including CAPM and APT. |
+| **S60** | [Brealey, Myers & Allen, *Principles of Corporate Finance* (2019)](https://www.mheducation.com/highered/product/Principles-of-Corporate-Finance-Brealey.html) | Neoclassical approach to corporate capital-budgeting decisions and project flexibilities. |
+| **S61** | [Lopez de Prado, *Causal Factor Investing* (2023)](https://www.cambridge.org/core/elements/causal-factor-investing/9AFE270D7099B787B8FD4F4CBADE0C6E) | Systematization of factor analysis. |
 
 ---
 ## 6 Risk 
@@ -101,14 +101,14 @@ Several resources in quantatitive finance are provided.  Emphasis is given to st
 | ID | Source | Notes |
 |---|---|---|
 | **S41** | [Dash, *Quantitative Finance & Risk Management* (2004)](https://www.worldscientific.com/worldscibooks/10.1142/9003) | Supplies C++ Monte-Carlo and adjoint-method templates that form the engine of modern options-desk stress scenarios. |
-| **S42** | [Malavergne & Sornette, *Extreme Financial Risks* (2005)](https://link.springer.com/book/10.1007/b138841) | Develops peaks-over-threshold EVT estimators for deep-out-of-the-money option losses and tail VaR. |
+| **S42** | [Malavergne & Sornette, *Extreme Financial Risks* (2005)](https://link.springer.com/book/10.1007/b138841) | Extreme shocks with contagion modeled with copulas for correlation and joint distribution. |
 | **S43** | [Rebonato, *Plight of the Fortune Tellers* (2007)](https://press.princeton.edu/books/paperback/9780691148175/plight-of-the-fortune-tellers) | Critiques naïve VaR and advocates Bayesian scenario design for forward-looking stress tests. |
-| **S44** | [Rebonato, *Bayesian Stress Testing* (2010)](https://onlinelibrary.wiley.com/doi/book/10.1002/9781118374719) | Uses MCMC posterior sampling to generate correlated-jump loss distributions in option portfolios. |
-| **S45** | [Sornette et al, *Risk & Market Modeling* (2012)](https://link.springer.com/book/10.1007/978-3-642-27931-7) | Integrates copula tail-dependence and Monte-Carlo CVaR for multi-asset derivative books. |
+| **S44** | [Rebonato, *Bayesian Stress Testing* (2010)](https://onlinelibrary.wiley.com/doi/book/10.1002/9781118374719) | Uses bayesian nets for risk. |
+| **S45** | [Sornette et al, *Risk & Market Modeling* (2012)](https://link.springer.com/book/10.1007/978-3-642-27931-7) | Post financial crisis reconsideration of risk. |
 | **S46** | [Edwards, *Risk Management in Trading* (2014)](https://www.wiley.com/en-us/Risk+Management+in+Trading%3A+Techniques+to+Drive+Profitability+of+Hedge+Funds+and+Trading+Desks-p-9781118768587) | Details intraday Greeks aggregation and P&L attribution crucial for volatility-arbitrage desks. |
-| **S47** | [Sornette, *Why Stock Markets Crash* (2017)](https://press.princeton.edu/books/paperback/9780691175959/why-stock-markets-crash) | Calibrates log-periodic power-law precursors that signal impending volatility-smile dislocations. |
+| **S47** | [Sornette, *Why Stock Markets Crash* (2017)](https://press.princeton.edu/books/paperback/9780691175959/why-stock-markets-crash) | Calibrates log-periodic power-law precursors that signal bubbles and crashes. |
 | **S48** | [Chernov & Sornette, *Risks of Economic Sectors* (2020)](https://link.springer.com/book/10.1007/978-3-030-25034-8) | Uses hierarchical clustering to allocate tail capital across sector-specific option exposures. |
-| **S50** | [Hull, *Risk Management & Financial Institutions* (2023)](https://www.wiley.com/en-us/Risk+Management+and+Financial+Institutions%2C+6th+Edition) | Summarises Basel IV CVA and FRTB rules that directly shape capital for option-market makers. |
+| **S50** | [Hull, *Risk Management & Financial Institutions* (2023)](https://www.wiley.com/en-us/Risk+Management+and+Financial+Institutions%2C+6th+Edition-p-9781119932482) | Summarises Basel IV CVA and FRTB rules that directly shape capital for option-market makers. |
 
 ---
 ## 7 Complexity Economics   
