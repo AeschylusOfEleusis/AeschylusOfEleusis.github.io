@@ -1,7 +1,7 @@
 ---
 layout:   post
 title: "Quantitative Finance"
-date: 2025-06-01 10:00:00 +0800
+date: 2025-06-02 10:00:00 +0800
 categories: [Computational Finance]
 tags: [Probability Information Risk, Quantitative Finance, Path Integrals, Stochastic Calculus, Computational Finance]
 math:       true        # enable KaTeX
