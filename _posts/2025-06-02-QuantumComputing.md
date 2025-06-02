@@ -13,8 +13,8 @@ Brief survey of the foundations and applications of quantum computing is provide
 
 ### 1: Foundations
 
-| ID  | Source                                                                                         | Notes                                                                                                               |
-|-----|------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------|
+| ID | Source | Notes |
+|---|---|---|
 | 1   | [1981 Feynman Quantum Computation](https://catonmat.net/ftp/simulating-physics-with-computers-richard-feynman.pdf)                  | Feynman argues that classical computers cannot efficiently simulate quantum systems and proposes the conceptual framework for a quantum computer. |
 | 2   | [1984 Deutsch Quantum Computation](https://www.cs.princeton.edu/courses/archive/fall04/cos576/papers/deutsch85.pdf)                  | Deutsch introduces the notion of a universal quantum computer and shows how quantum mechanics can be harnessed to perform computations beyond classical capabilities. |
 | 3   | [2000 Intro Quantum Computing](https://arxiv.org/abs/quant-ph/9809016)                         | This survey provides an accessible introduction to the principles of quantum computation, including qubits, quantum gates, and basic algorithms. |
@@ -30,8 +30,8 @@ Brief survey of the foundations and applications of quantum computing is provide
 ---
 ### 2: Mathematics
 
-| ID  | Source                                                       | Notes                                                                                                                                       |
-|-----|--------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------|
+| ID | Source | Notes |
+|---|---|---|
 | 1   | [2002 Mermin](https://www.cambridge.org/core/books/quantum-computer-science/66462590D10C8010017CF1D7C45708D7#fndtn-information) | Mermin offers a concise overview of the mathematical foundations underlying quantum computer science, including logic, linear algebra, and complexity considerations. |
 | 2   | [2002 Oskin](https://arxiv.org/abs/quant-ph/0207118)          | This paper analyzes various architectural models for scalable quantum computers, focusing on fault-tolerance thresholds and interconnectivity constraints. |
 | 3   | [2007 Mermim Quantum Computation](https://arxiv.org/abs/quant-ph/0207118) | In this extended version, Mermin revisits quantum computation topics with additional mathematical rigor, clarifying error correction schemes and entanglement measures. |
@@ -45,8 +45,8 @@ Brief survey of the foundations and applications of quantum computing is provide
 ---
 ### 3: Engineering
 
-| ID  | Source                                                                                       | Notes                                                                                                              |
-|-----|----------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------|
+| ID | Source | Notes |
+|---|---|---|
 | 1   | [2010 Quantum Quenching](https://link.springer.com/book/10.1007/978-3-642-11470-0)           | This monograph examines quantum quenching protocols in condensed matter systems and their applications to quantum annealing hardware. |
 | 2   | [2017 Quantum Annealing](https://arxiv.org/abs/1701.04579)                                   | The authors review the principles of quantum annealing devices, focusing on hardware implementations and benchmarking against classical heuristics. |
 | 3   | [2018 PracticalQC](https://link.springer.com/book/10.1007/978-1-4842-4218-6)                  | This book provides hands-on guidance for programming and deploying quantum algorithms on current commercial quantum processors. |
@@ -57,8 +57,8 @@ Brief survey of the foundations and applications of quantum computing is provide
 
 ### 4: Applications to Finance
 
-| ID  | Source                                                                                           | Notes                                                                                                                                 |
-|-----|--------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------|
+| ID | Source | Notes |
+|---|---|---|
 | 1   | [2018 QC Finance](https://arxiv.org/abs/1811.03975)                                              | Examines how quantum algorithms can accelerate option pricing and portfolio optimization, comparing performance to classical Monte Carlo methods. |
 | 2   | [2018 QC Finance Monte Carlo](https://arxiv.org/abs/1805.00109)                                   | Demonstrates a quantum-accelerated Monte Carlo algorithm for computing risk measures in financial portfolios with provable quadratic speedups. |
 | 3   | [2019 QC Finance](https://arxiv.org/abs/1807.03890)                                              | Surveys emerging quantum computing applications in finance, including credit scoring, derivative pricing, and fraud detection.               |
@@ -68,8 +68,8 @@ Brief survey of the foundations and applications of quantum computing is provide
 ---
 ### 5: Applications to Machine Learning
 
-| ID  | Source                                                                                                     | Notes                                                                                                                                                    |
-|-----|------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| ID | Source | Notes |
+|---|---|---|
 | 1   | [2014 QML](https://arxiv.org/abs/1409.3097)                                                               | Introduces core concepts of quantum machine learning, covering quantum data representation and basic variational algorithms.                                 |
 | 2   | [2014QuantumMachineLearning](https://www.sciencedirect.com/book/9780128009536/quantum-machine-learning#book-info) | This edited volume collects foundational chapters on quantum algorithms for supervised and unsupervised learning, including kernel methods.                 |
 | 3   | [2015 QML](https://arxiv.org/abs/1512.02900)                                                               | Presents a variational quantum algorithm for classification tasks and benchmarks its performance on small-scale datasets.                                    |
@@ -84,8 +84,8 @@ Brief survey of the foundations and applications of quantum computing is provide
 ---
 ### 6: Applications to Physics
 
-| ID  | Source                                                         | Notes                                                                                                                                               |
-|-----|----------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------|
+| ID | Source | Notes |
+|---|---|---|
 | 1   | [2018 QC Chemistry](https://arxiv.org/abs/1808.10402)           | Demonstrates how quantum algorithms can simulate molecular ground states more efficiently than classical methods, with applications to drug design.    |
 | 2   | [2023 QC Many Body](https://arxiv.org/abs/2303.04850)           | Studies quantum algorithms for simulating many-body physics, focusing on fragmentation techniques to reduce circuit depth.                           |
 | 3   | [2024 QC in High Energy](https://arxiv.org/abs/2307.03236)      | Investigates quantum computing approaches to lattice gauge theories and high-energy physics simulations, assessing resource requirements.             |
