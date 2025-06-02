@@ -9,8 +9,7 @@ math:       true        # enable KaTeX
 # Notes on Quantitative Finance (Draft)
 
 ## Abstract
-Resources in quantatitive finance are provided with short notes.  Emphasis is given to statistical analysis of empirical stylized facts in the data. For completeness, the orthodox neoclassical view of asset pricing, portfolio theory, and risk is included. Some history of the evolution of the field is provided. 
-
+Resources in quantatitive finance are provided with short notes.  Emphasis is given to the empirical stylized facts obtained from statistical analysis of financial, economic and social data. Some history of the field is provided; which includes the influence computation, applied mathematics, and theoretical physics over time. For completeness, the orthodox neoclassical view of asset pricing, portfolio theory, and risk is included. 
 ## 1 Time Series Analysis  
 
 | ID | Source | Notes |
