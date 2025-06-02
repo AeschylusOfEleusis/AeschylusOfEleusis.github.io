@@ -10,11 +10,12 @@ math:       true        # enable KaTeX
 
 ## Abstract
 Brief survey of the foundations and applications of quantum computing is provided.
+
 ### 1: Foundations
 
 | ID | Source | Notes |
 |---|---|---|
-| 1   | [1981 Feynman Quantum Computation](https://catonmat.net/ftp/simulating-physics-with-computers-richard-feynman.pdf)                  | Feynman argues that classical computers cannot efficiently simulate quantum systems and proposes the conceptual framework for a quantum computer. |
+| 1   | [1981 Feynman Quantum Computation](https://catonmat.net/ftp/simulating-physics-with-computers-richard-feynman.pdf) | Feynman argues that classical computers cannot efficiently simulate quantum systems and proposes the conceptual framework for a quantum computer. |
 | 2   | [1984 Deutsch Quantum Computation](https://www.cs.princeton.edu/courses/archive/fall04/cos576/papers/deutsch85.pdf)                  | Deutsch introduces the notion of a universal quantum computer and shows how quantum mechanics can be harnessed to perform computations beyond classical capabilities. |
 | 3   | [2000 Intro Quantum Computing](https://arxiv.org/abs/quant-ph/9809016)                         | This survey provides an accessible introduction to the principles of quantum computation, including qubits, quantum gates, and basic algorithms. |
 | 4   | [2001 KleinertQC](https://arxiv.org/abs/quant-ph/0106095)                                   | Kleinert explores path-integral methods in quantum information theory and their applications to quantum computing frameworks. |
@@ -26,6 +27,7 @@ Brief survey of the foundations and applications of quantum computing is provide
 | 10  | [2019 Quantum Supremacy](https://www.nature.com/articles/s41586-019-1666-5)                       | Google’s team demonstrates a 53-qubit superconducting processor performing a computational task in 200 seconds that would take the fastest classical supercomputer approximately 10,000 years. |
 | 11  | [2021 GoogleTimeCrystal]()                               | This report discusses Google’s experimental realization of discrete time crystals in a superconducting quantum processor and its implications for quantum information processing. |
 ---
+
 ### 2: Mathematics
 
 | ID | Source | Notes |
@@ -40,6 +42,7 @@ Brief survey of the foundations and applications of quantum computing is provide
 | 8   | [2018 Aaronson](https://www.scottaaronson.com/qclec/combined.pdf) | Aaronson’s comprehensive lecture notes cover quantum algorithms, complexity theory, and theoretical underpinnings of quantum supremacy experiments. |
 | 9   | [2018 Witten](https://arxiv.org/abs/1805.11965)               | Witten explores connections between topological quantum field theory and quantum information, particularly in the context of entanglement entropy and holography. |
 ---
+
 ### 3: Engineering
 
 | ID | Source | Notes |
@@ -77,6 +80,7 @@ Brief survey of the foundations and applications of quantum computing is provide
 | 9   | [2018 QC Tensor Networks](https://arxiv.org/abs/1803.11537)                                                | Explores tensor-network methods for representing variational quantum circuits and their use in scalable quantum machine learning.                            |
 | 10  | [2024 QMLHealthcare](https://ieeexplore.ieee.org/document/10398184)                                         | Reviews recent advances in quantum machine learning for healthcare applications, including diagnostic imaging and drug-discovery pipelines.                  |
 ---
+
 ### 6: Applications to Physics
 
 | ID | Source | Notes |
