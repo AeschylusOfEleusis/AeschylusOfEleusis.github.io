@@ -17,11 +17,11 @@ Resources in quantatitive finance are provided.  Emphasis is given to statistica
 |---|---|---|
 | **S1** | [Farmer & Sidorowich, *Predicting Chaotic Time Series* (1987)](https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.59.845) | Pioneers phase-space embedding and short-horizon chaos forecasts. |
 | **S2** | [Farmer, *Nonlinearity in Time Series* (1992)](https://www.doynefarmer.com/machine-learning-and-data-analysis) | Shows low-dimensional deterministic structures. |
-| **S3** | [Hamilton, *Time-Series Analysis* (1994)](https://press.princeton.edu/books/hardcover/9780691042893/time-series-analysis) | Provides Kalman-filter and Markov-switching machinery that underpins stochastic-volatility surface estimation. |
+| **S3** | [Hamilton, *Time-Series Analysis* (1994)](https://press.princeton.edu/books/hardcover/9780691042893/time-series-analysis) | Provides Kalman-filter and Markov-switching. |
 | **S4** | [Campbell – Lo – MacKinlay, *Econometrics of Financial Markets* (1997)](https://press.princeton.edu/books/hardcover/9780691043012/the-econometrics-of-financial-markets) | Formalises spectral tests, long-memory diagnostics, and GMM baselines for empirical factor models. |
 | **S5** | [Cochrane, *Time Series for Macroeconomics and Finance* (1997)](https://www.smartquant.com/references/TimeSeries/ts13.pdf) | Connects discrete-time VAR/GMM estimation with continuous-time pricing kernels. |
 | **S6** | [Kantz & Schreiber, *Nonlinear Time-Series Analysis* (2004)](https://www.cambridge.org/core/books/nonlinear-time-series-analysis/519783E4E8A2C3DCD4641E42765309C7) | Details surrogate-data tests. |
-| **S7** | [Adhikari & Agrawal.*, *Time-Series Neural Networks* (2013)](https://arxiv.org/abs/1302.6613) | Performance comparison of stochastic models, early neural nets, and SVM. |
+| **S7** | [Adhikari & Agrawal, *Time-Series Neural Networks* (2013)](https://arxiv.org/abs/1302.6613) | Performance comparison of stochastic models, early neural nets, and SVM. |
 | **S8** | [Bradley & Kantz, *Nonlinear Time-Series* (2015)](https://arxiv.org/abs/1503.07493) | History of nonlinear time series analysis. |
 | **S10** | [Ruey & Chen, *Nonlinear Time-Series* (2019)](https://onlinelibrary.wiley.com/doi/book/10.1002/9781119514312) |Survey of methods for approaching nonlinearity. |
 | **S11** | [Marcaccioli & Livan*, *Stat-Mech Time Series* (2019)](https://arxiv.org/pdf/2003.12818) | Applies Boltzman statistical mechanics directly to time series. |
@@ -33,13 +33,14 @@ Resources in quantatitive finance are provided.  Emphasis is given to statistica
 
 | ID | Source | Notes |
 |---|---|---|
+| **S51** | [Tracy, *How to Read a Financial Report* (1999)](https://www.wiley.com/en-us/How+to+Read+a+Financial+Report%3A+Wringing+Vital+Signs+Out+of+the+Numbers%2C+10th+Edition-p-9781394268719) | Distils accounting statements into key cash-flow and leverage signals often engineered as factors in option-carry models. |
 | **S13** | [Cochrane, *Asset Pricing* (2000)](https://press.princeton.edu/books/hardcover/9780691121376/asset-pricing) | Derives the stochastic-discount-factor framework central to risk-neutral valuation. |
 | **S14** | [Duffie, *Dynamic Asset-Pricing Theory* (2001)](https://press.princeton.edu/books/hardcover/9780691090221/dynamic-asset-pricing-theory) | Itô-calculus proofs for optimal-exercise boundaries and contingent-claim valuation in continuous time. |
 | **S15** | [Bouchaud & Potters, *Theory of Financial Risk & Derivative Pricing* (2003)](https://www.cambridge.org/core/books/theory-of-financial-risk-and-derivative-pricing/5BBBA04CE72ED9E5E7C1C028D9A94FCB) | Integrates heavy-tailed return statistics into Black–Scholes-type PDEs via fractional diffusions. |
 | **S16** | [Voit  *Statistical Mechanics of Financial Markets* (2005)](https://link.springer.com/book/10.1007/b137351) | Statistical methods applied broadly to quantiative finance. |
 | **S17** | [Kleinert, *Path Integrals in Option Pricing* (2016)](https://arxiv.org/abs/1611.04320) | Pricing under alpha stable Levy processes. |
-| **S18** | [Rebonato, *Bond Pricing & Yield-Curve Modeling* (2018)](https://www.cambridge.org/core/books/bond-pricing-and-yield-curve-modeling/8BD16E2AC2B8CB6248A151F4BD5D25E8) | Presents PCA-driven term-structure dynamics that feed directly into swaption and Bermudan pricing engines. |
-| **S51** | [Tracy, *How to Read a Financial Report* (1999)](https://www.wiley.com/en-us/How+to+Read+a+Financial+Report%3A+Wringing+Vital+Signs+Out+of+the+Numbers%2C+10th+Edition-p-9781394268719) | Distils accounting statements into key cash-flow and leverage signals often engineered as factors in option-carry models. |
+| **S18** | [Rebonato, *Bond Pricing & Yield-Curve Modeling* (2018)](https://www.cambridge.org/core/books/bond-pricing-and-yield-curve-modeling/8BD16E2AC2B8CB6248A151F4BD5D25E8) | Presents PCA-driven term-structure dynamics. |
+
 
 ---
 
@@ -51,7 +52,7 @@ Resources in quantatitive finance are provided.  Emphasis is given to statistica
 | **S20** | [Mantegna & Stanley, *Introduction to Econophysics* (2000)](https://www.cambridge.org/core/books/introduction-to-econophysics/6A2727FE42578790E6E1021B7955EE30) | Introductory text viewing financial data from the perspective of statistical physics. |
 | **S21** | [Mandelbrot, *The Misbehavior of Markets* (2004)](https://www.amazon.com/Misbehavior-Markets-annotated-Benoit-Mandelbrot/dp/B0077T2DIY) | Argues for fractal scaling and α-stable processes over Gaussian assumptions. |
 | **S22** | [Farmer et al, *Is Economics the Next Physical Science?* (2005)](https://pubs.aip.org/physicstoday/article-abstract/58/9/37/399433/Is-Economics-the-Next-Physical-Science-An-emerging?redirectedFrom=fulltext) | Advocates physicists’ universality concepts for financial innovation. |
-| **S23** | [Yakovenko, *Stat-Mech Econophysics* (2008)](https://arxiv.org/abs/0709.3662) | 20 year review of the literature and methods. |
+| **S23** | [Yakovenko, *Stat-Mech Econophysics* (2008)](https://arxiv.org/abs/0709.3662) | Review of the literature and methods. |
 | **S24** | [Chakraborti et al, *Econophysics: Kinetic-Exchange Models* (2010)](https://arxiv.org/abs/0909.1974) | Review of the literatute and methods. |
 | **S25** | [Chakrabarti *et al.*, *Econophysics* (2012)](https://www.jstor.org/stable/23251800) | Review of the literature and methods. |
 | **S26** | [Chakraborti *et al.*, *Econophysicss* (2013)](https://link.springer.com/chapter/10.1007/978-3-319-08473-2_11) | Review of the literature and methods. |
@@ -59,7 +60,7 @@ Resources in quantatitive finance are provided.  Emphasis is given to statistica
 | **S28** | [Abergel et al, *Econophysics & Sociophysics* (2017)](https://link.springer.com/book/10.1007/978-3-319-47705-3) | Expansion to social networks, diffusion, and power laws. |
 | **S29** | [Schinkus, *A History of Econophysics* (2018)](https://www.repository.cam.ac.uk/items/61fb15c9-7e20-4229-9327-5213a3916356) | PhD disseration history and philosophy of science. Complex systems, Sante Fe Institute.  |
 | **S30** | [Sornette, *Multifractals in Finance* (2018)](https://arxiv.org/abs/1805.04750) | Deep dive into multifractal analysis of financial data. |
-| **S31** | [Bouchaud, *Econophysics* (2019)](https://arxiv.org/abs/1901.03691) | 30 year review of the literature and methods. |
+| **S31** | [Bouchaud, *Econophysics* (2019)](https://arxiv.org/abs/1901.03691) | Review of the literature and methods. |
 | **S32** | [Abergel *et al.*, *Econophysics & Sociophysics* (2019)](https://link.springer.com/book/10.1007/978-3-030-11364-3) | Includes social networks, diffusion and dynamics. |
 | **S33** | [Potters & Bouchaud, *A First Course in Random-Matrix Theory* (2020)](https://www.cambridge.org/core/books/first-course-in-random-matrix-theory/2292A554A9BB9E2A4697C35BCE920304) | Foundations of RMT with applications to covariance. |
 | **S34** | [Bouchaud et al, *Spin-Glass Markets* (2023)](https://arxiv.org/abs/2306.16165) | Spin glass methods (replica, replica symmetry breaking, cavity method) applied to generic complex data. |
