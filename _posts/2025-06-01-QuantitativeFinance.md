@@ -9,7 +9,7 @@ math:       true        # enable KaTeX
 # Notes on Quantitative Finance (Draft)
 
 ## Abstract
-Several resources in quantatitive finance are provided.  Emphasis is given to statistical analysis and empirical stylized facts. The orthodox neoclassical view of asset pricing, portfolio theory, and risk is included for completeness.
+Resources in quantatitive finance are provided.  Emphasis is given to statistical analysis of empirical stylized facts. For completeness, the orthodox neoclassical view of asset pricing, portfolio theory, and risk is included.
 
 ## 1 Time Series Analysis  
 
@@ -115,11 +115,11 @@ Several resources in quantatitive finance are provided.  Emphasis is given to st
 
 | ID | Source | Notes |
 |---|---|---|
-| **S62** | [Sornette, *Theory of Zipf’s Law* (2010)](https://link.springer.com/book/10.1007/978-3-642-02946-2) | Explains heavy-tailed firm-size distributions that drive index-option skew and variance-risk premia. |
+| **S62** | [Sornette, *Theory of Zipf’s Law* (2010)](https://link.springer.com/book/10.1007/978-3-642-02946-2) | Universality of Pareto and heavy-tailed distributions. |
 | **S63** | [Farmer et al, *The Evolutionary Ecology of Technology* (2010)](https://www.santafe.edu/research/results/working-papers/the-evolutionary-ecology-of-technological-innovati) | Models innovation diffusion as a fitness-landscape search, mirroring real-option timing games in R&D. |
-| **S64** | [Weatherall, *The Physics of Wall Street* (2013)](https://www.amazon.com/Physics-Wall-Street-Predicting-Unpredictable/dp/0547317271) | Chronicles how physicists’ complexity mindset seeded modern quant desks and volatility-arbitrage strategies. |
+| **S64** | [Weatherall, *The Physics of Wall Street* (2013)](https://www.amazon.com/Physics-Wall-Street-Predicting-Unpredictable/dp/0547317271) | History and philosophy of science. Migration, post cold war, of physicists to computational finance / financial engineering. |
 | **S65** | [Arthur, *Complexity & the Economy* (2015)](https://global.oup.com/academic/product/complexity-and-the-economy-9780199334292) | Outlines non-equilibrium adaptive expectations underlying implied-volatility smiles and demand imbalances. |
-| **S66** | [Gatti et al, *Agent-Based Models in Economics* (2018)](https://www.cambridge.org/core/books/agentbased-models-in-economics/E4FB7268269E7BCB8CE8E45894D105CC) | Provides scalable ABM code for policy shocks and liquidity cascades in derivative markets. |
+| **S66** | [Gatti et al, *Agent-Based Models in Economics* (2018)](https://www.cambridge.org/core/books/agentbased-models-in-economics/E4FB7268269E7BCB8CE8E45894D105CC) | Provides scalable ABM code for policy shocks and liquidity cascades in financial and economic markets. |
 | **S67** | [Arthur, *Kenneth Arrow’s Contributions to Finance* (2018)](https://www.tandfonline.com/doi/pdf/10.1080/14697688.2018.1533738) | Discusses informational-efficiency limits and herd behaviour relevant to behavioural option flows. |
 | **S68** | [Farmer et al, *Technology Portfolios & Complex Networks* (2019)](https://arxiv.org/abs/1705.03423) | Uses network centrality to allocate real-option bets across technological domains and patent clusters. |
 | **S69** | [Farmer, *Making Sense of Chaos* (2024)](https://yalebooks.yale.edu/book/9780300283327/making-sense-of-chaos/) | Synthesis of three decades of complexity research into a roadmap for complexity economics. |
