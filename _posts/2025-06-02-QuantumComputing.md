@@ -26,6 +26,7 @@ Brief survey of the foundations and applications of quantum computing is provide
 | 9   | [2018 QuantumCircuits](https://arxiv.org/abs/1810.08277)                                 | The authors present a detailed study of quantum circuit synthesis techniques aimed at reducing gate depth in noisy intermediate-scale quantum (NISQ) processors. |
 | 10  | [2019 Quantum Supremacy](https://www.nature.com/articles/s41586-019-1666-5)                       | Google’s team demonstrates a 53-qubit superconducting processor performing a computational task in 200 seconds that would take the fastest classical supercomputer approximately 10,000 years. |
 | 11  | [2021 GoogleTimeCrystal](https://arxiv.org/abs/2107.13571)                               | This report discusses Google’s experimental realization of discrete time crystals in a superconducting quantum processor and its implications for quantum information processing. |
+
 ---
 
 ### 2: Mathematics
@@ -41,6 +42,7 @@ Brief survey of the foundations and applications of quantum computing is provide
 | 7   | [2018 Theory QuantumInformation](https://www.cambridge.org/core/books/theory-of-quantum-information/AE4AA5638F808D2CFEB070C55431D897#fndtn-information) | This text develops rigorous proofs for key theorems in quantum information theory, such as the quantum coding theorem and entropic inequalities. |
 | 8   | [2018 Aaronson](https://www.scottaaronson.com/qclec/combined.pdf) | Aaronson’s comprehensive lecture notes cover quantum algorithms, complexity theory, and theoretical underpinnings of quantum supremacy experiments. |
 | 9   | [2018 Witten](https://arxiv.org/abs/1805.11965)               | Witten explores connections between topological quantum field theory and quantum information, particularly in the context of entanglement entropy and holography. |
+
 ---
 
 ### 3: Engineering
@@ -53,6 +55,7 @@ Brief survey of the foundations and applications of quantum computing is provide
 | 4   | [2018 Quantum Annealing Spin Glass](https://arxiv.org/abs/1708.08885)                        | Investigates spin-glass models as benchmarks for quantum annealing machines, analyzing performance on combinatorial optimization tasks. |
 | 5   | [2018 Quantum Internet](https://arxiv.org/abs/1810.08421)                                          | Proposes architectural designs for a quantum internet, detailing entanglement distribution protocols and error-corrected links. |
 | 6   | [2018 QInternet](https://arxiv.org/abs/1805.04360)                                           | This paper outlines the practical challenges of engineering a large-scale quantum network, including qubit transduction and repeater synchronization. |
+
 ---
 
 ### 4: Applications to Finance
@@ -63,7 +66,9 @@ Brief survey of the foundations and applications of quantum computing is provide
 | 2   | [2018 QC Finance Monte Carlo](https://arxiv.org/abs/1805.00109)                                   | Demonstrates a quantum-accelerated Monte Carlo algorithm for computing risk measures in financial portfolios with provable quadratic speedups. |
 | 3   | [2019 QC Finance](https://arxiv.org/abs/1807.03890)                                              | Surveys emerging quantum computing applications in finance, including credit scoring, derivative pricing, and fraud detection.               |
 | 4   | [2020 Optimal Trading Quantum Annealing](https://arxiv.org/abs/1508.06182)                       | Proposes a quantum annealing framework for constructing optimal trading strategies under transaction-cost constraints.                        |
+
 ---
+
 ### 5: Applications to Machine Learning
 
 | ID | Source | Notes |
@@ -78,6 +83,7 @@ Brief survey of the foundations and applications of quantum computing is provide
 | 8   | [2018 QML BoltzmanMachine](https://arxiv.org/abs/1601.02036)                                               | Proposes training a quantum Boltzmann machine using a variational quantum circuit, highlighting potential quantum-speedup in sampling.                       |
 | 9   | [2018 QC Tensor Networks](https://arxiv.org/abs/1803.11537)                                                | Explores tensor-network methods for representing variational quantum circuits and their use in scalable quantum machine learning.                            |
 | 10  | [2024 QMLHealthcare](https://ieeexplore.ieee.org/document/10398184)                                         | Reviews recent advances in quantum machine learning for healthcare applications, including diagnostic imaging and drug-discovery pipelines.                  |
+
 ---
 
 ### 6: Applications to Physics
