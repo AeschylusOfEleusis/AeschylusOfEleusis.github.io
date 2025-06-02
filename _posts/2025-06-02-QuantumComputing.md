@@ -25,7 +25,7 @@ Brief survey of the foundations and applications of quantum computing is provide
 | 8   | [2018 QCSupremacy](https://arxiv.org/abs/1809.07442)                                     | This paper proposes benchmarks for demonstrating quantum supremacy and analyzes noise requirements for near-term quantum devices. |
 | 9   | [2018 QuantumCircuits](https://arxiv.org/abs/1810.08277)                                 | The authors present a detailed study of quantum circuit synthesis techniques aimed at reducing gate depth in noisy intermediate-scale quantum (NISQ) processors. |
 | 10  | [2019 Quantum Supremacy](https://www.nature.com/articles/s41586-019-1666-5)                       | Google’s team demonstrates a 53-qubit superconducting processor performing a computational task in 200 seconds that would take the fastest classical supercomputer approximately 10,000 years. |
-| 11  | [2021 GoogleTimeCrystal]()                               | This report discusses Google’s experimental realization of discrete time crystals in a superconducting quantum processor and its implications for quantum information processing. |
+| 11  | [2021 GoogleTimeCrystal](https://arxiv.org/abs/2107.13571)                               | This report discusses Google’s experimental realization of discrete time crystals in a superconducting quantum processor and its implications for quantum information processing. |
 ---
 
 ### 2: Mathematics
