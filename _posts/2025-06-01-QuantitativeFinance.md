@@ -21,12 +21,11 @@ Several resources in quantatitive finance are provided.  Emphasis is given to st
 | **S4** | [Campbell – Lo – MacKinlay, *Econometrics of Financial Markets* (1997)](https://press.princeton.edu/books/hardcover/9780691043012/the-econometrics-of-financial-markets) | Formalises spectral tests, long-memory diagnostics, and GMM baselines for empirical factor models. |
 | **S5** | [Cochrane, *Time Series for Macroeconomics and Finance* (1997)](https://www.smartquant.com/references/TimeSeries/ts13.pdf) | Connects discrete-time VAR/GMM estimation with continuous-time pricing kernels. |
 | **S6** | [Kantz & Schreiber, *Nonlinear Time-Series Analysis* (2004)](https://www.cambridge.org/core/books/nonlinear-time-series-analysis/519783E4E8A2C3DCD4641E42765309C7) | Details surrogate-data tests. |
-| **S7** | [Adhikari & Agrawal.*, *Time-Series Neural Networks* (2013)](https://arxiv.org/abs/1302.6613) | Demonstrates early deep-learning architectures for forecasting implied-volatility smiles. |
-| **S8** | [Bradley & Kantz, *Nonlinear Time-Series* (2015)](https://arxiv.org/abs/1503.07493) | Bridges recurrence-plot diagnostics with scalable GPU implementations for tick-data streams. |
-| **S9** | [Sethna, *Statistical Mechanics of Inference* (2017)](https://arxiv.org/abs/1503.06205) | Per Jaynes, recasts maximum-entropy learning as free-energy minimisation. |
-| **S10** | [Ruey & Chen, *Nonlinear Time-Series* (2019)](https://onlinelibrary.wiley.com/doi/book/10.1002/9781119514312) | Provides kernel conditional-quantile methods for non-Gaussian tail-risk. |
-| **S11** | [Marcaccioli & Livan*, *Stat-Mech Time Series* (2019)](https://arxiv.org/pdf/2003.12818) | Uses partition-function formalisms to detect regime shifts. |
-| **S12** | [Ekapure et al, *Technical Analysis Meets Data Science* (2021)](https://arxiv.org/abs/2107.14695) | Trend classification. |
+| **S7** | [Adhikari & Agrawal.*, *Time-Series Neural Networks* (2013)](https://arxiv.org/abs/1302.6613) | Performance comparison of stochastic models, early neural nets, and SVM. |
+| **S8** | [Bradley & Kantz, *Nonlinear Time-Series* (2015)](https://arxiv.org/abs/1503.07493) | History of nonlinear time series analysis. |
+| **S10** | [Ruey & Chen, *Nonlinear Time-Series* (2019)](https://onlinelibrary.wiley.com/doi/book/10.1002/9781119514312) |Survey of methods for approaching nonlinearity. |
+| **S11** | [Marcaccioli & Livan*, *Stat-Mech Time Series* (2019)](https://arxiv.org/pdf/2003.12818) | Applies Boltzman statistical mechanics directly to time series. |
+| **S12** | [Ekapure et al, *Technical Analysis Meets Data Science* (2021)](https://arxiv.org/abs/2107.14695) | Applies machine learing directly to trend classification. |
 
 ---
 
@@ -34,11 +33,13 @@ Several resources in quantatitive finance are provided.  Emphasis is given to st
 
 | ID | Source | Notes |
 |---|---|---|
-| **S13** | [Cochrane, *Asset Pricing* (2000)](https://press.princeton.edu/books/hardcover/9780691121376/asset-pricing) | Derives the stochastic-discount-factor framework central to risk-neutral option valuation. |
+| **S13** | [Cochrane, *Asset Pricing* (2000)](https://press.princeton.edu/books/hardcover/9780691121376/asset-pricing) | Derives the stochastic-discount-factor framework central to risk-neutral valuation. |
 | **S14** | [Duffie, *Dynamic Asset-Pricing Theory* (2001)](https://press.princeton.edu/books/hardcover/9780691090221/dynamic-asset-pricing-theory) | Itô-calculus proofs for optimal-exercise boundaries and contingent-claim valuation in continuous time. |
 | **S15** | [Bouchaud & Potters, *Theory of Financial Risk & Derivative Pricing* (2003)](https://www.cambridge.org/core/books/theory-of-financial-risk-and-derivative-pricing/5BBBA04CE72ED9E5E7C1C028D9A94FCB) | Integrates heavy-tailed return statistics into Black–Scholes-type PDEs via fractional diffusions. |
 | **S16** | [Voit  *Statistical Mechanics of Financial Markets* (2005)](https://link.springer.com/book/10.1007/b137351) | Statistical methods applied broadly to quantiative finance. |
+| **S17** | [Kleinert, *Path Integrals in Option Pricing* (2016)](https://arxiv.org/abs/1611.04320) | Pricing under alpha stable Levy processes. |
 | **S18** | [Rebonato, *Bond Pricing & Yield-Curve Modeling* (2018)](https://www.cambridge.org/core/books/bond-pricing-and-yield-curve-modeling/8BD16E2AC2B8CB6248A151F4BD5D25E8) | Presents PCA-driven term-structure dynamics that feed directly into swaption and Bermudan pricing engines. |
+| **S51** | [Tracy, *How to Read a Financial Report* (1999)](https://www.wiley.com/en-us/How+to+Read+a+Financial+Report%3A+Wringing+Vital+Signs+Out+of+the+Numbers%2C+10th+Edition-p-9781394268719) | Distils accounting statements into key cash-flow and leverage signals often engineered as factors in option-carry models. |
 
 ---
 
@@ -46,35 +47,34 @@ Several resources in quantatitive finance are provided.  Emphasis is given to st
 
 | ID | Source | Notes |
 |---|---|---|
-| **S17** | [Kleinert, *Path Integrals in Option Pricing* (2016)](https://arxiv.org/abs/1611.04320) | Pricing under alpha stable Levy processes. |
 | **S19** | [Di Francesco *et al.*, *Random Matrices* (1994)](https://arxiv.org/abs/hep-th/9306153) | Random-matrix theory. |
 | **S20** | [Mantegna & Stanley, *Introduction to Econophysics* (2000)](https://www.cambridge.org/core/books/introduction-to-econophysics/6A2727FE42578790E6E1021B7955EE30) | Introductory text viewing financial data from the perspective of statistical physics. |
 | **S21** | [Mandelbrot, *The Misbehavior of Markets* (2004)](https://www.amazon.com/Misbehavior-Markets-annotated-Benoit-Mandelbrot/dp/B0077T2DIY) | Argues for fractal scaling and α-stable processes over Gaussian assumptions. |
-| **S22** | [Farmer et al, *Is Economics the Next Physical Science?* (2005)](https://pubs.aip.org/physicstoday/article-abstract/58/9/37/399433/Is-Economics-the-Next-Physical-Science-An-emerging?redirectedFrom=fulltext) | Advocates physicists’ universality concepts for financial innovation and systemic-risk analysis. |
-| **S23** | [Yakovenko, *Stat-Mech Econophysics* (2008)](https://arxiv.org/abs/0709.3662) | Review of the literature and methods. |
+| **S22** | [Farmer et al, *Is Economics the Next Physical Science?* (2005)](https://pubs.aip.org/physicstoday/article-abstract/58/9/37/399433/Is-Economics-the-Next-Physical-Science-An-emerging?redirectedFrom=fulltext) | Advocates physicists’ universality concepts for financial innovation. |
+| **S23** | [Yakovenko, *Stat-Mech Econophysics* (2008)](https://arxiv.org/abs/0709.3662) | 20 year review of the literature and methods. |
 | **S24** | [Chakraborti et al, *Econophysics: Kinetic-Exchange Models* (2010)](https://arxiv.org/abs/0909.1974) | Review of the literatute and methods. |
-| **S25** | [Chakrabarti *et al.*, *Econophysics* (2012)](https://www.jstor.org/stable/23251800) | Review of literature and methods. |
-| **S26** | [Chakraborti *et al.*, *Econophysics & Sociophysics* (2013)](https://link.springer.com/chapter/10.1007/978-3-319-08473-2_11) | Review of literature and methods. |
-| **S27** | [Sornette, *Econophysics: A Review* (2014)](https://arxiv.org/abs/1404.0243) | Review of literature and methods. |
-| **S28** | [Abergel et al, *Econophysics & Sociophysics* (2017)](https://link.springer.com/book/10.1007/978-3-319-47705-3) | Couples wealth-distribution PDEs to tail-risk insurance products and option-gamma exposure. |
-| **S29** | [Schinkus, *A History of Econophysics* (2018)](https://www.repository.cam.ac.uk/items/61fb15c9-7e20-4229-9327-5213a3916356) | Chronicles physicists’ migration into derivative-risk modelling from the 1990s onward. |
-| **S30** | [Sornette, *Multifractals in Finance* (2018)](https://arxiv.org/abs/1805.04750) | Provides wavelet estimators of Hölder exponents to characterise roughness in option-price paths. |
-| **S31** | [Bouchaud, *Econophysics* (2019)](https://arxiv.org/abs/1901.03691) | Benchmarks random-matrix “cleaning” for large covariance sets underpinning exotic-option risk metrics. |
-| **S32** | [Abergel *et al.*, *Econophysics & Sociophysics* (2019)](https://link.springer.com/book/10.1007/978-3-030-11364-3) | Combines agent-based liquidity shocks with Ising-spin crash cascades impacting volatility skews. |
-| **S33** | [Potters & Bouchaud, *A First Course in Random-Matrix Theory* (2020)](https://www.cambridge.org/core/books/first-course-in-random-matrix-theory/2292A554A9BB9E2A4697C35BCE920304) | Supplies shrinkage formulas for high-dimensional Greeks-covariance estimation. |
-| **S34** | [Bouchaud et al, *Spin-Glass Markets* (2023)](https://arxiv.org/abs/2306.16165) | Links TAP equations to clustered-volatility regimes in multi-asset option portfolios. |
+| **S25** | [Chakrabarti *et al.*, *Econophysics* (2012)](https://www.jstor.org/stable/23251800) | Review of the literature and methods. |
+| **S26** | [Chakraborti *et al.*, *Econophysicss* (2013)](https://link.springer.com/chapter/10.1007/978-3-319-08473-2_11) | Review of the literature and methods. |
+| **S27** | [Sornette, *Econophysics: A Review* (2014)](https://arxiv.org/abs/1404.0243) | Review of the literature and methods. |
+| **S28** | [Abergel et al, *Econophysics & Sociophysics* (2017)](https://link.springer.com/book/10.1007/978-3-319-47705-3) | Expansion to social networks, diffusion, and power laws. |
+| **S29** | [Schinkus, *A History of Econophysics* (2018)](https://www.repository.cam.ac.uk/items/61fb15c9-7e20-4229-9327-5213a3916356) | PhD disseration history and philosophy of science. Complex systems, Sante Fe Institute.  |
+| **S30** | [Sornette, *Multifractals in Finance* (2018)](https://arxiv.org/abs/1805.04750) | Deep dive into multifractal analysis of financial data. |
+| **S31** | [Bouchaud, *Econophysics* (2019)](https://arxiv.org/abs/1901.03691) | 30 year review of the literature and methods. |
+| **S32** | [Abergel *et al.*, *Econophysics & Sociophysics* (2019)](https://link.springer.com/book/10.1007/978-3-030-11364-3) | Includes social networks, diffusion and dynamics. |
+| **S33** | [Potters & Bouchaud, *A First Course in Random-Matrix Theory* (2020)](https://www.cambridge.org/core/books/first-course-in-random-matrix-theory/2292A554A9BB9E2A4697C35BCE920304) | Foundations of RMT with applications to covariance. |
+| **S34** | [Bouchaud et al, *Spin-Glass Markets* (2023)](https://arxiv.org/abs/2306.16165) | Spin glass methods (replica, replica symmetry breaking, cavity method) applied to generic complex data. |
 
 ---
 ## 4 Market Microstructures 
 
 | ID | Source | Notes |
 |---|---|---|
-| **S35** | [Farmer, *Slippage* (1996)](https://oms-inet.files.svdcdn.com/production/files/slippage.pdf) | Quantifies market-impact cost functions that underpin today’s optimal-execution algorithms for option desks. |
-| **S36** | [Farmer & Lo, *Market Ecology & Evolution* (1998)](https://arxiv.org/abs/adap-org/9812005) | Models trader populations with Lotka–Volterra dynamics to explain clustered volatility and intraday skew shifts. |
-| **S37** | [Abergel, *Limit Order Books* (2016)](https://www.cambridge.org/us/universitypress/subjects/mathematics/mathematical-finance/limit-order-books?format=HB&isbn=9781107163980) | Reviews empirical order-book stylised facts that inform data-driven simulators and latency-sensitive trategies. |
-| **S38** | [Lehalle & Laruelle, *Market Microstructure* (2018)](https://www.worldscientific.com/worldscibooks/10.1142/10739) | Calibrates Hawkes-process intensities for modelling order-flow clustering and option gamma-hedging stress. |
-| **S39** | [Bouchaud *et al.*, *Trades, Quotes & Prices* (2018)](https://www.cambridge.org/core/books/trades-quotes-and-prices/029A71078EE4C41C0D5D4574211AB1B5) | Develops linear-propagator models that convert signed-order flow into realised-volatility and impact metrics. |
-| **S40** | [Cont & Mueller, *SPDEs for Limit-Order Books* (2020)](https://arxiv.org/abs/1904.03058) | Introduces stochastic-PDE depth dynamics used in option market-making and liquidity-provision algorithms. |
+| **S35** | [Farmer, *Slippage* (1996)](https://oms-inet.files.svdcdn.com/production/files/slippage.pdf) | Introduction to market-impact cost functions. |
+| **S36** | [Farmer *Market Ecology & Evolution* (1998)](https://arxiv.org/abs/adap-org/9812005) | Models trader populations with Lotka–Volterra dynamics to explain clustered volatility and intraday skew shifts. |
+| **S37** | [Abergel, *Limit Order Books* (2016)](https://www.cambridge.org/us/universitypress/subjects/mathematics/mathematical-finance/limit-order-books?format=HB&isbn=9781107163980) | Empirical order-book stylised facts aand agent based models. |
+| **S38** | [Lehalle & Laruelle, *Market Microstructure* (2018)](https://www.worldscientific.com/worldscibooks/10.1142/10739) | Calibrates Market impact, order-flow clustering, liquidity, regulation, and persistence. |
+| **S39** | [Bouchaud *et al.*, *Trades, Quotes & Prices* (2018)](https://www.cambridge.org/core/books/trades-quotes-and-prices/029A71078EE4C41C0D5D4574211AB1B5) | Market impact, order-flow, liquidity. |
+| **S40** | [Cont & Mueller, *SPDEs for Limit-Order Books* (2020)](https://arxiv.org/abs/1904.03058) | Introduces stochastic-PDE modeling of limit order books. |
 
 ---
 
@@ -82,8 +82,8 @@ Several resources in quantatitive finance are provided.  Emphasis is given to st
 
 | ID | Source | Notes |
 |---|---|---|
+| **S9** | [Sethna, *Statistical Mechanics of Inference* (2017)](https://arxiv.org/abs/1503.06205) | Canonical sectors from unsupervised learning. |
 | **S49** | [Bardoscia *et al.*, *Financial Networks* (2021)](https://arxiv.org/abs/2103.05623) | Propagates margin shocks through derivative counter-parties using graph-Laplacian diffusion. |
-| **S51** | [Tracy, *How to Read a Financial Report* (1999)](https://www.wiley.com/en-us/How+to+Read+a+Financial+Report%3A+Wringing+Vital+Signs+Out+of+the+Numbers%2C+10th+Edition-p-9781394268719) | Distils accounting statements into key cash-flow and leverage signals often engineered as factors in option-carry models. |
 | **S52** | [Pompian et al, *Behavioral Finance* (2006)](https://onlinelibrary.wiley.com/doi/book/10.1002/9781119202400) | Catalogues cognitive biases that leak into demand‐pressure anomalies exploitable via volatility and skew trades. |
 | **S53** | [Prigent, *Portfolio Optimization* (2007)](https://www.routledge.com/Portfolio-Optimization-and-Performance-Analysis/Prigent/p/book/9781584885788) | Presents quadratic-programming routines for mean-variance allocation with option and transaction-cost constraints. |
 | **S54** | [Peters, *Ergodicity & the Kelly Criterion* (2010)](https://arxiv.org/abs/0902.2965) | Justifies growth-optimal position sizing and leverage control for volatility-targeting strategies. |
