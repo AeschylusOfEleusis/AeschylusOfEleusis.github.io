@@ -9,9 +9,9 @@ math:       true        # enable KaTeX
 # Notes on Quantum Computing (Draft)
 
 ## Abstract
-A brief survey of the foundations of quantum computing is provided. Several domains of application are considered: 1. Quantum physics (*viz* many-body problems / quantum fields), 2. Machine learning, and 3. Quantitative finance.
+A brief survey of quantum computing fundamentals is provided. Following an overview, a section on the mathematical foundations in quantum information theory, theory of quantum computation,  and quantum computational complexity is provided with a section on engineering quantum architectures. Several domains of application are considered: 1. Quantum physics (*viz* many-body problems / quantum fields), 2. Machine learning, and 3. Quantitative finance.
 
-### 1: Overview
+### 1. Overview
 
 | ID | Source | Notes |
 |---|---|---|
@@ -26,23 +26,23 @@ A brief survey of the foundations of quantum computing is provided. Several doma
 
 ---
 
-### 2: Mathematics
+### 2. Foundations
 
 | ID | Source | Notes |
 |---|---|---|
 | S9   | [2002 Mermin](https://www.cambridge.org/core/books/quantum-computer-science/66462590D10C8010017CF1D7C45708D7#fndtn-information) | Mermin offers a concise overview of the mathematical foundations underlying quantum computer science, including logic, linear algebra, and complexity considerations. |
-| S10   | [2002 Oskin](https://arxiv.org/abs/quant-ph/0207118)          | This paper analyzes various architectural models for scalable quantum computers, focusing on fault-tolerance thresholds and interconnectivity constraints. |
+| S10   | [2002 Oskin](https://homes.cs.washington.edu/~oskin/quantum-notes.pdf)          | Lecture notes as a companion to Nielsen and Chuang |
 | S11   | [2007 Mermim Quantum Computation](https://arxiv.org/abs/quant-ph/0207118) | In this extended version, Mermin revisits quantum computation topics with additional mathematical rigor, clarifying error correction schemes and entanglement measures. |
 | S12   | [2010 Nielsen Chuang](https://www.cambridge.org/highereducation/books/quantum-computation-and-quantum-information/01E10196D0A682A6AEFFEA52D53BE9AE#overview) | Nielsen & Chuang systematically develop the linear-algebraic and algorithmic foundations of quantum computing and quantum information theory. |
 | S13   | [2012 IntroTQC](https://www.cambridge.org/core/books/introduction-to-topological-quantum-computation/F6C4B2C9F83E434E9BF3F73E492231F0#fndtn-information) | This work introduces the mathematical framework of topological quantum computation, focusing on anyonic systems and braiding statistics. |
-| S14   | [2016 Aaronson](https://arxiv.org/pdf/1607.05256)             | Scott Aaronson surveys computational complexity results related to quantum computing, discussing classes such as BQP and QMA.                     |
-| S15   | [2018 Theory QuantumInformation](https://www.cambridge.org/core/books/theory-of-quantum-information/AE4AA5638F808D2CFEB070C55431D897#fndtn-information) | This text develops rigorous proofs for key theorems in quantum information theory, such as the quantum coding theorem and entropic inequalities. |
+| S14   | [2016 Aaronson Survey](https://arxiv.org/pdf/1607.05256)             | Scott Aaronson surveys computational complexity results related to quantum computing, discussing classes such as BQP and QMA.                     |
+| S15   | [2018 Quantum Information Theory](https://www.cambridge.org/core/books/theory-of-quantum-information/AE4AA5638F808D2CFEB070C55431D897#fndtn-information) | This text develops rigorous proofs for key theorems in quantum information theory, such as the quantum coding theorem and entropic inequalities. |
 | S16   | [2018 Aaronson](https://www.scottaaronson.com/qclec/combined.pdf) | Aaronson’s comprehensive lecture notes cover quantum algorithms, complexity theory, and theoretical underpinnings of quantum supremacy experiments. |
-| S17   | [2018 Witten](https://arxiv.org/abs/1805.11965)               | Witten explores connections between topological quantum field theory and quantum information, particularly in the context of entanglement entropy and holography. |
+| S17   | [2018 Witten](https://arxiv.org/abs/1805.11965)               | Witten explores classical and quantum information theory. |
 
 ---
 
-### 3: Engineering
+### 3. Engineering
 
 | ID | Source | Notes |
 |---|---|---|
@@ -60,7 +60,7 @@ A brief survey of the foundations of quantum computing is provided. Several doma
 
 | ID | Source | Notes |
 |---|---|---|
-| S26   | [2015 QCQFT](https://arxiv.org/abs/1503.08121)                                           | QCQFT investigates the intersection of quantum computing and quantum field theory, highlighting potential advantages for simulating high-energy physics. | 
+| S26   | [2015 QCQFT](https://arxiv.org/abs/1503.08121)                                           | QCQFT investigates the intersection of quantum computing and quantum field theory by way of continuous variables. | 
 | S27   | [2018 Simulating Quantum Fields  ](https://arxiv.org/abs/1811.10085)           | Considers the practical promises and challenges of Feynman's original vision    |
 | S28   | [2018 QC Chemistry](https://arxiv.org/abs/1808.10402)           | Demonstrates how quantum algorithms can simulate molecular ground states more efficiently than classical methods, with applications to drug design.    |
 | S29   | [2023 QC Many Body](https://arxiv.org/abs/2303.04850)           | Studies quantum algorithms for simulating many-body physics, focusing on fragmentation techniques to reduce circuit depth.                          |
