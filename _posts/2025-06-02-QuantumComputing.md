@@ -9,7 +9,7 @@ math:       true        # enable KaTeX
 # Notes on Quantum Computing (Draft)
 
 ## Abstract
-A brief survey of the foundations of quantum computing is provided. Several applications are considered: 1. Quantitative finance, 2. Machine learning, and 3. Quantum physics (many-body problems and quantum fields).
+Here a brief survey of the foundations of quantum computing is provided. Several domains of application are also considered: 1. Quantitative finance, 2. Machine learning, and 3. Quantum physics (many-body / quantum fields).
 
 ### 1: Foundations
 
