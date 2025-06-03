@@ -71,7 +71,7 @@ Materials concerning option trading are provided with brief notes.  The sources 
 
 
 
-### 5 Numerical methods and computational implementation (financial engineering)
+### 5 **Numerical methods and computational implementation (financial engineering)**
 
 | ID | Link | Notes |
 |----|------|-------|
@@ -85,7 +85,7 @@ Materials concerning option trading are provided with brief notes.  The sources 
 
 ---
 
-### 6 Trading, hedging & risk management (practice)
+### 6 **Trading, hedging & risk management (practice)**
 
 | ID | Link | Notes |
 |----|------|-------|
