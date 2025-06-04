@@ -11,7 +11,7 @@ math:       true        # enable KaTeX
 
 ## Abstract
 
-Original primary sources concerning the foundations of Quantum Mechanics are provided. Relevant texts concerning the associated historical circumstances are interspersed with the technical literature. The sources are roughly grouped according the school of thought of the various interpretations. This collection of primary sources is at best an idiocratic sampling of the literature; far from exhaustive with respect to either the number or interpretations or the literature of a particular interpretation. 
+Original primary sources concerning the foundations of Quantum Mechanics are provided. Relevant texts concerning the associated historical circumstances are interspersed with the technical literature. The sources are roughly grouped according the school of thought of the various interpretations. This collection of primary sources is at best an idiosyncratic sampling of the literature (far from exhaustive with respect to either the number or interpretations or the literature of a particular interpretation). 
 
 
 ### 1. Wave Mechanics
