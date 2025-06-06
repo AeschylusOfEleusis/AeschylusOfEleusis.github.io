@@ -9,7 +9,7 @@ math:       true        # enable KaTeX
 # Notes on Quantum Computing (Draft)
 
 ## Abstract
-A brief survey of quantum computing is provided. Following an overview, a section on the mathematical foundations precedes a section on engineering quantum architectures.  Quantum information theory, theory of quantum computation,  and quantum computational complexity are included in the section on mathematical foundations. Three application domains are considered: 1. Quantum physics (*viz* many-body theory & quantum fields), 2. Machine learning, and 3. Quantitative finance.
+A brief survey of quantum computing is provided. Following an overview, a section on the mathematical foundations precedes a section on engineering quantum architectures.  Quantum information theory, theory of quantum computation,  and quantum computational complexity are included in the section on mathematical foundations. Three application domains are then considered: 1. Quantum physics (*viz* many-body theory & quantum fields), 2. Machine learning, and 3. Quantitative finance.
 
 ### 1. Overview
 
