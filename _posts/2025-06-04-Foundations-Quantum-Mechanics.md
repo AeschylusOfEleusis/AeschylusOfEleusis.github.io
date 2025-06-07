@@ -13,6 +13,7 @@ math:       true        # enable KaTeX
 
 Several primary sources in the foundations of quantum mechanics are provided. Some context is sketched by historical texts interspersed with the technical literature. The sources are roughly grouped by the school of thought for the various interpretations. This collection of primary sources is at best an idiosyncratic sampling of the literature (far from exhaustive with respect to either the number of interpretations or the literature of a particular interpretation). 
 
+**To be continued ...**
 
 ### 1. Wave Mechanics
 
