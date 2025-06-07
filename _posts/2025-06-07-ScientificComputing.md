@@ -3,7 +3,7 @@ layout:   post
 title: "Scientific Computing"
 date: 2025-06-07 10:00:00 +0800
 categories: [Computational Finance]
-tags: [Computational Finance, Numerical Relativity, Quantum Field Theory, Stochastic Calculus, PathIntegrals]
+tags: [Computational Finance, Numerical Relativity, Quantum Field Theory, Stochastic Calculus, Path Integrals]
 math:       true        # enable KaTeX
 ---
 # Notes on Scientific Computing (Draft)
