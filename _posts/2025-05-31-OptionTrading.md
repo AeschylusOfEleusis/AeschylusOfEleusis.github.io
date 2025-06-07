@@ -11,6 +11,7 @@ math:       true        # enable KaTeX
 ## Abstract
 Materials concerning option trading are provided with brief notes.  The sources emphasize the financial engineering / computational finance approach. Foundations, model building, asset classes, computational implementation and practice are considered in that order. The interdisciplinary perspective of computational finance / financial engineering is assumed at the level of graduate students and researchers / practitioners from applied mathematics / theoretical physics. 
 
+**To be continued ...**
 ### 1 **Quantitative finance (foundations)**
 
 
