@@ -124,6 +124,7 @@ included  (by simultaneous solution of Einstein's equations) the result is a qua
 of numerical relativity and stochastic quantization. As an intermediate step, scalar fields and the associated BTZ black holes in
 lower dimensional 2+1 gravity are natural to consider in this numerical approach. 
 
+**To be continued ...**
 ## References
 
 | ID  | Link                                                                                                                                                                                                                                                                              | Notes                                                                                                                            |
