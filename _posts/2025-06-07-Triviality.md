@@ -57,7 +57,7 @@ $$
 
 where $\phi^{i}_{o} = \left(\Phi_{o},\Psi_{o}\right)$, $(\phi^{i}_{o})^{2} = \Phi_{o}^{2} + \Psi_{o}^{2}$, and $\left[(\phi^{i}_{o})^{2} \right]^{2} = \Phi_{o}^{4} + 2 \Phi_{o}^{2} \Psi_{o}^{2} + \Psi_{o}^{4}$.
 
-This is the $O\left(2\right)$ symmetric linear sigma model \cite{Weinberg}.
+This is the $O\left(2\right)$ symmetric linear sigma model.
 
 ---
 
@@ -134,7 +134,7 @@ $$
 U_{eff}(\phi^{i}_{c}) = -\frac{1}{(VT)} \Gamma\left[\phi^{i}_{c}\right].
 $$
 
-Hereafter, all fields appearing are constant background fields. Using dimensional regularization in the notation of \cite{stevenson}, let
+Hereafter, all fields appearing are constant background fields. Using dimensional regularization, let
 
 $$
 I_{-1}(m) \equiv \int \frac{d^{4}k}{(2 \pi)^{4}} \frac{1}{(k^{2} + m^{2})^{2}} = \frac{(4 \pi)^{\epsilon/2}}{4 \pi^{2}} \Gamma(1+\epsilon/2)\frac{1}{\epsilon m^{\epsilon}},
