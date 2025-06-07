@@ -11,6 +11,8 @@ math:       true        # enable KaTeX
 ## Abstract
 References in scientific computing are presented with short notes. Following an overview that includes general survey of applied mathematics, sections include numerical methods, engineering, and application domains.
 
+**To be continued ...**
+
 ### 1. Overview: Applied Mathematics and Scientific Computing
 
 | ID  | Link                                                                                                                                                    | Notes                                                                            |
