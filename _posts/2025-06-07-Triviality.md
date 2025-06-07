@@ -328,6 +328,8 @@ $$
 **To be continued ...**
 
 # References
+
+
 | ID  | Link | Notes |
 | --- | --- | --- |
 | S1  | [Coleman Weinberg “Radiative Corrections” 1973](https://journals.aps.org/prd/abstract/10.1103/PhysRevD.7.1888) | Demonstrates how quantum radiative loop corrections can generate spontaneous symmetry breaking in scalar field theories. |
