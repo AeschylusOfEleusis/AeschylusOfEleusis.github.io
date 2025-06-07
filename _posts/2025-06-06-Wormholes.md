@@ -6,7 +6,7 @@ categories: [Numerical Relativity]
 tags: [Numerical relativity, Quantum Field Theory, Blackholes, Wormholes, Scientific Computation]
 math:       true        # enable KaTeX
 ---
-# Notes on Rotating Wormholes
+# Notes on Rotating Lorentzian Wormholes (Draft)
 
 ## Abstract
 
