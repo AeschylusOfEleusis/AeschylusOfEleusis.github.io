@@ -9,8 +9,8 @@ math:       true        # enable KaTeX
 # Notes on Renormalization (Draft)
 
 ## Abstract
-Renormalization of the eﬀective potential is considered using autonomous and perturbative conventions. The primary focus of attention is the triviality of $\lambda \left[\Phi^{2}\right]_{4}^{2}$. Several examples are considered including an interacting scalar field, scalar quantum
-electrodynamics, and scalar Yang Mills theory. Effects of finite temperature, background spacetime curvature, and multiple loops are also considered. For completeness the approach of Halpern-Huang and long-range effects are also included. 
+Renormalization of the eﬀective potential is considered using autonomous and perturbative conventions. The primary focus of attention is the triviality of $\lambda \left[\Phi^{2}\right]_{4}^{2}$. Several examples are considered: 1. An interacting scalar field, 2. Scalar quantum
+electrodynamics, and 3. Scalar Yang Mills theory. Effects of finite temperature, background spacetime curvature, and multiple loops are also considered. The Halpern-Huang approach and long-range effects are included for completeness. 
 
 # Interacting scalar field
 Let
