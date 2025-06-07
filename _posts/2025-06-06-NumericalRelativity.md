@@ -6,11 +6,11 @@ categories: [Numerical Relativity]
 tags: [Numerical relativity, Quantum Field Theory, Blackholes, Wormholes, Scientific Computation]
 math:       true        # enable KaTeX
 ---
-# Notes on Numerical Relativity (Draft)
+# Notes on Foundations of Numerical Relativity (Draft)
 
 ## Abstract
 
-The following notes are an idiosyncratic sampling from the literature of numerical relativity. Focus is given to the numerical relativity toolbox, the problem of tracking horizons, and gravitational collapse.    
+The following notes are an idiosyncratic sampling from the literature of numerical relativity. Focus is given to foundational materials in the numerical relativity toolbox, the problem of tracking horizons, and gravitational collapse.    
 
 **To be continued ...**
 
@@ -43,6 +43,6 @@ The following notes are an idiosyncratic sampling from the literature of numeric
 | S25 | [Scheel and Thorne “Nonlinear dynamics of curved spacetime” 2017](https://arxiv.org/abs/1706.09078) | Reviews advances in simulating highly nonlinear gravitational interactions, including binary black-hole mergers. |
 | S26 | [Varma “Black Hole Simulations: From Supercomputers to Your Laptop” 2019](https://thesis.library.caltech.edu/11544/) | Demonstrates optimized algorithms that enable black-hole simulations on consumer-grade hardware. |
 | S27 | [Figueras et al “Gregory Laflamme instability” 2020](https://arxiv.org/abs/2210.13501) | Studies the nonlinear evolution of the Gregory–Laflamme instability in higher-dimensional gravity. |
-| S28 | [Gorard “Cauchy Problem in General Relativity via Wolfram Model”](https://arxiv.org/abs/2102.09363) | Applies the Wolfram physics framework to formulate and solve the Cauchy problem in general relativity. |
+| S28 | [Gorard “Cauchy Problem in General Relativity via Wolfram Model” 2021](https://arxiv.org/abs/2102.09363) | Applies the Wolfram physics framework to formulate and solve the Cauchy problem in general relativity. |
 
 ---
