@@ -14,6 +14,8 @@ math:       true        # enable KaTeX
 Resources concerning alpha stable L'evy distributions are provided with consideration of associated fractional operators and their calculus. Several domains of theoretical physics are reconnoitered from a fractional perspective.
 
 
+**To be continued ...**
+
 ### 1. L’evy Flights
 
 | ID  | Link                                                                                                                                                        | Notes                                                                                                        |
