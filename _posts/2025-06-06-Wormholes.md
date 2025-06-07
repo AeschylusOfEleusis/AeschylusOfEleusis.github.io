@@ -3,7 +3,7 @@ layout:   post
 title: "Wormholes"
 date: 2025-06-06 10:00:00 +0800
 categories: [Numerical Relativity]
-tags: [Numerical relativity, Quantum Field Theory, Blackholes, Wormholes, Scientific Computation]
+tags: [Numerical Relativity, Quantum Field Theory, Blackholes, Wormholes, Scientific Computation]
 math:       true        # enable KaTeX
 ---
 # Notes on Rotating Lorentzian Wormholes (Draft)
