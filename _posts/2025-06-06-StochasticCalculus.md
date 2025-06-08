@@ -9,7 +9,7 @@ math:       true        # enable KaTeX
 # Notes on Stochastic Calculus (Draft)
 
 ## Abstract
-Notes covering several areas of stochastic calculus are provided. The first section considers Brownian motion in the Langevin approach and formulated as stochastic differential equations conventional to the mathematics literature. Subsequent sections generalize to Brownian motion on curved manifolds, the stochastic mechanics formulation of quantum physics, relativistic diffusion, and stochastic partial differential equations. Detailed numerical methods for computational implementation are included throughout. 
+Notes on stochastic calculus are provided. The first section considers Brownian motion using both the Langevin approach typical of the physics literature in addition to the stochastic differential equations notation employed in the mathematics literature. Following sections generalize to Brownian motion on curved manifolds, Nelson's stochastic mechanics formulation of quantum physics, relativistic diffusion, and stochastic partial differential equations. Detailed numerical methods for computational implementation are included throughout the notes. 
     
 **To be continued ...**
 
