@@ -10,7 +10,7 @@ math:       true        # enable KaTeX
 
 ## Abstract
 
-Resources concerning black holes, described by Chandrasekhar as "...*the simplest and most perfect objects in the universe...* ", are provided with short notes. The following sections consider a sampling of the literature concerning: 1. The general theory of black holes, 2. Generic behavior of the black hole event horizon, 3. Scattering from black hole sources, and 4. Gravitational radiation from black hole collisions.   
+Resources concerning black holes, described by Chandrasekhar as "...*the simplest and most perfect objects in the universe...* ", are provided with short notes. The following sections include a sampling of the literature concerning: 1. The general theory of black holes, 2. Generic behavior of the black hole event horizon, 3. Scattering from black hole sources, and 4. Gravitational radiation from black hole collisions.   
 
 **To be continued ...**
 
