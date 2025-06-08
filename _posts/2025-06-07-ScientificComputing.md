@@ -69,6 +69,7 @@ Resources in scientific computing are presented with short notes. Following an o
 | S25  | [Scherer “Computational Physics” 2017](https://link.springer.com/book/10.1007/978-3-319-61088-7)                         | Surveys numerical methods for classical and quantum systems |
 | S26  | [Širca and Horvat “Computational Methods in Physics” 2018](https://link.springer.com/book/10.1007/978-3-319-78619-3)           | Core numerical methods with error, stability, and convergence. |
 | S27  | [Boudreau and Swanson “Applied Computational Physics” 2018](https://global.oup.com/academic/product/applied-computational-physics-9780198708636?cc=us&lang=en&)             | Explores computational techniques applied to diverse physics problems with case studies.       |
+
 ---
 
 
