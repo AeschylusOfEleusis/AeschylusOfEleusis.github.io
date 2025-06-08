@@ -60,9 +60,8 @@ Resources in scientific computing are presented with short notes. Following an o
 ---
 
 ### 5. Applications: Modeling
-
-| ID   | Link                                                                                                                                                                    | Notes                                                                                          |
-|------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------|
+| ID  | Link  | Notes |
+| --- | ----- | ----- |
 | S21  | [Peskin “Flow around a heart valve: Numerical Method” 1972](https://www.sciencedirect.com/science/article/abs/pii/0021999172900654)                                      | Introduces a finite-difference method for simulating blood flow around heart valves.           |
 | S22  | [Peskin “Immersed Boundary Method” 2002](https://www.cambridge.org/core/journals/acta-numerica/article/immersed-boundary-method/95ECDAC5D1824285563270D6DD70DA9A#)           | Presents the immersed boundary method for fluid–structure interaction problems.                |
 | S23  | [Tappenberg “Computational Neuroscience” 2009](https://academic.oup.com/book/53032)                         | Surveys mathematical and computational models of neural systems.                               |
