@@ -60,6 +60,7 @@ Resources in scientific computing are presented with short notes. Following an o
 ---
 
 ### 5. Applications: Modeling
+
 | ID  | Link  | Notes |
 | --- | ----- | ----- |
 | S21  | [Peskin “Flow around a heart valve: Numerical Method” 1972](https://www.sciencedirect.com/science/article/abs/pii/0021999172900654) | Introduces a finite-difference method for simulating blood flow around heart valves.           |
@@ -72,11 +73,10 @@ Resources in scientific computing are presented with short notes. Following an o
 
 ---
 
-
 ### 6. Applications: Data
 
-| ID   | Link                                                                                                                                                                 | Notes                                                                                      |
-|------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------|
+| ID  | Link  | Notes |
+| --- | ----- | ----- |
 | S28  | [Bohm and Zech “Introduction to Statistics and Data” 2010](https://www-library.desy.de/preparch/books/vstatmp_engl.pdf)                                               | Provides a foundational overview of statistical methods and data analysis techniques.     |
 | S29  | [Singer and Wu “Vector Diffusion Maps” 2012](https://web.math.princeton.edu/~amits/publications/VDMrevision_final.pdf)                                               | Introduces vector diffusion maps for manifold-structured data dimensionality reduction.   |
 | S30  | [Kellis “Computational Biology” 2016](https://compbio.mit.edu/teaching/book.pdf)                                                                                         | Textbook on algorithms and models for computational analysis in biology and genomics.          |
