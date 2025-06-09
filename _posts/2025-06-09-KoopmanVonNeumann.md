@@ -9,7 +9,7 @@ math:       true        # enable KaTeX
 # Notes on Koopman von Neumann Mechanics (Draft)
 
 ## Abstract
-Brief notes concerning Koopman von Neumann mechanics are provided. Following an introductory section on KvN mechanics, Feynman's approach to the foundations of gauge theory (using commutator equations) is considered prior to a survey of the literature concerning the classical path integral. Notably, the section on Feynman's approach exposes an exception to the Helmholtz conditions for when ordinary differential quations descend from a Lagrangian. The exception concerns equations of the general form $\dot{x}^{i} = \varphi^{i}\left(x^{j}\right)$. Similar equations appear ubiquitously in the first order formalism; exposing connections between the symplectic geometry of classical phase space, gauge theories and quantization conditions.
+Brief notes concerning Koopman von Neumann mechanics are provided. Following an introductory section on KvN mechanics, Feynman's approach to the foundations of gauge theory (using commutator equations) is considered prior to a survey of the literature concerning the classical path integral. Notably, the section on Feynman's approach reveals a subtletyin the Helmholtz conditions for ordinary differential quations derivable from a Lagrangian. The exception concerns equations $\dot{x}^{i} = \varphi^{i}\left(x^{j}\right)$ appearing universally in the first order formalism. Connections between the symplectic geometry of classical phase space, gauge theories and quantization conditions are surveyed.
 
 **To be continued ...**
 
