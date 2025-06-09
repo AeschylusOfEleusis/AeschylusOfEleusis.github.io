@@ -9,7 +9,7 @@ math:       true        # enable KaTeX
 # Notes on Path Integals (Draft)
 
 ## Abstract
-Short notes on Feynman path integral are provided. Following a collection of pedagogical text books, two sections clarify the reciprocal relationship between Schwinger's variational Action Principle and Feynman's functional integral. Technical details required for gauge theories, the Hydrogen atom, and the path integral in curved manifolds are then considered in following sections. 
+Short notes on Feynman path integral are provided. Following a collection of pedagogical text books, two sections clarify the reciprocal relationship between Schwinger's variational Action Principle and Feynman's functional integral. Technical details required for the Hydrogen atom, gauge theories and the path integral in curved manifolds are then considered in following sections. 
 
 **To be continued ...**
 
@@ -45,26 +45,26 @@ Short notes on Feynman path integral are provided. Following a collection of ped
 | S16  | [Milton “Schwinger’s Quantum Action Principle I” 2014](https://arxiv.org/abs/1402.3762)                                                              | Outlines the foundational aspects of Schwinger’s quantum action principle and its role in quantum dynamics.         |
 | S17  | [Milton “Schwinger’s Quantum Action Principle” 2015](https://arxiv.org/abs/1503.08091)                                                              | Presents further developments and modern applications of Schwinger’s quantum action principle in field theory.      |
 
-## 4. Gauge Theory
-
-| ID   | Link                                                                                                                                                     | Notes                                                                                                                   |
-|------|----------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
-| S18  | [Henneaux and Teitelboim “Quantization of Gauge Systems” 1992](https://press.princeton.edu/books/paperback/9780691037691/quantization-of-gauge-systems?srsltid=AfmBOorozikxZi1DNW4E1hGNvKS6pjOcw33M78--n3zYLi9cZVhZvtVb) | Develops canonical and path-integral methods for quantizing constrained gauge systems with detailed mathematical rigor. |
-| S19  | [Jackiw “Constrained Quantization” 1993](https://arxiv.org/abs/hep-th/9306075)                                                                           | Reviews methods for quantizing systems with constraints, focusing on Hamiltonian and path integral techniques.           |
-| S20  | [Liao and Huand “Path integral quantization corresponding to Faddeev-Jackiw”](https://journals.aps.org/prd/abstract/10.1103/PhysRevD.75.025025)             | Reformulates path integral quantization using the Faddeev-Jackiw symplectic approach for constrained dynamical systems. |
-| S21  | [Barbour and Foster “Constraints and gauge transformations” 2008](https://arxiv.org/abs/0808.1223)                                                       | Explores how constraints generate gauge transformations in Hamiltonian systems, emphasizing conceptual foundations.      |
-| S22  | [Prokhorov and Shabanov “Hamiltonian Mechanics of Gauge Systems” 2011](https://www.cambridge.org/core/books/hamiltonian-mechanics-of-gauge-systems/CA4FBA95F7F78C3338266F738EDC358E#fndtn-information) | Presents a comprehensive Hamiltonian formulation of gauge systems and their quantization procedures.                     |
-| S23  | [Toms “Faddeev-Jackiw quantization and the path integarl” 2015](https://arxiv.org/abs/1508.07432)                                                       | Applies Faddeev-Jackiw quantization methods to the path integral framework, highlighting their compatibility and utility. |
-
-## 5. Hydrogen Atom
+## 4. Hydrogen Atom
 
 | ID   | Link                                                                                                                                                                     | Notes                                                                                                                             |
 |------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------|
-| S24  | [Duru and Kleinert “Path integral for the H-atom” 1979](https://www.sciencedirect.com/science/article/abs/pii/0370269379902806)                                            | Derives the exact path integral representation for the hydrogen atom propagator, enabling analytic solution of its dynamics.     |
-| S25  | [Duru and Kleinert “Quantum Mechanics of H-Atom from Path Integrals”](https://onlinelibrary.wiley.com/doi/abs/10.1002/prop.19820300802)                                     | Extends path integral techniques to recover the full spectrum and wavefunctions of the hydrogen atom.                             |
-| S26  | [Kleinert “Time sliced path integral of the H Atom” 1987](https://www.sciencedirect.com/science/article/abs/pii/0375960187906785)                                          | Develops time-sliced path integral methods for the hydrogen atom to improve convergence and computational tractability.           |
-| S27  | [Barut et al “Path integarl treatment of hydrogen atom in curved space” 1990](https://iopscience.iop.org/article/10.1088/0305-4470/23/7/023)                              | Examines the hydrogen atom in a curved-space background using path integrals to capture geometric influences on energy levels.  |
-| S28  | [Fujikawa “Path integral of H atom, Jacobi’s principle, and one dimensional gravity” 1996](https://arxiv.org/abs/hep-th/9602080)                                          | Links the hydrogen atom path integral, Jacobi’s principle, and one-dimensional gravity in a unified treatment.                    |
+| S18  | [Duru and Kleinert “Path integral for the H-atom” 1979](https://www.sciencedirect.com/science/article/abs/pii/0370269379902806)                                            | Derives the exact path integral representation for the hydrogen atom propagator, enabling analytic solution of its dynamics.     |
+| S19  | [Duru and Kleinert “Quantum Mechanics of H-Atom from Path Integrals”](https://onlinelibrary.wiley.com/doi/abs/10.1002/prop.19820300802)                                     | Extends path integral techniques to recover the full spectrum and wavefunctions of the hydrogen atom.                             |
+| S20  | [Kleinert “Time sliced path integral of the H Atom” 1987](https://www.sciencedirect.com/science/article/abs/pii/0375960187906785)                                          | Develops time-sliced path integral methods for the hydrogen atom to improve convergence and computational tractability.           |
+| S21  | [Barut et al “Path integarl treatment of hydrogen atom in curved space” 1990](https://iopscience.iop.org/article/10.1088/0305-4470/23/7/023)                              | Examines the hydrogen atom in a curved-space background using path integrals to capture geometric influences on energy levels.  |
+| S22  | [Fujikawa “Path integral of H atom, Jacobi’s principle, and one dimensional gravity” 1996](https://arxiv.org/abs/hep-th/9602080)                                          | Links the hydrogen atom path integral, Jacobi’s principle, and one-dimensional gravity in a unified treatment.                    |
+
+## 5. Gauge Theory
+
+| ID   | Link                                                                                                                                                     | Notes                                                                                                                   |
+|------|----------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
+| S23  | [Henneaux and Teitelboim “Quantization of Gauge Systems” 1992](https://press.princeton.edu/books/paperback/9780691037691/quantization-of-gauge-systems?srsltid=AfmBOorozikxZi1DNW4E1hGNvKS6pjOcw33M78--n3zYLi9cZVhZvtVb) | Develops canonical and path-integral methods for quantizing constrained gauge systems with detailed mathematical rigor. |
+| S24  | [Jackiw “Constrained Quantization” 1993](https://arxiv.org/abs/hep-th/9306075)                                                                           | Reviews methods for quantizing systems with constraints, focusing on Hamiltonian and path integral techniques.           |
+| S25  | [Liao and Huand “Path integral quantization corresponding to Faddeev-Jackiw”](https://journals.aps.org/prd/abstract/10.1103/PhysRevD.75.025025)             | Reformulates path integral quantization using the Faddeev-Jackiw symplectic approach for constrained dynamical systems. |
+| S26  | [Barbour and Foster “Constraints and gauge transformations” 2008](https://arxiv.org/abs/0808.1223)                                                       | Explores how constraints generate gauge transformations in Hamiltonian systems, emphasizing conceptual foundations.      |
+| S27  | [Prokhorov and Shabanov “Hamiltonian Mechanics of Gauge Systems” 2011](https://www.cambridge.org/core/books/hamiltonian-mechanics-of-gauge-systems/CA4FBA95F7F78C3338266F738EDC358E#fndtn-information) | Presents a comprehensive Hamiltonian formulation of gauge systems and their quantization procedures.                     |
+| S28  | [Toms “Faddeev-Jackiw quantization and the path integarl” 2015](https://arxiv.org/abs/1508.07432)                                                       | Applies Faddeev-Jackiw quantization methods to the path integral framework, highlighting their compatibility and utility. |
 
 
 ## 6. Curved Manifolds
