@@ -2,7 +2,7 @@
 layout:   post
 title: "Path Integrals"
 date: 2025-06-08 10:00:00 +0800
-categories: [Quantum Field Theory]
+categories: [Quantum Field Theory, Computational Finance]
 tags: [Stochastic Quantization, Quantum Field Theory,  Triviality, NonequilibriumQFT, Path Integrals, Foundations QM]
 math:       true        # enable KaTeX
 ---
