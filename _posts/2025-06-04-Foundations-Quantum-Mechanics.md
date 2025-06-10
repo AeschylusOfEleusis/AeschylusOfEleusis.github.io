@@ -59,7 +59,6 @@ Several primary sources in the foundations of quantum mechanics are provided. So
 | S24 | [Bell “Speakable and Unspeakable” 1989](https://www.cambridge.org/core/books/speakable-and-unspeakable-in-quantum-mechanics/E0D032E7E7EDEF4E4AD09F458F2D9DB7) | Collects Bell’s key papers on nonlocality, culminating in the Bell inequalities that test hidden‐variable theories.     |
 | S25 | [Coleman “Quantum Mechanics In Your Face” 1994](https://arxiv.org/abs/2011.12671)                                           | Offers a clear, informal critique of quantum mechanical paradoxes, including discussion of Bell’s theorem for broader audiences. |
 | S26 | [Peres “Concepts and Methods”](https://faculty.washington.edu/seattle/physics441/interpretations/Peres.pdf)                | Provides a comprehensive introduction to quantum information concepts and methods, including detailed treatment of Bell’s theorem. |
-| S27 | [Banks “Interpretation of Quantum Mechanics” 2011](https://www.preposterousuniverse.com/blog/2011/11/16/guest-post-tom-banks-on-probability-and-quantum-mechanics/) | Discusses various interpretational issues in quantum mechanics, with emphasis on probability and implications of Bell's theorem. |
 
 ---
 
@@ -67,6 +66,7 @@ Several primary sources in the foundations of quantum mechanics are provided. So
 
 | ID  | Link                                                                                                        | Notes                                                                                                                       |
 |-----|-------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------|
+| S27 | [Banks “Probability and Quantum Mechanics” 2011](https://www.preposterousuniverse.com/blog/2011/11/16/guest-post-tom-banks-on-probability-and-quantum-mechanics/) | Discusses various interpretational issues in quantum mechanics, with emphasis on probability and the decoherence view. |
 | S28 | [Moyal “Quantum Mechanics as a Statistical Theory” 1949](https://inspirehep.net/literature/9131)             | Shows how quantum mechanics can be reformulated in phase space using a statistical framework (Moyal bracket).                |
 | S29 | [Born “Interpretation of Quantum Mechanics” 1953](https://www.jstor.org/stable/685986)                      | Articulates the probabilistic interpretation of the wavefunction (Born rule) and its foundational role in quantum theory.  |
 | S30 | [Ballentine “Statistical Interpretations” 1970](https://journals.aps.org/rmp/abstract/10.1103/RevModPhys.42.358) | Advocates treating quantum mechanics purely as a statistical theory without invoking wavefunction collapse as physical.     |
