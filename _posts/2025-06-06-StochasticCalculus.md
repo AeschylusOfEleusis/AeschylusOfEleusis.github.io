@@ -2,7 +2,7 @@
 layout:   post
 title: "Stochastic Calculus"
 date: 2025-06-07 10:00:00 +0800
-categories: [Computational Finance, Quantum Field Theory]
+categories: [Computational Finance]
 tags: [Stochastic Quantization, Quantum Field Theory, Numerical Relativity, Option Trading, Scientific Computating, Wormholes]
 math:       true        # enable KaTeX
 ---
