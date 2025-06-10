@@ -9,11 +9,11 @@ math:       true        # enable KaTeX
 # Notes on Path Integals (Draft)
 
 ## Abstract
-Short notes on Feynman path integral are provided. Following a collection of pedagogical text books, two sections clarify the reciprocal relationship between Schwinger's variational Action Principle and Feynman's functional integral. Technical details required for the Hydrogen atom, gauge theories and the path integral in curved manifolds are then considered in following sections. 
+Short notes on Feynman path integrals are provided. Following a collection of pedagogical texts, two sections clarify the reciprocal relationship between Schwinger's variational Quantum Action Principle and Feynman's functional integral. Technical details required for study of the Hydrogen atom path integral, path integrals for gauge theories and the path integral in curved manifolds are then considered. 
 
 **To be continued ...**
 
-## 1. Pedagogical Texts
+## 1. Texts
 
 | ID  | Link                                                                                                                                                                                                                                       | Notes                                                                                                                            |
 |-----|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------|
