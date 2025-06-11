@@ -10,11 +10,11 @@ math:       true        # enable KaTeX
 
 ## Abstract
 
-The following notes are an idiosyncratic sampling from the literature of numerical relativity. Focus is given to foundational materials in the numerical relativity toolkit, the problem of tracking horizons, and gravitational collapse.    
+The following notes are an idiosyncratic sampling from the literature of numerical relativity. Focus is given to foundational materials in numerical relativity, gravitational collapse, and the problem of tracking horizons.    
 
 **To be continued ...**
 
-### Section 1. Finite Difference Approximation
+### 1. Finite Difference Approximation
 
 | ID  | Link  | Notes |
 | --- | ----- | ----- |
@@ -28,7 +28,7 @@ The following notes are an idiosyncratic sampling from the literature of numeric
 | S9  | [Berger and Colella “Local Adaptive Mesh Refinement” 1989](https://www.sciencedirect.com/science/article/pii/0021999189900351) | Extends AMR techniques with block-structured grids to improve efficiency in multidimensional simulations. |
 
 
-### Section 2. Foundations of Numerical Relativity & Toolkit
+### 2. Foundations, Formalisms, and Toolkits
 
 | ID  | Link  | Notes |
 | --- | ----- | ----- |
@@ -42,7 +42,7 @@ The following notes are an idiosyncratic sampling from the literature of numeric
 | S17 | [Varma “Black Hole Simulations: From Supercomputers to Your Laptop” 2019](https://thesis.library.caltech.edu/11544/) | Demonstrates optimized algorithms that enable black-hole simulations on consumer-grade hardware. |
 | S18 | [Gorard “Cauchy Problem in General Relativity via Wolfram Model” 2021](https://arxiv.org/abs/2102.09363) | Applies the Wolfram physics framework to formulate and solve the Cauchy problem in general relativity. |
 
-### Section 2. Applications: Gravitational Collapse
+### 3. Applications: Gravitational Collapse
 
 | ID  | Link  | Notes |
 | --- | ----- | ----- |
@@ -52,7 +52,7 @@ The following notes are an idiosyncratic sampling from the literature of numeric
 | S22 | [Jałmużna et al “Scalar field critical collapse in 2+1” 2015](https://arxiv.org/abs/1510.02592) | Extends critical collapse studies of scalar fields to (2+1) dimensions with higher-resolution simulations. |
 | S23 | [Figueras et al “Gregory Laflamme instability” 2020](https://arxiv.org/abs/2210.13501) | Studies the nonlinear evolution of the Gregory–Laflamme instability in higher-dimensional gravity. |
 
-### Section 3. Applications: Horizon tracking 
+### 4. Applications: Horizon tracking 
 
 | ID  | Link  | Notes |
 | --- | ----- | ----- |
