@@ -11,7 +11,7 @@ math:       true        # enable KaTeX
 
 ## Abstract
 
-Resources concerning alpha stable L'evy distributions are provided with consideration of associated fractional operators and their calculus. Several domains of theoretical physics are considered from a fractional perspective.
+Resources concerning alpha stable L'evy distributions are provided with consideration of associated fractional operators and their calculus. Several domains of classical and quantum physics are then considered from a fractional perspective.
 
 
 **To be continued ...**
