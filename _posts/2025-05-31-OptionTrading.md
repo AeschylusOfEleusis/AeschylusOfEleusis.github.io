@@ -19,11 +19,11 @@ Materials concerning option trading are provided with brief notes.  The sources 
 
 | ID | Link | Notes |
 |----|------|-------|
-| S13 | [Joshi *Concepts & Practice of Mathematical Finance* 2008](https://www.cambridge.org/us/universitypress/subjects/mathematics/mathematical-finance/concepts-and-practice-mathematical-finance-2nd-edition?format=HB&isbn=9780521514088) | Pedagogical introduction bridging stochastic calculus and coding. |
-| S22 | [Joshi *More Mathematical Finance* 2011](https://www.amazon.com/More-Mathematical-Finance-Suresh-Joshi/dp/0987122800) | Companion volume with further drills and implementation tips. |
-| S7  | [Wilmott *Best of Wilmott Vol&nbsp;1* 2004](https://www.wiley.com/en-sg/The+Best+of+Wilmott+1%3A+Incorporating+the+Quantitative+Finance+Review-p-9780470023518) | Curated papers offering historical context and diverse perspectives. |
-| S8  | [Wilmott *Best of Wilmott Vol&nbsp;2* 2005](https://www.wiley.com/en-us/The+Best+of+Wilmott+2-p-9780470031452) | Further model development and market microstructure. |
-| S17 | [Wilmott *FAQ in Quantitative Finance* 2009](https://www.wiley.com/en-us/Frequently+Asked+Questions+in+Quantitative+Finance%2C+2nd+Edition-p-9780470685143) | Rapid reference for theoretical, numerical, and real-world questions. |
+| S13 | [Joshi *"Concepts & Practice of Mathematical Finance"* 2008](https://www.cambridge.org/us/universitypress/subjects/mathematics/mathematical-finance/concepts-and-practice-mathematical-finance-2nd-edition?format=HB&isbn=9780521514088) | Pedagogical introduction bridging stochastic calculus and coding. |
+| S22 | [Joshi *"More Mathematical Finance"* 2011](https://www.amazon.com/More-Mathematical-Finance-Suresh-Joshi/dp/0987122800) | Companion volume with further drills and implementation tips. |
+| S7  | [Wilmott *"Best of Wilmott Vol&nbsp;1"* 2004](https://www.wiley.com/en-sg/The+Best+of+Wilmott+1%3A+Incorporating+the+Quantitative+Finance+Review-p-9780470023518) | Curated papers offering historical context and diverse perspectives. |
+| S8  | [Wilmott *"Best of Wilmott Vol&nbsp;2"* 2005](https://www.wiley.com/en-us/The+Best+of+Wilmott+2-p-9780470031452) | Further model development and market microstructure. |
+| S17 | [Wilmott *"FAQ in Quantitative Finance"* 2009](https://www.wiley.com/en-us/Frequently+Asked+Questions+in+Quantitative+Finance%2C+2nd+Edition-p-9780470685143) | Rapid reference for theoretical, numerical, and real-world questions. |
 
 
 ---
@@ -33,12 +33,12 @@ Materials concerning option trading are provided with brief notes.  The sources 
 
 | ID | Link | Notes |
 |----|------|-------|
-| S5 | [Lipton *Mathematical Methods for Foreign-Exchange* 2003](https://www.worldscientific.com/doi/epdf/10.1142/4694) | Closed-form solutions and calibrated SV jump-diffusions for financial engineering of FX options. |
-| S6 | [Rebonato *Volatility and Correlation* 2004](https://www.wiley.com/en-us/Volatility+and+Correlation%3A+The+Perfect+Hedger+and+the+Fox%2C+2nd+Edition-p-9780470091401) | Empirical smile dynamics and correlation risk. Multi-asset hedging in stochastic-vol frameworks. |
-| S10 | [Gatheral *The Volatility Surface* 2006](https://www.wiley.com/en-us/The+Volatility+Surface%3A+A+Practitioner's+Guide-p-9780471792512) | SVI/SVJ parameterisations and data-driven construction of arbitrage-free surfaces. |
-| S26 | [Guyon & Henry-Labordère *Nonlinear Option Pricing* 2014](https://www.taylorfrancis.com/books/mono/10.1201/b16332/nonlinear-option-pricing-julien-guyon-pierre-henry-labordere) | Dupire PDEs forlocal stochastic volatility and calibration. |
-| S31 | [Henry-Labordère *Model-Free Hedging* 2017](https://www.taylorfrancis.com/books/mono/10.1201/9781315161747/model-free-hedging-pierre-henry-labordere) | Martingale optimal-transport for robust bounds and hedges without committing to a specific SV model. |
-| S33 | [Bayer et al. “Vol Surface Calibration” 2019](https://arxiv.org/abs/1908.08806) | Adjoint methods and deep learning for scalable volatility-surface calibration. |
+| S5 | [Lipton *"Mathematical Methods for Foreign-Exchange"* 2003](https://www.worldscientific.com/doi/epdf/10.1142/4694) | Closed-form solutions and calibrated SV jump-diffusions for financial engineering of FX options. |
+| S6 | [Rebonato *"Volatility and Correlation"* 2004](https://www.wiley.com/en-us/Volatility+and+Correlation%3A+The+Perfect+Hedger+and+the+Fox%2C+2nd+Edition-p-9780470091401) | Empirical smile dynamics and correlation risk. Multi-asset hedging in stochastic-vol frameworks. |
+| S10 | [Gatheral *"The Volatility Surface"* 2006](https://www.wiley.com/en-us/The+Volatility+Surface%3A+A+Practitioner's+Guide-p-9780471792512) | SVI/SVJ parameterisations and data-driven construction of arbitrage-free surfaces. |
+| S26 | [Guyon & Henry-Labordère *"Nonlinear Option Pricing"* 2014](https://www.taylorfrancis.com/books/mono/10.1201/b16332/nonlinear-option-pricing-julien-guyon-pierre-henry-labordere) | Dupire PDEs forlocal stochastic volatility and calibration. |
+| S31 | [Henry-Labordère *"Model-Free Hedging"* 2017](https://www.taylorfrancis.com/books/mono/10.1201/9781315161747/model-free-hedging-pierre-henry-labordere) | Martingale optimal-transport for robust bounds and hedges without committing to a specific SV model. |
+| S33 | [Bayer et al. *“Vol Surface Calibration”* 2019](https://arxiv.org/abs/1908.08806) | Adjoint methods and deep learning for scalable volatility-surface calibration. |
 
 ---
 
