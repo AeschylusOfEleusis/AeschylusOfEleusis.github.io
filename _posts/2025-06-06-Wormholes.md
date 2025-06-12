@@ -1,12 +1,12 @@
 ---
 layout:   post
-title: "Wormholes"
+title: "Worm holes"
 date: 2025-06-06 10:00:00 +0800
 categories: [Numerical Relativity]
 tags: [Numerical Relativity, Quantum Field Theory, Blackholes, Wormholes, Scientific Computation]
 math:       true        # enable KaTeX
 ---
-# Notes on Rotating Lorentzian Wormholes (Draft)
+# Notes on Rotating Lorentzian Worm holes (Draft)
 
 ## Abstract
 
@@ -14,7 +14,7 @@ Notes are provided concerning rotating wormholes in General Relativity.  Since T
 
 **To be continued ...**
 
-### Section 1. Wormholes
+### Section 1. Worm holes
 
 | ID  | Link                                                                                                                                                                                                                              | Notes                                                                                                                     |
 |-----|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------|
