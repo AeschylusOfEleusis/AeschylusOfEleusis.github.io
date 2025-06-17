@@ -9,7 +9,7 @@ math:       true        # enable KaTeX
 # Notes on Nonequilibrium Quantum Field Theory  (Draft)
 
 ## Abstract
-Sources in nonequilibrium quantum field theory are provided following foundational materials in equilibrium statistical mechanics. The philosophy of euclidean quantum field theory is assumed: The flucutations of either quantum or thermal orgin are viewed as mathematically equivalent for purposes here. 
+Sources in nonequilibrium quantum field theory are provided following foundational materials in equilibrium statistical mechanics. The philosophy of euclidean field theory is assumed: Flucutations of either quantum or statistical physical orgin are viewed as mathematically equivalent. Physical applications include finite temperature fields including Bose-Einstein condensation, relativistic heavy ion collisions, and cosmology of the early universe.  
 
 ## 1. Statistical Mechanics
 
