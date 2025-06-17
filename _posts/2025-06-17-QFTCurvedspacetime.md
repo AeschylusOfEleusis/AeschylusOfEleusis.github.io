@@ -11,6 +11,8 @@ math:       true        # enable KaTeX
 ## Abstract
 Primary historical sources are provided with modern textbooks and survey articles concerning quantum field theory in curved spacetime. Applications include cosmology of the early universe and black hole backgrounds. Axiomatic approaches, interacting theories, gauge theories and the renormalization group of ordinary quantum field theory were extended in the late 1990's and early 2000's to curved backgrounds. Resources treating these developments are provided in the following.  
 
+**To be continued ...**
+
 | ID   | Link | Notes |
 |:-----|:-----|:------|
 | S1   | [Dewitt *”Point Transformations ”* 1952](https://journals.aps.org/pr/abstract/10.1103/PhysRev.85.653) | Introduces point transformations in quantum mechanics as a foundation for quantizing systems with general coordinate invariance. |
