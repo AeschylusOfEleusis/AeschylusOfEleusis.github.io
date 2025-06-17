@@ -37,7 +37,7 @@ Notes are provided on probability, information and risk. With respect to probabi
 | S15 | [Wolpert *"Information Theory, Computer Science, Stochastic Thermodynamics"* 2018](https://arxiv.org/abs/1901.00386) | Interdisciplinary exploration of the intersections between information theory and physics. |
 | S16 | [Nielsen *"Information Geometry"* 2022](https://www.ams.org/notices/202201/rnoti-p36.pdf) | Review of key concepts and applications in the geometry of statistical models. |
 
-### 3. **RISK**
+### 3. **Risk**
 
 | ID  | Link | Notes |
 |-----|------|-------|
