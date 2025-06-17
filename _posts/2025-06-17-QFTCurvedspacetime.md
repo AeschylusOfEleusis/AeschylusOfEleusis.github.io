@@ -6,7 +6,7 @@ categories: [Quantum Field Theory]
 tags: [Machine Learning,Stochastic Calculus, Fractional Calculus, Scientific Computation, Quantum Computating, Stochastic Quantization]
 math:       true        # enable KaTeX
 ---
-# Notes on Nonequilibrium Quantum Field Theory  (Draft)
+# Notes on Quantum Field Theory in Curved Spacetime  (Draft)
 
 ## Abstract
 Primary historical sources are provided with modern textbooks and survey articles concerning quantum field theory in curved spacetime. Applications include cosmology of the early universe and black hole backgrounds. Axiomatic approaches, interacting theories, gauge theories and the renormalization group of ordinary quantum field theory were extended in the late 1990's and early 2000's to curved backgrounds. Resources treating these developments are provided in the following.  
