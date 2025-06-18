@@ -3,7 +3,7 @@ layout:   post
 title: "Koopman von Neumann Mechanics"
 date: 2025-06-09 10:00:00 +0800
 categories: [Quantum Field Theory]
-tags: [Stochastic Quantization, Quantum Field Theory,  KoopmanvonNeumann, Path Integrals, Foundations QM]
+tags: [Stochastic Quantization, Quantum Field Theory,  KoopmanvonNeumann, Path Integrals, FoundationsQM]
 math:       true        # enable KaTeX
 ---
 # Notes on Koopman von Neumann Mechanics (Draft)
