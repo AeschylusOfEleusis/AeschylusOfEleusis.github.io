@@ -3,7 +3,7 @@ layout:   post
 title: "Black holes"
 date: 2025-06-08 10:00:00 +0800
 categories: [Numerical Relativity]
-tags: [Numerical Relativity, Quantum Field Theory, Blackholes, Wormholes, Scientific Computation]
+tags: [Numerical Relativity, Quantum Field Theory, Blac kholes, Worm holes, Scientific Computing]
 math:       true        # enable KaTeX
 ---
 # Notes on Black holes (Draft)
