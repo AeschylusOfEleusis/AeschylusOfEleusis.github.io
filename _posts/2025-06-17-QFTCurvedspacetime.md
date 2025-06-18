@@ -9,7 +9,7 @@ math:       true        # enable KaTeX
 # Notes on QFT in Curved Backgrounds  (Draft)
 
 ## Abstract
-Primary historical sources are provided with modern textbooks and survey articles concerning quantum field theory in curved spacetime. Applications include cosmology of the early universe and black hole backgrounds. Axiomatic approaches, interacting theories, gauge theories and the renormalization group of ordinary quantum field theory were extended in the late 1990's and early 2000's to curved backgrounds. Resources treating these developments are provided in the following.  
+Primary historical sources are provided with modern textbooks and survey articles concerning quantum field theory in curved spacetime. In the late 1990's and early 2000's, results from study of quantum field theory on a flat Minkowski background were extended to curved backgrounds. Topics of that extension include axiomatic approaches, interacting theories, gauge theories, and the renormalization group. Resources treating these developments are provided throughout the following. Applications include cosmology of the early universe and black hole backgrounds. 
 
 **To be continued ...**
 
