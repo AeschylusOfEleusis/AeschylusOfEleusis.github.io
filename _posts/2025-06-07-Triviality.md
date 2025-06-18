@@ -3,7 +3,7 @@ layout:   post
 title: "Triviality"
 date: 2025-06-07 10:00:00 +0800
 categories: [Quantum Field Theory]
-tags: [Stochastic Quantization, Numerical Relativity,Quantum Field Theory, Stochastic Calculus, Triviality, Blackholes, NonequilibriumQFT, Path Integrals]
+tags: [Stochastic Quantization, Numerical Relativity,Quantum Field Theory, Stochastic Calculus, Triviality, Black holes, NonequilibriumQFT, Path Integrals, Worm holes]
 math:       true        # enable KaTeX
 ---
 # Notes on Renormalization (Draft)
