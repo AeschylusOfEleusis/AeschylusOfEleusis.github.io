@@ -3,7 +3,7 @@ layout:   post
 title: "Probability, Information and Risk"
 date: 2025-06-17 10:00:00 +0800
 categories: [Computational Finance]
-tags: [Machine Learning, Computational Finance, Stochastic Calculus, Fractional Calculus, Scientific Computation, Quantum Computation]
+tags: [Machine Learning, Computational Finance, Stochastic Calculus, Fractional Calculus, Scientific Computing, Quantum Computing]
 math:       true        # enable KaTeX
 ---
 # Notes on Probability, Information, & Risk  (Draft)
