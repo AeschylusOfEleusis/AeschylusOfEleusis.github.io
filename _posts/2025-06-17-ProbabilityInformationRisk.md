@@ -14,7 +14,7 @@ Resources with short notes are provided concerning probability, information and 
 
 **To be continued ...**
 
-### 1. **Probability**
+### 1. Probability
 
 | ID  | Link | Notes |
 |-----|------|-------|
@@ -25,7 +25,7 @@ Resources with short notes are provided concerning probability, information and 
 | S5  | [Grimmet and Stirzacker *"Probability and Random Processes"* 2020](https://global.oup.com/academic/product/probability-and-random-processes-9780198847601?cc=us&lang=en&) | Comprehensive textbook on probability and stochastic processes. |
 | S6  | [Grimmet and Stirzacker *"One Thousand Exercises in Probability"* 2020](https://global.oup.com/academic/product/one-thousand-exercises-in-probability-9780198847618?cc=us&lang=en&) | Problem book accompanying the main text on probability and random processes. |
 
-### 2. **Information**
+### 2. Information
 
 | ID  | Link | Notes |
 |-----|------|-------|
@@ -40,7 +40,7 @@ Resources with short notes are provided concerning probability, information and 
 | S15 | [Wolpert *"Information Theory, Computer Science, Stochastic Thermodynamics"* 2018](https://arxiv.org/abs/1901.00386) | Interdisciplinary exploration of the intersections between information theory and physics. |
 | S16 | [Nielsen *"Information Geometry"* 2022](https://www.ams.org/notices/202201/rnoti-p36.pdf) | Review of key concepts and applications in the geometry of statistical models. |
 
-### 3. **Risk**
+### 3. Risk
 
 | ID  | Link | Notes |
 |-----|------|-------|
