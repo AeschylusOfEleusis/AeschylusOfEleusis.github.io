@@ -3,7 +3,7 @@ layout:   post
 title: "Fractional Calculus"
 date: 2025-06-03 10:00:00 +0800
 categories: [Computational Finance]
-tags: [Probability Information Risk, Quantum Field Theory, Blackholes, Path Integrals, Stochastic Calculus, Computational Finance, Scientific Computing]
+tags: [Probability Information Risk, Quantum Field Theory, Black holes, Path Integrals, Stochastic Calculus, Computational Finance, Scientific Computing]
 math:       true        # enable KaTeX
 ---
 
