@@ -3,7 +3,7 @@ layout:   post
 title: "Stochastic Quantization"
 date: 2025-05-03 10:00:00 +0800
 categories: [Quantum Field Theory]
-tags: [Stochastic Quantization, Numerical Relativity, Quantum Field Theory, Stochastic Calculus, Triviality, Black holes, NonequilibriumQFT, Path Integrals, Foundations QM]
+tags: [Stochastic Quantization, Numerical Relativity, Quantum Field Theory, Stochastic Calculus, Triviality, Black holes, NonequilibriumQFT, Path Integrals, FoundationsQM]
 math:       true        # enable KaTeX
 ---
 # Notes on Stochastic Quantization (Draft)
