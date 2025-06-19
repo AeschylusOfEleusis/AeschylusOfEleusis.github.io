@@ -3,7 +3,7 @@ layout:   post
 title: "Quantum Field Theory in Curved Spacetime"
 date: 2025-06-17 10:00:00 +0800
 categories: [Quantum Field Theory]
-tags: [Machine Learning,Stochastic Calculus, Fractional Calculus, Scientific Computing, Quantum Computing, Stochastic Quantization]
+tags: [Machine Learning,Stochastic Calculus, Fractional Calculus, Scientific Computing, Quantum Computing, Stochastic Quantization, Quantum Field Theory, NonequilibriumQFT]
 math:       true        # enable KaTeX
 ---
 # Notes on QFT in Curved Backgrounds  (Draft)
