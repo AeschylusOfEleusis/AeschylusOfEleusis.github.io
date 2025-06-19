@@ -9,7 +9,7 @@ math:       true        # enable KaTeX
 # Notes on Probability, Information, & Risk  (Draft)
 
 ## Abstract
-Resources (with short notes) are provided concerning probability, information and risk. Both the frequentist and Bayesian views are considered; including, Kolmogorov's axiomatic foundations and application of Bayesian probability in Grenander and Mumford's Pattern Theory. The section on information includes Claude Shannon's general theory, survey articles (familiar to physicists and geometers); and applications to theory of computation, computational complexity, and coding theory. The section on risk considers the mathematics of games; including, the information theoretic Kelly's Criterion (as advocated by E. O. Thorp and associated practitioners). 
+Resources (with short notes) are provided concerning probability, information and risk. Both the frequentist and Bayesian views are considered; including, Kolmogorov's axiomatic foundations and application of Bayesian probability in Grenander and Mumford's Pattern Theory. The section on information includes Claude Shannon's general theory, survey articles (familiar to physicists and geometers); and applications to theory of computation, computational complexity, and coding theory. The section on risk considers the mathematics of gambling; including, the information theoretic Kelly's Criterion (as advocated by E. O. Thorp and associated researchers / practitioners). 
 
 
 **To be continued ...**
