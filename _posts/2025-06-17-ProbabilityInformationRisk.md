@@ -25,7 +25,7 @@ Resources (with short notes) are provided concerning probability, information an
 | S5  | [Grimmet and Stirzacker *"Probability and Random Processes"* 2020](https://global.oup.com/academic/product/probability-and-random-processes-9780198847601?cc=us&lang=en&) | Comprehensive textbook on probability and stochastic processes. |
 | S6  | [Grimmet and Stirzacker *"One Thousand Exercises in Probability"* 2020](https://global.oup.com/academic/product/one-thousand-exercises-in-probability-9780198847618?cc=us&lang=en&) | Problem book accompanying the main text on probability and random processes. |
 
-### 2. Information
+### 2. Information Theory
 
 | ID  | Link | Notes |
 |-----|------|-------|
