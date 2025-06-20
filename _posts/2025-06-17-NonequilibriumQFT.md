@@ -3,7 +3,7 @@ layout:   post
 title: "Nonequilibrium Quantum Field Theory"
 date: 2025-06-17 10:00:00 +0800
 categories: [Quantum Field Theory]
-tags: [Machine Learning,Stochastic Calculus, Fractional Calculus, Scientific Computing, Quantum Computing, Stochastic Quantization, NonequilibriumQFT]
+tags: [Machine Learning,Stochastic Calculus, Fractional Calculus, Scientific Computing, Quantum Computing, Stochastic Quantization, NonequilibriumQFT,Quantum Field Theory]
 math:       true        # enable KaTeX
 ---
 # Notes on Nonequilibrium Quantum Field Theory  (Draft)
