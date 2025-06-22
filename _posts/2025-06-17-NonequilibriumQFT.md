@@ -1,15 +1,15 @@
 ---
 layout:   post
-title: "Nonequilibrium Quantum Field Theory"
+title: "Nonequilibrium Quantum Fields"
 date: 2025-06-17 10:00:00 +0800
 categories: [Quantum Field Theory]
 tags: [Machine Learning,Stochastic Calculus, Fractional Calculus, Scientific Computing, Quantum Computing, Stochastic Quantization, NonequilibriumQFT,Quantum Field Theory]
 math:       true        # enable KaTeX
 ---
-# Notes on Nonequilibrium Quantum Field Theory  (Draft)
+# Notes on Nonequilibrium Quantum Fields  (Draft)
 
 ## Abstract
-Sources, with short notes, in nonequilibrium quantum field theory are provided following foundational materials in equilibrium statistical mechanics. Throughout, the philosophy of Euclidean field theory is assumed: Flucutations of either quantum or thermal (statistical) physical orgin are viewed as formally equivalent (there are no obstructions to continuation to imaginary time $t \rightarrow \tau = i t$). Physical applications include fields at finite temperature; e.g., Bose-Einstein condensation, relativistic heavy ion collisions, and cosmology of the early universe.  
+Sources, with short notes, concerning nonequilibrium quantum fields are provided following foundational materials in equilibrium statistical mechanics. The philosophy of Euclidean field theory is assumed: Flucutations of either quantum or thermal (statistical) physical orgin are viewed as formally equivalent (there are no obstructions to continuation to imaginary time $t \rightarrow \tau = i t$). Physical applications include fields at finite temperature; e.g., Bose-Einstein condensation, relativistic heavy ion collisions, and cosmology of the early universe.  
 
 **To be continued ...**
 
@@ -23,15 +23,15 @@ Sources, with short notes, in nonequilibrium quantum field theory are provided f
 | S4 | [Wheeler *”Statistical Mechanics: Chapter 1”* 2005](https://www.reed.edu/physics/faculty/wheeler/documents/Thermo%20&%20Statistical%20Mechanics/Class%20Notes/Chapter%201.pdf) | First chapter introducing the basic postulates and microscopic foundations of statistical mechanics. |
 | S5 | [Wheeler *”Statistical Mechanics: Chapter 2”* 2005](https://www.reed.edu/physics/faculty/wheeler/documents/Thermo%20&%20Statistical%20Mechanics/Class%20Notes/Chapter%202.pdf) | Discusses ensembles, particularly the microcanonical and canonical ensembles. |
 | S6 | [Wheeler *”Statistical Mechanics: Chapter 3”* 2005](https://www.reed.edu/physics/faculty/wheeler/documents/Thermo%20&%20Statistical%20Mechanics/Class%20Notes/Chapter%203.pdf) | Explores statistical mechanics applications in thermodynamic equilibrium. |
-| S7 | [Tong *”Statistical Field Theory”* 2017](https://www.damtp.cam.ac.uk/user/tong/sft.html) | Lecture notes for statistical field theory with multiple resources. |
-| S8 | [Sethna *”Entropy, Order Parameters, and Complexity”* 2024](https://sethna.lassp.cornell.edu/StatMech/EntropyOrderParametersComplexity20.pdf) | Modern text bridging concepts in thermodynamics, information theory, and complexity. |
+| S7  | [Reichl *”A Modern Course in Statistical Physics”* 2016](https://www.wiley.com/en-us/A+Modern+Course+in+Statistical+Physics%2C+4th+Edition-p-9783527413492) | Advanced textbook combining equilibrium and nonequilibrium statistical mechanics. |
+| S8 | [Tong *”Statistical Field Theory”* 2017](https://www.damtp.cam.ac.uk/user/tong/sft.html) | Lecture notes for statistical field theory with multiple resources. |
+| S9 | [Sethna *”Entropy, Order Parameters, and Complexity”* 2024](https://sethna.lassp.cornell.edu/StatMech/EntropyOrderParametersComplexity20.pdf) | Modern text bridging concepts in thermodynamics, information theory, and complexity. |
 
 ## 2. Nonequilibrium Statistical Physics
 
 | ID  | Link | Notes |
 |-----|------|-------|
-| S9  | [Wetterich *”Time Evolution of Non-Equilibrium Effective Action”* 1996](https://arxiv.org/abs/hep-th/9612206) | Introduces an effective action formalism for describing nonequilibrium time evolution. |
-| S10  | [Reichl *”A Modern Course in Statistical Physics”* 2016](https://www.wiley.com/en-us/A+Modern+Course+in+Statistical+Physics%2C+4th+Edition-p-9783527413492) | Advanced textbook combining equilibrium and nonequilibrium statistical mechanics. |
+| S10  | [Wetterich *”Time Evolution of Non-Equilibrium Effective Action”* 1996](https://arxiv.org/abs/hep-th/9612206) | Introduces an effective action formalism for describing nonequilibrium time evolution. |
 | S11 | [Zwanzig *”Nonequilibrium Statistical Mechanics”* 2001](https://global.oup.com/academic/product/nonequilibrium-statistical-mechanics-9780195140187?cc=us&lang=en) | Clear exposition of projection operator methods in nonequilibrium systems. |
 | S12 | [Ebeling and Sokolov *”Thermodynamics and Stochastics of Nonequilibrium Systems”* 2006](https://www.worldscientific.com/worldscibooks/10.1142/2012?srsltid=AfmBOoojok4ZccRGIm-o_xLbPlkMim6C_uC4nX7xBGMYabnjzrlNkbuK#t=aboutBook) | Focuses on stochastic processes and their thermodynamic interpretation in nonequilibrium systems. |
 | S13 | [Le Bellac *”Nonequilibrium Statistical Mechanics”* 2007](https://cel.hal.science/cel-00176063) | Lecture notes on kinetic theory and stochastic processes for non-equilibrium phenomena. |
