@@ -9,7 +9,7 @@ math:       true        # enable KaTeX
 # Notes on Statistical Fields (Draft)
 
 ## Abstract
-Sources, with short notes, concerning statistical field theory are provided following foundational materials in equilibrium statistical mechanics. The philosophy of Euclidean field theory is assumed: Fluctuations of either quantum or thermal (statistical) origin are treated as formally equivalent (there are no obstructions to continuation to imaginary time $t \rightarrow \tau = i t$). Physical applications include: 1. Critical Phenomena, 2. Fields at finite temperature,  and 3. Processes far from equilibrium; e.g., Bose-Einstein condensation, relativistic heavy ion collisions, and cosmology of the early universe.  
+Sources, with short notes, concerning statistical field theory are provided following foundational materials in statistical mechanics. The philosophy of Euclidean field theory is assumed: Fluctuations of either quantum or thermal (statistical) origin are treated as formally equivalent (there are no obstructions to continuation to imaginary time $t \rightarrow \tau = i t$). Primary topics of consideration include: 1. Kinetic Theory, 2. Hydrodynamics, 3. Critical Phenomena, and 4. Fields at finite temperature. Physical applications include Bose-Einstein condensation, superfluids, relativistic heavy ion collisions, and cosmology of the early universe.  
 
 **To be continued ...**
 
@@ -20,21 +20,21 @@ Sources, with short notes, concerning statistical field theory are provided foll
 | S1 | [Jaynes *”Information Theory and Statistical Mechanics”* 1957](https://journals.aps.org/pr/abstract/10.1103/PhysRev.106.620) | Foundational paper linking statistical mechanics with Bayesian information theory. |
 | S2  | [Ruelle *“Statistical Mechanics: Rigorous Results”* 1968](https://www.worldscientific.com/worldscibooks/10.1142/4090?srsltid=AfmBOoqf7vNK2Y1vvpUlMx4lIJpEbXwPy8Sul2pSlNR-YVYWZLDar43R#t=aboutBook) | A foundational work that rigorously develops the mathematical structure underlying statistical mechanics. |
 | S3 | [Huang *”Statistical Mechanics”* 1987](https://www.wiley.com/en-us/Statistical+Mechanics%2C+2nd+Edition-p-9780471815181) | Comprehensive graduate-level textbook on equilibrium statistical mechanics. |
-| S4 | [Wheeler *”Statistical Mechanics: Preface”* 2005](https://www.reed.edu/physics/faculty/wheeler/documents/Thermo%20&%20Statistical%20Mechanics/Class%20Notes/A.%20Preface.pdf) | Introductory overview outlining the philosophy and scope of Wheeler's statistical mechanics course. |
-| S5 | [Wheeler *”Statistical Mechanics: Chapter 1”* 2005](https://www.reed.edu/physics/faculty/wheeler/documents/Thermo%20&%20Statistical%20Mechanics/Class%20Notes/Chapter%201.pdf) | First chapter introducing the basic postulates and microscopic foundations of statistical mechanics. |
-| S6 | [Wheeler *”Statistical Mechanics: Chapter 2”* 2005](https://www.reed.edu/physics/faculty/wheeler/documents/Thermo%20&%20Statistical%20Mechanics/Class%20Notes/Chapter%202.pdf) | Discusses ensembles, particularly the microcanonical and canonical ensembles. |
-| S7 | [Wheeler *”Statistical Mechanics: Chapter 3”* 2005](https://www.reed.edu/physics/faculty/wheeler/documents/Thermo%20&%20Statistical%20Mechanics/Class%20Notes/Chapter%203.pdf) | Explores statistical mechanics applications in thermodynamic equilibrium. |
-| S8  | [Reichl *”A Modern Course in Statistical Physics”* 2016](https://www.wiley.com/en-us/A+Modern+Course+in+Statistical+Physics%2C+4th+Edition-p-9783527413492) | Advanced textbook combining equilibrium and nonequilibrium statistical mechanics. |
-| S9 | [Sethna *”Entropy, Order Parameters, and Complexity”* 2024](https://sethna.lassp.cornell.edu/StatMech/EntropyOrderParametersComplexity20.pdf) | Modern text bridging concepts in thermodynamics, information theory, and complexity. |
+| S4  | [Brody and Hughston *”Geometrisation of Statistical Mechanics”* 1997](https://arxiv.org/abs/gr-qc/9708032) | Introduces a geometric framework to describe statistical mechanics using differential geometry and entropy. |
+| S5 | [Wheeler *”Statistical Mechanics: Preface”* 2005](https://www.reed.edu/physics/faculty/wheeler/documents/Thermo%20&%20Statistical%20Mechanics/Class%20Notes/A.%20Preface.pdf) | Introductory overview outlining the philosophy and scope of Wheeler's statistical mechanics course. |
+| S6 | [Wheeler *”Statistical Mechanics: Chapter 1”* 2005](https://www.reed.edu/physics/faculty/wheeler/documents/Thermo%20&%20Statistical%20Mechanics/Class%20Notes/Chapter%201.pdf) | First chapter introducing the basic postulates and microscopic foundations of statistical mechanics. |
+| S7 | [Wheeler *”Statistical Mechanics: Chapter 2”* 2005](https://www.reed.edu/physics/faculty/wheeler/documents/Thermo%20&%20Statistical%20Mechanics/Class%20Notes/Chapter%202.pdf) | Discusses ensembles, particularly the microcanonical and canonical ensembles. |
+| S8 | [Wheeler *”Statistical Mechanics: Chapter 3”* 2005](https://www.reed.edu/physics/faculty/wheeler/documents/Thermo%20&%20Statistical%20Mechanics/Class%20Notes/Chapter%203.pdf) | Explores statistical mechanics applications in thermodynamic equilibrium. |
+| S9  | [Reichl *”A Modern Course in Statistical Physics”* 2016](https://www.wiley.com/en-us/A+Modern+Course+in+Statistical+Physics%2C+4th+Edition-p-9783527413492) | Advanced textbook combining equilibrium and nonequilibrium statistical mechanics. |
+| S10 | [Sethna *”Entropy, Order Parameters, and Complexity”* 2024](https://sethna.lassp.cornell.edu/StatMech/EntropyOrderParametersComplexity20.pdf) | Modern text bridging concepts in thermodynamics, information theory, and complexity. |
 
 
 ## 2. Statistical Field Theory
 
 | ID  | Link | Notes |
 |-----|------|-------|
-| S10  | [Itzykson and Drouffe *“Statistical Field Theory Vol I”* 1989](https://www.cambridge.org/core/books/statistical-field-theory/12165C27CD62CD75E6DE2BD39CE42859) | An in-depth introduction to statistical field theory focusing on fundamental methods and models. |
-| S11  | [Itzykson and Drouffe *“Statistical Field Theory Vol II”* 1989](https://www.cambridge.org/core/books/statistical-field-theory/7F61957C1295C3D7AEAC24620E39F242) | The second volume explores more advanced applications and techniques in statistical field theory. |
-| S12  | [Brody and Hughston *”Geometrisation of Statistical Mechanics”* 1997](https://arxiv.org/abs/gr-qc/9708032) | Introduces a geometric framework to describe statistical mechanics using differential geometry and entropy. |
+| S11  | [Itzykson and Drouffe *“Statistical Field Theory Vol I”* 1989](https://www.cambridge.org/core/books/statistical-field-theory/12165C27CD62CD75E6DE2BD39CE42859) | An in-depth introduction to statistical field theory focusing on fundamental methods and models. |
+| S12  | [Itzykson and Drouffe *“Statistical Field Theory Vol II”* 1989](https://www.cambridge.org/core/books/statistical-field-theory/7F61957C1295C3D7AEAC24620E39F242) | The second volume explores more advanced applications and techniques in statistical field theory. |
 | S13 | [Kapusta *”Finite Temperature Field Theory”* 2006](https://www.cambridge.org/core/books/finitetemperature-field-theory/880F1E5BEB7E1DF7E516C9B1507EC4A4#fndtn-information) | Standard textbook covering thermal quantum field theory and real-time formalisms. |
 | S14  | [Kardar *”Statistical Physics of Fields”* 2007](https://www.cambridge.org/core/books/statistical-physics-of-fields/06F49D11030FB3108683F413269DE945) | Presents statistical mechanics using field-theoretic methods with an emphasis on modern developments. |
 | S15 | [Tong *”Statistical Field Theory”* 2017](https://www.damtp.cam.ac.uk/user/tong/sft.html) | Lecture notes for statistical field theory with multiple resources. |
@@ -61,7 +61,7 @@ Sources, with short notes, concerning statistical field theory are provided foll
 
 
 
-## 3. Nonequilibrium Fields
+## 4. Nonequilibrium Fields
 
 | ID  | Link | Notes |
 |-----|------|-------|
