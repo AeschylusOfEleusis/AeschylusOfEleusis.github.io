@@ -13,7 +13,7 @@ Sources, with short notes, concerning nonequilibrium quantum fields are provided
 
 **To be continued ...**
 
-## 1. Statistical Mechanics
+## 1. Equilibrium Statistical Physics
 
 | ID  | Link | Notes |
 |-----|------|-------|
