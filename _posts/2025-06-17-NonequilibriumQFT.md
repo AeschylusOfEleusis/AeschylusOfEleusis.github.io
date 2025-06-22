@@ -9,7 +9,7 @@ math:       true        # enable KaTeX
 # Notes on Statistical Fields (Draft)
 
 ## Abstract
-Sources, with short notes, concerning statistical field tehory are provided following foundational materials in equilibrium statistical mechanics. The philosophy of Euclidean field theory is assumed: Flucutations of either quantum or thermal (statistical) origin are treated as formally equivalent (there are no obstructions to continuation to imaginary time $t \rightarrow \tau = i t$). Physical applications include: 1. Critical Phenomena, 2. Fields at finite temperature,  and 3. Processes far from equilibrium; e.g., Bose-Einstein condensation, relativistic heavy ion collisions, and cosmology of the early universe.  
+Sources, with short notes, concerning statistical field theory are provided following foundational materials in equilibrium statistical mechanics. The philosophy of Euclidean field theory is assumed: Fluctuations of either quantum or thermal (statistical) origin are treated as formally equivalent (there are no obstructions to continuation to imaginary time $t \rightarrow \tau = i t$). Physical applications include: 1. Critical Phenomena, 2. Fields at finite temperature,  and 3. Processes far from equilibrium; e.g., Bose-Einstein condensation, relativistic heavy ion collisions, and cosmology of the early universe.  
 
 **To be continued ...**
 
