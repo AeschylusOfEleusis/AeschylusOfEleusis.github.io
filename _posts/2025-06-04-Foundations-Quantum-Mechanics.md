@@ -51,18 +51,7 @@ Several primary sources in the foundations of quantum mechanics are provided. So
 
 ---
 
-### 3. Bell’s Theorem
-
-| ID  | Link                                                                                                                       | Notes                                                                                                                  |
-|-----|----------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------|
-| S23 | [Einstein Podolsky Rosen “Can QM be Complete?” 1935](https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777)         | Formulates the EPR paradox, arguing that quantum mechanics is incomplete due to apparent “spooky action at a distance.” |
-| S24 | [Bell “Speakable and Unspeakable” 1989](https://www.cambridge.org/core/books/speakable-and-unspeakable-in-quantum-mechanics/E0D032E7E7EDEF4E4AD09F458F2D9DB7) | Collects Bell’s key papers on nonlocality, culminating in the Bell inequalities that test hidden‐variable theories.     |
-| S25 | [Coleman “Quantum Mechanics In Your Face” 1994](https://arxiv.org/abs/2011.12671)                                           | Offers a clear, informal critique of quantum mechanical paradoxes, including discussion of Bell’s theorem for broader audiences. |
-| S26 | [Peres “Concepts and Methods”](https://faculty.washington.edu/seattle/physics441/interpretations/Peres.pdf)                | Provides a comprehensive introduction to quantum information concepts and methods, including detailed treatment of Bell’s theorem. |
-
----
-
-### 4. Probability, Information, Statistics
+### 3. Probability, Information, Statistics
 
 | ID  | Link                                                                                                        | Notes                                                                                                                       |
 |-----|-------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------|
@@ -73,6 +62,17 @@ Several primary sources in the foundations of quantum mechanics are provided. So
 | S31 | [Chiribella “Informational Derivation” 2011](https://arxiv.org/abs/1011.6451)                                | Provides an operational, information‐theoretic reconstruction of quantum theory based on principles of information processing. |
 | S32 | [Banks “Probability and Quantum Mechanics” 2011](https://www.preposterousuniverse.com/blog/2011/11/16/guest-post-tom-banks-on-probability-and-quantum-mechanics/) | Discusses various interpretational issues in quantum mechanics, with emphasis on probability and the decoherence view. |
 | S33 | [Curtright and Zachos “Moyal Formalism” 2011](https://arxiv.org/abs/1104.5269)                               | Develops mathematical techniques in phase‐space quantum mechanics, focusing on the Moyal product and deformation quantization. |
+
+---
+
+### 4. Bell’s Theorem
+
+| ID  | Link                                                                                                                       | Notes                                                                                                                  |
+|-----|----------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------|
+| S23 | [Einstein Podolsky Rosen “Can QM be Complete?” 1935](https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777)         | Formulates the EPR paradox, arguing that quantum mechanics is incomplete due to apparent “spooky action at a distance.” |
+| S24 | [Bell “Speakable and Unspeakable” 1989](https://www.cambridge.org/core/books/speakable-and-unspeakable-in-quantum-mechanics/E0D032E7E7EDEF4E4AD09F458F2D9DB7) | Collects Bell’s key papers on nonlocality, culminating in the Bell inequalities that test hidden‐variable theories.     |
+| S25 | [Coleman “Quantum Mechanics In Your Face” 1994](https://arxiv.org/abs/2011.12671)                                           | Offers a clear, informal critique of quantum mechanical paradoxes, including discussion of Bell’s theorem for broader audiences. |
+| S26 | [Peres “Concepts and Methods”](https://faculty.washington.edu/seattle/physics441/interpretations/Peres.pdf)                | Provides a comprehensive introduction to quantum information concepts and methods, including detailed treatment of Bell’s theorem. |
 
 ---
 
