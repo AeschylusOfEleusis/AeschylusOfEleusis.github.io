@@ -12,7 +12,7 @@ math:       true        # enable KaTeX
 Resources in quantatitive finance are provided with short notes.  Emphasis is given to the empirical stylized facts obtained from statistical analysis of financial, economic and social data. Some history of the field is provided; including the influence over time  of computation, applied mathematics, and theoretical physics. For completeness, the orthodox neoclassical view of asset pricing, portfolio theory, and risk is included. 
 
 **To be continued ...**
-## 1. Time Series Analysis  
+## 1. Data: Time Series Analysis  
 
 | ID | Source | Notes |
 |---|---|---|
@@ -53,7 +53,7 @@ Resources in quantatitive finance are provided with short notes.  Emphasis is gi
 
 ---
 
-## 3. Market Microstructures 
+## 3. Data: Market Microstructures 
 
 | ID | Source | Notes |
 |---|---|---|
