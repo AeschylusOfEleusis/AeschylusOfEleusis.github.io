@@ -76,8 +76,7 @@ Resources in quantatitive finance are provided with short notes.  Emphasis is gi
 | S38 | [Duffie, *Dynamic Asset-Pricing Theory* (2001)](https://press.princeton.edu/books/hardcover/9780691090221/dynamic-asset-pricing-theory) | Itô-calculus proofs for optimal-exercise boundaries and contingent-claim valuation in continuous time. |
 | S39 | [Bouchaud & Potters, *Theory of Financial Risk & Derivative Pricing* (2003)](https://www.cambridge.org/core/books/theory-of-financial-risk-and-derivative-pricing/5BBBA04CE72ED9E5E7C1C028D9A94FCB) | Integrates heavy-tailed return statistics into Black–Scholes-type PDEs via fractional diffusions. |
 | S40 | [Voit  *Statistical Mechanics of Financial Markets* (2005)](https://link.springer.com/book/10.1007/b137351) | Statistical methods applied broadly to quantiative finance. |
-| S41 | [Kleinert, *Path Integrals in Option Pricing* (2016)](https://arxiv.org/abs/1611.04320) | Pricing under alpha stable Levy processes. |
-| S42 | [Rebonato, *Bond Pricing & Yield-Curve Modeling* (2018)](https://www.cambridge.org/core/books/bond-pricing-and-yield-curve-modeling/8BD16E2AC2B8CB6248A151F4BD5D25E8) | Presents PCA-driven term-structure dynamics. |
+| S41 | [Kleinert, *L'evy Option Pricing* (2016)](https://arxiv.org/abs/1611.04320) | Alpha stable L'evy processes calibrated to the market. |
 
 ---
 
@@ -85,12 +84,13 @@ Resources in quantatitive finance are provided with short notes.  Emphasis is gi
 
 | ID | Source | Notes |
 |---|---|---|
-| S43 | [Sethna, *Statistical Mechanics of Inference* (2017)](https://arxiv.org/abs/1503.06205) | Canonical sectors from unsupervised learning. |
-| S44 | [Prigent, *Portfolio Optimization* (2007)](https://www.routledge.com/Portfolio-Optimization-and-Performance-Analysis/Prigent/p/book/9781584885788) | Presents quadratic-programming routines for mean-variance allocation with option and transaction-cost constraints. |
-| S45 | [Peters, *Ergodicity & the Kelly Criterion* (2010)](https://arxiv.org/abs/0902.2965) | Justifies growth-optimal position sizing and leverage control for volatility-targeting strategies. |
-| S46 | [Strachman, *Hedge-Fund Management* (2012)](https://www.wiley.com/en-us/The+Fundamentals+of+Hedge+Fund+Management%3A+How+to+Successfully+Launch+and+Operate+a+Hedge+Fund%2C+2nd+Edition-p-9781118239230) | Industry, regulation, structure, accounting, marketing, risk management. |
-| S47 | [Joshi, *Mathematical Portfolio Theory* (2013)](https://www.cambridge.org/us/universitypress/subjects/mathematics/optimization-or-and-risk-analysis/introduction-mathematical-portfolio-theory?format=HB&isbn=9781107042315) | Neoclassical approach to efficient frontier. |
-| S48 | [Rebonato & Denev, *Portfolio Management under Stress* (2013)](https://www.cambridge.org/core/books/portfolio-management-under-stress/481A8284865AAF4894011413D5E2D487) | Uses Bayesian networks for asset allocation. |
+| S42 | [Prigent, *Portfolio Optimization* (2007)](https://www.routledge.com/Portfolio-Optimization-and-Performance-Analysis/Prigent/p/book/9781584885788) | Presents quadratic-programming routines for mean-variance allocation with option and transaction-cost constraints. |
+| S43 | [Peters, *Ergodicity & the Kelly Criterion* (2010)](https://arxiv.org/abs/0902.2965) | Justifies growth-optimal position sizing and leverage control for volatility-targeting strategies. |
+| S44 | [Strachman, *Hedge-Fund Management* (2012)](https://www.wiley.com/en-us/The+Fundamentals+of+Hedge+Fund+Management%3A+How+to+Successfully+Launch+and+Operate+a+Hedge+Fund%2C+2nd+Edition-p-9781118239230) | Industry, regulation, structure, accounting, marketing, risk management. |
+| S45 | [Joshi, *Mathematical Portfolio Theory* (2013)](https://www.cambridge.org/us/universitypress/subjects/mathematics/optimization-or-and-risk-analysis/introduction-mathematical-portfolio-theory?format=HB&isbn=9781107042315) | Neoclassical approach to efficient frontier. |
+| S46 | [Rebonato & Denev, *Portfolio Management under Stress* (2013)](https://www.cambridge.org/core/books/portfolio-management-under-stress/481A8284865AAF4894011413D5E2D487) | Uses Bayesian networks for asset allocation. |
+| S47 | [Sethna, *Statistical Mechanics of Market Sectors* (2017)](https://arxiv.org/abs/1503.06205) | Canonical sectors from unsupervised learning. |
+| S48 | [Rebonato, *Bond Pricing & Yield-Curve Modeling* (2018)](https://www.cambridge.org/core/books/bond-pricing-and-yield-curve-modeling/8BD16E2AC2B8CB6248A151F4BD5D25E8) | Presents PCA-driven term-structure dynamics. |
 | S49 | [Bodie, Kane & Marcus, *Investments* (2018)](https://www.mheducation.com/highered/product/Investments-Bodie.html) | Neoclassical view including CAPM and APT. |
 | S50 | [Brealey, Myers & Allen, *Principles of Corporate Finance* (2019)](https://www.mheducation.com/highered/product/Principles-of-Corporate-Finance-Brealey.html) | Neoclassical approach to corporate capital-budgeting decisions and project flexibilities. |
 | S51 | [Baker & Filbeck, *Hedge Funds* (2021)](https://academic.oup.com/book/25365) | Performance, regulation, and factor replication techniques across global hedge-fund sector. |
