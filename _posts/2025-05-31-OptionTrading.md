@@ -42,7 +42,16 @@ Materials concerning option trading are provided with brief notes.  The sources 
 
 ---
 
-### 3 **Geometric & field theory approaches (more model building)**
+### 3 **Interest-rates & fixed-income (asset classes)** 
+
+| ID | Link | Notes |
+|----|------|-------|
+| S9  | [Brigo & Mercurio *Interest-Rate Models — Theory and Practice* 2006](https://link.springer.com/book/10.1007/978-3-540-34604-3) |  LIBOR-market, HJM, and BGM frameworks with implementation details. |
+| S16 | [Rebonato, McKay, & White *LMM-SABR* 2009](https://onlinelibrary.wiley.com/doi/book/10.1002/9781119206392) | Extends SABR dynamics for LMM producing smile-consistent swaption valuation. |
+
+---
+
+### 4 **Geometric & field theory approaches (more model building)**
 
 | ID | Link | Notes |
 |----|------|-------|
@@ -62,14 +71,7 @@ Materials concerning option trading are provided with brief notes.  The sources 
 ---
 
 
-### 4 **Interest-rates & fixed-income (asset classes)** 
 
-| ID | Link | Notes |
-|----|------|-------|
-| S9  | [Brigo & Mercurio *Interest-Rate Models — Theory and Practice* 2006](https://link.springer.com/book/10.1007/978-3-540-34604-3) |  LIBOR-market, HJM, and BGM frameworks with implementation details. |
-| S16 | [Rebonato, McKay, & White *LMM-SABR* 2009](https://onlinelibrary.wiley.com/doi/book/10.1002/9781119206392) | Extends SABR dynamics for LMM producing smile-consistent swaption valuation. |
-
----
 
 
 
