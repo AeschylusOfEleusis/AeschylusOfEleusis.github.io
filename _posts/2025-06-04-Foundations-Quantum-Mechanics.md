@@ -7,7 +7,7 @@ tags: [Quantum Field Theory, Path Integrals, FoundationsQM]
 math:       true        # enable KaTeX
 ---
 
-# Notes on Foundations of Quantum Mechanics (Draft)
+# Notes: Foundations of Quantum Mechanics (Draft)
 
 ## Abstract
 
