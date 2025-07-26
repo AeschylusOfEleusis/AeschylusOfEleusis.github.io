@@ -1,13 +1,12 @@
 ---
 layout:   post
-title: "Foundations of Quantum Mechanics"
+title: "Notes on Foundations of Quantum Mechanics (Draft)"
 date: 2025-06-04 10:00:00 +0800
 categories: [Quantum Field Theory]
 tags: [Quantum Field Theory, Path Integrals, FoundationsQM]
 math:       true        # enable KaTeX
 ---
 
-# Notes: Foundations of Quantum Mechanics (Draft)
 
 ## Abstract
 
@@ -26,8 +25,8 @@ Several primary sources in the foundations of quantum mechanics are provided. So
 | S5  | [Schrödinger “Jumps I” 1952](https://www.jstor.org/stable/685552)                                                       | Analyzes the notion of quantum jumps and their reconciliation with a continuous wave picture.                       |
 | S6  | [Schrödinger “Jumps II” 1952](https://www.jstor.org/stable/685266)                   | Continues the examination of quantum discontinuities, exploring how wave mechanics can accommodate “jumps.”          |
 | S7  | [Wallstrom “Schrödinger’s & Madelung’s Equations” 1994](https://journals.aps.org/pra/abstract/10.1103/PhysRevA.49.1613) | Investigates the equivalence and differences between Schrödinger’s equation and the Madelung hydrodynamic formulation. |
-| S8  | [Bacciagaluppi and Valentini “Quantum Theory at the Crossroads” 2006](https://arxiv.org/abs/quant-ph/0609184)        | Provides a historical and philosophical survey of competing interpretations of quantum mechanics around 1952.         |
-| S9  | [N. A. Wheeler “Schrödinger’s Argument” 2006](https://www.reed.edu/physics/faculty/wheeler/documents/Quantum%20Mechanics/Miscellaneous%20Essays/Schrodinger's%20Argument.pdf) | Revisits Schrödinger’s original criticisms of quantum mechanics, focusing on conceptual challenges of wave theory.     |
+| S8  | [Bacciagaluppi and Valentini “Quantum Theory at the Crossroads” 2006](https://arxiv.org/abs/quant-ph/0609184)        | Provides a historical and philosophical survey of competing interpretations of quantum mechanics during the 1927 Solvay Conference.         |
+| S9  | [N. A. Wheeler “Schrödinger’s Argument” 2006](https://www.reed.edu/physics/faculty/wheeler/documents/Quantum%20Mechanics/Miscellaneous%20Essays/Schrodinger's%20Argument.pdf) | Revisits Schrödinger’s original approach to wave mechanics, illustrating the optical mechanical analogy.     |
 | S10 | [Joas and Lehner “Optical Mechanical Analogy” 2009](https://www.sciencedirect.com/science/article/abs/pii/S1355219809000331?via%3Dihub)                                | Explores the analogy between geometric optics and classical mechanics as a precursor to wave‐mechanical insights.    |
 | S11 | [PBR “Reality of the Quantum State” 2012](https://arxiv.org/abs/1111.3328)                                             | Demonstrates via a no‐go theorem that the quantum state must correspond to an element of reality rather than mere information. |
 | S12 | [Lopes Coelho and Stachel “Schrödinger, Hertz, and Van Vleck” 2013](https://iopscience.iop.org/article/10.1088/0143-0807/34/4/953) | Examines historical influences on Schrödinger’s formulation, particularly drawing from Hertz’s and Van Vleck’s work. |
