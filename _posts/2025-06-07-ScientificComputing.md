@@ -30,7 +30,7 @@ Resources in scientific computing are presented with short notes. Following an o
 
 | ID   | Link                                                                                                                                               | Notes                                                                                          |
 |------|----------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------|
-| S8   | [Lanczos “Applied Analysis” 1952](https://store.doverpublications.com/products/9780486656564?srsltid=AfmBOoozet4k21Mdbo919f3Rz37Y3CDGIUygNNSZO72V5-u-IMSfbc4p)   | Classic text on functional analysis methods applied to differential equations.                |
+| S8   | [Lanczos “Applied Analysis” 1952](https://www.amazon.com/Applied-Analysis-Dover-Books-Mathematics/dp/048665656X) | Classic text on functional analysis methods applied to differential equations.                |
 | S9   | [Stoer and Burlisch “Numerical Analysis” 1980](https://link.springer.com/book/10.1007/978-1-4757-5592-3)                                           | Authoritative treatment of numerical algorithms and error estimation.                          |
 | S10  | [Ridgway and Scott “Numerical Analysis” 2011](https://press.princeton.edu/books/hardcover/9780691146867/numerical-analysis?srsltid=AfmBOorDTHcEfIknS7PEjgoC1QPhVbIAZjiNYMdBgFHxr9O6_eZDVhJl) | Contemporary introduction to core numerical methods with practical examples and theory.       |
 
