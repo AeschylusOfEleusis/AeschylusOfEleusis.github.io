@@ -19,7 +19,7 @@ Resources (with short notes) are provided concerning probability, information an
 | ID  | Link | Notes |
 |-----|------|-------|
 | S1  | [Kolmogorov *"Foundations of Probability"* 1956](https://www.york.ac.uk/depts/maths/histstat/kolmogorov_foundations.pdf) | Seminal work laying the axiomatic foundations of modern probability theory. |
-| S2  | [Jaynes *"Probability: The Logic of Science"* 2003](https://bayes.wustl.edu/etj/prob/book.pdf) | A Bayesian reinterpretation of probability as logic extended to uncertain reasoning. |
+| S2  | [Jaynes *"Probability: The Logic of Science"* 2003](http://www.med.mcgill.ca/epidemiology/hanley/bios601/GaussianModel/JaynesProbabilityTheory.pdf) | A Bayesian reinterpretation of probability as logic extended to uncertain reasoning. |
 | S3  | [Mumford and Desolneux *"Pattern Theory"* 2010](https://www.dam.brown.edu/ptg/MDbook/index.html) | Explores probabilistic models of perception, inference, and structure in complex systems. |
 | S4  | [DeDeo *"Bayes for Intelligent People"* 2018](https://wiki.santafe.edu/images/2/2e/Bayesian-Reasoning-for-Intelligent-People-DeDeo.pdf) | Introductory guide to Bayesian reasoning and inference for advanced learners. |
 | S5  | [Grimmet and Stirzacker *"Probability and Random Processes"* 2020](https://global.oup.com/academic/product/probability-and-random-processes-9780198847601?cc=us&lang=en&) | Comprehensive textbook on probability and stochastic processes. |
