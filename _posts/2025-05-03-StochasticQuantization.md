@@ -31,7 +31,7 @@ Most commonly, gaussian noise $\xi^{\mathfrak{k}}\bigl(s,x^{a}\bigr)$ is conside
 Consider the following action for a spacetime scalar field (indexed by $\mathfrak{k}$ over the internal symmetry) 
 
 $$
-S\bigl[\Phi^{\mathfrak{i}}\bigr] = \int d^{n}x\bigl\{ \mathfrak{g}_{\mathfrak{j} \mathfrak{k}}\nabla_{a} \Phi^{\mathfrak{j}} g^{ab}  \nabla_{b}  \Phi^{\mathfrak{k}} - U\bigl(\Phi^{\mathfrak{i}}\bigr)\bigr\}
+S\bigl[\Phi^{\mathfrak{i}}\bigr] = \int d^{n}x \sqrt{g}\bigl\{ \mathfrak{g}_{\mathfrak{j} \mathfrak{k}}\nabla_{a} \Phi^{\mathfrak{j}} g^{ab}  \nabla_{b}  \Phi^{\mathfrak{k}} - U\bigl(\Phi^{\mathfrak{i}}\bigr)\bigr\}
 $$
 
 where
