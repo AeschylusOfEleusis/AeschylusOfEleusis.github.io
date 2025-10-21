@@ -11,6 +11,10 @@
   icon: "fas fa-envelope"
   noblank: true # open link in current tab
 
+  - type: gravatar
+  icon: "fa-solid fa-circle-user"   # built-in FA6 icon
+  url: "https://gravatar.com/starlightalways98c0871a86"  # replace
+
 #- type: rss
 #  icon: "fas fa-rss"
 #  noblank: true
@@ -20,9 +24,9 @@
 #   icon: 'fab fa-mastodon'   # icons powered by <https://fontawesome.com/>
 #   url:  ''                  # Fill with your Mastodon account page, rel="me" will be applied for verification
 #
-- type: linkedin
-   icon: "fab fa-linkedin"   # icons powered by <https://fontawesome.com/>
-   url:  "https://www.linkedin.com/in/scott-caveny-mdphd"                  # Fill with your Linkedin homepage
+#- type: linkedin
+#   icon: "fab fa-linkedin"   # icons powered by <https://fontawesome.com/>
+#   url:  "https://www.linkedin.com/in/scott-caveny-mdphd"                  # Fill with your Linkedin homepage
 #
 # - type: stack-overflow
 #   icon: 'fab fa-stack-overflow'
