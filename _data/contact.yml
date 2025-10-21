@@ -11,13 +11,14 @@
   icon: "fas fa-envelope"
   noblank: true # open link in current tab
 
-  - type: gravatar
-  icon: "fa-solid fa-circle-user"   # built-in FA6 icon
-  url: "https://gravatar.com/starlightalways98c0871a86"  # replace
+#  - type: gravatar
+#  icon: "fa-solid fa-circle-user"   # built-in FA6 icon
+#  url: "https://gravatar.com/starlightalways98c0871a86"  # replace
 
-#- type: rss
-#  icon: "fas fa-rss"
-#  noblank: true
+- type: rss
+  icon: "fas fa-rss"
+  noblank: true
+  
 # Uncomment and complete the url below to enable more contact options
 #
 # - type: mastodon
