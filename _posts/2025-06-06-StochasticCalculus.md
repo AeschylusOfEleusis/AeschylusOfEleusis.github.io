@@ -102,3 +102,360 @@ Notes on stochastic calculus are provided. The first section views Brownian moti
 | S54 | [Ovchinnikov “Supersymmetry of stochastics” 2015](https://arxiv.org/abs/1511.03393)                                                                                                | Explores supersymmetric structures emerging in stochastic differential equations.                   |
 | S55 | [Zhang and Karniadakis “Numerical methods for SPDE” 2017](https://link.springer.com/book/10.1007/978-3-319-57511-7)                                                                 | Surveys computational schemes for accurately simulating stochastic partial differential equations. |
 
+## Appendix: 11.7.2025
+
+Quantum mechanics admits several representations whose interconnections are often opaque. Parisi–Wu stochastic quantization introduces a computational time evolution toward a Euclidean quantum measure; while Onsager–Machlup (OM) / MSRJD formalisms express stochastic dynamics as path integrals over trajectories. By comparison, Nelson's stochastic mechanics interprets quantum motion as an underlying diffusion in real time; with the de Broglie–Bohm view yielding deterministic trajectories guided by a pilot wave. In the following note, these approaches are demonstrated as different limits of the same stochastic–variational structure.
+
+### Parisi–Wu
+
+Consider Euclidean quantum mechanics with coordinate \(x(\tau)\) and action
+$$
+S_E[x] = \int_0^T ds\,
+\Big[\tfrac{1}{2}\dot x^2 + V(x)\Big].
+$$
+
+Parisi and Wu introduce a fictitious time \(s\) with stochastic partial differential equation
+$$
+\partial_\tau x(\tau,s)
+= -\frac{\delta S_E}{\delta x(\tau,s)} + \eta(\tau,s),
+$$
+where \(\eta\) is Gaussian white noise with
+$$
+\langle\eta(\tau,s)\eta(\tau',s')\rangle
+  = 2\,\delta(\tau-\tau')\delta(s-s').
+$$
+The Fokker–Planck equation for the functional probability \(P[x;s]\) is
+$$
+\partial_s P[x;s]
+= \int d\tau\,\frac{\delta}{\delta x(\tau)}
+  \left(\frac{\delta}{\delta x(\tau)}+ \frac{\delta S_E}{\delta x(\tau)}\right)P,
+$$
+with stationary solution \(P_{\mathrm{eq}}[x]\propto e^{-S_E[x]}\).
+The \(s\to\infty\) limit reproduces the Euclidean path integral of quantum mechanics.
+
+### Onsager–Machlup / MSRJD
+
+The Parisi and Wu equation is of the form
+\(\partial_s x = F[x] + \eta\),
+with \(F[x] = \ddot x - V'(x)\).
+Let \(\tilde{x}(\tau,s)\) be a response field.
+The MSRJD functional integral is
+$$
+Z = \int \mathcal{D}\!\left[x, \tilde{x}\right] e^{S_{M}[x,\tilde{x}]}
+$$
+with
+$$
+S_{M}[x,\tilde{x}]
+= \int ds\,d\tau
+\left[
+  i\tilde x(\partial_s x - \ddot x + V'(x))
+  - \tilde x^2
+\right].
+$$
+Integrating over \(\tilde x\) yields the Onsager–Machlup action
+$$
+S_{O}[x]
+= \tfrac{1}{4}\!\int\! ds\,d\tau
+  \big(\partial_s x - \ddot x + V'(x)\big)^2
+- \tfrac{1}{2}\!\int\! ds\,d\tau\,V''(x).
+$$
+The most probable path satisfies
+\(\partial_s x = \ddot x - V'(x)\),
+the deterministic Parisi–Wu relaxation.
+As \(s\!\to\!\infty\), the system approaches the equilibrium measure \(e^{-S_E[x]}\).
+
+### Nelson's Stochastic Mechanics
+
+Nelson's stochastic mechanics describes a physical diffusion process in real time \(t\),
+$$
+dx_t = b_\pm(x_t,t)\,dt + \sqrt{2\nu}\,dW_t^\pm,
+\qquad
+\nu=\frac{\hbar}{2m},
+$$
+with forward/backward drifts \(b_\pm = v \pm u\), where
+$$
+v = \frac{b_+ + b_-}{2} = \frac{1}{m}\nabla S,
+\quad
+u = \frac{b_+ - b_-}{2} = \nu\nabla\ln\rho.
+$$
+The symmetric Onsager–Machlup functional for this double diffusion is
+$$
+S_N[x]
+= \frac{1}{4\nu}\int dt\,
+  \Big[(\dot x - v)^2 + u^2\Big]
+  + \frac{1}{2}\int dt\,\nabla\!\cdot v.
+$$
+Varying \(S_N\) yields Nelson's stochastic Newton law
+$$
+m\big(\partial_t v + (v\!\cdot\!\nabla)v
+   - (u\!\cdot\!\nabla)u
+   - \nu\nabla^2 u\big)
+= -\nabla V,
+$$
+which, using \(u=\nu\nabla\ln\rho\), reduces to
+$$
+m\big(\partial_t v + (v\!\cdot\!\nabla)v\big)
+= -\nabla(V+Q),
+\quad
+Q = -\frac{\hbar^2}{2m}\,
+    \frac{\nabla^2\sqrt\rho}{\sqrt\rho}.
+$$
+These results are are equivalent to the Schrödinger equation under
+\(\psi=\sqrt\rho\,e^{iS/\hbar}\).
+
+### de Broglie–Bohm
+
+The de Broglie–Bohm (dBB) theory prescribes deterministic trajectories
+$$
+\dot x = \frac{1}{m} \nabla S,
+$$
+where \(S\) satisfies the quantum Hamilton–Jacobi equation
+$$
+\partial_t S + \frac{(\nabla S)^2}{2m} + V + Q = 0.
+$$
+In the OM/MSRJD representation, the dBB trajectories correspond to extremals of the functional: either the deterministic limit of the Nelson process or the \(s\!\to\!\infty\) stationary flow of the Parisi–Wu process.
+
+### Conclusion
+
+The Onsager–Machlup / MSRJD formalism provides a single variational language:
+
+1. **Computational time diffusion (Parisi–Wu):** a gradient flow in functional space whose equilibrium measure is \(e^{-S_E}\) with computational diffusion converging to the quantum ensemble,
+2. **Real time diffusion (Nelson):** a symmetric stochastic process with equilibrium \(\rho=|\psi|^2\) with real diffusion of stochastic fluctuations around the quantum flow,
+3. **Deterministic flow (Bohm):** the extremal trajectories of the same action, obtained when the stochastic term vanishes, yielding deterministic limit mean current lines of the same ensemble.
+
+The quantum potential appears universally as the curvature term generated by the divergence of the drift in the Onsager–Machlup functional.
+
+Applying the Onsager–Machlup / MSRJD method to Parisi–Wu stochastic quantization produces a diffusion in fictitious time \(s\) whose stationary state reproduces quantum mechanics. Applying the same formalism to Nelson's stochastic mechanics yields the physical diffusion equations that reproduce the Schrödinger dynamics. In the deterministic limit, the Onsager–Machlup extremals coincide with de Broglie–Bohm pilot-wave trajectories. In short, stochastic quantization, stochastic mechanics, and the pilot-wave theory are successive reductions of a single stochastic–variational framework defined by the Onsager–Machlup action.: 
+
+Quantum mechanics admits several representations whose interconnections are often opaque. Parisi–Wu stochastic quantization introduces a computational time evolution toward a Euclidean quantum measure; while Onsager–Machlup (OM) / MSRJD formalisms express stochastic dynamics as path integrals over trajectories. By comparison, Nelson's stochastic mechanics interprets quantum motion as an underlying diffusion in real time; with the de Broglie–Bohm view yielding deterministic trajectories guided by a pilot wave. In the following note, these approaches are demonstrated as different limits of the same stochastic–variational structure.
+
+# Parisi–Wu
+
+Consider Euclidean quantum mechanics with coordinate \(x(\tau)\) and action
+$$
+S_E[x] = \int_0^T ds\,
+\Big[\tfrac{1}{2}\dot x^2 + V(x)\Big].
+$$
+
+Parisi and Wu introduce a fictitious time \(s\) with stochastic partial differential equation
+$$
+\partial_\tau x(\tau,s)
+= -\frac{\delta S_E}{\delta x(\tau,s)} + \eta(\tau,s),
+$$
+where \(\eta\) is Gaussian white noise with
+$$
+\langle\eta(\tau,s)\eta(\tau',s')\rangle
+  = 2\,\delta(\tau-\tau')\delta(s-s').
+$$
+The Fokker–Planck equation for the functional probability \(P[x;s]\) is
+$$
+\partial_s P[x;s]
+= \int d\tau\,\frac{\delta}{\delta x(\tau)}
+  \left(\frac{\delta}{\delta x(\tau)}+ \frac{\delta S_E}{\delta x(\tau)}\right)P,
+$$
+with stationary solution \(P_{\mathrm{eq}}[x]\propto e^{-S_E[x]}\).
+The \(s\to\infty\) limit reproduces the Euclidean path integral of quantum mechanics.
+
+# Onsager–Machlup / MSRJD
+
+The Parisi and Wu equation is of the form
+\(\partial_s x = F[x] + \eta\),
+with \(F[x] = \ddot x - V'(x)\).
+Let \(\tilde{x}(\tau,s)\) be a response field.
+The MSRJD functional integral is
+$$
+Z = \int \mathcal{D}\!\left[x, \tilde{x}\right] e^{S_{M}[x,\tilde{x}]}
+$$
+with
+$$
+S_{M}[x,\tilde{x}]
+= \int ds\,d\tau
+\left[
+  i\tilde x(\partial_s x - \ddot x + V'(x))
+  - \tilde x^2
+\right].
+$$
+Integrating over \(\tilde x\) yields the Onsager–Machlup action
+$$
+S_{O}[x]
+= \tfrac{1}{4}\!\int\! ds\,d\tau
+  \big(\partial_s x - \ddot x + V'(x)\big)^2
+- \tfrac{1}{2}\!\int\! ds\,d\tau\,V''(x).
+$$
+The most probable path satisfies
+\(\partial_s x = \ddot x - V'(x)\),
+the deterministic Parisi–Wu relaxation.
+As \(s\!\to\!\infty\), the system approaches the equilibrium measure \(e^{-S_E[x]}\).
+
+# Nelson's Stochastic Mechanics
+
+Nelson's stochastic mechanics describes a physical diffusion process in real time \(t\),
+$$
+dx_t = b_\pm(x_t,t)\,dt + \sqrt{2\nu}\,dW_t^\pm,
+\qquad
+\nu=\frac{\hbar}{2m},
+$$
+with forward/backward drifts \(b_\pm = v \pm u\), where
+$$
+v = \frac{b_+ + b_-}{2} = \frac{1}{m}\nabla S,
+\quad
+u = \frac{b_+ - b_-}{2} = \nu\nabla\ln\rho.
+$$
+The symmetric Onsager–Machlup functional for this double diffusion is
+$$
+S_N[x]
+= \frac{1}{4\nu}\int dt\,
+  \Big[(\dot x - v)^2 + u^2\Big]
+  + \frac{1}{2}\int dt\,\nabla\!\cdot v.
+$$
+Varying \(S_N\) yields Nelson's stochastic Newton law
+$$
+m\big(\partial_t v + (v\!\cdot\!\nabla)v
+   - (u\!\cdot\!\nabla)u
+   - \nu\nabla^2 u\big)
+= -\nabla V,
+$$
+which, using \(u=\nu\nabla\ln\rho\), reduces to
+$$
+m\big(\partial_t v + (v\!\cdot\!\nabla)v\big)
+= -\nabla(V+Q),
+\quad
+Q = -\frac{\hbar^2}{2m}\,
+    \frac{\nabla^2\sqrt\rho}{\sqrt\rho}.
+$$
+These results are are equivalent to the Schrödinger equation under
+\(\psi=\sqrt\rho\,e^{iS/\hbar}\).
+
+# de Broglie–Bohm
+
+The de Broglie–Bohm (dBB) theory prescribes deterministic trajectories
+$$
+\dot x = \frac{1}{m} \nabla S,
+$$Quantum mechanics admits several representations whose interconnections are often opaque. Parisi–Wu stochastic quantization introduces a computational time evolution toward a Euclidean quantum measure; while Onsager–Machlup (OM) / MSRJD formalisms express stochastic dynamics as path integrals over trajectories. By comparison, Nelson's stochastic mechanics interprets quantum motion as an underlying diffusion in real time; with the de Broglie–Bohm view yielding deterministic trajectories guided by a pilot wave. In the following note, these approaches are demonstrated as different limits of the same stochastic–variational structure.
+
+# Parisi–Wu
+
+Consider Euclidean quantum mechanics with coordinate \(x(\tau)\) and action
+$$
+S_E[x] = \int_0^T ds\,
+\Big[\tfrac{1}{2}\dot x^2 + V(x)\Big].
+$$
+
+Parisi and Wu introduce a fictitious time \(s\) with stochastic partial differential equation
+$$
+\partial_\tau x(\tau,s)
+= -\frac{\delta S_E}{\delta x(\tau,s)} + \eta(\tau,s),
+$$
+where \(\eta\) is Gaussian white noise with
+$$
+\langle\eta(\tau,s)\eta(\tau',s')\rangle
+  = 2\,\delta(\tau-\tau')\delta(s-s').
+$$
+The Fokker–Planck equation for the functional probability \(P[x;s]\) is
+$$
+\partial_s P[x;s]
+= \int d\tau\,\frac{\delta}{\delta x(\tau)}
+  \left(\frac{\delta}{\delta x(\tau)}+ \frac{\delta S_E}{\delta x(\tau)}\right)P,
+$$
+with stationary solution \(P_{\mathrm{eq}}[x]\propto e^{-S_E[x]}\).
+The \(s\to\infty\) limit reproduces the Euclidean path integral of quantum mechanics.
+
+# Onsager–Machlup / MSRJD
+
+The Parisi and Wu equation is of the form
+\(\partial_s x = F[x] + \eta\),
+with \(F[x] = \ddot x - V'(x)\).
+Let \(\tilde{x}(\tau,s)\) be a response field.
+The MSRJD functional integral is
+$$
+Z = \int \mathcal{D}\!\left[x, \tilde{x}\right] e^{S_{M}[x,\tilde{x}]}
+$$
+with
+$$
+S_{M}[x,\tilde{x}]
+= \int ds\,d\tau
+\left[
+  i\tilde x(\partial_s x - \ddot x + V'(x))
+  - \tilde x^2
+\right].
+$$
+Integrating over \(\tilde x\) yields the Onsager–Machlup action
+$$
+S_{O}[x]
+= \tfrac{1}{4}\!\int\! ds\,d\tau
+  \big(\partial_s x - \ddot x + V'(x)\big)^2
+- \tfrac{1}{2}\!\int\! ds\,d\tau\,V''(x).
+$$
+The most probable path satisfies
+\(\partial_s x = \ddot x - V'(x)\),
+the deterministic Parisi–Wu relaxation.
+As \(s\!\to\!\infty\), the system approaches the equilibrium measure \(e^{-S_E[x]}\).
+
+# Nelson's Stochastic Mechanics
+
+Nelson's stochastic mechanics describes a physical diffusion process in real time \(t\),
+$$
+dx_t = b_\pm(x_t,t)\,dt + \sqrt{2\nu}\,dW_t^\pm,
+\qquad
+\nu=\frac{\hbar}{2m},
+$$
+with forward/backward drifts \(b_\pm = v \pm u\), where
+$$
+v = \frac{b_+ + b_-}{2} = \frac{1}{m}\nabla S,
+\quad
+u = \frac{b_+ - b_-}{2} = \nu\nabla\ln\rho.
+$$
+The symmetric Onsager–Machlup functional for this double diffusion is
+$$
+S_N[x]
+= \frac{1}{4\nu}\int dt\,
+  \Big[(\dot x - v)^2 + u^2\Big]
+  + \frac{1}{2}\int dt\,\nabla\!\cdot v.
+$$
+Varying \(S_N\) yields Nelson's stochastic Newton law
+$$
+m\big(\partial_t v + (v\!\cdot\!\nabla)v
+   - (u\!\cdot\!\nabla)u
+   - \nu\nabla^2 u\big)
+= -\nabla V,
+$$
+which, using \(u=\nu\nabla\ln\rho\), reduces to
+$$
+m\big(\partial_t v + (v\!\cdot\!\nabla)v\big)
+= -\nabla(V+Q),
+\quad
+Q = -\frac{\hbar^2}{2m}\,
+    \frac{\nabla^2\sqrt\rho}{\sqrt\rho}.
+$$
+These results are are equivalent to the Schrödinger equation under
+\(\psi=\sqrt\rho\,e^{iS/\hbar}\).
+
+# de Broglie–Bohm
+
+The de Broglie–Bohm (dBB) theory prescribes deterministic trajectories
+$$
+\dot x = \frac{1}{m} \nabla S,
+$$
+where \(S\) satisfies the quantum Hamilton–Jacobi equation
+$$
+\partial_t S + \frac{(\nabla S)^2}{2m} + V + Q = 0.
+$$
+In the OM/MSRJD representation, the dBB trajectories correspond to extremals of the functional: either the deterministic limit of the Nelson process or the \(s\!\to\!\infty\) stationary flow of the Parisi–Wu process.
+
+# Summary
+
+The Onsager–Machlup / MSRJD formalism provides a single variational language:
+
+1. **Computational time diffusion (Parisi–Wu):** a gradient flow in functional space whose equilibrium measure is \(e^{-S_E}\) with computational diffusion converging to the quantum ensemble,
+2. **Real time diffusion (Nelson):** a symmetric stochastic process with equilibrium \(\rho=|\psi|^2\) with real diffusion of stochastic fluctuations around the quantum flow,
+3. **Deterministic flow (Bohm):** the extremal trajectories of the same action, obtained when the stochastic term vanishes, yielding deterministic limit mean current lines of the same ensemble.
+
+The quantum potential appears universally as the curvature term generated by the divergence of the drift in the Onsager–Machlup functional.
+
+Applying the Onsager–Machlup / MSRJD method to Parisi–Wu stochastic quantization produces a diffusion in fictitious time \(s\) whose stationary state reproduces quantum mechanics. Applying the same formalism to Nelson's stochastic mechanics yields the physical diffusion equations that reproduce the Schrödinger dynamics. In the deterministic limit, the Onsager–Machlup extremals coincide with de Broglie–Bohm pilot-wave trajectories. In short, stochastic quantization, stochastic mechanics, and the pilot-wave theory are successive reductions of a single stochastic–variational framework defined by the Onsager–Machlup action.
+where \(S\) satisfies the quantum Hamilton–Jacobi equation
+$$
+\partial_t S + \frac{(\nabla S)^2}{2m} + V + Q = 0.
+$$
+In the OM/MSRJD representation, the dBB trajectories correspond to extremals of the functional: either the deterministic limit of the Nelson process or the \(s\!\to\!\infty\) stationary flow of the Parisi–Wu process.
+
