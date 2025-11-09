@@ -1,6 +1,6 @@
 ---
 layout:   post
-title: "Notes on Foundations of Quantum Mechanics (Draft)"
+title: "Notes on Quantum Mechanics (Draft)"
 date: 2025-06-04 10:00:00 +0800
 categories: [Quantum Field Theory]
 tags: [Quantum Field Theory, Path Integrals, FoundationsQM]
