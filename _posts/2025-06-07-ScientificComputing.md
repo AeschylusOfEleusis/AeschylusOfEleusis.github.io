@@ -226,43 +226,11 @@ Several themes recur across sections, creating connections that the section-by-s
 
 **The physics-computation interface.** The modeling section (S21--S27) illustrates how physical constraints---conservation laws, boundary conditions, multiscale structure, turbulence---shape the choice and design of numerical methods. This is not merely a matter of "applying" general methods to specific problems; the physical structure of a problem often suggests algorithmic strategies (e.g., the immersed boundary approach of S21--S22) that would not arise from a purely mathematical perspective.
 
-### 8.3 Notable Omissions
 
-The collection has identifiable gaps that are worth noting, both as limitations and as indications of the author's priorities.
-
-*Optimization.* There is no dedicated modern optimization text. Convex optimization, nonlinear constrained optimization, and automatic-differentiation-based optimization are represented only implicitly (through S3 Chapter 8 and S4). Given the centrality of optimization to both machine learning and physical simulation (variational methods, optimal control), this is a significant gap.
-
-*Finite element methods.* While S4 and S24 address PDE discretization, there is no dedicated FEM text. For readers interested in structural mechanics, geophysics, or electromagnetics, a dedicated FEM reference would be essential.
-
-*Bayesian inference.* Despite the inclusion of Monte Carlo methods and statistical learning, there is no text dedicated to Bayesian computation---no Gelman et al., no MacKay, no Jaynes. This is a notable absence given the increasing use of Bayesian methods in scientific data analysis.
-
-*Machine learning depth.* ISL (S37) provides an accessible introduction, but the collection does not include *Elements of Statistical Learning*, Bishop's *Pattern Recognition and Machine Learning*, or Goodfellow, Bengio, and Courville's *Deep Learning*. The theoretical and methodological depth available in these texts is substantial.
-
-*Reproducibility and workflow.* Version control, testing, continuous integration, containers, and data provenance are not represented. These are increasingly recognized as essential to credible computational science, and their absence reflects a gap between algorithmic and engineering practice.
-
-These omissions likely reflect the author's research focus on stochastic quantization and numerical relativity, domains where the included references provide sufficient coverage. Readers with different application interests should expect to supplement the collection accordingly.
 
 ---
 
-## 9. Bibliographic Notes and Errata
-
-The following corrections to the source page have been identified during the preparation of these notes.
-
-| Item | Issue | Correction |
-|------|-------|------------|
-| S9 | "Burlisch" | Correct spelling: Bulirsch |
-| S10 | "Ridgway and Scott" (dual authorship) | Single author: Larkin Ridgway Scott |
-| S13 | "Reimannian" | Correct spelling: Riemannian |
-| S15 | Publication year listed as 2007 | MIT Press listing indicates 2017 |
-| S24 | "astrophyics" | Correct spelling: astrophysics |
-| S33 | Year listed as "207" | Correct year: 2017 |
-| S36 | Author "Tair" | Correct spelling: Tait |
-
-Additionally, link accessibility varies: approximately 12 sources provide open full text, 20 offer accessible metadata with paywalled full text, and 6 primary URLs were blocked or inaccessible at the time of review. Where available, alternative access URLs include a publicly hosted PDF for S11 (via Brown University), the SWEBOK v4 PDF directly from IEEE, and OCW-hosted materials for S30.
-
----
-
-## 10. Reading Pathways
+## 9. Reading Pathways
 
 The sources in this collection admit several natural reading orderings depending on the reader's background and objectives. The following are suggested pathways, not prescriptions.
 
