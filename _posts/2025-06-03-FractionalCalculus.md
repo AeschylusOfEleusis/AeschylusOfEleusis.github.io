@@ -11,11 +11,6 @@ math:       true        # enable KaTeX
 
 ## Abstract
 
-Resources concerning alpha stable L'evy distributions are provided with consideration of associated fractional operators and their calculus. Several domains of classical and quantum physics are then considered from a fractional perspective.
-
-
-## Abstract
-
 Resources concerning alpha-stable Lévy distributions are provided with consideration of associated fractional operators and their calculus. Several domains of classical and quantum physics are then considered from a fractional perspective. The notes that follow trace a conceptual pipeline: heavy-tailed stochastic processes motivate non-local operators, which in turn generalize the calculus of variations, spacetime geometry, and quantum theory. Twenty-seven references, spanning from foundational mathematics through speculative theoretical physics, are surveyed and situated within this pipeline. Emphasis is placed on operator definitions, their interrelations, and the physical content of fractional generalizations.
 
 ---
