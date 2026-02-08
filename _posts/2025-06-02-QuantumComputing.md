@@ -304,25 +304,6 @@ The comparative review identified several materially inaccurate annotations on t
 - **S41** (Rebentrost *et al.*): Derivative pricing, not portfolio risk measures.
 
 Date corrections: Deutsch [S2] is 1985, not 1984; Mermin arXiv [S11] is 2002, not 2007; Rosenberg *et al.* [S43] is 2015, not 2020.
-
-### 7.3 Identified Coverage Gaps
-
-Several areas central to the current state of quantum computing are absent or underrepresented:
-
-**Quantum error correction and fault tolerance.** The present collection treats this only indirectly through the Oskin notes [S10] and Rieffel and Polak [S3]. Given that error correction is the defining engineering challenge---the barrier between NISQ-era experiments and scalable computation---a dedicated subsection with modern surface-code references, magic state distillation, and resource estimation papers would substantially strengthen the survey.
-
-**Cryptographic applications.** The survey lacks a focused treatment of post-quantum cryptography, quantum key distribution (QKD), and the implications of Shor's algorithm for current cryptographic infrastructure. Aaronson's lecture notes [S16] mention BB84 and quantum money, but there is no dedicated cryptographic source.
-
-**Hardware modality comparison.** The engineering section does not systematically compare superconducting, trapped-ion, photonic, neutral-atom, and semiconductor spin-qubit platforms. Each has distinct characteristics in coherence time, gate fidelity, connectivity, and scalability.
-
-**Verification and benchmarking.** Beyond [S7] and the implicit treatment in [S24], the survey lacks references on quantum process verification, cross-entropy benchmarking methodology, and the classical simulation improvements that contextualize supremacy claims.
-
-**Dequantization literature.** The QML section would benefit from an explicit dequantization reference (Tang 2019 or subsequent work) to provide a balanced assessment of quantum advantage claims.
-
-### 7.4 Editorial Issues
-
-The original page contains several editorial inconsistencies: one entry in the Engineering section (S19) is missing the "S" prefix in the ID column; the Machine Learning section duplicates the label "S39" for two distinct sources; and several year labels are incorrect (as noted above). These are consistent with the page's draft status and should be corrected in subsequent revisions.
-
 ---
 
 ## 8. Connections to Other Chapters
