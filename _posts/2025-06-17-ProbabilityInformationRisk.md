@@ -18,7 +18,7 @@ Research notes are provided concerning three interconnected subjects---probabili
 
 ## 1. Introduction
 
-These notes belong to a broader collection of research notes for *Projects in Scientific Computation*. The method employed throughout is what Wheeler described as "writing toward understanding"---the composition of notes that are simultaneously acts of learning and acts of exposition. The result is neither a textbook nor a review article in the conventional sense, but something in between: an idiosyncratic guide to the literature that mirrors the structure of the subject considered. The notes survey twenty-eight sources across three domains, providing the kind of bibliographic depth and commentary that standard references typically condense into a few sentences of "further reading."
+These notes belong to a broader collection of research notes for *Projects in Scientific Computating*. The method employed throughout is  "writing toward understanding"---the composition of notes that are simultaneously acts of learning and acts of exposition. The result is neither a textbook nor a review article in the conventional sense, but something in between: a  guide to the literature and a mirror of the structure of the subject considered. The notes survey twenty-eight sources across three domains, providing the kind of bibliographic depth and commentary that standard references typically condense into a few sentences of "further reading."
 
 The three subjects treated here---probability, information, and risk---are not independent. They form a logical progression that reflects genuine historical and mathematical entanglement. Probability theory provides the measure-theoretic and logical foundations for reasoning under uncertainty. Information theory, born from Shannon's work at Bell Labs in 1948, quantifies that uncertainty and establishes fundamental limits on communication, compression, and inference. Risk theory---here considered primarily through the lens of games, gambling, and the Kelly criterion---translates both probability and information into sequential decision-making: how to size bets, manage capital, and exploit an edge over time.
 
@@ -346,13 +346,13 @@ The bibliography supports at least three coherent self-study curricula, dependin
 
 These notes, like the original bibliography, are deliberately selective. Several natural extensions suggest themselves but are not yet developed:
 
-*Decision theory and utility beyond logarithmic utility.* The Kelly criterion implicitly assumes logarithmic utility. Alternative utility functions (CARA, CRRA, prospect theory) lead to different optimal strategies. The relationship between Kelly betting and expected utility maximization is well-studied but not surveyed here.
+*Decision theory and utility beyond logarithmic utility.* The Kelly criterion implicitly assumes logarithmic utility. Alternative utility functions (CARA, CRRA, prospect theory) lead to different optimal strategies. The relationship between Kelly betting and expected utility maximization is well-studied but not surveyed here. Instead it appears in later chapters. 
 
-*Risk measures and portfolio constraints.* The Kelly framework assumes unlimited access to capital and no leverage constraints. Real portfolio management involves drawdown constraints, value-at-risk (VaR), conditional value-at-risk (CVaR), and regime uncertainty. These topics connect to convex optimization and robust control.
+*Risk measures and portfolio constraints.* The Kelly framework assumes unlimited access to capital and no leverage constraints. Real portfolio management involves drawdown constraints, value-at-risk (VaR), conditional value-at-risk (CVaR), and regime uncertainty. These topics connect to convex optimization and robust control as described in subsequent chapters.
 
-*Stochastic calculus and continuous-time finance.* Thorp's continuous-time Kelly formula hints at the Black-Scholes-Merton framework and the theory of continuous-time portfolio optimization (Merton's problem). These connections are developed in the broader *Projects in Scientific Computation* collection under stochastic calculus.
+*Stochastic calculus and continuous-time finance.* Thorp's continuous-time Kelly formula hints at the Black-Scholes-Merton framework and the theory of continuous-time portfolio optimization (Merton's problem). These connections are developed in the broader *Projects in Scientific Computating* collection under stochastic calculus.
 
-*Machine learning optimization.* The connections between information-theoretic objectives (cross-entropy loss, KL regularization, mutual information maximization) and modern machine learning training procedures are substantial but not treated here.
+*Machine learning optimization.* The connections between information-theoretic objectives (cross-entropy loss, KL regularization, mutual information maximization) and modern machine learning training procedures are substantial and considered in and of themselves in the machine learning chapter.
 
 ---
 
