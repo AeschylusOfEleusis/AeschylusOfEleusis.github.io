@@ -310,7 +310,7 @@ Several topics that one might expect in a comprehensive treatment are not includ
 What distinguishes these notes from standard references in either probability theory or mathematical physics is the consistent emphasis on translation between formulations. Most stochastic calculus textbooks adopt one convention (Itô or Stratonovich) and develop it systematically; most physics texts write Langevin equations without specifying the underlying measure-theoretic framework. The present notes, by contrast, treat the existence of multiple equivalent formulations as a feature to be exploited rather than a nuisance to be resolved. This perspective is especially productive when the different formulations suggest different computational strategies or different physical interpretations.
 
 ---
-
+## Bibliography
 
 
 ## 1. Brownian Motion and Stochastic Differential Equations
