@@ -456,17 +456,6 @@ The references in this bibliography range from established, textbook-level mathe
 - Fractional modifications of GR (S17)—mathematically possible but physically motivated primarily by formal analogy
 - Fractional QFT as a route to UV completion (S27)—an interesting technical proposal whose physical relevance depends on whether nature employs fractional structures at fundamental scales
 
-### 8.4 Metadata Corrections
-
-The comparative analysis (second source document) identified several metadata discrepancies between the project page and the linked references:
-
-- S2: labeled "SVJJ" on the page, but the linked SSRN paper is the broader "Transform Analysis and Asset Pricing for Affine Jump-Diffusions."
-- S6: listed as 2017 on the page; Springer indicates 2010 copyright.
-- S16: listed as 2004 on the page; Wiley catalog indicates 2014.
-- S17: the first source document identified this as "Fractional Nonholonomic Ricci Flows" (arXiv:1004.0625), but the page actually links to arXiv:1004.0628 ("Fractional Dynamics from Einstein Gravity").
-- Section 4's numbering is non-sequential: S25 appears between S22 and S23 on the page.
-
-These discrepancies do not affect the substance of the bibliography but should be corrected for precision.
 
 ---
 
