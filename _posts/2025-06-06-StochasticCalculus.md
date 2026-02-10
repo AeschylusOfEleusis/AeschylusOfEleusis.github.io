@@ -313,7 +313,7 @@ What distinguishes these notes from standard references in either probability th
 ## Bibliography
 
 
-## 1. Brownian Motion and Stochastic Differential Equations
+## Brownian Motion and Stochastic Differential Equations
 
 | ID  | Link                                                                                                                                                                            | Notes                                                                                                       |
 |-----|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------|
@@ -331,7 +331,7 @@ What distinguishes these notes from standard references in either probability th
 
 ---
 
-## 2. Brownian Motion on Curved Manifolds
+## Brownian Motion on Curved Manifolds
 
 | ID  | Link                                                                                                                                                                                    | Notes                                                                                                    |
 |-----|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------|
@@ -351,7 +351,7 @@ What distinguishes these notes from standard references in either probability th
 
 ---
 
-## 3. Stochastic Mechanics
+## Stochastic Mechanics
 
 | ID  | Link                                                                                                                                                                                                 | Notes                                                                                                         |
 |-----|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------|
@@ -371,7 +371,7 @@ What distinguishes these notes from standard references in either probability th
 
 ---
 
-## 4. Relativistic Diffusion
+## Relativistic Diffusion
 
 | ID  | Link                                                                                                                                                                                    | Notes                                                                                       |
 |-----|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------|
@@ -385,7 +385,7 @@ What distinguishes these notes from standard references in either probability th
 
 ---
 
-## 5. Stochastic Partial Differential Equations
+## Stochastic Partial Differential Equations
 
 | ID  | Link                                                                                                                                                                               | Notes                                                                                               |
 |-----|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------|
