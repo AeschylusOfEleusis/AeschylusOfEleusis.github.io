@@ -373,7 +373,7 @@ The following table documents the accessibility status of each source as of Janu
 
 ---
 
-### 1. Overview
+### Overview
 
 | ID | Source | Notes |
 |---|---|---|
@@ -388,7 +388,7 @@ The following table documents the accessibility status of each source as of Janu
 
 ---
 
-### 2. Foundations
+### Foundations
 
 | ID | Source | Notes |
 |---|---|---|
@@ -404,7 +404,7 @@ The following table documents the accessibility status of each source as of Janu
 
 ---
 
-### 3. Engineering
+### Engineering
 
 | ID | Source | Notes |
 |---|---|---|
@@ -418,7 +418,7 @@ The following table documents the accessibility status of each source as of Janu
 | S25  | [2021 GoogleTimeCrystal](https://arxiv.org/abs/2107.13571)                               | This report discusses Google’s experimental realization of discrete time crystals in a superconducting quantum processor and its implications for quantum information processing. |
 
 ---
-### 4: Applications: Quantum Physics
+### Applications: Quantum Physics
 
 | ID | Source | Notes |
 |---|---|---|
@@ -431,7 +431,7 @@ The following table documents the accessibility status of each source as of Janu
 
 ---
 
-### 5: Applications: Machine Learning
+### Applications: Machine Learning
 
 | ID | Source | Notes |
 |---|---|---|
@@ -448,7 +448,7 @@ The following table documents the accessibility status of each source as of Janu
 
 ---
 
-### 6: Applications: Quantitative Finance
+### Applications: Quantitative Finance
 
 | ID | Source | Notes |
 |---|---|---|
