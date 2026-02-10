@@ -292,7 +292,7 @@ This chapter connects to several other sections of *Projects in Scientific Compu
 
 **Bibliography**
 
-## 1. Data: Time Series Analysis  
+## Data: Time Series Analysis  
 
 | ID | Source | Notes |
 |---|---|---|
@@ -310,7 +310,7 @@ This chapter connects to several other sections of *Projects in Scientific Compu
 
 ---
 
-## 2. Data: Empirical Stylized Facts   
+## Data: Empirical Stylized Facts   
 
 | ID | Source | Notes |
 |---|---|---|
@@ -333,7 +333,7 @@ This chapter connects to several other sections of *Projects in Scientific Compu
 
 ---
 
-## 3. Data: Market Microstructures 
+## Data: Market Microstructures 
 
 | ID | Source | Notes |
 |---|---|---|
@@ -347,7 +347,7 @@ This chapter connects to several other sections of *Projects in Scientific Compu
 
 ---
 
-## 4. Asset Pricing Theory
+## Asset Pricing Theory
 
 | ID | Source | Notes |
 |---|---|---|
@@ -360,7 +360,7 @@ This chapter connects to several other sections of *Projects in Scientific Compu
 
 ---
 
-## 5. Multi-Asset Structures and Factor Analysis  
+## Multi-Asset Structures and Factor Analysis  
 
 | ID | Source | Notes |
 |---|---|---|
@@ -378,7 +378,7 @@ This chapter connects to several other sections of *Projects in Scientific Compu
 | S53 | [Lopez de Prado, *Causal Factor Investing* (2023)](https://www.cambridge.org/core/elements/causal-factor-investing/9AFE270D7099B787B8FD4F4CBADE0C6E) | Systematization of factor analysis. |
 
 ---
-## 6. Risk 
+## Risk 
 
 | ID | Source | Notes |
 |---|---|---|
@@ -393,7 +393,7 @@ This chapter connects to several other sections of *Projects in Scientific Compu
 | S62 | [Hull, *Risk Management & Financial Institutions* (2023)](https://www.wiley.com/en-us/Risk+Management+and+Financial+Institutions%2C+6th+Edition-p-9781119932482) | Summarises Basel IV CVA and FRTB rules that directly shape capital for option-market makers. |
 
 ---
-## 7. Complexity Economics   
+## Complexity Economics   
 
 | ID | Source | Notes |
 |---|---|---|
