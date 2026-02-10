@@ -486,7 +486,7 @@ For the practitioner, these correspondences provide tools: perturbation theory f
 
 ---
 
-## 11 Approximate Inference & Normalising Flows
+## Approximate Inference & Normalising Flows
 
 ### Chapters
 
@@ -505,7 +505,7 @@ For the practitioner, these correspondences provide tools: perturbation theory f
 
 ---
 
-## 12 Sampling & Monte-Carlo Methods
+## Sampling & Monte-Carlo Methods
 
 ### Chapters
 
@@ -521,7 +521,7 @@ For the practitioner, these correspondences provide tools: perturbation theory f
 
 ---
 
-## 13 Sequence & Time-Series Learning
+## Sequence & Time-Series Learning
 
 ### Chapters
 
@@ -544,7 +544,7 @@ For the practitioner, these correspondences provide tools: perturbation theory f
 
 ---
 
-## 14 Decision-Making, Causality & Frontier Topics
+## Decision-Making, Causality & Frontier Topics
 
 ### Chapters
 
