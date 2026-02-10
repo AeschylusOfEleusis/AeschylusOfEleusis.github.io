@@ -248,7 +248,7 @@ The sources in this collection admit several natural reading orderings depending
 
 
 
-### 1. Overview: Applied Mathematics and Scientific Computing
+### Overview: Applied Mathematics and Scientific Computing
 
 | ID  | Link                                                                                                                                                    | Notes                                                                            |
 |-----|---------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------|
@@ -261,7 +261,7 @@ The sources in this collection admit several natural reading orderings depending
 | S7  | [Galassi et al “Gnu Scientific Library” 2021](https://www.gnu.org/software/gsl/)                                                                       | Documentation and guide to a comprehensive C/C++ library for numerical computing. |
 
 ---
-### 2. Methods: Numerical Analysis
+### Methods: Numerical Analysis
 
 | ID   | Link                                                                                                                                               | Notes                                                                                          |
 |------|----------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------|
@@ -271,7 +271,7 @@ The sources in this collection admit several natural reading orderings depending
 
 ---
 
-### 3. Methods: Monte Carlo
+### Methods: Monte Carlo
 
 | ID   | Link                                                                                                                                                       | Notes                                                                                           |
 |------|------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------|
@@ -280,7 +280,7 @@ The sources in this collection admit several natural reading orderings depending
 | S13  | [Cheng et al “Langevin MCMC on Reimannian Manifolds” 2024](https://arxiv.org/abs/2402.10357)                                                              | Proposes manifold-based Langevin algorithms to enhance sampling efficiency.                     |
 
 ---
-### 4. Engineering
+### Engineering
 
 | ID   | Link                                                                                                                                                            | Notes                                                                                           |
 |------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------|
@@ -294,7 +294,7 @@ The sources in this collection admit several natural reading orderings depending
 
 ---
 
-### 5. Applications: Modeling
+### Applications: Modeling
 
 | ID  | Link  | Notes |
 | --- | ----- | ----- |
@@ -308,7 +308,7 @@ The sources in this collection admit several natural reading orderings depending
 
 ---
 
-### 6. Applications: Data
+### Applications: Data
 
 | ID  | Link  | Notes |
 | --- | ----- | ----- |
