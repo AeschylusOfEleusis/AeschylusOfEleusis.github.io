@@ -299,7 +299,7 @@ The notes are marked as continuing work. Future development may include expanded
 
 ---
 
-### 1 **Quantitative finance (foundations)**
+### **Quantitative finance (foundations)**
 
 
 
@@ -315,7 +315,7 @@ The notes are marked as continuing work. Future development may include expanded
 ---
 
 
-### 2 **Volatility surface & stochastic volatility (model building)**
+### **Volatility surface & stochastic volatility (model building)**
 
 | ID | Link | Notes |
 |----|------|-------|
@@ -328,7 +328,7 @@ The notes are marked as continuing work. Future development may include expanded
 
 ---
 
-### 3 **Interest-rates & fixed-income (asset classes)** 
+### **Interest-rates & fixed-income (asset classes)** 
 
 | ID | Link | Notes |
 |----|------|-------|
@@ -337,7 +337,7 @@ The notes are marked as continuing work. Future development may include expanded
 
 ---
 
-### 4 **Geometric & field theory approaches (more model building)**
+### **Geometric & field theory approaches (more model building)**
 
 | ID | Link | Notes |
 |----|------|-------|
@@ -361,7 +361,7 @@ The notes are marked as continuing work. Future development may include expanded
 
 
 
-### 5 **Numerical methods and computational implementation (financial engineering)**
+### **Numerical methods and computational implementation (financial engineering)**
 
 | ID | Link | Notes |
 |----|------|-------|
@@ -375,7 +375,7 @@ The notes are marked as continuing work. Future development may include expanded
 
 ---
 
-### 6 **Trading, hedging & risk management (practice)**
+### **Trading, hedging & risk management (practice)**
 
 | ID | Link | Notes |
 |----|------|-------|
