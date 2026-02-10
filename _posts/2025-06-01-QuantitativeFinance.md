@@ -236,7 +236,7 @@ Arthur's *Complexity and the Economy* (S66, 2015) is the central theoretical tex
 
 Gatti et al. (S67, 2018) provide the computational toolkit: scalable agent-based modeling (ABM) frameworks for policy analysis and liquidity cascades. Agent-based models are the natural computational embodiment of the complexity economics worldview—they simulate the interactions of heterogeneous agents according to specified behavioral rules and study the emergent aggregate dynamics. The challenge is that ABMs are easy to build and hard to validate: the space of possible agent specifications is enormous, and connecting ABM output to empirical data in a disciplined way remains an open methodological problem.
 
-Farmer's *Making Sense of Chaos* (S70, 2024) represents the intellectual culmination of the physics-to-finance migration documented throughout the bibliography. Three decades after leaving physics for finance, Farmer synthesizes his research program into a roadmap for complexity economics—an argument that the tools of complexity science (agent-based modeling, network theory, evolutionary dynamics, machine learning) are ready to address problems that orthodox economics has struggled with, from financial crises to climate change to inequality.
+Farmer's *Making Sense of Chaos* (S70, 2024) represents the intellectual culmination of the physics-to-finance migration documented throughout the bibliography. Three decades after leaving physics for finance, Farmer synthesizes his research program into a roadmap for complexity economics—an argument that the tools of complexity science (agent-based modeling, network theory, evolutionary dynamics, machine learning) are ready to address problems where orthodox economics has struggled.
 
 ### 8.5 Suggested learning path
 
