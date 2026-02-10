@@ -280,7 +280,7 @@ For the practitioner, these correspondences provide tools: perturbation theory f
 * External hyper-linked references = S1 … S64
 
 
-## 1 Overview
+## Overview
 
 ### Chapters
 
@@ -304,7 +304,7 @@ For the practitioner, these correspondences provide tools: perturbation theory f
 
 ---
 
-## 2 Probability & Statistical Foundations
+## Probability & Statistical Foundations
 
 ### Chapters
 
@@ -327,7 +327,7 @@ For the practitioner, these correspondences provide tools: perturbation theory f
 
 ---
 
-## 3 Linear Regression & Generalised Linear Models
+## Linear Regression & Generalised Linear Models
 
 ### Chapters
 
@@ -344,7 +344,7 @@ For the practitioner, these correspondences provide tools: perturbation theory f
 
 ---
 
-## 4 Linear Classification
+## Linear Classification
 
 ### Chapters
 
@@ -355,7 +355,7 @@ For the practitioner, these correspondences provide tools: perturbation theory f
 
 ---
 
-## 5 Neural Networks & Deep Learning
+## Neural Networks & Deep Learning
 
 ### Chapters
 
@@ -387,7 +387,7 @@ For the practitioner, these correspondences provide tools: perturbation theory f
 
 ---
 
-## 6 Kernel Methods & Gaussian Processes
+## Kernel Methods & Gaussian Processes
 
 ### Chapters
 
@@ -402,7 +402,7 @@ For the practitioner, these correspondences provide tools: perturbation theory f
 
 ---
 
-## 7 Regularisation & Ensemble Learning
+## Regularisation & Ensemble Learning
 
 ### Chapters
 
@@ -422,7 +422,7 @@ For the practitioner, these correspondences provide tools: perturbation theory f
 
 ---
 
-## 8 Graphical Models & Structured Probability
+## Graphical Models & Structured Probability
 
 ### Chapters
 
@@ -447,7 +447,7 @@ For the practitioner, these correspondences provide tools: perturbation theory f
 
 ---
 
-## 9 Dimensionality Reduction & Latent Variables
+## Dimensionality Reduction & Latent Variables
 
 ### Chapters
 
@@ -466,7 +466,7 @@ For the practitioner, these correspondences provide tools: perturbation theory f
 
 ---
 
-## 10 Deep Generative Models
+## Deep Generative Models
 
 ### Chapters
 
