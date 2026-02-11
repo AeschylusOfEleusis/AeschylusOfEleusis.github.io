@@ -419,28 +419,27 @@ Although not explicitly developed in the current bibliography, the Martin-Siggia
 
 ## 8. Critical Assessment and Recommendations
 
-### 8.1 Strengths of the Bibliography
+### 8.1 Summary
 
-The twenty-seven references assembled here effectively span foundational mathematics through speculative physics applications. Several specific strengths deserve note:
+The twenty-seven references assembled here effectively span foundational mathematics through speculative physics applications. Several points are worth observing:
 
 - Wheeler's lecture notes (S7–S10) provide freely accessible, pedagogically excellent entry points to the mathematical foundations. For a physics audience, these are superior to most textbook introductions.
 - The financial mathematics references (S2–S4, S6) demonstrate practical applications of Lévy processes that are testable against market data, grounding the more abstract mathematics in empirical reality.
 - Laskin's papers and book (S21–S24) provide a coherent, self-contained development of fractional quantum mechanics.
 - Calcagni's systematic program (S18–S20, S25–S27) represents a serious attempt to extend fractional ideas to spacetime geometry and quantum field theory, with clear mathematical development even where the physics remains speculative.
 
-### 8.2 Limitations and Gaps
+### 8.2 Gaps
 
-The bibliography is explicitly labeled as a draft, and several notable topics are absent:
+There are several notable topics absent from consideration and a deeper dive into the subject benefits from considering:
 
 - **The Caputo derivative** is mentioned in several textbooks but does not receive dedicated treatment proportional to its importance, particularly for applied problems.
 - **Fractional Brownian motion** is absent. While distinct from Lévy processes (it is Gaussian, with long-range dependence rather than heavy tails), it is a major application of fractional calculus in its own right.
 - **Applications in control theory and signal processing**, which represent some of the most developed engineering applications of fractional calculus, are covered only through the general textbooks.
-- **Experimental and observational constraints** on fractional theories in physics are not systematically reviewed. For the speculative gravity and QFT proposals, this is a significant omission.
 - A **glossary of operator conventions**—clarifying the relationships among Riemann-Liouville, Caputo, Grünwald-Letnikov, Marchaud, Weyl, and spectral definitions—would substantially improve navigability.
 
 ### 8.3 Status of Theoretical Proposals
 
-The references in this bibliography range from established, textbook-level mathematics to speculative theoretical physics. A rough classification:
+The references in this bibliography range from established, textbook-level mathematics to speculative theoretical physics. A rough classification is given as follows:
 
 **Established results:**
 - Riemann-Liouville and Caputo fractional calculus (mathematical foundations, Sections 3 and 6)
@@ -459,13 +458,10 @@ The references in this bibliography range from established, textbook-level mathe
 
 ---
 
-## 9. Conclusion and Future Directions
-
-The fractional calculus bibliography provides a curated entry point into a mathematically rich and physically consequential field. The twenty-seven references trace a coherent arc from eighteenth-century mathematical curiosities through modern applications in finance, materials science, and theoretical physics. The central role of Lévy processes in connecting these diverse applications is the organizing thesis, and it holds up well under scrutiny.
+## 9. Conclusion 
 
 For a reader with graduate-level training in mathematics and physics, the recommended reading path proceeds as follows: Wheeler's notes (S7, S9) for foundational constructions and the fractional Laplacian; Kilbas (S11) as a reference for precise operator identities; the Lévy process literature (S1, S3, S5) for stochastic motivation; Laskin (S21–S23) for fractional quantum mechanics; and Calcagni (S26, S20) for the multifractional spacetime program. The financial applications (S2–S4) and numerical methods (S6, S14) are consulted as dictated by the reader's specific interests.
 
-The bibliography as it stands is weighted toward the physics of fractional operators and underweights their engineering and applied-mathematics applications. Expanding the coverage to include fractional control theory, fractional signal processing, and experimental constraints on fractional physical theories would strengthen the collection. The bridge to biophysics—where power-law relaxation, anomalous diffusion in cellular environments, and viscoelastic models of tissue mechanics all involve fractional operators—represents a natural extension given the broader context of the *Projects in Scientific Computing*.
 
 ---
 
@@ -500,7 +496,7 @@ The bibliography as it stands is weighted toward the physics of fractional opera
 | P.V. | Cauchy principal value |
 
 
-**Bibliography**
+## Bibliography
 
 ### L’evy Flights
 
