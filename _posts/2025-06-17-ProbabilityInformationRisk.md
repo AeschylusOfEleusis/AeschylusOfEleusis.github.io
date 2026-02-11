@@ -350,67 +350,13 @@ These notes, like the original bibliography, are deliberately selective. Several
 
 *Risk measures and portfolio constraints.* The Kelly framework assumes unlimited access to capital and no leverage constraints. Real portfolio management involves drawdown constraints, value-at-risk (VaR), conditional value-at-risk (CVaR), and regime uncertainty. These topics connect to convex optimization and robust control as described in subsequent chapters.
 
-*Stochastic calculus and continuous-time finance.* Thorp's continuous-time Kelly formula hints at the Black-Scholes-Merton framework and the theory of continuous-time portfolio optimization (Merton's problem). These connections are developed in the broader *Projects in Scientific Computating* collection under stochastic calculus.
+*Stochastic calculus and continuous-time finance.* Thorp's continuous-time Kelly formula hints at the Black-Scholes-Merton framework and the theory of continuous-time portfolio optimization (Merton's problem). These connections are developed in the broader *Projects in Scientific Computing* collection under stochastic calculus.
 
 *Machine learning optimization.* The connections between information-theoretic objectives (cross-entropy loss, KL regularization, mutual information maximization) and modern machine learning training procedures are substantial and considered in and of themselves in the machine learning chapter.
 
 ---
 
-## 19. Bibliographic Summary
-
-The following table summarizes the twenty-eight sources surveyed in these notes, organized by section. Sources marked with an asterisk (*) are freely available online.
-
-
 ## Bibliography
-
-### Probability (S1--S6)
-
-| ID | Author(s) | Title | Year |
-|----|-----------|-------|------|
-| S1* | Kolmogorov | *Foundations of the Theory of Probability* | 1933/1956 |
-| S2* | Jaynes | *Probability: The Logic of Science* (excerpt) | 2003 |
-| S3* | Mumford and Desolneux | *Pattern Theory* (course site) | 2010 |
-| S4* | DeDeo | *Bayes for Intelligent People* | 2018 |
-| S5 | Grimmett and Stirzaker | *Probability and Random Processes* (4th ed.) | 2020 |
-| S6 | Grimmett and Stirzaker | *One Thousand Exercises in Probability* (3rd ed.) | 2020 |
-
-### Information Theory (S7--S16)
-
-| ID | Author(s) | Title | Year |
-|----|-----------|-------|------|
-| S7 | Pierce | *An Introduction to Information Theory* (Dover) | 1980 |
-| S8 | Chaitin | *Algorithmic Information Theory* | 1987 |
-| S9 | Roman | *Coding and Information Theory* | 1992 |
-| S10* | MacKay | *Information Theory, Inference and Learning Algorithms* | 2003 |
-| S11 | Cover and Thomas | *Elements of Information Theory* (2nd ed.) | 2005 |
-| S12* | Bais and Farmer | *The Physics of Information* (arXiv:0708.2837) | 2007 |
-| S13* | Ciaglia et al. | *HJ Approach to Potential Functions in Info. Geometry* (arXiv:1608.06584) | 2016 |
-| S14* | DeDeo | *Information Theory for Intelligent People* | 2018 |
-| S15* | Wolpert | *Info. Theory, CS, Stochastic Thermodynamics* (arXiv:1901.00386) | 2019 |
-| S16 | Nielsen | *The Many Faces of Information Geometry* (AMS Notices) | 2022 |
-
-### Risk (S17--S28)
-
-| ID | Author(s) | Title | Year |
-|----|-----------|-------|------|
-| S17 | Thorp | *Beat the Dealer* | 1966 |
-| S18 | Thorp | *Kelly Money Management* | 1979 |
-| S19 | Thorp | *The Mathematics of Gambling* | 1984 |
-| S20* | Thorp | *The Kelly Criterion in Blackjack, Sports Betting, and the Stock Market* | 1997 |
-| S21 | Packel | *The Mathematics of Games and Gambling* (2nd ed.) | 2006 |
-| S22 | MacLean, Thorp, and Ziemba (eds.) | *The Kelly Capital Growth Investment Criterion* | 2011 |
-| S23 | Epstein | *The Theory of Gambling and Statistical Logic* (2nd ed.) | 2012 |
-| S24 | Ethier | *The Doctrine of Chances* | 2016 |
-| S25 | Thorp | *A Man for All Markets* | 2017 |
-| S26 | Werthamer | *Risk and Reward: The Science of Casino Blackjack* (2nd ed.) | 2018 |
-| S27 | Bewersdorff | *Luck, Logic, and White Lies* (2nd ed.) | 2021 |
-| S28 | Bollman | *Basic Gambling Mathematics* (2nd ed.) | 2023 |
-
----
-
-
-
-
 
 ### Probability
 
