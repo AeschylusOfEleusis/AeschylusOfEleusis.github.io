@@ -312,7 +312,6 @@ What distinguishes these notes from standard references in either probability th
 ---
 ## Bibliography
 
-
 ## Brownian Motion and Stochastic Differential Equations
 
 | ID  | Link                                                                                                                                                                            | Notes                                                                                                       |
@@ -328,8 +327,6 @@ What distinguishes these notes from standard references in either probability th
 | S9  | [Dengler “Derivation of Langevin equations” 2015](https://arxiv.org/abs/1506.02650)                                                                                                | Derives Langevin dynamics from underlying microscopic Hamiltonian models.                                   |
 | S10 | [Särkkä and Solin “Applied SDE” 2019](https://www.cambridge.org/core/books/applied-stochastic-differential-equations/6BB1B8B0819F8C12616E4A0C78C29EAA)                          | Covers practical methods for modeling time series with stochastic differential equations.                   |
 | S11 | [Milstein and Tretyakov “Stochastic Numerics” 2021](https://link.springer.com/book/10.1007/978-3-662-10063-9)                                                                         | Presents advanced numerical schemes for simulating stochastic dynamical systems with error analysis.        |
-
----
 
 ## Brownian Motion on Curved Manifolds
 
@@ -349,7 +346,6 @@ What distinguishes these notes from standard references in either probability th
 | S23 | [Chandra et al “Langevin dynamics for Yang-Mills” 2022](https://arxiv.org/abs/2006.04987)                                                                                            | Applies Langevin-based methods to simulate Yang–Mills gauge fields.                                       |
 | S24 | [Muniz et al “Itô SDEs on Matrix Lie Groups” 2021](https://arxiv.org/abs/2102.04131)                                                                                                | Develops an Itô–SDE framework explicitly for processes valued in matrix Lie groups.                      |
 
----
 
 ## Stochastic Mechanics
 
@@ -369,8 +365,6 @@ What distinguishes these notes from standard references in either probability th
 | S36 | [Kuipers “Analytic continuation of stochastic mechanics” 2022](https://arxiv.org/pdf/2109.10710)                                                                                                     | Explores analytic continuation methods within stochastic mechanics to connect to complex domains.              |
 | S37 | [Kuipers “Stochastic mechanics and Brownian motion” 2023](https://arxiv.org/abs/2301.05467)                                                                                                          | Analyzes the foundational role of Brownian motion in contemporary stochastic mechanics approaches.             |
 
----
-
 ## Relativistic Diffusion
 
 | ID  | Link                                                                                                                                                                                    | Notes                                                                                       |
@@ -383,7 +377,6 @@ What distinguishes these notes from standard references in either probability th
 | S43 | [Dunkel and Hänggi “Relativistic Brownian Motion” 2008](https://arxiv.org/abs/0812.1996)                                                                                               | Provides a covariant theory of Brownian motion consistent with special relativity.         |
 | S44 | [Kuipers “Stochastic mechanics on Lorentzian manifolds” 2021](https://arxiv.org/abs/2101.12552)                                                                                         | Develops stochastic mechanical models on Lorentzian manifold backgrounds.                  |
 
----
 
 ## Stochastic Partial Differential Equations
 
@@ -402,4 +395,3 @@ What distinguishes these notes from standard references in either probability th
 | S55 | [Zhang and Karniadakis “Numerical methods for SPDE” 2017](https://link.springer.com/book/10.1007/978-3-319-57511-7)                                                                 | Surveys computational schemes for accurately simulating stochastic partial differential equations. |
 
 
----
