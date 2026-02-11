@@ -246,7 +246,7 @@ The sources in this collection admit several natural reading orderings depending
 
 ---
 
-
+## Bibliography
 
 ### Overview: Applied Mathematics and Scientific Computing
 
