@@ -360,6 +360,9 @@ These notes, like the original bibliography, are deliberately selective. Several
 
 The following table summarizes the twenty-eight sources surveyed in these notes, organized by section. Sources marked with an asterisk (*) are freely available online.
 
+
+## Bibliography
+
 ### Probability (S1--S6)
 
 | ID | Author(s) | Title | Year |
