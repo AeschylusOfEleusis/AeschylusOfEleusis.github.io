@@ -152,9 +152,9 @@ Cover and Thomas is also where one finds the formal treatment of Kolmogorov comp
 
 Shannon entropy is a property of probability distributions---it measures average uncertainty. Algorithmic information theory, developed independently by Solomonoff, Kolmogorov, and Chaitin, asks a different question: what is the information content of a single string? The answer is the Kolmogorov complexity $K(x)$: the length of the shortest program that produces $x$ on a universal Turing machine.
 
-A string is algorithmically random if no program shorter than the string itself can produce it -- that is, 
+A string is algorithmically random if no program shorter than the string itself can produce it -- that is, if 
 
-if$ K(x) \geq |x|$. 
+$$ K(x) \geq |x| $$. 
 
 This definition connects randomness to incompressibility: a random string cannot be compressed. The resulting theory has deep connections to Gödel's incompleteness theorems (there exist strings whose complexity cannot be proved to exceed any given bound) and to the halting problem (Kolmogorov complexity is uncomputable).
 
