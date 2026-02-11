@@ -282,28 +282,13 @@ The finance sources collectively cover the three main algorithmic approaches: am
 
 ---
 
-## 7. Critical Assessment and Gaps
-
-### 7.1 Strengths of the Collection
+## 7. Summary
 
 The 43 sources span four decades (1982--2024) and cover the field's conceptual origins, mathematical foundations, engineering challenges, and three significant application domains. The inclusion of both gate-model and annealing-based approaches provides breadth. The presence of canonical texts (Feynman, Deutsch, Nielsen and Chuang) alongside specialized surveys and recent applications papers gives the collection pedagogical range.
 
-The interdisciplinary scope---connecting quantum physics simulation, machine learning, and quantitative finance---reflects the cross-domain character of the *Projects in Scientific Computing* program and positions quantum computing as a natural intersection point for the computational finance, quantum field theory, and numerical methods threads developed elsewhere in this work.
+The interdisciplinary scope---connecting quantum physics simulation, machine learning, and quantitative finance---reflects the interdisciplinary intentions and character of *Projects in Scientific Computing* and positions quantum computing as a natural intersection point for the computational finance, quantum field theory, and numerical methods threads developed elsewhere in this work.
 
-### 7.2 Annotation Accuracy
 
-The comparative review identified several materially inaccurate annotations on the original page, which the initial analysis document inherited. The corrected characterizations are:
-
-- **S4** (Haba & Kleinert): Classical stochastic simulation of quantum dynamics, not path integrals in quantum information theory.
-- **S8** (Ossorio-Castillo & Tornero): Expository treatment of the circuit model, not NISQ circuit synthesis techniques.
-- **S11** (Mermin arXiv): Pedagogical "Cbits to Qbits" paper from 2002, not a 2007 deep-dive on error correction.
-- **S33** (Adcock *et al.*): QML review paper, not a variational classifier benchmark.
-- **S34** (Cao *et al.*): Quantum neuron building block, not quantum Hopfield memory.
-- **S35** (Ciliberto *et al.*): Methodological QML survey emphasizing classical baselines, not a QNN architecture catalog.
-- **S38** (Amin *et al.*): Quantum Boltzmann machines via Hamiltonian models, not variational circuit training.
-- **S41** (Rebentrost *et al.*): Derivative pricing, not portfolio risk measures.
-
-Date corrections: Deutsch [S2] is 1985, not 1984; Mermin arXiv [S11] is 2002, not 2007; Rosenberg *et al.* [S43] is 2015, not 2020.
 ---
 
 ## 8. Connections to Other Chapters
