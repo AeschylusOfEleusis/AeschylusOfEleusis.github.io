@@ -270,6 +270,7 @@ The intellectual payoff is a set of precise correspondences: loss functions and 
 
 For the practitioner, these correspondences provide tools: perturbation theory for computing finite-width corrections, random matrix theory for analyzing kernel spectra, the RG equation for understanding how learned representations change with scale. For the theorist, they provide problems: extending the correspondence beyond the perturbative regime, understanding training dynamics as a genuinely nonequilibrium process, and connecting the ensemble theory to single-network behavior. For both, the stochastic dynamics---Langevin equations, Fokker--Planck equations, path integrals---that appear in diffusion models, MCMC, neural ODEs, and stochastic quantization constitute a shared mathematical language that makes the boundaries between "machine learning" and "physics" increasingly difficult to locate.
 
+## Bibliography
 
 ### Textbooks
 * **Bishop-06** [Pattern Recognition and Machine Learning](https://www.microsoft.com/en-us/research/wp-content/uploads/2006/01/Bishop-Pattern-Recognition-and-Machine-Learning-2006.pdf), 
