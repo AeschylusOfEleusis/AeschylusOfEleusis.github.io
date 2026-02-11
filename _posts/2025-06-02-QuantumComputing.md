@@ -320,58 +320,8 @@ The **probability, information, and risk** chapter connects to the information-t
 
 ---
 
-## Appendix A: Source Accessibility
 
-The following table documents the accessibility status of each source as of January 2026.
-
-| ID | Access Status | Notes |
-|----|---------------|-------|
-| S1 | Full PDF (catonmat.net) | Feynman 1982; 22 pages |
-| S2 | Full PDF (cs.princeton.edu) | Deutsch 1985 |
-| S3 | Full PDF (arXiv) | Rieffel & Polak survey |
-| S4 | Full PDF (arXiv) | Haba & Kleinert; 3 pages |
-| S5 | Full PDF (arXiv) | Nielsen *et al.* geometry paper |
-| S6 | Abstract only (arXiv) | Roser; PDF retrieval issues |
-| S7 | Full PDF (arXiv) | Harrow & Montanaro supremacy survey |
-| S8 | Full PDF (arXiv) | Ossorio-Castillo & Tornero exposition |
-| S9 | Landing page (Cambridge) | Mermin textbook; paywalled |
-| S10 | Full PDF (UW) | Oskin lecture notes; 56 pages |
-| S11 | Full PDF (arXiv) | Mermin "Cbits to Qbits" |
-| S12 | Landing page (Cambridge) | Nielsen & Chuang; paywalled |
-| S13 | Landing page (Cambridge) | Pachos topological QC; paywalled |
-| S14 | Full PDF (arXiv) | Aaronson complexity survey |
-| S15 | Landing page (Cambridge) | Watrous QIT; paywalled |
-| S16 | Timeout issues | Aaronson lecture notes (scottaaronson.com) |
-| S17 | Full PDF (arXiv) | Witten information theory |
-| S18 | Landing page (Springer) | Quantum quenching; paywalled |
-| S19 | Full PDF (arXiv) | Quantum annealing landscapes |
-| S20 | Landing page (Springer) | Practical QC; paywalled |
-| S21 | Full PDF (arXiv) | Spin glass benchmarks |
-| S22 | Full PDF (arXiv) | Quantum networking challenges |
-| S23 | Full PDF (arXiv) | Quantum internet overview |
-| S24 | Landing page (Nature) | Google supremacy; paywalled |
-| S25 | Full PDF (arXiv) | Google time crystals |
-| S26 | Full PDF (arXiv) | QCQFT continuous variables |
-| S27 | Full PDF (arXiv) | Preskill QFT simulation |
-| S28 | Full PDF (arXiv) | Quantum chemistry review |
-| S29 | Full PDF (arXiv) | Many-body QC review |
-| S30 | Full PDF (arXiv) | HEP survey |
-| S31 | Full PDF (arXiv) | Schuld *et al.* QML survey |
-| S32 | Landing page (ScienceDirect) | QML edited volume; paywalled |
-| S33 | Full PDF (arXiv) | Adcock *et al.* QML review |
-| S34 | Full PDF (arXiv) | Cao *et al.* quantum neuron |
-| S35 | Full PDF (arXiv) | Ciliberto *et al.* classical baselines |
-| S36 | Full PDF (arXiv) | Arunachalam & de Wolf learning theory |
-| S37 | Full PDF (arXiv) | Biamonte *et al.* broad QML review |
-| S38 | Full PDF (arXiv) | Amin *et al.* quantum Boltzmann machine |
-| S39a | Full PDF (arXiv) | Huggins *et al.* tensor networks |
-| S39b | Blocked (IEEE robots) | Healthcare QML review |
-| S40 | Full PDF (arXiv) | Egger *et al.* portfolio optimization |
-| S41 | Full PDF (arXiv) | Rebentrost *et al.* derivative pricing |
-| S42 | Full PDF (arXiv) | Orús *et al.* finance survey |
-| S43 | Full PDF (arXiv) | Rosenberg *et al.* trading trajectories |
-
----
+## Bibliography
 
 ### Overview
 
