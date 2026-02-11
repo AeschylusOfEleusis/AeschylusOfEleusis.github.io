@@ -263,7 +263,7 @@ Bayer et al. for machine-learning approaches to calibration, Guyon and Henry-Lab
 
 ## 9. Critical Assessment
 
-### 9.1. Strengths of the Collection
+### 9.1. Summary
 
 The sources gathered here have several distinctive features. The interdisciplinary depth---the emphasis on geometric and physics-based approaches---provides alternative perspectives that are largely absent from standard finance curricula and practitioner reading lists. The practitioner-theory balance includes both rigorous mathematical treatments (Henry-Labordère, Farinelli, Guyon) and desk-oriented texts (Natenberg, Sinclair). The collection incorporates recent developments including rough volatility, deep-learning calibration, and martingale optimal transport. And the availability of many key papers on arXiv facilitates access.
 
@@ -271,7 +271,7 @@ The coherent pipeline from theory through modeling, calibration, computation, an
 
 ### 9.2. Gaps
 
-Several areas of quantitative finance are underrepresented or absent. There is no coverage of credit derivatives---credit default swaps, CDOs, credit-risk modeling---despite these being major asset classes with substantial mathematical content. Equity realized-volatility modeling, variance-swap mechanics, and VIX futures term-structure dynamics could receive fuller treatment. Broader machine-learning applications (reinforcement learning for hedging, neural-network pricing beyond calibration surrogates) are absent. Post-crisis regulatory frameworks, margin requirements, and central clearing are not addressed.
+Several areas of quantitative finance are underrepresented or absent. For example, there is no coverage of credit derivatives---credit default swaps, CDOs, credit-risk modeling---despite these being major asset classes with substantial mathematical content. Similarly, equity realized-volatility modeling, variance-swap mechanics, and VIX futures term-structure dynamics could receive fuller treatment then considered in the present notes. Post-crisis regulatory frameworks, margin requirements, and central clearing are also not addressed here.
 
 The collection presumes a level of mathematical sophistication (stochastic calculus, PDEs, some geometry) that makes it inaccessible to readers without graduate-level quantitative training. Prerequisites are implicit rather than explicit, and a novice reader could easily become lost in Section 4 without adequate geometric preparation.
 
@@ -293,11 +293,13 @@ Finally, the fat-tail critique (Taleb) raises foundational questions about the e
 
 These notes have surveyed the literature on option trading from the perspective of computational finance and financial engineering, with particular attention to the geometric and field-theoretic methods that distinguish the present treatment from conventional reading lists. The pipeline from foundations through volatility modeling, interest-rate term structure, geometric reformulations, numerical implementation, and trading practice provides a coherent framework for understanding both the mathematics and the practical challenges of derivative pricing.
 
-The strongest sources in the collection are those that bridge mathematical depth and practical utility: Gatheral's *Volatility Surface* for smile modeling, Henry-Labordère's geometric approach to stochastic volatility, Glasserman's Monte Carlo methods, and the Bayer et al. deep-calibration paper. The most ambitious sources---the geometric arbitrage theory of Farinelli and Vázquez, the quantum-finance approaches of Baaquie and Farinelli-Takada---represent active research frontiers where the conceptual framework is well-developed but the practical applications remain to be fully demonstrated.
+Several sources bridge mathematical depth and practical utility: Gatheral's *Volatility Surface* for smile modeling, Henry-Labordère's geometric approach to stochastic volatility, Glasserman's Monte Carlo methods, and the Bayer et al. deep-calibration paper. The most ambitious sources---the geometric arbitrage theory of Farinelli and Vázquez, the quantum-finance approaches of Baaquie and Farinelli-Takada---represent active research frontiers where the conceptual framework is well-developed but the practical applications remain to be fully demonstrated.
 
-The notes are marked as continuing work. Future development may include expanded coverage of credit derivatives, machine-learning methods beyond calibration surrogates, and the biophysics-finance connections that arise when stochastic-process methods are applied across both domains.
+The notes are, by definition, in an ongoing state of refinement. Future development may include expanded coverage of credit derivatives, machine-learning methods beyond calibration surrogates, and the biophysics-finance connections that arise when stochastic-process methods are applied across both domains.
 
 ---
+
+## Bibliography
 
 ### **Quantitative finance (foundations)**
 
