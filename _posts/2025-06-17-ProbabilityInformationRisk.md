@@ -154,7 +154,7 @@ Shannon entropy is a property of probability distributions---it measures average
 
 A string is algorithmically random if no program shorter than the string itself can produce it -- that is, if 
 
-$$ K(x) \geq |x| $$. 
+$$ K(x) \geq \left\|x\right\| $$. 
 
 This definition connects randomness to incompressibility: a random string cannot be compressed. The resulting theory has deep connections to Gödel's incompleteness theorems (there exist strings whose complexity cannot be proved to exceed any given bound) and to the halting problem (Kolmogorov complexity is uncomputable).
 
