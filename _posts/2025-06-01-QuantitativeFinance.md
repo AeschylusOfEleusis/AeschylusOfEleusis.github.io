@@ -272,17 +272,17 @@ A notable feature of the bibliography is the prominence of practitioner-academic
 
 ## 10. Assessment and Future Directions
 
-### 10.1 Strengths of the collection
+### 10.1 Summary
 
-The bibliography provides comprehensive coverage of foundational and contemporary literature in econophysics and computational finance. Its organizational structure—progressing from data through theory to applications and synthesis—mirrors the logical structure of the subject. The balance between physics-based and traditional finance perspectives ensures that the reader encounters the orthodox view alongside the alternatives, enabling informed comparison rather than partisan advocacy. The inclusion of historical and philosophical context (Schinckus, Weatherall) is unusual and valuable: it is rare for a technical bibliography to situate its contents within a broader intellectual narrative.
+The bibliography provides comprehensive coverage of foundational and contemporary literature in econophysics and computational finance. Its organizational structure—progressing from data through theory to applications and synthesis—mirrors the logical structure of the subject. The balance between physics-based and traditional finance perspectives ensures that the reader encounters the orthodox view alongside the alternatives, enabling informed comparison rather than partisan advocacy. The inclusion of historical and philosophical context (Schinckus, Weatherall) situates contents within a broader intellectual narrative.
 
-The emphasis on empirically-grounded approaches over pure theory is appropriate given the state of the field. The mix of ArXiv preprints and peer-reviewed monographs ensures both accessibility (many preprints are freely available) and rigor (the major Cambridge, Princeton, and Springer texts have undergone editorial review).
+The emphasis on empirically-grounded approaches over pure theory originates from the state of the field. The mix of ArXiv preprints and peer-reviewed monographs ensures both accessibility (many preprints are freely available) and rigor (the major Cambridge, Princeton, and Springer texts have undergone editorial review).
 
-### 10.2 Limitations and gaps
+### 10.2 Gaps
 
-Several areas are underrepresented relative to current practice. High-frequency trading and algorithmic market-making research—the Avellaneda-Stoikov framework, optimal execution under adverse selection, latency arbitrage—is not deeply covered despite being a major area of quantitative finance. Machine learning applications, while gestured at (S7, S12), are thin relative to the explosive growth of ML methods in finance over the past decade. Fixed-income term-structure modeling beyond PCA appears only through a single Rebonato text (S48). Behavioral finance is represented primarily through Pompian (S31) and could be expanded to include the substantial academic literature on limits to arbitrage, sentiment, and informed trading. Cryptocurrency and decentralized finance are entirely absent—a reasonable omission given the physics-informed emphasis, but one the reader should note.
+High-frequency trading and algorithmic market-making research—the Avellaneda-Stoikov framework, optimal execution under adverse selection, latency arbitrage—is a major area of quantitative finance discussed more completely in the algorithmic trading chapter. Machine learning applications, while gestured at (S7, S12), are thin relative to the explosive growth of ML methods in finance over the past decade. Again, these are deferred to a later chapter.  Similarly, fixed-income term-structure modeling beyond PCA appears only through a single Rebonato text (S48); since the chapter on option trading includes a section on interest rate derivatives. Behavioral finance is represented primarily through Pompian (S31) and could be expanded to include the substantial academic literature on limits to arbitrage, sentiment, and informed trading. Cryptocurrency and decentralized finance are entirely absent— an observation likely apparent to an attentive reader.
 
-Several publisher links in the original bibliography point to paywalled content. Where possible, ArXiv preprints or institutional repositories provide alternative access, but some major texts (particularly from Wiley and Princeton Press) may require library access.
+Nb. Several publisher links in the bibliography point to paywalled content. Where possible, ArXiv preprints or institutional repositories provide alternative access, but some major texts (particularly from Wiley and Princeton Press) may require library access.
 
 ### 10.3 Connections to other chapters
 
@@ -290,7 +290,7 @@ This chapter connects to several other sections of *Projects in Scientific Compu
 
 ---
 
-**Bibliography**
+## Bibliography
 
 ## Data: Time Series Analysis  
 
