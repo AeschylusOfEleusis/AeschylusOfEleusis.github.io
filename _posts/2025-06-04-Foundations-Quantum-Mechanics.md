@@ -1,12 +1,12 @@
 ---
 layout:   post
-title: "Notes on Quantum Foundations (Draft)"
+title: "Quantum Foundations"
 date: 2025-06-04 10:00:00 +0800
 categories: [Quantum Field Theory]
 tags: [Quantum Field Theory, Path Integrals, FoundationsQM]
 math:       true        # enable KaTeX
 ---
-
+# Notes on Quantum Foundations (Draft)
 
 ## Abstract
 These notes survey the foundations of quantum mechanics through a curated collection of 37 primary and contextual sources, organized by interpretive tradition. The collection spans wave mechanics and pilot-wave theory, the Copenhagen formalism, statistical and information-theoretic reconstructions, Bell's theorem and nonlocality, and the Everettian relative-state interpretation. For each source, the notes provide technical context, identify the interpretive work the source performs, and trace the conceptual threads connecting entries within and across sections. The notes are idiosyncratic rather than exhaustive: they reflect a particular path through the literature, chosen to illuminate the mathematical and physical structures underlying the interpretive debates. Where the collection has gaps — collapse theories, QBism, relational quantum mechanics, decoherent histories — these are documented and briefly discussed. The notes conclude with suggested reading paths for different audiences and a consolidated reference list.
