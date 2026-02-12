@@ -148,7 +148,7 @@ For mainstream finance theory, start with Cochrane (S37) then Duffie (S38). For 
 
 ### 5.4 Gaps in the literature
 
-No explicit term-structure or fixed-income asset pricing text appears here, though Rebonato's yield-curve modeling (S48) appears in the next section. Derivatives coverage is selective, reflecting the non-Gaussian focus; volatility-surface modeling, local and stochastic volatility models, and numerical methods for derivative pricing are not explicitly treated. The reader needing a comprehensive derivatives curriculum should supplement with standard references (Hull, Shreve, Gatheral).
+No explicit term-structure or fixed-income asset pricing text appears here, though Rebonato's yield-curve modeling (S48) appears in the next section. Derivatives coverage is selective, reflecting the non-Gaussian focus; volatility-surface modeling, local and stochastic volatility models, and numerical methods for derivative pricing are not explicitly treated. The reader needing a comprehensive derivatives curriculum should supplement with standard references (Hull, Shreve, Gatheral). The following chapter "Option Trading" covers several of these aspects. 
 
 ---
 
@@ -204,11 +204,7 @@ Chernov and Sornette (S62a, 2020) use hierarchical clustering to allocate tail c
 
 Hull's *Risk Management and Financial Institutions* (S62b, 2023) provides the regulatory context: Basel IV, CVA, and FRTB rules that shape capital requirements for financial institutions. This is the practitioner's reference for understanding the regulatory framework within which all the theoretical approaches must ultimately operate.
 
-### 7.4 A note on numbering
-
-The source bibliography contains numbering anomalies in this section: S61 is absent, and the label S62 is used twice (for Chernov and Sornette and for Hull). These are artifacts of the draft status of the original bibliography and are flagged here for cross-referencing purposes.
-
-### 7.5 Suggested learning path
+### 7.4 Suggested learning path
 
 Start with Rebonato (S56) to calibrate expectations about what risk models can and cannot do. Pair Malavergne and Sornette (S55) with Edwards (S59) for the combination of extreme-dependence theory and desk-level practice. Use Sornette et al. (S58) and Sornette (S60) for systemic and crash-modeling perspectives. Consult Hull (S62b) for the regulatory framework.
 
@@ -236,7 +232,7 @@ Arthur's *Complexity and the Economy* (S66, 2015) is the central theoretical tex
 
 Gatti et al. (S67, 2018) provide the computational toolkit: scalable agent-based modeling (ABM) frameworks for policy analysis and liquidity cascades. Agent-based models are the natural computational embodiment of the complexity economics worldview—they simulate the interactions of heterogeneous agents according to specified behavioral rules and study the emergent aggregate dynamics. The challenge is that ABMs are easy to build and hard to validate: the space of possible agent specifications is enormous, and connecting ABM output to empirical data in a disciplined way remains an open methodological problem.
 
-Farmer's *Making Sense of Chaos* (S70, 2024) represents the intellectual culmination of the physics-to-finance migration documented throughout the bibliography. Three decades after leaving physics for finance, Farmer synthesizes his research program into a roadmap for complexity economics—an argument that the tools of complexity science (agent-based modeling, network theory, evolutionary dynamics, machine learning) are ready to address problems where orthodox economics has struggled.
+Farmer's *Making Sense of Chaos* (S70, 2024) represents the intellectual culmination of the physics-to-finance migration documented throughout the bibliography. Three decades after leaving physics for finance, Farmer synthesizes his research program into a roadmap for complexity economics—an argument that the tools of complexity science (agent-based modeling, network theory, evolutionary dynamics, machine learning) are ready to address problems where orthodox economics have persistently struggled.
 
 ### 8.5 Suggested learning path
 
