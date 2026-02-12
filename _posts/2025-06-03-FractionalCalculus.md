@@ -55,7 +55,7 @@ The application of Lévy processes to finance reflects the empirical observation
 
 **S2: Duffie, Pan & Singleton (2000).** "Transform Analysis and Asset Pricing for Affine Jump-Diffusions," SSRN.
 
-A note on labeling: the project page identifies this reference as "SVJJ" (Stochastic Volatility with Joint Jumps), which is informal shorthand. The linked SSRN paper is titled "Transform Analysis and Asset Pricing for Affine Jump-Diffusions" and treats a broader class of models. The SVJJ model is a specific instance within the affine jump-diffusion framework that Duffie, Pan, and Singleton develop.
+A note on labeling: this reference is not infrequently referred to as "SVJJ" (Stochastic Volatility with Joint Jumps), which is informal shorthand. The linked SSRN paper is titled "Transform Analysis and Asset Pricing for Affine Jump-Diffusions" and treats a broader class of models. The SVJJ model is a specific instance within the affine jump-diffusion framework that Duffie, Pan, and Singleton develop.
 
 The paper's contribution is methodological: it provides a unified transform-based approach to pricing derivatives in models where the state vector follows an affine jump-diffusion process. The key technical result is that the characteristic function of affine processes satisfies a system of generalized Riccati ODEs, which can be solved (often in closed form) to yield option prices via Fourier inversion. This framework subsumes Black-Scholes, Heston, and various jump-diffusion models as special cases.
 
@@ -72,8 +72,6 @@ A point of mathematical substance in the 2003 paper deserves emphasis: the disti
 The 2005 paper extends the framework through general time-changed Lévy processes, providing more flexible models that can separately capture stochastic volatility and jump dynamics. Together, these papers represent the state of the art in Lévy-based option pricing as of the mid-2000s.
 
 **S6: Platen & Bruti-Liberati (2010).** *Numerical Solution of Stochastic Differential Equations with Jumps in Finance*, Springer.
-
-A note on dating: the project page lists this as 2017, but the Springer copyright page indicates 2010.
 
 This monograph provides comprehensive numerical methods for jump-diffusion SDEs, covering strong and weak approximation schemes, Monte Carlo simulation techniques, and multi-level methods. It is the implementation companion to the theoretical work of S2–S4: once one has a Lévy-based model, one needs to simulate it, and this book tells you how. Topics include Euler and Milstein schemes for jump-diffusions, variance reduction, and the treatment of infinite-activity Lévy processes (where jumps arrive at an infinite rate but remain summable).
 
@@ -155,7 +153,6 @@ This edited volume compiles research developments across multiple disciplines. T
 
 These two World Scientific volumes emphasize, respectively, qualitative theory (existence, uniqueness, stability) and numerical methods (discretization schemes, spectral methods, finite element approaches for fractional PDEs). Zhou's text includes variational iteration, homotopy perturbation, and Adomian decomposition methods—analytical approximation techniques that are particularly useful when exact solutions are unavailable. Baleanu et al. provide the numerical complement, covering finite-difference discretizations of fractional derivatives, spectral collocation methods, and error analysis.
 
-A note on dating: the project page lists S14 as 2017, which may refer to a reprint or second edition; the original edition appeared in 2012.
 
 ### 3.4 What Is Not Covered
 
@@ -182,15 +179,13 @@ The references in this section apply fractional calculus to two distinct areas: 
 
 **S15: Cresson (2006).** "Fractional embedding of differential operators and Lagrangian systems," arXiv:math/0605752.
 
-A clarification on the project page's label: the page calls this "Fractional Lagrangian Mechanics," but the linked paper's actual title and content concern "fractional embedding." The distinction matters. Cresson's contribution is an embedding-theory approach: he defines a "fractional embedding" that maps ordinary differential operators into fractional ones, constructs a symmetric operator from left and right Riemann-Liouville derivatives, and derives fractional versions of the Euler-Lagrange equations, Noether's theorem, and the Hamiltonian formalism.
+Cresson's contribution is an embedding-theory approach: he defines a "fractional embedding" that maps ordinary differential operators into fractional ones, constructs a symmetric operator from left and right Riemann-Liouville derivatives, and derives fractional versions of the Euler-Lagrange equations, Noether's theorem, and the Hamiltonian formalism.
 
 The physical motivation is that classical mechanics assumes differentiable trajectories, but physical systems may follow non-differentiable paths (as in Brownian motion or, more speculatively, at quantum scales). Cresson's embedding provides a principled way to extend variational mechanics to this setting, connecting to earlier work by Riewe on non-conservative Lagrangian systems.
 
 The paper also raises a mathematical subtlety that recurs throughout fractional mechanics: the interplay between left-sided and right-sided fractional derivatives. In integer-order calculus, there is no distinction (modulo a sign), but in fractional calculus, the left Riemann-Liouville derivative ${}_a D^\alpha_t$ and the right derivative ${}_t D^\alpha_b$ are genuinely different operators. Cresson's symmetrized combination is one approach to resolving this asymmetry; other approaches exist and lead to different physics.
 
 **S16: Atanacković, Pilipović, Stanković & Zorica (2014).** *Fractional Calculus with Applications in Mechanics*, Wiley.
-
-A note on dating: the project page lists this as 2004, but the Wiley catalog indicates a 2014 publication date.
 
 This comprehensive treatise develops fractional viscoelasticity, wave propagation in fractional media, and fractional oscillators. The central physical idea is that many real materials exhibit memory effects: the stress at the present time depends not only on the current strain but on the entire strain history, weighted by a power-law kernel. Fractional constitutive relations—relating stress to fractional derivatives of strain—capture this behavior naturally.
 
@@ -202,9 +197,7 @@ This group of references represents a significant escalation in speculative cont
 
 **S17: Vacaru (2010).** "Fractional Dynamics from Einstein Gravity, General Solutions, and Black Holes," arXiv:1004.0628.
 
-The project page labels this "Fractional Blackholes," which is informal but captures the content. Vacaru investigates how fractional calculus can be integrated into the geometry of spacetime, using the Caputo derivative on nonholonomic manifolds. The paper constructs fractional deformations of Schwarzschild and Kerr black hole solutions.
-
-A clarification: the first document in the source material (the "Analysis" document) identified this paper as "Fractional Nonholonomic Ricci Flows." That is a different Vacaru paper (arXiv:1004.0625). The paper actually linked on the project page is 1004.0628, which concerns fractional dynamics and black holes. The two papers are related—both deal with fractional geometry on nonholonomic manifolds—but they are distinct.
+"Fractional Blackholes" is informal view of the content here but captures the content. Vacaru investigates how fractional calculus can be integrated into the geometry of spacetime, using the Caputo derivative on nonholonomic manifolds. The paper constructs fractional deformations of Schwarzschild and Kerr black hole solutions.
 
 **S18–S20: Calcagni's Multifractional Spacetime Program (2010–2013).**
 
@@ -228,7 +221,7 @@ The three papers form a coherent program: S20 provides the mathematical foundati
 
 ### 4.4 Status Assessment
 
-The fractional mechanics references (S15–S16) rest on solid mathematical ground and connect to experimentally verified phenomena (viscoelastic materials). The fractional gravity and spacetime references (S17–S20) are mathematically consistent frameworks, but experimental verification remains absent. Calcagni's multifractional spacetime makes predictions for the spectral dimension that could, in principle, be tested by quantum gravity phenomenology, but current observational constraints are weak. The reader should maintain a clear distinction between the established mathematics and the speculative physics.
+The fractional mechanics references (S15–S16) rest on solid mathematical ground and connect to experimentally verified phenomena (viscoelastic materials). The fractional gravity and spacetime references (S17–S20) are mathematically consistent frameworks, but experimental verification remains absent. Calcagni's multifractional spacetime makes predictions for the spectral dimension that could, in principle, be tested, but current observational constraints are weak. The reader should maintain a clear distinction between the established mathematics and the speculative physics.
 
 ---
 
@@ -417,7 +410,7 @@ Although not explicitly developed in the current bibliography, the Martin-Siggia
 
 ---
 
-## 8. Critical Assessment and Recommendations
+## 8. Assessment and Recommendations
 
 ### 8.1 Summary
 
