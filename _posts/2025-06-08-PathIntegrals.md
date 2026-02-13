@@ -114,7 +114,7 @@ Van Vleck--Morette determinant and its role in semiclassical approximations is a
 thread that runs through the entire bibliography. The determinant
 
 $$
-\Delta(q_2, q_1) = \det\!\left(-\frac{\partial^2 S}{\partial q_2 \partial q_1}\right)
+\Delta(q_2, q_1) = \det\left(-\frac{\partial^2 S}{\partial q_2 \partial q_1}\right)
 $$
 
 encodes the focusing and defocusing of classical trajectories near a stationary
@@ -191,9 +191,11 @@ approximation schemes for Feynman's path integral. Her central contribution is
 the Van Vleck--Morette determinant, which gives the correct measure factor in
 the semiclassical (WKB-type) limit. The semiclassical propagator takes the
 form
+
 $$
 K(q_2, t_2; q_1, t_1) \approx \sum_{\text{cl. paths}} \left(\frac{1}{2\pi i \hbar}\right)^{n/2} \Delta^{1/2}(q_2, q_1) \, e^{iS_{\text{cl}}/\hbar}
 $$
+
 where the sum runs over classical paths connecting $(q_1, t_1)$ to $(q_2, t_2)$
 and $\Delta$ is the Van Vleck--Morette determinant. The determinant is not merely
 a normalization convenience; it encodes genuine physical information about the
