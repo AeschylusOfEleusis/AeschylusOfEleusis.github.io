@@ -780,6 +780,7 @@ program. They are isolated here for an abreviated and concise reading.
 
 ## Bibliography
 
+# Textbooks
 | ID  | Link                                                                                                                                                                                                                                       | Notes                                                                                                                            |
 |-----|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------|
 | S1  | [Feynman and Hibbs “Quantum Mechanics and Path Integrals (Emended)” 1965](https://store.doverpublications.com/products/9780486477220?srsltid=AfmBOooCnAZ6gumCypsl3-LJ14nlkYaKwU0JO1jYsz53BMAV9xnQ6G1H)                         | Provides a comprehensive, emended introduction to Feynman’s path integral formulation of quantum mechanics.                      |
@@ -792,7 +793,7 @@ program. They are isolated here for an abreviated and concise reading.
 | S8  | [Chaichian and Demichev “Path integals in Physics: Vol I” 2018](https://www.taylorfrancis.com/books/mono/10.1201/9781315273358/path-integrals-physics-demichev-chaichian)                                                                  | Introduces fundamental techniques of path integrals in physics, covering basic methods for classical and quantum systems.       |
 | S9  | [Chaichian and Demichev “Path integrals in Physics: Vol II” 2018](https://www.taylorfrancis.com/books/mono/10.1201/9781315274607/path-integrals-physics-demichev-chaichian)                                                                | Continues with advanced topics in path integrals, including gauge fields and applications in statistical mechanics.             |
 
-## 2. Feynman's Functional Integral 
+## Feynman's Functional Integral 
 
 | ID   | Link                                                                                                                                                                              | Notes                                                                                                                                     |
 |------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------|
@@ -801,7 +802,7 @@ program. They are isolated here for an abreviated and concise reading.
 | S12  | [Feynman and Vernon “Influence Functionals” 1963](https://www.sciencedirect.com/science/article/abs/pii/S0003491600960172)                                                        | Introduces the influence functional formalism to model how an environment affects a quantum system within the path integral framework.     |
 | S13  | [Choquard “VanVleck’s and Morette-Van Hove’s Determinant” 1996](https://www.e-periodica.ch/digbib/view?pid=hpa-001:1996:69::1206#680)                                             | Analyzes the determinants appearing in semiclassical propagator approximations, linking Van Vleck and Morette-Van Hove formulations.      |
 
-## 3. Schwinger's Action Principle
+## Schwinger's Action Principle
 
 | ID   | Link                                                                                                                                                | Notes                                                                                                               |
 |------|-----------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------|
@@ -810,7 +811,7 @@ program. They are isolated here for an abreviated and concise reading.
 | S16  | [Milton “Schwinger’s Quantum Action Principle I” 2014](https://arxiv.org/abs/1402.3762)                                                              | Outlines the foundational aspects of Schwinger’s quantum action principle and its role in quantum dynamics.         |
 | S17  | [Milton “Schwinger’s Quantum Action Principle” 2015](https://arxiv.org/abs/1503.08091)                                                              | Presents further developments and modern applications of Schwinger’s quantum action principle in field theory.      |
 
-## 4. Hydrogen Atom
+## Hydrogen Atom
 
 | ID   | Link                                                                                                                                                                     | Notes                                                                                                                             |
 |------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------|
@@ -820,7 +821,7 @@ program. They are isolated here for an abreviated and concise reading.
 | S21  | [Barut et al “Path integarl treatment of hydrogen atom in curved space” 1990](https://iopscience.iop.org/article/10.1088/0305-4470/23/7/023)                              | Examines the hydrogen atom in a curved-space background using path integrals to capture geometric influences on energy levels.  |
 | S22  | [Fujikawa “Path integral of H atom, Jacobi’s principle, and one dimensional gravity” 1996](https://arxiv.org/abs/hep-th/9602080)                                          | Links the hydrogen atom path integral, Jacobi’s principle, and one-dimensional gravity in a unified treatment.                    |
 
-## 5. Gauge Theory
+## Gauge Theory
 
 | ID   | Link                                                                                                                                                     | Notes                                                                                                                   |
 |------|----------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
@@ -832,7 +833,7 @@ program. They are isolated here for an abreviated and concise reading.
 | S28  | [Toms “Faddeev-Jackiw quantization and the path integarl” 2015](https://arxiv.org/abs/1508.07432)                                                       | Applies Faddeev-Jackiw quantization methods to the path integral framework, highlighting their compatibility and utility. |
 
 
-## 6. Curved Manifolds
+## Curved Manifolds
 
 | ID   | Link                                                                                                                                                                     | Notes                                                                                                                             |
 |------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------|
