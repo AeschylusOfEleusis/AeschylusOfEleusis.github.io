@@ -218,7 +218,7 @@ for the system that includes non-local-in-time terms encoding memory effects.
 The influence functional
 
 $$
-\mathcal{F}[q, q'] = \int \mathcal{D}[Q] \, \exp\!\left(\frac{i}{\hbar}\left(S_{\text{env}}[Q; q] - S_{\text{env}}[Q; q']\right)\right)
+\mathcal{F}[q, q'] = \int \mathcal{D}[Q] \, \exp \left(\frac{i}{\hbar}\left(S_{\text{env}}[Q; q] - S_{\text{env}}[Q; q']\right)\right)
 $$
 
 where $q, q'$ label the forward and backward paths of the system and $Q$
