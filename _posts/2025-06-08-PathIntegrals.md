@@ -9,10 +9,7 @@ math:       true        # enable KaTeX
 # Notes on Path Integals (Draft)
 
 ## Abstract
-These notes survey the theory of Feynman path integrals through the lens of a specific organizing thesis: that path integrals are not uniquely defined without a prescription, and that action principles and geometric structures serve as
-selection rules to resolve the measure and ordering ambiguities that arise in curved, constrained, and singular settings. The notes are organized around a curated bibliography of 37 primary references spanning 1942--2018, grouped into
-six thematic sections that trace a deliberate arc from pedagogical foundations through Feynman's functional integral and Schwinger's quantum action principle, to technical applications in the hydrogen atom, gauge theories, and path integrals on curved manifolds. The emphasis throughout is on the reciprocal relationship between Schwinger's variational formulation and Feynman's sum-over-histories, and on the mathematical structures---Van Vleck--Morette determinants, symplectic two-forms, Laplace--Beltrami operators---that constrain the correct definition of the functional integral in nontrivial settings.
----
+These notes survey the theory of Feynman path integrals through the lens of a specific organizing thesis: that path integrals are not uniquely defined without a prescription, and that action principles and geometric structures serve as selection rules to resolve the measure and ordering ambiguities that arise in curved, constrained, and singular settings. The notes are organized around a curated bibliography of 37 primary references spanning 1942--2018, grouped into six thematic sections that trace a deliberate arc from pedagogical foundations through Feynman's functional integral and Schwinger's quantum action principle, to technical applications in the hydrogen atom, gauge theories, and path integrals on curved manifolds. The emphasis throughout is on the reciprocal relationship between Schwinger's variational formulation and Feynman's sum-over-histories, and on the mathematical structures---Van Vleck--Morette determinants, symplectic two-forms, Laplace--Beltrami operators---that constrain the correct definition of the functional integral in nontrivial settings.
 
 # Introduction
 
