@@ -15,7 +15,7 @@ These notes survey the theory of Feynman path integrals through the lens of a sp
 
 The path integral formulation of quantum mechanics, introduced by Feynman in
 his 1942 doctoral dissertation, provides a third picture of quantum theory
-complementary to the operator-based formulations of Heisenberg and Schrödinger.
+complementary to the operator-based formulations of Heisenberg and the wave mechanics of Schrödinger.
 In this picture, the quantum mechanical propagator is expressed as a "sum over
 histories"---a functional integral over all paths connecting initial and final
 configurations, each weighted by $e^{iS/\hbar}$ where $S$ is the classical
