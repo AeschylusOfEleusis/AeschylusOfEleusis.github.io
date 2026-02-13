@@ -112,9 +112,11 @@ modern mathematical perspective, with particular emphasis on the interplay
 between action principles and symmetries. Cécile DeWitt-Morette's work on the
 Van Vleck--Morette determinant and its role in semiclassical approximations is a
 thread that runs through the entire bibliography. The determinant
+
 $$
 \Delta(q_2, q_1) = \det\!\left(-\frac{\partial^2 S}{\partial q_2 \partial q_1}\right)
 $$
+
 encodes the focusing and defocusing of classical trajectories near a stationary
 path, and appears as the prefactor in the semiclassical approximation to the
 propagator. Its role in curved-space path integrals---where it enters not merely
