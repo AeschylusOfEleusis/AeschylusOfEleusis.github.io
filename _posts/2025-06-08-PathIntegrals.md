@@ -374,8 +374,8 @@ This is a striking reinterpretation. The hydrogen atom---the most elementary
 bound state in quantum mechanics---becomes a laboratory for ideas about:
 
 - Gauge freedom associated with time reparametrization.
-- BRST analysis and the Weyl anomaly, connecting to string theory techniques.
-- The "problem of time" in quantum gravity, treated in its simplest incarnation.
+- BRST analysis and the Weyl anomaly.
+- The "problem of time" in gravity, treated in its simplest incarnation.
 
 Fujikawa's paper thus serves as a bridge from "the hydrogen atom as a solvable
 test case" to the gauge theory and curved manifold themes of the final sections.
