@@ -145,7 +145,7 @@ gauge fields and statistical mechanics (Volume II). Their systematic development
 from classical to quantum systems makes these volumes a natural complement to
 the more specialized treatments in the later sections.
 
-## 1.4 What the Selection Implies
+## 1.4 Implications
 
 The inclusion of DeWitt-Morette and Kleinert, in particular, signals that these
 notes are not aimed at the reader who merely wants to compute a propagator. The
