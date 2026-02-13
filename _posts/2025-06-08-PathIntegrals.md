@@ -216,9 +216,11 @@ interacts with an environment ("bath"), the environment degrees of freedom can
 be integrated out exactly (when the bath is linear), leaving an effective action
 for the system that includes non-local-in-time terms encoding memory effects.
 The influence functional
+
 $$
 \mathcal{F}[q, q'] = \int \mathcal{D}Q \, \exp\!\left(\frac{i}{\hbar}\left(S_{\text{env}}[Q; q] - S_{\text{env}}[Q; q']\right)\right)
 $$
+
 where $q, q'$ label the forward and backward paths of the system and $Q$
 denotes the bath coordinates, is foundational for the theory of quantum
 dissipation, decoherence, and the Caldeira--Leggett model of quantum Brownian
@@ -247,9 +249,11 @@ formulation emerges precisely where Feynman's construction becomes ambiguous.
 The Schwinger quantum action principle states that the variation of the
 transformation function $\langle q_2, t_2 | q_1, t_1 \rangle$ under
 infinitesimal changes in the dynamics is given by
+
 $$
 \delta \langle q_2, t_2 | q_1, t_1 \rangle = \frac{i}{\hbar} \langle q_2, t_2 | \delta W_{12} | q_1, t_1 \rangle
 $$
+
 where $W_{12}$ is the action operator. This is a statement about operator
 matrix elements, not about functional integrals. Its power lies in the fact
 that it constrains the form of the propagator without requiring an explicit
