@@ -6,6 +6,15 @@ categories: [Quantum Field Theory]
 tags: [Stochastic Quantization, Quantum Field Theory,  KoopmanvonNeumann, Path Integrals, FoundationsQM]
 math:       true        # enable KaTeX
 ---
+  \usepackage{amsmath,amssymb,amsthm}
+  \usepackage{physics}
+  \usepackage{mathrsfs}
+  \newtheorem{remark}{Remark}
+  \newtheorem{definition}{Definition}
+  \usepackage{booktabs}
+  \usepackage{longtable}
+  \usepackage{fancyhdr}
+  \pagestyle{fancy}
 # Notes on Koopman von Neumann Mechanics (Draft)
 
 ## Abstract
