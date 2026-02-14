@@ -47,7 +47,8 @@ For several decades, KvN mechanics remained a tool of ergodic theory and dynamic
 
 The KvN formalism promotes classical mechanics to Hilbert space in the following way. Consider a classical Hamiltonian system with phase space $\Gamma$ and Hamiltonian $H(x,p)$. The central objects are:
 
-**States.** A classical state is represented by a complex-valued wavefunction $\psi(x, p, t)$ on phase space. The physical content resides in $\left|\psi(x,p,t)\right|^2$, which is interpreted as a probability density on $\Gamma$. The Hilbert space is $\mathscr{H} = L^2(\Gamma, d\mu)$ where $d\mu$ is the Liouville measure.
+**States.** A classical state is represented by a complex-valued wavefunction $\psi(x, p, t)$ on phase space. The physical content resides in $\lvert\psi(x,p,t)\rvert^2$, which is interpreted as a probability density on $\Gamma$. The Hilbert space is 
+$\mathscr{H} = L^2(\Gamma, d\mu)$ where $d\mu$ is the Liouville measure.
 
 **Observables.** Classical observables $f(x,p)$ are represented by multiplication operators:
 $$
