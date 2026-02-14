@@ -5,16 +5,8 @@ date: 2025-06-09 10:00:00 +0800
 categories: [Quantum Field Theory]
 tags: [Stochastic Quantization, Quantum Field Theory,  KoopmanvonNeumann, Path Integrals, FoundationsQM]
 math:       true        # enable KaTeX
-  \usepackage{amsmath,amssymb,amsthm}
-  \usepackage{physics}
-  \usepackage{mathrsfs}
-  \newtheorem{remark}{Remark}
-  \newtheorem{definition}{Definition}
-  \usepackage{booktabs}
-  \usepackage{longtable}
-  \usepackage{fancyhdr}
-  \pagestyle{fancy}
-  ---
+---
+
 # Notes on Koopman von Neumann Mechanics (Draft)
 
 ## Abstract
@@ -22,7 +14,7 @@ These notes provide a guide to the literature on Koopman–von Neumann (KvN) mec
 
 # Introduction
 
-Classical mechanics and quantum mechanics are conventionally presented as fundamentally different theories inhabiting different mathematical frameworks. Quantum mechanics operates on Hilbert space with linear operators, wavefunctions, and commutation relations; classical mechanics operates on phase space with Poisson brackets, canonical transformations, and Hamilton's equations. The standard narrative casts quantization as the passage from the latter to the former, mediated by the correspondence principle and Dirac's prescription $ \{ , \}_{\text{PB}} \rightarrow \frac{1}{i\hbar}[\ ,\ ]$.
+Classical mechanics and quantum mechanics are conventionally presented as fundamentally different theories inhabiting different mathematical frameworks. Quantum mechanics operates on Hilbert space with linear operators, wavefunctions, and commutation relations; classical mechanics operates on phase space with Poisson brackets, canonical transformations, and Hamilton's equations. The standard narrative casts quantization as the passage from the latter to the former, mediated by the correspondence principle and Dirac's prescription $ \{ , \}_{\text{PB}} \to \frac{1}{i\hbar}[\ ,\ ]$.
 
 This narrative, while pedagogically serviceable, obscures a structural fact that has been understood since the early 1930s: classical Hamiltonian mechanics admits a natural Hilbert space formulation in which observables are represented by linear operators, states by wavefunctions, and time evolution by a unitary group. This is the Koopman--von Neumann (KvN) formalism. The operators representing classical position and momentum commute---$[\hat{x}, \hat{p}] = 0$ rather than $[\hat{x}, \hat{p}] = i\hbar$---and the generator of time evolution is the Liouville operator $\hat{L}$ rather than the Hamiltonian $\hat{H}$, but the mathematical infrastructure is otherwise parallel.
 
