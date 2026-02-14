@@ -262,7 +262,7 @@ One of the most striking results of the CPI program is the connection between th
 - **Unbroken supersymmetry** (the SUSY ground state is normalizable) corresponds to **ergodic** systems.
 - **Spontaneously broken supersymmetry** corresponds to **integrable** (non-ergodic) systems with many constants of motion.
 
-The logic runs roughly as follows. The SUSY ground state $|0\rangle$ satisfies $\hat{Q}|0\rangle = \hat{\bar{Q}}|0\rangle = 0$, which translates geometrically into the condition that the ground-state waveform is both closed and co-closed on phase space. For an ergodic system, the only such state is the microcanonical (or, in the appropriate thermodynamic setting, the Gibbs) distribution, which is normalizable. The SUSY ground state is then identified with the thermal equilibrium state---specifically, a **Gibbs/KMS state**.
+The logic runs roughly as follows. The SUSY ground state $\vert 0\rangle$ satisfies $\hat{Q}\vert 0\rangle = \hat{\bar{Q}}\vert 0\rangle = 0$, which translates geometrically into the condition that the ground-state waveform is both closed and co-closed on phase space. For an ergodic system, the only such state is the microcanonical (or, in the appropriate thermodynamic setting, the Gibbs) distribution, which is normalizable. The SUSY ground state is then identified with the thermal equilibrium state---specifically, a **Gibbs/KMS state**.
 
 For integrable systems, the existence of conserved quantities partitions phase space into invariant tori, and the ground state cannot be normalizable in the same sense. The supersymmetry is spontaneously broken: the supercharges do not annihilate the vacuum, and the Witten index (the partition function weighted by $(-1)^F$) vanishes.
 
