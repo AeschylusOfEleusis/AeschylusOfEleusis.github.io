@@ -93,7 +93,8 @@ $$
 $$
 with arbitrary real $\alpha(x,p)$ leaves all physical predictions invariant.
 
-Mauro's thesis [S4] develops this observation in considerable detail, constructing classical analogs of the two-slit experiment and the Aharonov--Bohm effect. The classical "two-slit" setup involves phase-space wavefunctions that are superpositions in the Hilbert space sense, but the interference terms in $|\psi_1 + \psi_2|^2$ are gauge-dependent and hence unobservable. The Aharonov--Bohm analog involves a nontrivial holonomy of the gauge connection associated with the phase freedom, but again the holonomy does not produce observable effects in the classical theory.
+Mauro's thesis [S4] develops this observation in considerable detail, constructing classical analogs of the two-slit experiment and the Aharonov--Bohm effect. The classical "two-slit" setup involves phase-space wavefunctions that are superpositions in the Hilbert space sense, but the interference terms in 
+$|\psi_1 + \psi_2|^2$ are gauge-dependent and hence unobservable. The Aharonov--Bohm analog involves a nontrivial holonomy of the gauge connection associated with the phase freedom, but again the holonomy does not produce observable effects in the classical theory.
 
 These constructions serve a clarifying purpose: they isolate exactly what structural features of quantum mechanics produce observable interference and what features are artifacts of the Hilbert space formulation that exist equally well in the classical setting. The answer, roughly, is that the *non-commutativity* of quantum observables---$[\hat{x}, \hat{p}] = i\hbar \neq 0$---is what makes the quantum phase observable, not the mere existence of a complex wavefunction.
 
