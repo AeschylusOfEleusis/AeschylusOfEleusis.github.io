@@ -299,25 +299,25 @@ Decoherence is not itself an interpretation but a physical process — the suppr
 
 The 37 sources in the collection can be approached in several ways, depending on the reader's background and interests. The following paths are suggestions, not prescriptions.
 
-**Path 1: Historical.** For a reader interested in the development of quantum mechanics as an intellectual enterprise:
+**Path: Historical.** For a reader interested in the development of quantum mechanics as an intellectual enterprise:
 S1 (de Broglie) $\to$ S2 (Schrödinger) $\to$ S14--S16 (Dirac) $\to$ S18 (Heisenberg) $\to$ S17 (von Neumann) $\to$ S30 (EPR) $\to$ S3--S4 (Bohm) $\to$ S34 (Everett) $\to$ S31 (Bell). Supplement with the biographical works (S21 Pais, S22 Cassidy) and the Solvay reconstruction (S8 Bacciagaluppi--Valentini).
 
-**Path 2: Formal/Mathematical.** For a reader interested in the mathematical structure:
+**Path: Formal/Mathematical.** For a reader interested in the mathematical structure:
 S17 (von Neumann) $\to$ S19 (Weyl) $\to$ S20 (Wigner) $\to$ S23 (Moyal) $\to$ S29 (Curtright--Zachos) $\to$ S33 (Peres) $\to$ S31 (Bell) $\to$ S27 (Chiribella).
 
-**Path 3: Interpretive.** For a reader interested in the interpretation debate:
+**Path: Interpretive.** For a reader interested in the interpretation debate:
 S30 (EPR) $\to$ S31 (Bell) $\to$ S32 (Coleman) $\to$ S3--S4 (Bohm) $\to$ S34 (Everett) $\to$ S25 (Ballentine) $\to$ S11 (PBR) $\to$ S26 (Hardy) $\to$ S33 (Peres).
 
-**Path 4: Reconstruction.** For a reader interested in the information-theoretic reconstruction program:
+**Path: Reconstruction.** For a reader interested in the information-theoretic reconstruction program:
 S24 (Born) $\to$ S25 (Ballentine) $\to$ S23 (Moyal) $\to$ S26 (Hardy) $\to$ S27 (Chiribella) $\to$ S11 (PBR) $\to$ S28 (Banks).
 
-**Path 5: Computational.** For a reader approaching foundations from the perspective of scientific computation:
+**Path: Computational.** For a reader approaching foundations from the perspective of scientific computing:
 S17 (von Neumann) — Hilbert space structure and measurement postulates $\to$ S23 (Moyal) — phase-space methods and Wigner function $\to$ S29 (Curtright--Zachos) — deformation quantization machinery $\to$ S3--S4 (Bohm) — trajectory methods $\to$ S31 (Bell) — nonlocality constraints $\to$ S27 (Chiribella) — axiomatic structure of quantum theory within GPTs $\to$ S13 (Landsman) — measurement problem and its computational implications. Supplement with the decoherence literature (Zurek, Schlosshauer) for the connection to classical simulation.
 
 
 ## Bibliography
 
-### 1. Wave Mechanics
+### Wave Mechanics
 
 | ID  | Link                                                                                                                   | Notes                                                                                                                |
 |-----|------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------|
@@ -337,7 +337,7 @@ S17 (von Neumann) — Hilbert space structure and measurement postulates $\to$ S
 
 ---
 
-### 2. Copenhagen Interpretation
+### Copenhagen Interpretation
 
 | ID   | Link                                                                                                                          | Notes                                                                                                           |
 |------|---------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------|
@@ -353,7 +353,7 @@ S17 (von Neumann) — Hilbert space structure and measurement postulates $\to$ S
 
 ---
 
-### 3. Probability, Information, Statistics
+### Probability, Information, Statistics
 
 | ID  | Link                                                                                                        | Notes                                                                                                                       |
 |-----|-------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------|
@@ -367,7 +367,7 @@ S17 (von Neumann) — Hilbert space structure and measurement postulates $\to$ S
 
 ---
 
-### 4. Bell’s Theorem
+### Bell’s Theorem
 
 | ID  | Link                                                                                                                       | Notes                                                                                                                  |
 |-----|----------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------|
@@ -378,7 +378,7 @@ S17 (von Neumann) — Hilbert space structure and measurement postulates $\to$ S
 
 ---
 
-### 5. Everett’s “Many Worlds”
+### Everett’s “Many Worlds”
 
 | ID  | Link                                                                                                         | Notes                                                                                                                       |
 |-----|--------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------|
