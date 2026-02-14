@@ -371,6 +371,7 @@ For the reader approaching this material with specific goals, the following path
 
 **For connections to the broader textbook:** The CPI's relationship to stochastic quantization is developed in the chapter on that subject. The appearance of BRST/BRS symmetry connects to the quantum field theory chapters. The Koopman operator's spectral theory connects to the numerical analysis of dynamical systems.
 
+## Bibliography
 
 ## Koopman von Neummann Mechanics
 
