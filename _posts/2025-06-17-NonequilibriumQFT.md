@@ -9,11 +9,11 @@ math:       true        # enable KaTeX
 # Notes on Statistical Fields (Draft)
 
 ## Abstract
-Sources, with short notes, concerning statistical field theory are provided following foundational materials in statistical mechanics. The philosophy of Euclidean field theory is assumed: Fluctuations of either quantum or thermal (statistical) origin are treated as formally equivalent (there are no obstructions to continuation to imaginary time $t \rightarrow \tau = i t$). Primary topics of consideration include: 1. Kinetic Theory, 2. Hydrodynamics, 3. Critical Phenomena, and 4. Fields at finite temperature. Physical applications include Bose-Einstein condensation, superfluids, relativistic heavy ion collisions, and cosmology of the early universe.  
+These notes provide a guided tour through the literature on nonequilibrium quantum field theory, organized as an escalating progression from equilibrium statistical mechanics through statistical field theory and classical nonequilibrium methods to the full real-time quantum field theory machinery. The notes are structured around an annotated bibliography of 42 sources (S1--S42) that encode a specific pedagogical philosophy: the Euclidean correspondence between thermal and quantum fluctuations provides the conceptual backbone, and nonequilibrium methods generalize rather than replace this structure. For each source, we describe its role in the larger arc, what it teaches, and how it connects to what comes before and after. We identify the key technical threads---the taxonomy of two-point functions, effective action methods, and universality---that unify the material across domains. We conclude with suggested reading paths for different backgrounds, an assessment of gaps in the current bibliography, and connections to the broader Projects in Scientific Computing programme.
 
-**To be continued ...**
+# Bibliography
 
-## 1. Statistical Mechanics
+## Statistical Mechanics
 
 | ID  | Link | Notes |
 |-----|------|-------|
@@ -29,7 +29,7 @@ Sources, with short notes, concerning statistical field theory are provided foll
 | S10 | [Sethna *”Entropy, Order Parameters, and Complexity”* 2024](https://sethna.lassp.cornell.edu/StatMech/EntropyOrderParametersComplexity20.pdf) | Modern text bridging concepts in thermodynamics, information theory, and complexity. |
 
 
-## 2. Statistical Field Theory
+## Statistical Field Theory
 
 | ID  | Link | Notes |
 |-----|------|-------|
@@ -42,7 +42,7 @@ Sources, with short notes, concerning statistical field theory are provided foll
 | S17  | [Wipf *”Statistical Approach to QFT”* 2021](https://link.springer.com/book/10.1007/978-3-030-83263-6) | Explores quantum field theory from a statistical mechanics perspective with pedagogical detail. |
 | S18  | [Zinn Justin *”QFT and Critical Phenomena”* 2021](https://global.oup.com/academic/product/quantum-field-theory-and-critical-phenomena-9780198834625) | Comprehensive analysis of the interplay between quantum field theory and critical phenomena in condensed matter. |
 
-## 3. Nonequilibrium Statistical Mechanics
+## Nonequilibrium Statistical Mechanics
 
 | ID  | Link | Notes |
 |-----|------|-------|
@@ -61,7 +61,7 @@ Sources, with short notes, concerning statistical field theory are provided foll
 
 
 
-## 4. Nonequilibrium Fields
+## Nonequilibrium Fields
 
 | ID  | Link | Notes |
 |-----|------|-------|
