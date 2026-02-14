@@ -82,8 +82,8 @@ $$
 $$
 which reduces to the classical ensemble average when $\left|\psi\right|^2$ is identified with the phase-space distribution.
 
-***The KvN formalism does not assert that classical mechanics ``is'' quantum mechanics. The vanishing of $[\hat{x}, \hat{p}]$ has far-reaching consequences: there is no uncertainty principle, no entanglement in the quantum sense, and the wavefunction's phase is physically irrelevant in a way that the quantum phase is not. What the formalism does assert is that the \emph{mathematical infrastructure} of Hilbert space, operators, and unitary evolution is not specific to quantum theory.
-***
+** The KvN formalism does not assert that classical mechanics ``is'' quantum mechanics. The vanishing of $[\hat{x}, \hat{p}]$ has far-reaching consequences: there is no uncertainty principle, no entanglement in the quantum sense, and the wavefunction's phase is physically irrelevant in a way that the quantum phase is not. What the formalism does assert is that the \emph{mathematical infrastructure} of Hilbert space, operators, and unitary evolution is not specific to quantum theory.
+**
 
 ## Phases and Gauge Freedom
 
