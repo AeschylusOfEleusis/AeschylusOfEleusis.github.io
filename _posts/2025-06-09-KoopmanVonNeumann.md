@@ -110,7 +110,7 @@ $$
 $$
 where $\psi_0$ is a 0-form (the KvN wavefunction), $\psi_i$ encodes 1-forms, and so forth.
 
-A key result from [S4] is that one cannot simultaneously maintain a positive-definite scalar product and unitary evolution in the extended Hilbert space. This is a genuine structural theorem, not a technical inconvenience. In the 0-form sector, $|\psi|^2$ $\geq 0$ and the Liouville evolution is unitary, so there is no issue. But extending to forms introduces indefinite-metric complications analogous to (though distinct from) those encountered in gauge-fixed quantum field theory. The physical significance is that the extended formalism, while algebraically natural, requires care in its probabilistic interpretation.
+A key result from [S4] is that one cannot simultaneously maintain a positive-definite scalar product and unitary evolution in the extended Hilbert space. This is a genuine structural theorem, not a technical inconvenience. In the 0-form sector, $| \psi |^2 \geq 0$ and the Liouville evolution is unitary, so there is no issue. But extending to forms introduces indefinite-metric complications analogous to (though distinct from) those encountered in gauge-fixed quantum field theory. The physical significance is that the extended formalism, while algebraically natural, requires care in its probabilistic interpretation.
 
 >*The positivity--unitarity tension in extended KvN Hilbert space is structurally reminiscent of the Gupta--Bleuler formalism in quantum electrodynamics, where >indefinite-metric states appear as a consequence of gauge fixing but decouple from physical observables. Whether this analogy can be made precise remains, to my >knowledge, an open question.*
 
