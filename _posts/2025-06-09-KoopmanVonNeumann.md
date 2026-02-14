@@ -70,20 +70,26 @@ $$
 The operator $\hat{L}$ is Hermitian on $\mathscr{H}$ and generates a one-parameter unitary group $U(t) = e^{-i\hat{L}t}$. Note that $\hat{L}$ is *not* the Hamiltonian $H$ promoted to an operator; rather, it is the Poisson bracket with $H$, acting as a differential operator on phase space. For a particle of mass $m$ in a potential $U(x)$, $\hat{L} = (p/m)\hat{\lambda}_x - U'(x)\hat{\lambda}_p$, where $\hat{\lambda}_x = -i\partial/\partial x$ and $\hat{\lambda}_p = -i\partial/\partial p$ are the auxiliary operators discussed below.
 
 **Auxiliary operators.** To implement dynamics via differential operators on phase space, one introduces operators $\hat{\lambda}_x = -i\,\partial/\partial x$ and $\hat{\lambda}_p = -i\,\partial/\partial p$. These satisfy
-$$[\hat{x}, \hat{\lambda}_x] = i, \qquad [\hat{p}, \hat{\lambda}_p] = i,$$
+$$
+[\hat{x}, \hat{\lambda}_x] = i, \qquad [\hat{p}, \hat{\lambda}_p] = i,
+$$
 while $[\hat{x}, \hat{\lambda}_p] = [\hat{p}, \hat{\lambda}_x] = 0$. The auxiliary operators are generators of translations in phase space: $\hat{\lambda}_x$ generates translations in $x$, and $\hat{\lambda}_p$ generates translations in $p$. The Liouville operator is built from these.
 
 **Expectation values.** The expectation value of an observable $f$ in state $\psi$ is
-$$\langle f \rangle = \int_\Gamma \bar{\psi}(x,p)\,f(x,p)\,\psi(x,p)\,d\mu,$$
-which reduces to the classical ensemble average when $|\psi|^2$ is identified with the phase-space distribution.
+$$
+\langle f \rangle = \int_\Gamma \bar{\psi}(x,p)\,f(x,p)\,\psi(x,p)\,d\mu,
+$$
+which reduces to the classical ensemble average when $\left|\psi\right|^2$ is identified with the phase-space distribution.
 
 ***The KvN formalism does not assert that classical mechanics ``is'' quantum mechanics. The vanishing of $[\hat{x}, \hat{p}]$ has far-reaching consequences: there is no uncertainty principle, no entanglement in the quantum sense, and the wavefunction's phase is physically irrelevant in a way that the quantum phase is not. What the formalism does assert is that the \emph{mathematical infrastructure} of Hilbert space, operators, and unitary evolution is not specific to quantum theory.
 ***
 
 ## Phases and Gauge Freedom
 
-One of the most instructive features of KvN mechanics is the role of the wavefunction's phase. In quantum mechanics, the relative phase between components of a superposition has observable consequences (interference). In KvN mechanics, since all physical predictions depend on $|\psi|^2$, the phase $\theta(x,p)$ in $\psi = |\psi|e^{i\theta}$ is entirely unobservable. This constitutes a gauge freedom: the transformation
-$$\psi(x,p,t) \mapsto e^{i\alpha(x,p)}\psi(x,p,t)$$
+One of the most instructive features of KvN mechanics is the role of the wavefunction's phase. In quantum mechanics, the relative phase between components of a superposition has observable consequences (interference). In KvN mechanics, since all physical predictions depend on $\left|\psi\right|^2$, the phase $\theta(x,p)$ in $\psi = \left|\psi\right|e^{i\theta}$ is entirely unobservable. This constitutes a gauge freedom: the transformation
+$$
+\psi(x,p,t) \mapsto e^{i\alpha(x,p)}\psi(x,p,t)
+$$
 with arbitrary real $\alpha(x,p)$ leaves all physical predictions invariant.
 
 Mauro's thesis [S4] develops this observation in considerable detail, constructing classical analogs of the two-slit experiment and the Aharonov--Bohm effect. The classical "two-slit" setup involves phase-space wavefunctions that are superpositions in the Hilbert space sense, but the interference terms in $|\psi_1 + \psi_2|^2$ are gauge-dependent and hence unobservable. The Aharonov--Bohm analog involves a nontrivial holonomy of the gauge connection associated with the phase freedom, but again the holonomy does not produce observable effects in the classical theory.
