@@ -9,7 +9,7 @@ math:       true        # enable KaTeX
 # Notes on Statistical Fields (Draft)
 
 ## Abstract
-These notes provide a guided tour through the literature on nonequilibrium quantum field theory, organized as an escalating progression from equilibrium statistical mechanics through statistical field theory and classical nonequilibrium methods to the full real-time quantum field theory machinery. The notes are structured around an annotated bibliography of 42 sources (S1--S42) that encode a specific pedagogical philosophy: the Euclidean correspondence between thermal and quantum fluctuations provides the conceptual backbone, and nonequilibrium methods generalize rather than replace this structure. For each source, we describe its role in the larger arc, what it teaches, and how it connects to what comes before and after. We identify the key technical threads---the taxonomy of two-point functions, effective action methods, and universality---that unify the material across domains. We conclude with suggested reading paths for different backgrounds, an assessment of gaps in the current bibliography, and connections to the broader Projects in Scientific Computing programme.
+These notes provide a guided tour through the literature on nonequilibrium quantum field theory, organized as an escalating progression from equilibrium statistical mechanics through statistical field theory and classical nonequilibrium methods to the full real-time quantum field theory machinery. The notes are structured around an annotated bibliography of 42 sources (S1--S42) that encode a specific pedagogical philosophy: the Euclidean correspondence between thermal and quantum fluctuations provides the conceptual backbone, and nonequilibrium methods generalize rather than replace this structure. For each source, its role in the larger arc is described, with connection to what comes before and after. The key technical threads are identified ---the taxonomy of two-point functions, effective action methods, and universality---that unify the material across domains. Also provided are suggested reading paths for different backgrounds, suggestions for extensions, and connections to the broader Projects in Scientific Computing programme.
 
 # Introduction
 
@@ -22,7 +22,7 @@ The purpose of these notes is not to teach nonequilibrium QFT from scratch. Inst
 3. **Nonequilibrium Statistical Mechanics** (S19--S30): projection operators, stochastic processes, linear response, fluctuation theorems, and active matter.
 4. **Nonequilibrium Quantum Field Theory** (S31--S42): the Schwinger--Keldysh (closed-time-path) formalism, $n$PI effective actions, controlled approximation schemes, and modern applications.
 
-These four blocks are not arbitrary. They encode a specific claim about how the subject should be learned: you should master equilibrium before nonequilibrium, and you should master the Euclidean/statistical story before the real-time story. The real-time formalism then *generalizes* the Euclidean structures rather than replacing them.
+These four blocks are not arbitrary. They encode a specific claim about how the subject should be learned: Master equilibrium before nonequilibrium, and master the Euclidean/statistical story before the real-time story. The real-time formalism then *generalizes* the Euclidean structures rather than replacing them.
 
 ## The Euclidean philosophy
 
@@ -44,13 +44,13 @@ These applications span an enormous range of energy scales and coupling strength
 
 # Part I: Statistical Mechanics (S1--S10)
 
-The first block of the bibliography establishes the equilibrium foundations. This might seem like a long detour if your goal is nonequilibrium QFT, but it is not. The conceptual vocabulary of the entire subject---entropy, ensembles, partition functions, free energies, response functions, fluctuation--dissipation relations---is forged here. More importantly, the *philosophical stance* toward statistical mechanics that you adopt at this stage shapes how you think about everything that follows.
+The first block of the bibliography establishes the equilibrium foundations. This might seem like a long detour if your goal is nonequilibrium QFT, but it is not. The conceptual vocabulary of the entire subject---entropy, ensembles, partition functions, free energies, response functions, fluctuation--dissipation relations---is forged here. More importantly, the *philosophical stance* toward statistical mechanics adopted at this stage shapes thinking about everything that follows.
 
 ## Entropy as inference: Jaynes (S1)
 
 The bibliography begins with Jaynes' 1957 paper "Information Theory and Statistical Mechanics" (*Physical Review* 106:620). This is a deliberate choice. Jaynes reframes the foundations of statistical mechanics as a problem of inference: given certain constraints (energy, particle number, etc.), the equilibrium distribution is the one that maximizes the Shannon entropy subject to those constraints. The canonical and grand canonical ensembles are not physical laws; they are the uniquely consistent way to assign probabilities given incomplete information.
 
-This framing matters later in several ways. First, it makes the connection between statistical mechanics and information theory explicit from the start, which is increasingly important in modern approaches to thermalization, entanglement entropy, and quantum information. Second, when you encounter nonequilibrium systems, the question "which constraints define the relevant reduced description?" becomes central---and Jaynes provides the cleanest conceptual anchor for answering it. Third, the maximum entropy principle generalizes naturally to nonequilibrium settings through the maximum caliber principle (maximizing the entropy of trajectory space), though this extension is not part of the current bibliography.
+This framing matters later in several ways. First, it makes the connection between statistical mechanics and information theory explicit from the start, which is increasingly important in modern approaches to thermalization, entanglement entropy, and quantum information. Second, when encountering nonequilibrium systems, the question "which constraints define the relevant reduced description?" becomes central---and Jaynes provides the cleanest conceptual anchor for answering it. Third, the maximum entropy principle generalizes naturally to nonequilibrium settings through the maximum caliber principle (maximizing the entropy of trajectory space).
 
 ## Rigor: Ruelle (S2)
 
@@ -62,15 +62,15 @@ Huang's *Statistical Mechanics* (1987) is the canonical graduate textbook: ensem
 
 ## Information geometry: Brody and Hughston (S4)
 
-The Brody--Hughston paper "Geometrisation of Statistical Mechanics" (1997, arXiv: gr-qc/9708032) is a more specialized inclusion. It develops a geometric framework for statistical mechanics using differential geometry, treating the space of probability distributions as a Riemannian manifold with the Fisher information metric. This is not strictly necessary for the nonequilibrium QFT arc, but it complements Jaynes: if statistical states are defined by constraints and inference, then it is natural to ask about the geometry of the space of such states. The information-geometric perspective has connections to modern machine learning and optimization that may be relevant for computational implementations.
+The Brody--Hughston paper "Geometrisation of Statistical Mechanics" (1997, arXiv: gr-qc/9708032) is a more specialized inclusion. It develops a geometric framework for statistical mechanics using differential geometry, treating the space of probability distributions as a Riemannian manifold with the Fisher information metric. This is not strictly necessary for the nonequilibrium QFT arc, but it complements Jaynes: if statistical states are defined by constraints and inference, then it is natural to ask about the geometry of the space of such states. The information-geometric perspective has connections to modern machine learning and optimization relevant for computational implementations.
 
 ## The modern bridge: Sethna (S10)
 
 Sethna's *Entropy, Order Parameters, and Complexity* (labeled 2024 on the bibliography page) is a strategic pick. It speaks the language of modern physics---information, complexity, computation, renormalization group---while still covering classical foundations. It includes Monte Carlo methods, random walks, diffusion, and connections to complex systems (networks, dynamical systems, biology). For a reader coming from a computational background, Sethna provides the most natural entry point into the entire bibliography.
 
-## Assessment of Part I
+## Summary
 
-The selection is balanced: Jaynes and Ruelle provide conceptual and rigorous anchors; Huang and Reichl provide canonical breadth; Wheeler provides pedagogy; Sethna provides modernity. The implicit message is that statistical mechanics is not just a prerequisite to be endured---it provides the conceptual vocabulary that makes the rest of the subject intelligible.
+Jaynes and Ruelle provide conceptual and rigorous anchors; Huang and Reichl provide canonical breadth; Wheeler provides pedagogy; Sethna provides modernity. The implicit message is that statistical mechanics provides the conceptual vocabulary that makes the rest of the subject intelligible.
 
 
 # Part II: Statistical Field Theory (S11--S18)
@@ -106,15 +106,15 @@ Multiple "ramps" into the material (Kardar and Tong for accessible learning; Itz
 
 # Part III: Nonequilibrium Statistical Mechanics (S19--S30)
 
-The third block introduces time. Where Parts I and II dealt with equilibrium---time-independent distributions, static correlation functions, free energies---Part III asks what happens when systems evolve, when detailed balance is broken, when you must track not just states but trajectories. This is the block that teaches you how "time enters" for distributions, coarse-grained variables, and near-equilibrium response.
+The third block introduces time. Where Parts I and II dealt with equilibrium---time-independent distributions, static correlation functions, free energies---Part III asks what happens when systems evolve, when detailed balance is broken, when you must track not just states but trajectories. This is the block that teaches how "time enters" for distributions, coarse-grained variables, and near-equilibrium response.
 
-The block is intentionally eclectic, and this is not a defect. The reason is that "nonequilibrium" is not a single theory in the way that equilibrium statistical mechanics is. It is a *toolbox*: projection operator methods, stochastic differential equations, linear response theory, fluctuation theorems, master equations, Fokker--Planck equations, and more. Different physical situations call for different tools. The purpose of this block is to expose the reader to this diversity before entering the more technically unified (but also more abstract) world of nonequilibrium QFT.
+The block is intentionally eclectic. The reason is that "nonequilibrium" is not a single theory in the way that equilibrium statistical mechanics is. It is a *toolbox*: Projection operator methods, stochastic differential equations, linear response theory, fluctuation theorems, master equations, Fokker--Planck equations, and more. Different physical situations call for different tools. The purpose of this block is to expose the reader to this diversity before entering the more technically unified (but also more abstract) world of nonequilibrium QFT.
 
 ## Effective action methods for nonequilibrium: Wetterich (S19)
 
 Wetterich's 1996 paper "Time Evolution of the Non-Equilibrium Effective Action" (arXiv: hep-th/9612206) introduces the effective action formalism for nonequilibrium time evolution. A careful reading of this paper reveals that it develops an exact evolution equation for the *1PI* (one-particle irreducible) effective action $\Gamma[\varphi, t]$, obtained via a Legendre transform of $W[j,t] = \ln Z[j,t]$. The paper derives a time-evolution PDE on the space of effective actions and discusses fixed points corresponding to equilibrium distributions. Propagators arise as inverses of the second functional derivative $\Gamma^{(2)}$.
 
-A point of clarification is warranted here. Some discussions of this paper describe it as developing the 2PI (two-particle irreducible) effective action. This is not quite accurate. The 2PI method becomes explicit later in the bibliography, notably in S34--S36 (the Berges papers). Wetterich's 1996 paper can be understood as part of the functional-method lineage that *leads to* 2PI methods, but it is itself consistently formulated in terms of $\Gamma[\varphi, t]$ as a 1PI object. The distinction matters: the 1PI effective action depends on the field expectation value $\varphi$, while the 2PI effective action depends on both $\varphi$ and the connected two-point function $G$, providing additional variational control over approximations.
+A point of clarification. Some discussions of this paper describe it as developing the 2PI (two-particle irreducible) effective action. This is not quite accurate. The 2PI method becomes explicit later in the bibliography, notably in S34--S36 (the Berges papers). Wetterich's 1996 paper can be understood as part of the functional-method lineage that *leads to* 2PI methods, but it is itself consistently formulated in terms of $\Gamma[\varphi, t]$ as a 1PI object. The distinction matters: the 1PI effective action depends on the field expectation value $\varphi$, while the 2PI effective action depends on both $\varphi$ and the connected two-point function $G$, providing additional variational control over approximations.
 
 ## Projection operators and memory: Zwanzig (S20)
 
@@ -219,7 +219,7 @@ The final entry (Berges, Floerchinger, and Venugopalan, 2018, arXiv: 1812.08120)
 
 ## Summary 
 
-This is a credible spine for nonequilibrium QFT. It includes: (i) formal framework papers (Wetterich, Bettencourt--Wetterich); (ii) approximation benchmarking (Aarts et al.); (iii) the pedagogical core (Berges 2004); (iv) physically important phenomena (prethermalization); (v) technical renormalization (Berges et al. 2005); (vi) the stochastic field theory bridge (Täuber); (vii) condensed matter and cosmological reference texts (Rammer, Calzetta--Hu); (viii) modern survey and universality (Berges 2015); (ix) a pedagogical alternative (Glavan--Prokopec); and (x) a modern conceptual frontier (entanglement and thermalization).
+This collection is a spine for nonequilibrium QFT. It includes: (i) formal framework papers (Wetterich, Bettencourt--Wetterich); (ii) approximation benchmarking (Aarts et al.); (iii) the pedagogical core (Berges 2004); (iv) physically important phenomena (prethermalization); (v) technical renormalization (Berges et al. 2005); (vi) the stochastic field theory bridge (Täuber); (vii) condensed matter and cosmological reference texts (Rammer, Calzetta--Hu); (viii) modern survey and universality (Berges 2015); (ix) a pedagogical alternative (Glavan--Prokopec); and (x) a modern conceptual frontier (entanglement and thermalization).
 
 
 # Thematic Synthesis
@@ -259,7 +259,6 @@ Far from equilibrium, a different kind of universality can emerge. Nonthermal fi
 
 This thread connects Parts II (equilibrium universality and RG) and IV (nonequilibrium universality and nonthermal fixed points) in a way that justifies the Euclidean-first pedagogy: understanding equilibrium universality first makes the genuinely new features of nonequilibrium universality stand out more clearly.
 
-
 # Extensions
 
 "Natural neighbors" and / or next steps of consideration of the current bibliography are given as follows:  
@@ -274,22 +273,22 @@ The bibliography implicitly focuses on closed quantum systems (unitary time evol
 
 ## Eigenstate thermalization hypothesis (ETH) and quantum chaos
 
-The question of *why* isolated quantum systems thermalize is addressed from the entanglement perspective by S42, but the eigenstate thermalization hypothesis (ETH) provides a complementary and more established framework. The ETH states (roughly) that in a chaotic quantum system, the expectation value of a local observable in an energy eigenstate is a smooth function of the eigenstate's energy---so that a microcanonical average automatically produces thermal-looking results for local observables. Including a reference on ETH (e.g., the reviews by D'Alessio, Kafri, Polkovnikov, and Rigol) would strengthen the conceptual foundations of Part IV.
+The question of *why* isolated quantum systems thermalize is addressed from the entanglement perspective by S42, but the eigenstate thermalization hypothesis (ETH) provides a complementary and more established framework. The ETH states (roughly) that in a chaotic quantum system, the expectation value of a local observable in an energy eigenstate is a smooth function of the eigenstate's energy---so that a microcanonical average automatically produces thermal-looking results for local observables. Further information is obtained in the review by D'Alessio, Kafri, Polkovnikov, and Rigol.
 
 ## Numerical methods for real-time QFT
 
-The bibliography is primarily analytical and formal. For many applications, numerical methods are essential: lattice classical-statistical simulations (where the initial quantum state is sampled as an ensemble of classical field configurations), tensor network methods (for low-dimensional systems), and real-time lattice QFT. 
+The bibliography is primarily analytical and formal. Extensions to numerical methods include lattice classical-statistical simulations (where the initial quantum state is sampled as an ensemble of classical field configurations), tensor network methods (for low-dimensional systems), and real-time lattice QFT. 
 
 ## Conventions
 
-Note that the condensed matter, high-energy, and cosmology communities use different conventions for partition function $Z$, the connected generating functional $W$, the 1PI effective action $\Gamma$, the self-energy $\Sigma$, the free energy $F$, the density matrix $\rho$, the retarded/advanced/statistical/spectral Green's functions ($G^R$, $G^A$, $F$, $\rho$), and the relationships between them. 
+Note that the condensed matter, high-energy, and cosmology communities use different conventions for partition function $Z$, the connected generating functional $W$, the 1PI effective action $\Gamma$, the self-energy $\Sigma$, the free energy $F$, the density matrix $\rho$, the retarded/advanced/statistical/spectral Green's functions ($G^R$, $G^A$, $F$, $\rho$). Mapping the relationships between these conventions proves useful to interdisciplinary approaches to this literature. 
 
 
 # Reading Paths
 
-The bibliography can be traversed in different orders depending on the reader's background and goals. We suggest three paths.
+The bibliography can be traversed in different orders depending on background and goals. Suggested paths are given as follows: 
 
-## Path A: Physics graduate student targeting nonequilibrium QFT
+## Path A: Physics graduate students targeting nonequilibrium QFT
 
 This is the most direct path for a reader with standard graduate coursework in quantum mechanics, statistical mechanics, and quantum field theory.
 
@@ -323,7 +322,7 @@ For a reader primarily interested in quantum transport, mesoscopic physics, or c
 Supplementary reading: Calzetta--Hu (S39) for the influence functional approach; Orioli--Berges (S29) for far-from-equilibrium universality.
 
 
-# Connections to the Projects in Scientific Computing
+# Connections to Projects in Scientific Computing
 
 These notes serve as the reading guide for the nonequilibrium QFT chapter of *Projects in Scientific Computation*. Several connections to other parts of the program are worth making explicit.
 
@@ -335,7 +334,7 @@ The **quantum computing** topics connect through the ETH, entanglement entropy, 
 
 The **neural network--quantum field theory correspondence** provides another bridge: the large-width limit of neural networks can be mapped to free field theories, and corrections at finite width correspond to interactions. The RG flow of a neural network architecture has formal analogies to the Wilsonian RG of Part II, and the training dynamics of neural networks can be viewed as a nonequilibrium process on a high-dimensional loss landscape.
 
-These cross-domain connections exemplify the physics-informed organizational philosophy of the *Projects in Scientific Computing* program: the mathematical structures are shared, even when the physical contexts differ enormously.
+These cross-domain connections exemplify the physics-informed organizational philosophy of the *Projects in Scientific Computing* program: The mathematical structures are shared, even when the physical contexts differ enormously.
 
 
 ## Bibliography
