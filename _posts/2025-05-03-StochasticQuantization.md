@@ -464,13 +464,6 @@ Each stage provides independent scientific value and publishable results, regard
 
 
 ### Non-equilibrium QFT and classical-statistical simulations
-
-**[S15] Berges,** "Non-equilibrium QFT," arXiv:hep-lat/0508030 (2005). Demonstrates stochastic quantization methods for simulating nonequilibrium quantum field dynamics, with analysis of convergence properties and numerical implementation issues. Builds on broader functional methods for non-equilibrium QFT but is focused on practical simulation rather than general review.
-**[S16] Hirayama,** "Classical Simulation of QFT I," arXiv:hep-th/0507126 (2005). Develops classical lattice simulation methods for quantum field theory, exploiting the correspondence between classical-statistical field theory and certain quantum regimes.
-**[S17] Hirayama et al.,** "Classical Simulation of QFT II," arXiv:hep-lat/0507014 (2005). Extension of [S16] with detailed numerical results and comparison with known quantum results.
-**[S18] Berges and Sexty,** "Gauge Theory Simulations," arXiv:0708.0779 (2007). Extends the classical-statistical simulation methods to gauge theories, addressing the specific challenges of gauge invariance in the stochastic framework.
-**[S32] Hirayama,** "Classical Simulation of QFT," arXiv:1912.01648 (2024). Updated treatment of classical-statistical simulation methods, incorporating developments since the earlier papers.
-
 | ID  | Link  | Notes |
 |-----|------ |-------|
 | S15 | [Berges *“Noneqilbrium QFT”* 2005](https://arxiv.org/abs/hep-lat/0508030) | Reviews theoretical techniques for studying nonequilibrium quantum field dynamics using functional methods. |
