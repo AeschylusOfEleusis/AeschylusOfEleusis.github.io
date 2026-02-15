@@ -17,11 +17,11 @@ The $(-,+,+,+)$ metric signature is used throughout, following the convention of
 
 $[\nabla_\mu, \nabla_\nu] V^\rho = {R^{\rho}}_{\sigma \mu \nu} V^\sigma$, 
 
-with the Ricci tensor by 
+with the Ricci tensor 
 
 $R_{\mu\nu} = {R^\rho}_{\mu\rho\nu}$, 
 
-and the scalar curvature by $R = g^{\mu\nu} R_{\mu\nu}$. 
+and the scalar curvature $R = g^{\mu\nu} R_{\mu\nu}$. 
 
 The d'Alembertian is 
 
