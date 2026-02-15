@@ -456,9 +456,10 @@ Each stage provides independent scientific value and publishable results, regard
 
 | ID  | Link  | Notes |
 |-----|------ |-------|
-| S10 | [Damgaard and Huffel *“Stochastic Quantization”* 1987](https://homepage.univie.ac.at/helmuth.hueffel/PhysRep.pdf)                                                                                                                                                                        | Provides a comprehensive review of stochastic quantization techniques and their applications in field theory.                      |
-| S11 | [Hu et al *“Quantum Brownian Motion I”* 1992](https://journals.aps.org/prd/abstract/10.1103/PhysRevD.45.2843)                                                                                                                                                                        | Develops an influence functional approach for analyzing quantum Brownian motion of a system coupled to a thermal bath.            |
-| S12 | [Namiki *“Stochastic Quantization”* 1992](https://link.springer.com/book/10.1007/978-3-540-47217-9)                                                                                                                                                                                  | Monograph detailing the foundations and various applications of stochastic quantization in quantum field theory.                   |
+| S10 | [Damgaard and Huffel *“Stochastic Quantization”* 1987](https://homepage.univie.ac.at/helmuth.hueffel/PhysRep.pdf)  | Provides a comprehensive review of stochastic quantization techniques and their applications in field theory.  |
+| S11 | [Hu et al *“Quantum Brownian Motion I”* 1992](https://journals.aps.org/prd/abstract/10.1103/PhysRevD.45.2843) | Develops an influence functional approach for analyzing quantum Brownian motion of a system coupled to a thermal bath.|
+| S12 | [Namiki *“Stochastic Quantization”* 1992](https://link.springer.com/book/10.1007/978-3-540-47217-9) | Monograph detailing the foundations and various applications of stochastic quantization in quantum field theory. |
+| S14 | [Namiki *“Basic Ideas”* 1993](https://academic.oup.com/ptps/article/doi/10.1143/PTPS.111.1/1889428)| Outlines the fundamental concepts underlying stochastic quantization, with emphasis on gauge theories. |
 
 ### Quantum Brownian motion and open quantum systems
 
@@ -472,8 +473,7 @@ Each stage provides independent scientific value and publishable results, regard
 |-----|------ |-------|
 | S9  | [Goldschmidt *“Decay of Magnetization”* 1987](https://www.sciencedirect.com/science/article/abs/pii/055032138790352X)| Studies the time-dependent decay of magnetization near critical points using stochastic and renormalization methods.               |
 | S13 | [Hu et al *“Quantum Brownian Motion II”* 1993](https://journals.aps.org/prd/abstract/10.1103/PhysRevD.47.1576)                                                                                                                                                                       | Extends the quantum Brownian motion framework to relativistic fields and investigates decoherence processes.                        |
-| S14 | [Namiki *“Basic Ideas”* 1993](https://academic.oup.com/ptps/article/doi/10.1143/PTPS.111.1/1889428)                                                                                                                                                                                   | Outlines the fundamental concepts underlying stochastic quantization, with emphasis on gauge theories.                            
-|
+
 
 ### Non-equilibrium QFT and classical-statistical simulations
 
