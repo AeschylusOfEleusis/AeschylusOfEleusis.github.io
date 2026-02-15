@@ -13,7 +13,11 @@ math:       true        # enable KaTeX
 
 # Conventions and Notation
 
-The $(-,+,+,+)$ metric signature is used throughout, following the convention of Wald and most of the modern algebraic QFTCS literature. (Birrell and Davies use the opposite convention, which the reader should note when consulting that text.) We work in natural units $\hbar = c = k_B = 1$ except where explicitly restoring these constants for physical clarity, as in the Hawking and Unruh temperature formulas. The Riemann tensor is defined by $[\nabla_\mu, \nabla_\nu] V^\rho = R^\rho{}_{\sigma\mu\nu} V^\sigma$, the Ricci tensor by $R_{\mu\nu} = R^\rho{}_{\mu\rho\nu}$, and the scalar curvature by $R = g^{\mu\nu} R_{\mu\nu}$. We denote the d'Alembertian by $\Box = g^{\mu\nu}\nabla_\mu \nabla_\nu$ and write $\sigma(x,x')$ for Synge's world function (one-half the squared geodesic distance between points $x$ and $x'$).
+The $(-,+,+,+)$ metric signature is used throughout, following the convention of Wald and most of the modern algebraic QFTCS literature. (Birrell and Davies use the opposite convention, which the reader should note when consulting that text.) We work in natural units $\hbar = c = k_B = 1$ except where explicitly restoring these constants for physical clarity, as in the Hawking and Unruh temperature formulas. The Riemann tensor is defined by 
+
+$[\nabla_\mu, \nabla_\nu] V^\rho = {R^{\rho}}_{\sigma \mu \nu} V^\sigma$, 
+
+the Ricci tensor by $R_{\mu\nu} = {R^{\rho}}_{\mu \rho \nu}$, and the scalar curvature by $R = g^{\mu\nu} R_{\mu\nu}$. We denote the d'Alembertian by $\Box = g^{\mu\nu}\nabla_\mu \nabla_\nu$ and write $\sigma(x,x')$ for Synge's world function (one-half the squared geodesic distance between points $x$ and $x'$).
 
 # Introduction
 
