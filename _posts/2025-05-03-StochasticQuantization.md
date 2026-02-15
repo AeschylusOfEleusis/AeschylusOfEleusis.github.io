@@ -462,8 +462,8 @@ Each stage provides independent scientific value and publishable results, regard
 | S11 | [Hu et al *“Quantum Brownian Motion I”* 1992](https://journals.aps.org/prd/abstract/10.1103/PhysRevD.45.2843) | Develops an influence functional approach for analyzing quantum Brownian motion of a system coupled to a thermal bath.|
 | S13 | [Hu et al *“Quantum Brownian Motion II”* 1993](https://journals.aps.org/prd/abstract/10.1103/PhysRevD.47.1576) | Extends the quantum Brownian motion framework to relativistic fields and investigates decoherence processes.|
 
-
 ### Non-equilibrium QFT and classical-statistical simulations
+
 | ID  | Link  | Notes |
 |-----|------ |-------|
 | S15 | [Berges *“Noneqilbrium QFT”* 2005](https://arxiv.org/abs/hep-lat/0508030) | Reviews theoretical techniques for studying nonequilibrium quantum field dynamics using functional methods. |
@@ -473,6 +473,7 @@ Each stage provides independent scientific value and publishable results, regard
 | S32 | [Hiryama *“Classical simulation of QFT”* 2024](https://arxiv.org/abs/1912.01648) | Reviews classical-statistical lattice methods for simulating real-time quantum field dynamics in various contexts. |
 
 ### Stochastic gravity
+
 | ID  | Link  | Notes |
 |-----|------ |-------|
 | S19 | [de Aguiar et al *“Scalar fields in de Sitter”* 2008](https://arxiv.org/abs/0809.2273)| Examines stochastic dynamics and correlation functions of scalar fields propagating in de Sitter spacetime. |
@@ -482,6 +483,7 @@ Each stage provides independent scientific value and publishable results, regard
 | S30 | [Hu and Verdaguer *“Semiclassical and Stochastic Gravity”* 2020](https://www.cambridge.org/core/books/semiclassical-and-stochastic-gravity/E3F88C9655023210C93ECCEE8ADEC199#) | Updates the theoretical framework blending semiclassical gravity with stochastic metric fluctuations for early-universe studies.|
 
 ### Complex Langevin and the sign problem
+
 | ID  | Link  | Notes |
 |-----|------ |-------|
 | S21 | [Guralnik and Pehlevan *“Complex Langevin and Shwinger Dyson”* 2007](https://arxiv.org/abs/0710.3756) | Investigates complex Langevin methods as a means to solve nonperturbative Schwinger-Dyson equations in quantum field theory.|
