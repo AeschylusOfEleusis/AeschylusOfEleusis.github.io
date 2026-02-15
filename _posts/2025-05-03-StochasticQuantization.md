@@ -174,7 +174,7 @@ The paradigmatic action for a scalar field with internal structure on a curved b
 
 $$S[\Phi] = \int d^n x \, \sqrt{|g|} \left\{\mathfrak{g}_{\mathfrak{j}\mathfrak{k}} \, \nabla_a \Phi^\mathfrak{j} \, g^{ab} \, \nabla_b \Phi^\mathfrak{k} - U(\Phi)\right\}.$$
 
-This action encodes: background spacetime geometry (through $g_{ab}$ and $\sqrt{|g|}$); gauge symmetry (through the connection $A_a$ in $\nabla_a$); internal symmetry structure (through $\mathfrak{g}_{\mathfrak{j}\mathfrak{k}}$); and self-interactions (through the potential $U(\Phi)$).
+This action encodes: background spacetime geometry (through $g_{ab}$ and $\sqrt{\vert g \vert}$); gauge symmetry (through the connection $A_a$ in $\nabla_a$); internal symmetry structure (through $\mathfrak{g}_{\mathfrak{j}\mathfrak{k}}$); and self-interactions (through the potential $U(\Phi)$).
 
 ### 5.3 The curved-background Langevin equation
 
@@ -186,7 +186,7 @@ where $S_E$ is the Euclidean continuation of the action and the noise correlator
 
 $$\langle \eta^\mathfrak{j}(s,x)\, \eta^\mathfrak{k}(s',x') \rangle = 2\,\mathfrak{g}^{\mathfrak{j}\mathfrak{k}} \, \frac{\delta^{(n)}(x-x')}{\sqrt{|g|}}\,\delta(s-s').$$
 
-The factor of $1/\sqrt{|g|}$ in the drift and noise ensures covariance under coordinate transformations on $\mathcal{M}$, so that the equilibrium distribution remains $P_{\mathrm{eq}}[\Phi] \propto e^{-S_E[\Phi]}$ with the correct functional measure.
+The factor of $1/\sqrt{\vert g \vert}$ in the drift and noise ensures covariance under coordinate transformations on $\mathcal{M}$, so that the equilibrium distribution remains $P_{\mathrm{eq}}[\Phi] \propto e^{-S_E[\Phi]}$ with the correct functional measure.
 
 ---
 
