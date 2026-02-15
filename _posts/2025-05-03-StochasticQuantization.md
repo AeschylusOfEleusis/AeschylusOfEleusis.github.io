@@ -430,18 +430,12 @@ Each stage provides independent scientific value and publishable results, regard
 
 ### Classical stochastic dynamics and non-equilibrium methods
 
-**[S4] Zhou, Su, Hao, Yu,** "Closed Time Path Green's Functions and Critical Dynamics," *Phys. Rev. B* 22 (1980). Early development of the closed-time-path formalism applied to critical dynamics. Connects the Schwinger--Keldysh non-equilibrium formalism to the stochastic dynamics of order parameters.
-
 | ID  | Link  | Notes |
 |-----|------ |-------|
-| S1  | [Martin et al *“Statistical Dynamics of Classical Systems”* 1973](https://journals.aps.org/pra/abstract/10.1103/PhysRevA.8.423)| 
-Mathematical foundation for stochastic quantization.|
-| S2  | [Hohenberg and Halperin *“Theory of Dynamic Critical Phenomena”* 1977](https://journals.aps.org/rmp/abstract/10.1103/RevModPhys.49.435) | 
-Provides the technology of Langevin equations coupled to order parameter fields.|
-| S3  | [Fox *“Gaussian stochastic processes in physics”* 1978](https://www.sciencedirect.com/science/article/abs/pii/037015737890145X)| 
-Mathematical foundations of the noise terms in stochastic quantization.|
-| S4  | [Zhou et al *“Closed time path Green’s functions and critical dynamics”* 1980](https://journals.aps.org/prb/abstract/10.1103/PhysRevB.22.3385)| 
-Closed time path (CTP) Green’s function formalism. Connects the Schwinger--Keldysh   |
+| S1  | [Martin et al *“Statistical Dynamics of Classical Systems”* 1973](https://journals.aps.org/pra/abstract/10.1103/PhysRevA.8.423)| Mathematical foundation for stochastic quantization.|
+| S2  | [Hohenberg and Halperin *“Theory of Dynamic Critical Phenomena”* 1977](https://journals.aps.org/rmp/abstract/10.1103/RevModPhys.49.435) |Provides the technology of Langevin equations coupled to order parameter fields.|
+| S3  | [Fox *“Gaussian stochastic processes in physics”* 1978](https://www.sciencedirect.com/science/article/abs/pii/037015737890145X)| Mathematical foundations of the noise terms in stochastic quantization.|
+| S4  | [Zhou et al *“Closed time path Green’s functions and critical dynamics”* 1980](https://journals.aps.org/prb/abstract/10.1103/PhysRevB.22.3385)| Closed time path (CTP) Green’s function formalism. Connects the Schwinger--Keldysh   |
 
 ### The Parisi--Wu formalism and its development
 
