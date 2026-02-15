@@ -19,9 +19,13 @@ $[\nabla_\mu, \nabla_\nu] V^\rho = {R^{\rho}}_{\sigma \mu \nu} V^\sigma$,
 
 the Ricci tensor by 
 
-$ R_{\mu\nu} = {R^\rho}_{\mu\rho\nu}$, 
+$R_{\mu\nu} = {R^\rho}_{\mu\rho\nu}$, 
 
-and the scalar curvature by $R = g^{\mu\nu} R_{\mu\nu}$. We denote the d'Alembertian by $\Box = g^{\mu\nu}\nabla_\mu \nabla_\nu$ and write $\sigma(x,x')$ for Synge's world function (one-half the squared geodesic distance between points $x$ and $x'$).
+and the scalar curvature by $R = g^{\mu\nu} R_{\mu\nu}$. The d'Alembertian is 
+
+$\Box = g^{\mu\nu}\nabla_\mu \nabla_\nu$ and write 
+
+$\sigma(x,x')$ for Synge's world function (one-half the squared geodesic distance between points $x$ and $x'$).
 
 # Introduction
 
