@@ -426,29 +426,22 @@ Each stage provides independent scientific value and publishable results, regard
 
 ---
 
-## Annotated Bibliography
-
-The references are organized thematically, following the structure of the notes. Each entry includes a brief assessment of what the reference contributes to the present program.
+## Bibliography
 
 ### Classical stochastic dynamics and non-equilibrium methods
 
-**[S1] Martin, Siggia, Rose,** "Statistical Dynamics of Classical Systems," *Phys. Rev. A* 8 (1973). The MSR formalism: a path integral representation of classical stochastic dynamics that serves as the mathematical foundation for stochastic quantization. Essential for understanding the structural relationship between classical noise and quantum fluctuations.
-
-**[S2] Hohenberg and Halperin,** "Theory of Dynamic Critical Phenomena," *Rev. Mod. Phys.* 49 (1977). The standard classification of dynamical universality classes (Models A through J). Provides the technology of Langevin equations coupled to order parameter fields that Parisi and Wu adapted for quantization purposes.
-
-**[S3] Fox,** "Gaussian Stochastic Processes in Physics," *Phys. Rep.* (1978). A systematic treatment of Gaussian noise in physical applications. Useful for the mathematical foundations of the noise terms in stochastic quantization.
-
 **[S4] Zhou, Su, Hao, Yu,** "Closed Time Path Green's Functions and Critical Dynamics," *Phys. Rev. B* 22 (1980). Early development of the closed-time-path formalism applied to critical dynamics. Connects the Schwinger--Keldysh non-equilibrium formalism to the stochastic dynamics of order parameters.
-
-
-## Bibliography
 
 | ID  | Link  | Notes |
 |-----|------ |-------|
-| S1  | [Martin et al *“Statistical Dynamics of Classical Systems”* 1973](https://journals.aps.org/pra/abstract/10.1103/PhysRevA.8.423)                                                                                                                                                        | Develops a formalism for the statistical treatment of classical many-body systems, including fluctuating forces and dissipation. |
-| S2  | [Hohenberg and Halperin *“Theory of Dynamic Critical Phenomena”* 1977](https://journals.aps.org/rmp/abstract/10.1103/RevModPhys.49.435)                                                                                                                                             | Reviews the classification and scaling behavior of dynamic critical processes near second-order phase transitions.               |
-| S3  | [Fox *“Gaussian stochastic processes in physics”* 1978](https://www.sciencedirect.com/science/article/abs/pii/037015737890145X)                                                                                                                                                      | Explores the mathematical properties and physical applications of Gaussian stochastic processes in diverse physical systems.     |
-| S4  | [Zhou et al *“Closed time path Green’s functions and critical dynamics”* 1980](https://journals.aps.org/prb/abstract/10.1103/PhysRevB.22.3385)                                                                                                                                       | Introduces the closed time path (CTP) Green’s function formalism to study nonequilibrium critical dynamics.   |
+| S1  | [Martin et al *“Statistical Dynamics of Classical Systems”* 1973](https://journals.aps.org/pra/abstract/10.1103/PhysRevA.8.423)| 
+Mathematical foundation for stochastic quantization.|
+| S2  | [Hohenberg and Halperin *“Theory of Dynamic Critical Phenomena”* 1977](https://journals.aps.org/rmp/abstract/10.1103/RevModPhys.49.435) | 
+Provides the technology of Langevin equations coupled to order parameter fields.|
+| S3  | [Fox *“Gaussian stochastic processes in physics”* 1978](https://www.sciencedirect.com/science/article/abs/pii/037015737890145X)| 
+Mathematical foundations of the noise terms in stochastic quantization.|
+| S4  | [Zhou et al *“Closed time path Green’s functions and critical dynamics”* 1980](https://journals.aps.org/prb/abstract/10.1103/PhysRevB.22.3385)| 
+Closed time path (CTP) Green’s function formalism. Connects the Schwinger--Keldysh   |
 
 ### The Parisi--Wu formalism and its development
 
