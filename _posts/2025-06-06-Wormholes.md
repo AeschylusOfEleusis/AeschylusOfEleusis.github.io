@@ -252,10 +252,6 @@ Several concrete problems emerge from the literature:
 
 *Observable distinguishing signatures.* The degeneracy between wormholes and black hole mimickers (in shadows, QNMs, and ringdown signals) needs to be quantified precisely, especially for rotating configurations relevant to astrophysical observations. Gravitational-wave echoes---reflections from the throat that would be absent for a true event horizon---remain the most promising qualitative discriminant.
 
-*Wormholes in modified gravity.* Much of the literature focuses on GR, but modified gravity theories ($f(R)$, scalar-tensor, Einstein-Gauss-Bonnet) can permit traversable wormholes without phantom matter. This direction is under-represented in the current catalog.
-
-*AdS/CFT and quantum wormholes.* The Gao-Jafferis-Wall construction of traversable wormholes in anti-de Sitter spacetime, using a double-trace deformation in the dual CFT, represents an entirely different approach to the traversability problem. It is absent from the current catalog and would enrich the bibliographic coverage substantially.
-
 ### Computational Project Directions
 
 Several concrete computational projects emerge naturally from this literature:
