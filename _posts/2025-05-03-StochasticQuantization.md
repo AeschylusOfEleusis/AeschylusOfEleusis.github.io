@@ -443,8 +443,8 @@ The references are organized thematically, following the structure of the notes.
 
 ## Bibliography
 
-| ID  | Link  | Notes                                                                                                                            |
-|-----|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------|
+| ID  | Link  | Notes |
+|-----|------ |-------|
 | S1  | [Martin et al *“Statistical Dynamics of Classical Systems”* 1973](https://journals.aps.org/pra/abstract/10.1103/PhysRevA.8.423)                                                                                                                                                        | Develops a formalism for the statistical treatment of classical many-body systems, including fluctuating forces and dissipation. |
 | S2  | [Hohenberg and Halperin *“Theory of Dynamic Critical Phenomena”* 1977](https://journals.aps.org/rmp/abstract/10.1103/RevModPhys.49.435)                                                                                                                                             | Reviews the classification and scaling behavior of dynamic critical processes near second-order phase transitions.               |
 | S3  | [Fox *“Gaussian stochastic processes in physics”* 1978](https://www.sciencedirect.com/science/article/abs/pii/037015737890145X)                                                                                                                                                      | Explores the mathematical properties and physical applications of Gaussian stochastic processes in diverse physical systems.     |
