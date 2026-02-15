@@ -208,100 +208,15 @@ The significance of GW150914 for the program of these notes cannot be overstated
 
 The gravitational wave catalog has grown rapidly since GW150914. The first three observing runs (O1, O2, O3) of LIGO and Virgo detected approximately 90 compact binary coalescences, predominantly binary black hole mergers but also binary neutron star mergers (GW170817, with its electromagnetic counterpart) and neutron star–black hole mergers. The fourth observing run (O4), begun in 2023, has further expanded the catalog. The population of observed binary black holes has yielded constraints on formation channels (isolated binary evolution versus dynamical formation in dense stellar environments), the black hole mass spectrum (including evidence for features at masses where pair-instability supernovae are expected to suppress black hole formation), and the distribution of black hole spins.
 
-*Bibliographic note.* The original source page links this entry to arXiv:1304.0670, which is the Advanced LIGO sensitivity and observing scenarios paper rather than the detection announcement. The detection paper is Abbott et al. (2016), "Observation of Gravitational Waves from a Binary Black Hole Merger," *Physical Review Letters* 116, 061102 (arXiv:1602.03837).
 
 **Pretorius (2023)** [S31] provides a comprehensive survey of gravitational wave physics by one of the pioneers of numerical relativity. Pretorius achieved the first stable simulation of a binary black hole merger and gravitational wave emission in 2005—a breakthrough that, together with the independent work of Campanelli et al. and Baker et al. in 2006, solved a problem that had resisted numerical attack for decades. The review covers the current state of gravitational wave observations, theoretical developments, and prospects for next-generation detectors (Einstein Telescope, Cosmic Explorer, LISA).
 
 
-## 5. Bibliographic Assessment
-
-### 5.1 Reference Summary
-
-The following table summarizes all 31 entries organized by section, with year and topic.
-
-| ID | Author(s) | Year | Topic |
-|:---|:----------|:-----|:------|
-| S1 | Bardeen, Carter, Hawking | 1973 | Four laws of black hole mechanics |
-| S2 | Chandrasekhar | 1983 | Mathematical theory of black holes |
-| S3 | Wald | 1984 | General relativity (graduate text) |
-| S4 | Christodoulou | 2008 | Formation of black holes (rigorous proof) |
-| S5 | Kerr | 2008 | Kerr solution: discovery and context |
-| S6 | Wiltshire, Visser, Scott (eds.) | 2009 | The Kerr spacetime (edited volume) |
-| S7 | Teukolsky | 2014 | Kerr perturbation theory and separability |
-| S8 | Chruściel | 2020 | Geometry of black holes (rigorous) |
-| S9 | Carr et al. | 2020 | Hawking: biographical and scientific overview |
-| S10–11 | Thorne, Price, Macdonald | 1986 | Membrane paradigm |
-| S12 | Poisson | 2004 | Relativist's toolkit: null surface geometry |
-| S13 | Gourgoulhon, Jaramillo | 2005 | 3+1 formalism for null hypersurfaces |
-| S14 | Kar, SenGupta | 2007 | Raychaudhuri equation (review) |
-| S15 | Emparan, Martínez | 2016 | Event horizon fusion dynamics |
-| S16 | Emparan et al. | 2018 | Extreme mass ratio horizon dynamics |
-| S17 | Gadioux | 2024 | Crease set evolution on event horizons |
-| S18 | Matzner | 1968 | Scalar wave scattering (Schwarzschild) |
-| S19–20 | Persides | 1973 | Spectral theory and radial wave equation |
-| S21 | Futterman, Handler, Matzner | 1988 | Scattering from black holes (monograph) |
-| S22 | Bezerra et al. | 2013 | Scattering: charged and rotating holes |
-| S23 | Li et al. | 2022 | Exact scattering solutions |
-| S24 | Trimble, Thorne | 2018 | Binary systems and gravitational radiation |
-| S25 | Quinn | 2000 | Scalar self-force and radiation reaction |
-| S26 | de Felice, Bini | 2010 | Classical measurements in curved spacetime |
-| S27 | Poisson, Pound, Vega | 2011 | Gravitational self-force (Living Reviews) |
-| S28 | Jaranowski, Królak | 2023 | Gravitational wave data analysis |
-| S29 | Romano, Cornish | 2017 | Stochastic gravitational wave backgrounds |
-| S30 | LIGO/Virgo Collaboration | 2016 | First gravitational wave detection |
-| S31 | Pretorius | 2023 | Survey of gravitational wave physics |
-
-### 5.2 Link Verification
-
-An independent link audit of the source page identified several categories of access issues:
-
-**Publisher-gated links (HTTP 403 or JavaScript barriers).** S1 (World Scientific), S2 (Oxford University Press), S6 (Cambridge University Press), S10 (Science), S15 (World Scientific), S18 (AIP), S20 (AIP). For these, arXiv preprints are available for S7, S9, S13, S14, and others, but several foundational texts (S2, S3, S6) are available only through institutional access. A general recommendation: prefer stable DOI landing pages or arXiv links over publisher-specific URLs that may break under paywall changes.
-
-**ArXiv links verified and accessible.** S4, S5, S7, S9, S13, S14, S22, S23, S24, S25, S27, S28, S31 were all accessible and downloadable at review time.
-
-**Label–link mismatches.** Several entries on the source page have labels that do not match the linked content:
-
-- S9 is labeled as relating to event horizon topology but links to the Hawking memorial article (arXiv:2002.03185).
-- S14 is labeled as "response of black holes to external fields" but links to a Raychaudhuri equation review (arXiv:gr-qc/0611123).
-- S22 is labeled as "black holes as one-way valve" but links to a Klein–Gordon separation paper in Kerr–Newman (arXiv:1312.4823).
-- S28 is labeled as "software injection" but links to a statistical GW data analysis review (arXiv:0711.1115).
-- S30 links to arXiv:1304.0670 (observing scenarios), not to the GW150914 detection paper (arXiv:1602.03837).
-- S31 is labeled as "computational horizons" but links to a broad gravitational wave survey (arXiv:2306.03797).
-
-These mismatches likely reflect evolving draft labeling. Correcting them and adopting a consistent convention (publication year versus arXiv posting date) would improve usability.
-
-### 5.3 Coverage Assessment
-
-**Strengths.** The collection balances foundational texts with recent advances across a five-decade span. The mathematical emphasis—featuring rigorous treatments by Christodoulou, Chruściel, and Chandrasekhar alongside more accessible reviews by Teukolsky and Poisson—reflects the character of the field. The Kerr solution receives appropriately thorough coverage from multiple angles (historical, geometrical, perturbative). The scattering section preserves an important intellectual lineage from Matzner (1968) through the comprehensive monograph of Futterman, Handler, and Matzner (1988) to modern exact methods.
-
-**Gaps.** Several areas relevant to the stated computational focus are underrepresented:
-
-*Numerical relativity methods.* The collection contains no references on the 3+1 initial value formulation, gauge choices (BSSN, generalized harmonic), or the 2005–2006 breakthrough simulations. Works by Pretorius (2005), Campanelli et al. (2006), Baker et al. (2006), and the review by Baumgarte and Shapiro would strengthen the connection to computational practice. The Einstein Toolkit and related codebases (Cactus, Carpet, SpEC) are absent.
-
-*Event horizon finding algorithms.* Despite the stated focus on computing event horizons, algorithmic references are missing. The methods of Thornburg for apparent horizon finding, backward null geodesic integration for event horizons, and the related computational geometry of crease-set tracking would directly support the computational goals.
-
-*Quasi-normal modes.* While Teukolsky's review mentions QNMs and Chandrasekhar computes spectra in detail, the dedicated QNM literature—Leaver's continued fraction method, the comprehensive review by Berti, Cardoso, and Starinets, and recent work on QNM overtones—is absent. Given the central role of QNMs in ringdown analysis, this is a notable gap.
-
-*Effective one-body formalism.* The Buonanno–Damour effective-one-body (EOB) approach, which bridges post-Newtonian theory and numerical relativity to produce complete inspiral-merger-ringdown waveforms, is not represented. EOB waveforms are the primary templates used in LIGO/Virgo analyses.
-
-*Black hole thermodynamics beyond 1973.* The Hawking radiation derivation, the Bekenstein–Hawking entropy formula, the information paradox, and the Euclidean path integral approach to black hole thermodynamics are absent. While these lie somewhat outside the computational focus, they are central to the broader intellectual landscape.
-
-*Wormholes.* The source page carries a "Worm holes" tag without corresponding bibliographic entries. If the scope extends to exotic solutions, the Morris–Thorne traversable wormhole paper and the ER=EPR conjecture would be natural additions. Otherwise, the tag should be removed.
 
 
-## 6. Connections and Computational Context
 
-### 6.1 Unifying Mathematical Structures
 
-Several mathematical threads run through the entire collection, providing coherence beneath the four-section organization.
-
-The **Raychaudhuri equation** appears explicitly in the area theorem (Section 1), the geodesic focusing that drives black hole formation (Section 1.3), the evolution of null generators on the event horizon (Section 2), and implicitly in the self-force program (Section 4.2) through its role in determining the evolution of the binary orbit. Understanding this single equation and its consequences is perhaps the most efficient entry point to the mathematical physics of black holes.
-
-The **separability of wave equations in Kerr spacetime** connects Chandrasekhar's perturbation theory (Section 1.2) to Teukolsky's master equation (Section 1.4), the scattering calculations of Section 3, and the quasi-normal mode analyses underlying gravitational wave template construction (Section 4). The mathematical origin of this separability—the Killing tensor of the Kerr metric, discovered by Carter—is one of the deepest structural results in the theory.
-
-**Null geodesics** are the geometric primitives throughout: they generate the event horizon (Section 2), determine scattering cross-sections (Section 3), and constitute the characteristics of the wave equations governing gravitational radiation (Section 4). The computational problem of black hole physics is, in a precise sense, the problem of tracking null geodesics in dynamical spacetimes.
-
-### 6.2 Reading Paths
+### 6 Reading Paths
 
 The collection supports several reading paths depending on the reader's goals:
 
@@ -313,24 +228,10 @@ The collection supports several reading paths depending on the reader's goals:
 
 *The Kerr solution.* S5 (Kerr discovery) → S6 (Wiltshire et al. monograph) → S7 (Teukolsky perturbations) → S2 (Chandrasekhar, Kerr chapters). This path provides a complete picture of the astrophysically relevant black hole solution.
 
-### 6.3 Computational Projects
 
-These notes provide framework for several computational projects that can be implemented in associated code repositories:
+## Bibliography
 
-*Quasi-normal mode computation.* Using the Teukolsky equation (S7) and the spectral framework of Persides (S19–S20), implement a QNM solver via Leaver's continued fraction method or direct integration. Compare against tabulated values in Berti, Cardoso, and Starinets. The continued fraction method recasts the radial Teukolsky equation as a three-term recurrence relation for the expansion coefficients of the solution in a series of confluent hypergeometric functions; the QNM frequencies are the values of $\omega$ for which the continued fraction converges, which can be found by Newton's method in the complex $\omega$-plane. An alternative approach uses the WKB approximation, which gives QNM frequencies in terms of the peak and curvature of the effective potential—less accurate for low overtones but providing physical insight into the relationship between the QNM spectrum and the geometry of the photon sphere.
-
-*Scattering cross-sections.* Implement the partial wave analysis of Matzner (S18) for scalar waves on a Schwarzschild background. Compute differential and total absorption cross-sections as a function of frequency. The partial wave expansion decomposes the scattering amplitude into contributions from each angular momentum mode $\ell$, with each mode governed by an ODE for the radial function. The phase shifts $\delta_\ell(\omega)$ determine the scattering matrix, and the cross-sections follow from standard scattering theory. At low frequencies ($M\omega \ll 1$), the absorption cross-section approaches the geometric area $27\pi M^2$ (the capture cross-section of the photon sphere). At high frequencies, the cross-section exhibits oscillatory behavior due to orbiting—waves that circle the photon sphere multiple times before escaping. Extend to the Kerr case using the Teukolsky formalism (S7), where superradiant scattering ($\omega < m\Omega_H$, with $\Omega_H$ the horizon angular velocity) provides an additional physical phenomenon to compute.
-
-*Geodesic integration.* Compute null and timelike geodesics in Kerr spacetime, visualizing the photon sphere, the innermost stable circular orbit (ISCO), and plunging orbits. The fully integrable geodesic equations in Kerr spacetime (four constants of motion: $E$, $L_z$, $Q$, $\mu^2$) reduce to quadratures involving elliptic integrals, but direct numerical integration using a symplectic integrator is more flexible and allows visualization of general orbits including zoom-whirl behavior near the ISCO. Demonstrate frame dragging by comparing prograde and retrograde orbits, and illustrate the Penrose process by computing the energy of particles in the ergosphere. The geodesic structure of Kerr spacetime is also the foundation for ray-tracing codes that produce the images of black hole shadows now observed by the Event Horizon Telescope.
-
-*Event horizon finding.* In the context of a numerically generated spacetime (or an analytic test case like Vaidya), implement backward null geodesic integration to locate the event horizon. The algorithm proceeds by seeding a family of outgoing null geodesics at late times (when the spacetime has settled to a Kerr solution and the horizon location is known analytically) and integrating backward in time. The geodesics that asymptotically approach the horizon trace out the event horizon surface. Crease points—where new generators join the horizon—require careful numerical treatment, as the null expansion diverges at these caustics. Compare with apparent horizon locations found from the marginally trapped surface equation, and quantify the difference between event and apparent horizons during the dynamical phase.
-
-*Membrane paradigm diagnostics.* For a given black hole spacetime (Schwarzschild or Kerr), compute the membrane quantities: surface resistivity, shear viscosity, tidal fields. The membrane paradigm replaces the global structure of the black hole spacetime with boundary conditions on a timelike "stretched horizon" just outside the true horizon. For an external electromagnetic field $F_{ab}$, the induced surface current on the membrane satisfies Ohm's law with resistivity $4\pi/c = 377\,\Omega$ (in Gaussian units). This can be verified by computing the electromagnetic field of a test charge above a Schwarzschild black hole and evaluating the induced surface charge and current on the stretched horizon.
-
-*Post-Newtonian orbital evolution.* Implement the post-Newtonian equations of motion for a binary system through at least 2.5PN order (where radiation reaction first enters) and compute the gravitational waveform during the inspiral phase. Compare the resulting waveform with the quadrupole formula, quantify the corrections from higher PN orders, and determine the frequency at which the PN approximation breaks down by comparison with numerical relativity results. This project bridges the self-force formalism of Section 4.2 with the data analysis methods of Section 4.3.
-
-
-## 1. General theorems
+## General theorems
 
 | ID  | Link                                                                                                                                              | Notes                                                                                                              |
 |-----|---------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------|
@@ -345,7 +246,7 @@ These notes provide framework for several computational projects that can be imp
 | S9  | [Carr et al *“Stephen William Hawking CH CBE”* 2020](https://arxiv.org/pdf/2002.03185)                                                                  | Biographical and scientific overview summarizing Hawking’s key contributions to black-hole physics.               |
 
 
-## 2. The event horizon
+## The event horizon
 
 | ID   | Link                                                                                                                                                      | Notes                                                                                                                     |
 |------|-----------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------|
@@ -359,7 +260,7 @@ These notes provide framework for several computational projects that can be imp
 | S17  | [Gadioux *“Evolution of creases on the event horizon”* 2024](https://arxiv.org/abs/2407.07962)                                                                 | Examines the formation and evolution of crease sets on dynamical horizons during non-linear interactions.                  |
 
 
-## 3. Scattering from black holes
+## Scattering from black holes
 
 | ID   | Link                                                                                                                                                                | Notes                                                                                                        |
 |------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------|
@@ -371,7 +272,7 @@ These notes provide framework for several computational projects that can be imp
 | S23  | [Li et al *“Exact Scattering”* 2022](https://arxiv.org/abs/1612.02644)                                                                                                  | Presents exact analytic solutions for wave scattering in certain black-hole geometries.                     |
 
 
-## 4. Gravitational waves
+## Gravitational waves
 
 | ID   | Link                                                                                                                                                                                               | Notes                                                                                                                   |
 |------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
