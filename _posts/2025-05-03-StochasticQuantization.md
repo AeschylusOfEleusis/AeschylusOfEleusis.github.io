@@ -10,15 +10,13 @@ math:       true        # enable KaTeX
 
 ## Abstract
 
-A view of stochastic quantization is sketched here; written from the perspective of numerical relativity. Examples from mathematical physics are considered as illustration.
+These notes collect the essential ideas behind stochastic quantization; serving as a guide to the literature for students and practitioners.  The primary view here takes the perspective of numerical computation. Particular attention is paid to how the formalism connects to problems in numerical relativity and quantum field theory on curved spacetimes.
 
 ---
 
-These notes collect the essential ideas behind stochastic quantization---the program, initiated by Parisi and Wu (1981), of generating quantum field theory correlators from a classical stochastic process in a fictitious time variable. The notes are written as a guide to the literature for students and practitioners approaching the subject from the perspective of numerical computation, with particular attention to how the formalism connects to problems in numerical relativity and quantum field theory on curved spacetimes.
+Stochastic quantiztion sits at a crossroads of several active research programs: lattice field theory and Monte Carlo simulation, the sign problem in finite-density QCD, semiclassical and stochastic gravity. The bibliography collected here reflects that breadth, spanning from the Martin--Siggia--Rose formalism of the 1970s through contemporary work on complex Langevin regularization. The notes are intended to serve as both an orientation to the conceptual landscape and a framework for the computational projects that accompany them.
 
-The subject sits at a crossroads of several active research programs: lattice field theory and Monte Carlo simulation, the sign problem in finite-density QCD, semiclassical and stochastic gravity, and the broader enterprise of numerical approaches to quantum gravity. The bibliography collected here reflects that breadth, spanning from the Martin--Siggia--Rose formalism of the 1970s through contemporary work on complex Langevin regularization. The notes are intended to serve as both an orientation to the conceptual landscape and a framework for the computational projects that accompany them.
-
-A word on conventions: we work throughout in natural units $\hbar = c = 1$ unless otherwise indicated. The metric signature is $(-,+,+,\ldots)$ for Lorentzian spacetimes, and we use the Euclidean signature $(+,+,+,\ldots)$ where explicitly stated. The stochastic or "fictitious" time is denoted $s$, to distinguish it from physical time $t$ or Euclidean time $\tau$.
+A note on conventions: Natural units $\hbar = c = 1$ are employed in the following unless otherwise indicated. The metric signature is $(-,+,+,\ldots)$ for Lorentzian spacetimes, and the Euclidean signature is $(+,+,+,\ldots)$ where explicitly stated. The stochastic or "fictitious" time is denoted $s$, to distinguish it from physical time $t$ or Euclidean time $\tau$.
 
 ---
 
@@ -36,7 +34,7 @@ The notes that follow develop these themes in roughly the order that a practitio
 
 ### Historical context
 
-The intellectual roots of stochastic quantization extend back well before 1981. The connection between quantum mechanics and stochastic processes was explored by Nelson (1966) in his "stochastic mechanics," which attempted to derive the Schrödinger equation from a diffusion process in physical time. The Martin--Siggia--Rose (MSR) formalism (1973) [S1] provided a path integral representation of classical stochastic dynamics, and the theory of dynamic critical phenomena (Hohenberg and Halperin, 1977) [S2] established the technology of Langevin equations coupled to order parameter fields. Fox (1978) [S3] systematized the treatment of Gaussian stochastic processes in physics. The closed-time-path formalism of Zhou et al. (1980) [S4] provided yet another approach to non-equilibrium dynamics that would eventually connect to the stochastic quantization program.
+The roots of stochastic quantization extend back well before 1981. Quantum mechanics and stochastic processes were explored by Nelson (1966) in his "stochastic mechanics," which attempted to derive the Schrödinger equation from a diffusion process in physical time. The Martin--Siggia--Rose (MSR) formalism (1973) [S1] provided a path integral representation of classical stochastic dynamics, and the theory of dynamic critical phenomena (Hohenberg and Halperin, 1977) [S2] established the technology of Langevin equations coupled to order parameter fields. Fox (1978) [S3] systematized the treatment of Gaussian stochastic processes in physics. The closed-time-path formalism of Zhou et al. (1980) [S4] provided yet another approach to non-equilibrium dynamics that would eventually connect to the stochastic quantization program.
 
 Parisi and Wu's contribution [S5] was to recognize that by adding a *fictitious* time dimension and using the action functional as a drift term, one could generate the Euclidean quantum field theory as the equilibrium limit of a well-defined stochastic process. The key distinction from Nelson's stochastic mechanics is that the stochastic time $s$ is not physical time; it is an auxiliary parameter that serves as a computational device. The equilibrium limit $s \to \infty$ recovers the standard Euclidean theory, while finite-$s$ dynamics may carry physical information about approach to equilibrium and relaxation.
 
