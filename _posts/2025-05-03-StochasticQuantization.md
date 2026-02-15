@@ -439,22 +439,12 @@ Each stage provides independent scientific value and publishable results, regard
 
 ### The Parisi--Wu formalism and its development
 
-**[S5] Parisi and Wu,** "Perturbation Theory Without Gauge Fixing," *Scientia Sinica* 24:483 (1981). **The foundational paper.** Introduces stochastic quantization as a method for generating the Euclidean path integral via Langevin dynamics in fictitious time. The key result is that gauge theories can be quantized without explicit gauge fixing, avoiding the Faddeev--Popov procedure and its attendant Gribov ambiguities.
-
-**[S6] Seiler,** *Stochastic Quantization and Gauge Fixing,* Springer (1984). Analyzes the relationship between stochastic quantization and conventional gauge-fixing procedures. Addresses the question of whether stochastic quantization reproduces the correct gauge-invariant content of gauge theories.
-
-**[S7] Zinn-Justin,** "Renormalization and Stochastic Quantization," *Nucl. Phys. B* (1986). Establishes the renormalization theory for stochastic quantization: the stochastic perturbation theory is renormalizable with the same counterterms as the conventional theory, confirming equivalence at the level of renormalized perturbation theory.
-
-**[S8] Rumpf,** "Stochastic Quantization of Einstein Gravity," *Phys. Rev. D* 33 (1986). The first attempt at applying the Parisi--Wu procedure to the gravitational field. Identifies the conformal factor problem and other difficulties specific to gravity. An important reference for the long-term goals of the present program (Tier 3 of §7.4).
-
-
 | ID  | Link  | Notes |
 |-----|------ |-------|
-| S5  | [Parisi Wu *“Perturbation Theory Without Gauge Fixing”* 1980](https://inspirehep.net/literature/9589)                                                                                                                                                                               | Proposes a stochastic quantization approach that avoids explicit gauge fixing by introducing auxiliary time variables.            |
-| S6  | [Seiler *“Stochastic Quantization and Gauge Fixing”* 1984](https://link.springer.com/chapter/10.1007/978-3-7091-8780-7_11)                                                                                                                                                            | Analyzes the relationship between stochastic quantization techniques and conventional gauge-fixing procedures.                     |
-| S7  | [J. Zinn-Justin *“Renormalization and stochastic quantization”* 1986](https://www.sciencedirect.com/science/article/abs/pii/0550321386905924)                                                                                                                                         | Investigates the renormalization of quantum field theories within the stochastic quantization framework.                            |
-| S8  | [Rumpf *“Stochastic Quantization of Einstein Gravity”* 1986](https://journals.aps.org/prd/abstract/10.1103/PhysRevD.33.942)                                                                                                                                                         | Applies stochastic quantization to the gravitational field, exploring potential routes to quantize Einstein’s theory.             |
-| S9  | [Goldschmidt *“Decay of Magnetization”* 1987](https://www.sciencedirect.com/science/article/abs/pii/055032138790352X)                                                                                                                                                                 | Studies the time-dependent decay of magnetization near critical points using stochastic and renormalization methods.               |
+| S5  | [Parisi Wu *“Perturbation Theory Without Gauge Fixing”* 1980](https://inspirehep.net/literature/9589) | Proposes a stochastic quantization approach that avoids explicit gauge fixing by introducing auxiliary time variables.            |
+| S6  | [Seiler *“Stochastic Quantization and Gauge Fixing”* 1984](https://link.springer.com/chapter/10.1007/978-3-7091-8780-7_11) | Analyzes the relationship between stochastic quantization techniques and conventional gauge-fixing procedures.                     |
+| S7  | [J. Zinn-Justin *“Renormalization and stochastic quantization”* 1986](https://www.sciencedirect.com/science/article/abs/pii/0550321386905924)| Investigates the renormalization of quantum field theories within the stochastic quantization framework.                            |
+| S8  | [Rumpf *“Stochastic Quantization of Einstein Gravity”* 1986](https://journals.aps.org/prd/abstract/10.1103/PhysRevD.33.942)| Applies stochastic quantization to the gravitational field, exploring potential routes to quantize Einstein’s theory.             |
 
 ### Reviews and monographs
 
@@ -480,6 +470,7 @@ Each stage provides independent scientific value and publishable results, regard
 
 | ID  | Link  | Notes |
 |-----|------ |-------|
+| S9  | [Goldschmidt *“Decay of Magnetization”* 1987](https://www.sciencedirect.com/science/article/abs/pii/055032138790352X)| Studies the time-dependent decay of magnetization near critical points using stochastic and renormalization methods.               |
 | S13 | [Hu et al *“Quantum Brownian Motion II”* 1993](https://journals.aps.org/prd/abstract/10.1103/PhysRevD.47.1576)                                                                                                                                                                       | Extends the quantum Brownian motion framework to relativistic fields and investigates decoherence processes.                        |
 | S14 | [Namiki *“Basic Ideas”* 1993](https://academic.oup.com/ptps/article/doi/10.1143/PTPS.111.1/1889428)                                                                                                                                                                                   | Outlines the fundamental concepts underlying stochastic quantization, with emphasis on gauge theories.                            
 |
