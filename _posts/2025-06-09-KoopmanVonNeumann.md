@@ -100,7 +100,7 @@ which reduces to the classical ensemble average when $\vert\psi\vert^2$ is ident
 
 ## Phases and Gauge Freedom
 
-One of the most instructive features of KvN mechanics is the role of the wavefunction's phase. In quantum mechanics, the relative phase between components of a superposition has observable consequences (interference). In KvN mechanics, since all physical predictions depend on $\vert\psi\vert^2$, the phase $\theta(x,p)$ in $\psi = |\psi|e^{i\theta}$ is entirely unobservable. This constitutes a gauge freedom: the transformation
+One of the most instructive features of KvN mechanics is the role of the wavefunction's phase. In quantum mechanics, the relative phase between components of a superposition has observable consequences (interference). In KvN mechanics, since all physical predictions depend on $\vert\psi\vert^2$, the phase $\theta(x,p)$ in $\psi = \vert\psi\verte^{i\theta}$ is entirely unobservable. This constitutes a gauge freedom: the transformation
 
 $$
 \psi(x,p,t) \mapsto e^{i\alpha(x,p)}\psi(x,p,t)
