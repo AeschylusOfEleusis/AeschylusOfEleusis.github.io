@@ -96,9 +96,11 @@ $h/2$, one can combine them to cancel the leading-order truncation error
 and obtain a result of higher effective order. The idea is simple. If a
 numerical scheme has error $E(h) = c \, h^p + O(h^{p+1})$, then the
 combination
+
 $$
 f_{\text{ext}} = \frac{2^p f(h/2) - f(h)}{2^p - 1}
 $$
+
 eliminates the $O(h^p)$ term, yielding an approximation accurate to $O(h^{p+1})$.
 
 This technique remains fundamental. In modern numerical relativity,
@@ -152,9 +154,11 @@ artificial dissipation, scaled to act primarily at the grid scale, that
 damps high-frequency numerical noise without significantly affecting the
 resolved physics. For a fourth-order accurate scheme, one adds a
 sixth-order dissipation operator:
+
 $$
 Q_{\text{KO}} = (-1)^{(r+1)/2} \epsilon \, (\Delta x)^r \, D_+^{r/2} D_-^{r/2}
 $$
+
 where $r$ is the order of dissipation, $D_+$ and $D_-$ are forward and
 backward difference operators, and $\epsilon$ is a tunable coefficient.
 This technique is used routinely in modern BSSN evolution codes.
@@ -243,9 +247,11 @@ The 3+1 (or ADM) decomposition, developed by Arnowitt, Deser, and Misner
 in the late 1950s and early 1960s, accomplishes this by foliating spacetime
 into a family of spacelike hypersurfaces $\Sigma_t$ parameterized by a
 time coordinate $t$. The spacetime metric is decomposed as
+
 $$
 ds^2 = -\alpha^2 \, dt^2 + \gamma_{ij}(dx^i + \beta^i \, dt)(dx^j + \beta^j \, dt)
 $$
+
 where $\alpha$ is the lapse function (controlling the rate of proper time
 advance between slices), $\beta^i$ is the shift vector (controlling how
 spatial coordinates propagate from slice to slice), and $\gamma_{ij}$ is
@@ -292,13 +298,17 @@ changes the constraint propagation system, ensuring that constraint
 violations are damped rather than amplified during evolution.
 
 Combined with the "1+log" slicing condition for $\alpha$,
+
 $$
 (\partial_t - \beta^i \partial_i) \alpha = -2\alpha K,
 $$
+
 and the "Gamma-driver" condition for $\beta^i$,
+
 $$
 \partial_t \beta^i = \frac{3}{4} \tilde{\Gamma}^i - \eta \beta^i,
 $$
+
 BSSN achieves robust long-term stability. The 1+log condition is
 singularity-avoiding: as a region of spacetime approaches a singularity
 ($K \to \infty$), the lapse $\alpha$ is driven toward zero, freezing the
