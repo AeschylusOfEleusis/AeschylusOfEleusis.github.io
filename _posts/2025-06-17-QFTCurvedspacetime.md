@@ -318,13 +318,12 @@ In all cases, Wald's various overview papers [S13, S15, S22, S27] serve as usefu
 
 ## Wald Reviews and Overviews
 
-**S13.** R. M. Wald, "Quantum Field Theory in Curved Spacetime" (1995). GR14 plenary lecture; compact overview of the algebraic approach, Hadamard states, and conceptual differences from Minkowski QFT.
-
-**S15.** R. M. Wald, "Quantum Field Theory in Curved Spacetimes" (1998). GR15 workshop summary; snapshot of field status highlighting microlocal tools.
-
-**S22.** R. M. Wald, "The History and Status of QFT in Curved Spacetime" (2006). High-level survey and narrative overview.
-
-**S27.** R. M. Wald, "Formulation of Quantum Field Theory in Curved Spacetime" (2009). Concise statement of the principles for constructing QFTCS on general backgrounds.
+| ID   | Link | Notes |
+|:-----|:-----|:------|
+| S13  | [Wald *”QFT in Curved Spacetime”* 1995](https://arxiv.org/abs/gr-qc/9509057) | Provides an overview of the challenges and structure of quantum field theory in curved spacetimes. |
+| S15  | [Wald *”QFT in Curved Spacetimes: GR15 Workshop”* 1998](https://arxiv.org/abs/gr-qc/9803088) | Summarizes developments in QFT in curved spacetimes presented at the GR15 workshop. |
+| S22  | [Wald *”History and Status of QFT in Curved Spacetime”* 2006](https://arxiv.org/abs/gr-qc/0608018) | Reviews the development and current status of QFT in curved spacetimes. |
+| S27  | [Wald *”Formulation of QFT in Curved Spacetime”* 2009](https://arxiv.org/abs/0907.0416) | Outlines key principles in constructing QFTs on general curved backgrounds. |
 
 ## Spectral Methods
 
@@ -336,15 +335,13 @@ In all cases, Wald's various overview papers [S13, S15, S22, S27] serve as usefu
 
 ## The Hollands--Wald Program
 
-**S17.** S. Hollands and R. M. Wald, "Local Wick Polynomials and Time Ordered Products of Quantum Fields in Curved Spacetime" (2001). Locally covariant construction of composite operators and time-ordered products using the Hadamard parametrix.
-
-**S18.** S. Hollands and R. M. Wald, "On the Renormalization Group in Curved Spacetime" (2002). Scaling formulation of the RG compatible with local covariance.
-
-**S20.** S. Hollands and R. M. Wald, "Conservation of the Stress Tensor in Perturbative Interacting Quantum Field Theory in Curved Spacetimes" (2004/2005). Stress-tensor conservation established under appropriate renormalization conditions; fundamental consistency result.
-
-**S23.** S. Hollands and R. M. Wald, "Axiomatic Quantum Field Theory in Curved Spacetime" (2008). OPE-based axioms; local covariance, microlocal spectrum condition, and associativity as fundamental principles.
-
-**S31.** S. Hollands and R. M. Wald, "Quantum Fields in Curved Spacetime," *Physics Reports* (2014). Comprehensive modern synthesis: distributional fields, local covariance, microlocal spectrum condition, Unruh/Hawking effects, nonlinear observables, time-ordered products. The single most comprehensive modern entry point.
+| ID   | Link | Notes |
+|:-----|:-----|:------|
+| S17  | [Hollands and Wald *”Wick Polynomials and Quantum Fields in Curved Spacetime”* 2001](https://arxiv.org/abs/gr-qc/0103074) | Constructs Wick polynomials for fields in curved spacetime using local and covariant methods. |
+| S18  | [Hollands and Wald *”RG in Curved Spacetime”* 2002](https://arxiv.org/abs/gr-qc/0209029) | Applies renormalization group techniques to interacting quantum field theories in curved spacetime. |
+| S20  | [Hollands and Wald *”Interacting quantum field theory in curved spacetimes”* 2005](https://arxiv.org/abs/gr-qc/0404074) | Develops an interacting QFT in curved spacetime using perturbative algebraic methods. |
+| S23  | [Hollands and Wald *”Axiomatic QFT in curved spacetime”* 2008](https://arxiv.org/abs/0803.2003) | Presents an axiomatic approach to QFT in curved spacetime consistent with general covariance. |
+| S31  | [Wald *QFT in curved spacetime* 2014](https://arxiv.org/abs/1401.2026) | Synthesizes foundational issues and approaches in QFT in curved spacetime. |
 
 ## Global Hyperbolicity and Causal Structure
 
@@ -381,17 +378,12 @@ In all cases, Wald's various overview papers [S13, S15, S22, S27] serve as usefu
 
 | ID   | Link | Notes |
 |:-----|:-----|:------|
-| S13  | [Wald *”QFT in Curved Spacetime”* 1995](https://arxiv.org/abs/gr-qc/9509057) | Provides an overview of the challenges and structure of quantum field theory in curved spacetimes. |
-| S15  | [Wald *”QFT in Curved Spacetimes: GR15 Workshop”* 1998](https://arxiv.org/abs/gr-qc/9803088) | Summarizes developments in QFT in curved spacetimes presented at the GR15 workshop. |
-| S16  | [Wald *”Spectral functions in mathematics and physics”* 2000](https://arxiv.org/abs/hep-th/0005133) | Discusses spectral functions and their application in mathematical physics and QFT. |
 | S17  | [Hollands and Wald *”Wick Polynomials and Quantum Fields in Curved Spacetime”* 2001](https://arxiv.org/abs/gr-qc/0103074) | Constructs Wick polynomials for fields in curved spacetime using local and covariant methods. |
 | S18  | [Hollands and Wald *”RG in Curved Spacetime”* 2002](https://arxiv.org/abs/gr-qc/0209029) | Applies renormalization group techniques to interacting quantum field theories in curved spacetime. |
 | S19  | [Lasenby et al *”Bound states and fermions in black hole backgrounds”* 2005](https://arxiv.org/abs/gr-qc/0209090) | Studies the quantum states of fermions in the background of black holes. |
 | S20  | [Hollands and Wald *”Interacting quantum field theory in curved spacetimes”* 2005](https://arxiv.org/abs/gr-qc/0404074) | Develops an interacting QFT in curved spacetime using perturbative algebraic methods. |
 | S21  | [Weinberg *”Quantum Contributions to Cosmological Correlations”* 2005](https://arxiv.org/abs/hep-th/0506236) | Analyzes quantum effects on cosmological correlation functions during inflation. |
-| S22  | [Wald *”History and Status of QFT in Curved Spacetime”* 2006](https://arxiv.org/abs/gr-qc/0608018) | Reviews the development and current status of QFT in curved spacetimes. |
 | S23  | [Hollands and Wald *”Axiomatic QFT in curved spacetime”* 2008](https://arxiv.org/abs/0803.2003) | Presents an axiomatic approach to QFT in curved spacetime consistent with general covariance. |
-| S27  | [Wald *”Formulation of QFT in Curved Spacetime”* 2009](https://arxiv.org/abs/0907.0416) | Outlines key principles in constructing QFTs on general curved backgrounds. |
 | S28  | [Jacobson *”Hawking radiation in spacetime and analogues”* 2012](https://arxiv.org/abs/1212.6821) | Discusses the physical intuition and analog models related to Hawking radiation. |
 | S29  | [Vieira et al *”Exact KG in Kerr-Newman and Hawking Radiation”* 2014](https://arxiv.org/abs/1401.5397) | Analyzes exact Klein-Gordon solutions in Kerr-Newman spacetime and implications for Hawking radiation. |
 | S30  | [Unruh *”Has Hawking Radiation been Measured?”* 2014](https://arxiv.org/abs/1401.6612) | Reviews evidence and analog experiments related to detecting Hawking radiation. |
