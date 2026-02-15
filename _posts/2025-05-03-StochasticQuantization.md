@@ -478,35 +478,6 @@ The references are organized thematically, following the structure of the notes.
 
 **[S32] Hirayama,** "Classical Simulation of QFT," arXiv:1912.01648 (2024). Updated treatment of classical-statistical simulation methods, incorporating developments since the earlier papers.
 
-### Stochastic gravity
-
-**[S19] de Aguiar et al.,** "Scalar Fields in de Sitter," arXiv:0809.2273 (2008). Studies scalar fields on de Sitter backgrounds using stochastic methods, directly relevant to the inflationary cosmology applications of the present program.
-
-**[S20] Hu and Verdaguer,** "Stochastic Gravity: Theory and Applications," *Living Rev. Rel.* (2008). **Major review.** The authoritative treatment of the stochastic gravity program: the Einstein--Langevin equation, the noise kernel, and applications to cosmology and black hole physics. Essential reading for understanding Tier 2 of the gravity-facing program (§7.4).
-
-**[S25] Iso and Okazawa,** "Stochastic Equations on Black Hole Backgrounds," arXiv:1104.2461 (2011). Studies stochastic field equations on black hole backgrounds, connecting the stochastic quantization framework to Hawking radiation and horizon physics.
-
-**[S29] Antonio dos Reis et al.,** "Semiclassical Gravity," arXiv:1804.04569 (2018). Further development of the semiclassical and stochastic gravity formalism for practical calculations.
-
-**[S30] Hu and Verdaguer,** *Semiclassical and Stochastic Gravity,* Cambridge University Press (2020). **Monograph.** The comprehensive book-length treatment of semiclassical and stochastic gravity, expanding on the 2008 review with additional topics and updated references. The definitive reference for the Einstein--Langevin framework.
-
-### Complex Langevin and the sign problem
-
-**[S21] Guralnik and Pehlevan,** "Complex Langevin and Schwinger--Dyson," arXiv:0710.3756 (2007). Studies the relationship between complex Langevin dynamics and Schwinger--Dyson equations, providing criteria for when the stochastic method satisfies the correct quantum equations of motion.
-
-**[S22] Kamenev and Levchenko,** "Keldysh and Sigma Models," arXiv:0901.3586 (2009). Modern treatment of the Keldysh formalism with connections to disorder physics and non-linear $\sigma$-models. Provides context for the non-equilibrium aspects of stochastic quantization.
-
-**[S23] De Dominicis and Giardina,** *Random Fields and Spin Glasses,* Cambridge University Press (2009). Develops the connection between classical stochastic dynamics (MSR formalism) and the Keldysh path integral in the context of disordered systems. Useful for understanding the structural relationships between the various formalisms discussed in §10.
-
-**[S24] Aarts et al.,** "Instabilities in Complex Langevin," arXiv:0912.0617 (2009). Identifies and characterizes specific failure modes of complex Langevin dynamics: cases where the stochastic process converges to incorrect results. Essential for understanding the limitations of the method.
-
-**[S26] Cassol-Seewald et al.,** "Landau--Ginzburg," *Int. J. Mod. Phys. C* (2012). Applies stochastic methods to Landau--Ginzburg theory, connecting the stochastic quantization framework to phase transitions and critical phenomena.
-
-**[S27] Seiler,** "Complex Langevin," arXiv:1708.08254 (2017). Comprehensive analysis of correctness conditions for complex Langevin dynamics, including the role of the imaginary-direction probability distribution.
-
-**[S28] Berger et al.,** "Sign Problem," arXiv:1907.10183 (2019). Review of the sign problem and approaches to it, including complex Langevin, Lefschetz thimbles, and density of states methods. Provides context for the role of stochastic methods within the broader landscape of sign-problem approaches.
-
-**[S31] Cai et al.,** "Regularization of Complex Langevin," arXiv:2109.12762 (2021). Proposes novel regularization techniques for complex Langevin dynamics, addressing known convergence issues. Represents the current state of the art in making complex Langevin reliable.
 
 
 
@@ -532,8 +503,42 @@ The references are organized thematically, following the structure of the notes.
 | S16 | [Hirayama *“Classical Simulation of QFT I”* 2005](https://arxiv.org/abs/hep-th/0507126)                                                                                                                                                                                               | Proposes a classical lattice simulation scheme for out-of-equilibrium quantum fields based on classical statistical analogies.    |
 | S17 | [Hirayama et al *“Classical Simulation of QFT II”* 2005](https://arxiv.org/abs/hep-lat/0507014)                                                                                                                                                                                      | Extends classical simulation methods to non-Abelian gauge theories, demonstrating feasibility in lattice frameworks.                |
 | S18 | [Berges and Sexty *“Gauge theory simulations”* 2007](https://arxiv.org/abs/0708.0779)                                                                                                                                                                                                 | Presents real-time lattice simulations of gauge theories using classical-statistical approximations to explore thermalization.    |
+
+### Stochastic gravity
+
+**[S19] de Aguiar et al.,** "Scalar Fields in de Sitter," arXiv:0809.2273 (2008). Studies scalar fields on de Sitter backgrounds using stochastic methods, directly relevant to the inflationary cosmology applications of the present program.
+
+**[S20] Hu and Verdaguer,** "Stochastic Gravity: Theory and Applications," *Living Rev. Rel.* (2008). **Major review.** The authoritative treatment of the stochastic gravity program: the Einstein--Langevin equation, the noise kernel, and applications to cosmology and black hole physics. Essential reading for understanding Tier 2 of the gravity-facing program (§7.4).
+
+**[S25] Iso and Okazawa,** "Stochastic Equations on Black Hole Backgrounds," arXiv:1104.2461 (2011). Studies stochastic field equations on black hole backgrounds, connecting the stochastic quantization framework to Hawking radiation and horizon physics.
+
+**[S29] Antonio dos Reis et al.,** "Semiclassical Gravity," arXiv:1804.04569 (2018). Further development of the semiclassical and stochastic gravity formalism for practical calculations.
+
+**[S30] Hu and Verdaguer,** *Semiclassical and Stochastic Gravity,* Cambridge University Press (2020). **Monograph.** The comprehensive book-length treatment of semiclassical and stochastic gravity, expanding on the 2008 review with additional topics and updated references. The definitive reference for the Einstein--Langevin framework.
+
+| ID  | Link                                                                                                                                                                                                                                                                              | Notes                                                                                                                            |
+|-----|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------|
 | S19 | [de Aguiar et al *“Scalar fields in de Sitter”* 2008](https://arxiv.org/abs/0809.2273)                                                                                                                                                                                                  | Examines stochastic dynamics and correlation functions of scalar fields propagating in de Sitter spacetime.                        |
 | S20 | [Hu and Verdaguer *“Stochastic Gravity”* 2008](https://arxiv.org/abs/0802.0658)                                                                                                                                                                                                        | Provides a comprehensive review of stochastic gravity, where metric fluctuations are driven by quantum stress-energy noise.         |
+
+### Complex Langevin and the sign problem
+
+**[S21] Guralnik and Pehlevan,** "Complex Langevin and Schwinger--Dyson," arXiv:0710.3756 (2007). Studies the relationship between complex Langevin dynamics and Schwinger--Dyson equations, providing criteria for when the stochastic method satisfies the correct quantum equations of motion.
+
+**[S22] Kamenev and Levchenko,** "Keldysh and Sigma Models," arXiv:0901.3586 (2009). Modern treatment of the Keldysh formalism with connections to disorder physics and non-linear $\sigma$-models. Provides context for the non-equilibrium aspects of stochastic quantization.
+
+**[S23] De Dominicis and Giardina,** *Random Fields and Spin Glasses,* Cambridge University Press (2009). Develops the connection between classical stochastic dynamics (MSR formalism) and the Keldysh path integral in the context of disordered systems. Useful for understanding the structural relationships between the various formalisms discussed in §10.
+
+**[S24] Aarts et al.,** "Instabilities in Complex Langevin," arXiv:0912.0617 (2009). Identifies and characterizes specific failure modes of complex Langevin dynamics: cases where the stochastic process converges to incorrect results. Essential for understanding the limitations of the method.
+
+**[S26] Cassol-Seewald et al.,** "Landau--Ginzburg," *Int. J. Mod. Phys. C* (2012). Applies stochastic methods to Landau--Ginzburg theory, connecting the stochastic quantization framework to phase transitions and critical phenomena.
+
+**[S27] Seiler,** "Complex Langevin," arXiv:1708.08254 (2017). Comprehensive analysis of correctness conditions for complex Langevin dynamics, including the role of the imaginary-direction probability distribution.
+
+**[S28] Berger et al.,** "Sign Problem," arXiv:1907.10183 (2019). Review of the sign problem and approaches to it, including complex Langevin, Lefschetz thimbles, and density of states methods. Provides context for the role of stochastic methods within the broader landscape of sign-problem approaches.
+
+**[S31] Cai et al.,** "Regularization of Complex Langevin," arXiv:2109.12762 (2021). Proposes novel regularization techniques for complex Langevin dynamics, addressing known convergence issues. Represents the current state of the art in making complex Langevin reliable.
+
 
 ### Complex Langevin and the sign problem
 | ID  | Link                                                                                                                                                                                                                                                                              | Notes                                                                                                                            |
