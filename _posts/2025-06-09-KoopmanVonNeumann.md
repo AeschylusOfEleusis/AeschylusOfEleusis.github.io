@@ -159,7 +159,7 @@ In 1948, Feynman showed Dyson a derivation of the Lorentz force law and the homo
 The setup is deceptively simple. Assume:
 
 1. Newton's equation $m\ddot{x}_i = F_i(x, \dot{x}, t)$.
-2. Commutation relations $[x_i, x_j] = 0$ and $m[x_i, \dot{x}_j] = i\delta_{ij}$.
+2. Commutation relations $[x_i, x_j] = 0$ and $$m[x_i, \dot{x}_j] = i\delta_{ij}$$.
 
 From these, Feynman showed that the force $F_i$ must take the form of the Lorentz force:
 
