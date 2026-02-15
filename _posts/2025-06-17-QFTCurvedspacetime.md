@@ -39,13 +39,21 @@ The story begins with Bryce DeWitt, who in the early 1950s confronted the questi
 DeWitt's 1957 paper [S2] extended this program to a fully covariant formulation of quantum dynamics in curved space, developing action principles that respect general covariance. The culmination of this early phase was his 1975 Physics Reports review [S3], which consolidated the techniques for quantum field theory in curved backgrounds and provided one of the first systematic treatments of particle creation by gravitational fields. By the mid-1970s, DeWitt had established the mathematical vocabulary---covariant Green functions, the Schwinger--DeWitt expansion, heat-kernel methods---that would become standard tools in the field.
 
 The Schwinger--DeWitt expansion deserves particular mention because it recurs throughout the later literature. For a scalar field with equation of motion $(\Box - m^2 - \xi R)\phi = 0$, the Feynman propagator admits an asymptotic expansion of the form
-$$G_F(x, x') \sim \sum_{n=0}^{\infty} a_n(x, x') \, F_n(\sigma(x, x'))$$
+
+$$
+G_F(x, x') \sim \sum_{n=0}^{\infty} a_n(x, x') \, F_n(\sigma(x, x'))
+$$
+
 where $\sigma(x,x')$ is one-half the squared geodesic distance between $x$ and $x'$, the $F_n$ are known special functions, and the Seeley--DeWitt coefficients $a_n(x,x')$ are determined recursively by the local geometry and the field equation. The first few coefficients encode the information needed for one-loop renormalization: $a_0 = 1$, $a_1$ involves the Ricci scalar, and $a_2$ involves quadratic curvature invariants. The heat-kernel coefficients $a_n(x,x)$ evaluated at coincidence directly determine the ultraviolet divergences and hence the counterterms required for renormalization. This expansion forms the technical backbone of much of the regularization and renormalization machinery discussed in later sections.
 
 ## Hawking and the Discovery of Black Hole Radiance
 
 The intellectual center of gravity of QFTCS shifted dramatically in 1974--1975 with Hawking's demonstration that black holes are not truly black. In his 1975 paper "Particle Creation by Black Holes" [S4], Hawking showed that quantum field theory on a Schwarzschild background predicts a steady flux of thermal radiation at the temperature
-$$T_H = \frac{\hbar \kappa}{2\pi c k_B}$$
+
+$$
+T_H = \frac{\hbar \kappa}{2\pi c k_B}
+$$
+
 where $\kappa$ is the surface gravity of the black hole. For a Schwarzschild hole of mass $M$, this gives $T_H \approx 10^{-6} (M_\odot / M)$ K---unobservably small for astrophysical black holes but conceptually revolutionary.
 
 The derivation proceeds by tracing quantum field modes from past null infinity $\mathscr{I}^-$, through the collapsing geometry that forms the black hole, to future null infinity $\mathscr{I}^+$. The exponential redshifting of modes near the horizon induces a Bogoliubov transformation between the "in" and "out" vacuum states, and the resulting particle spectrum is thermal. The key results include the thermal spectrum itself, the implication that primordial black holes with $M < 10^{15}$ g would have evaporated by the present epoch, and the Generalized Second Law: the quantity $S_{\text{outside}} + A/4$ (in Planck units) never decreases, where $S_{\text{outside}}$ is the entropy of matter outside the black hole and $A$ is the total horizon area.
@@ -86,7 +94,11 @@ The relationship between the Unruh effect, the Hawking effect, and the Bisognano
 In a time-dependent spacetime, the natural decomposition of field modes into positive and negative frequencies changes with time. A mode that is purely positive-frequency at early times may acquire a negative-frequency component at late times, and this mixing again implies particle creation via Bogoliubov transformations. The most important application is to inflationary cosmology, where the rapid expansion of the universe amplifies vacuum fluctuations of quantum fields into classical perturbations that seed the formation of cosmic structure.
 
 The mechanism can be understood concretely in a spatially flat Friedmann--Lemaître--Robertson--Walker (FLRW) universe with line element $ds^2 = a^2(\eta)(-d\eta^2 + d\mathbf{x}^2)$, where $\eta$ is conformal time and $a(\eta)$ is the scale factor. A minimally coupled massless scalar field $\phi$ satisfies the equation $\Box \phi = 0$, which in the FLRW background reduces to an equation for each Fourier mode $\phi_k(\eta)$ of the form
-$$\phi_k'' + \left(k^2 - \frac{a''}{a}\right)\phi_k = 0$$
+
+$$
+\phi_k'' + \left(k^2 - \frac{a''}{a}\right)\phi_k = 0
+$$
+
 where primes denote derivatives with respect to $\eta$. This is a parametric oscillator equation: the time-dependent "frequency" $\omega_k^2(\eta) = k^2 - a''/a$ couples the field modes to the expansion of the universe. When $a''/a$ changes significantly---as it does during inflation and at the transition from inflation to radiation domination---mode mixing occurs and particles are created.
 
 The primordial perturbations generated during inflation---both scalar (density) perturbations and tensor (gravitational wave) perturbations---are directly calculable within this framework. The scalar perturbation power spectrum $\mathcal{P}_s(k)$ and the tensor spectrum $\mathcal{P}_t(k)$ are determined by the behavior of the mode functions at horizon crossing ($k = aH$) and are the primary observables connecting QFTCS to cosmological data. Their statistical properties, encoded in the power spectrum, spectral index, and tensor-to-scalar ratio, are observable in the cosmic microwave background and in the large-scale distribution of galaxies. This is the regime in which QFTCS makes its closest contact with observational data.
@@ -134,7 +146,11 @@ Not every state on the algebra of observables is physically acceptable. The Hada
 The Hadamard condition ensures several essential properties. The ultraviolet behavior of the state is sufficiently controlled that the expectation value of the stress-energy tensor $\langle T_{\mu\nu} \rangle$ can be rendered finite by the standard renormalization procedure (point-splitting, dimensional regularization, or zeta-function methods). The Wick powers of the field---the normal-ordered composite operators needed for interacting theories---are well-defined. And the Hadamard class is stable under time evolution: if a state is Hadamard on one Cauchy surface, it remains Hadamard throughout the globally hyperbolic spacetime.
 
 More explicitly, the Hadamard form for the two-point function of a scalar field in four spacetime dimensions is
-$$\langle \phi(x) \phi(x') \rangle = \frac{1}{(2\pi)^2} \left[ \frac{U(x,x')}{\sigma(x,x') + i\epsilon} + V(x,x') \log(\sigma(x,x') + i\epsilon) + W(x,x') \right]$$
+
+$$
+\langle \phi(x) \phi(x') \rangle = \frac{1}{(2\pi)^2} \left[ \frac{U(x,x')}{\sigma(x,x') + i\epsilon} + V(x,x') \log(\sigma(x,x') + i\epsilon) + W(x,x') \right]
+$$
+
 where $\sigma(x,x')$ is the squared geodesic distance, $U$ and $V$ are determined by the local geometry and the field equation (they are the same for all Hadamard states), and $W$ is the state-dependent smooth part. The singular terms ($U/\sigma$ and $V \log \sigma$) are universal; they encode the ultraviolet structure that must be subtracted in renormalization. The freedom in choosing $W$ corresponds to the physical freedom in choosing a quantum state, while the universality of the singular terms ensures that renormalization can be carried out state-independently.
 
 The distinction between the universal singular part and the state-dependent smooth part is the technical engine that makes renormalization in curved spacetime work. When one computes $\langle T_{\mu\nu} \rangle$ by point-splitting, the divergences arise entirely from the singular terms and are therefore state-independent---they can be absorbed into geometric counterterms in the gravitational action.
@@ -164,11 +180,19 @@ A note on attribution: the paper is by Kay, Radzikowski, and Wald (arXiv:gr-qc/9
 Renormalization in curved spacetime introduces complications beyond those of flat-space QFT. The curvature of the background generates new divergences and requires additional counterterms involving curvature invariants: terms proportional to $R$, $R^2$, $R_{\mu\nu}R^{\mu\nu}$, and the Gauss--Bonnet combination $R_{\mu\nu\rho\sigma}R^{\mu\nu\rho\sigma}$. The most striking consequence is the conformal (trace) anomaly: even for a classically conformally invariant field, the renormalized expectation value $\langle T^\mu{}_\mu \rangle$ is nonvanishing and is given by a universal expression involving curvature invariants.
 
 For a conformally coupled scalar field in four dimensions, the trace anomaly takes the form
-$$\langle T^\mu{}_\mu \rangle = \frac{1}{2880\pi^2}\left(a \, C_{\mu\nu\rho\sigma}C^{\mu\nu\rho\sigma} - b \, E_4 + c \, \Box R \right)$$
+
+$$
+\langle T^\mu{}_\mu \rangle = \frac{1}{2880\pi^2}\left(a \, C_{\mu\nu\rho\sigma}C^{\mu\nu\rho\sigma} - b \, E_4 + c \, \Box R \right)
+$$
+
 where $C_{\mu\nu\rho\sigma}$ is the Weyl tensor, $E_4 = R_{\mu\nu\rho\sigma}R^{\mu\nu\rho\sigma} - 4R_{\mu\nu}R^{\mu\nu} + R^2$ is the integrand of the Euler characteristic, and the coefficients $a$, $b$, $c$ depend on the field content. The trace anomaly is a genuine quantum effect with no classical counterpart; it is topological in character (the integral of $E_4$ computes the Euler characteristic) and has profound consequences for the conformal structure of quantum field theories. It plays a central role in Hawking's calculation of black hole radiance and in the study of conformal field theories on curved backgrounds.
 
 The stress-energy tensor renormalization is particularly important because $\langle T_{\mu\nu} \rangle$ is the source term in the semiclassical Einstein equation
-$$G_{\mu\nu} = 8\pi G \langle T_{\mu\nu} \rangle$$
+
+$$
+G_{\mu\nu} = 8\pi G \langle T_{\mu\nu} \rangle
+$$
+
 which governs the backreaction of quantum fields on the geometry. Computing this backreaction is essential for understanding black hole evaporation dynamics and the quantum corrections to inflationary evolution. The semiclassical equation is an approximation that neglects fluctuations of the stress tensor about its mean; the stochastic gravity program extends this by including the noise kernel, the two-point correlator of stress-tensor fluctuations, providing a fluctuation-dissipation framework for quantum backreaction.
 
 Spectral methods provide an elegant approach to these problems. Kirsten's monograph *Spectral Functions in Mathematics and Physics* [S16] develops the zeta-function, heat-kernel, and functional-determinant technology that underpins regularization in curved backgrounds. (Note: this source is attributed to Klaus Kirsten, not to Wald as the original bibliography entry indicates.)
@@ -369,11 +393,6 @@ In all cases, Wald's various overview papers [S13, S15, S22, S27] serve as usefu
 | S34  | [Toms *”Yang-Mills Yukawa model in curved spacetime”* 2019](https://arxiv.org/abs/1906.02515#:~:text=The%20one%2Dloop%20effective%20action,G%20is%20arbitrary%2C%20is%20calculated.) | Calculates the one-loop effective action of the Yang-Mills Yukawa model in curved spacetime. |
 
 ## Worldline Methods
-
-**S35.** G. Mogull et al., "Classical Gravitational Scattering from a Worldline Quantum Field Theory" (2020). Worldline formalism connecting QFT amplitudes to classical gravitational scattering.
-
-**S36.** O. Corradini and A. Muratori, "A Monte Carlo Approach to the Worldline Formalism in Curved Space" (2020). Numerical Monte Carlo methods for worldline path integrals in curved backgrounds.
-
 
 | ID   | Link | Notes |
 |:-----|:-----|:------|
