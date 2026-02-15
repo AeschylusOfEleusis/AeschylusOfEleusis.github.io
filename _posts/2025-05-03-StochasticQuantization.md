@@ -435,7 +435,7 @@ Each stage provides independent scientific value and publishable results, regard
 | S1  | [Martin et al *“Statistical Dynamics of Classical Systems”* 1973](https://journals.aps.org/pra/abstract/10.1103/PhysRevA.8.423)| Mathematical foundation for stochastic quantization.|
 | S2  | [Hohenberg and Halperin *“Theory of Dynamic Critical Phenomena”* 1977](https://journals.aps.org/rmp/abstract/10.1103/RevModPhys.49.435) |Provides the technology of Langevin equations coupled to order parameter fields.|
 | S3  | [Fox *“Gaussian stochastic processes in physics”* 1978](https://www.sciencedirect.com/science/article/abs/pii/037015737890145X)| Mathematical foundations of the noise terms in stochastic quantization.|
-| S4  | [Zhou et al *“Closed time path Green’s functions and critical dynamics”* 1980](https://journals.aps.org/prb/abstract/10.1103/PhysRevB.22.3385)| Closed time path (CTP) Green’s function formalism. Connects the Schwinger--Keldysh   |
+| S4  | [Zhou et al *“Closed time path Green’s functions and critical dynamics”* 1980](https://journals.aps.org/prb/abstract/10.1103/PhysRevB.22.3385)| Closed time path (CTP) Green’s function formalism. Connects to Schwinger--Keldysh formalism  |
 
 ### The Parisi--Wu formalism and its development
 
@@ -448,103 +448,55 @@ Each stage provides independent scientific value and publishable results, regard
 
 ### Reviews and monographs
 
-**[S10] Damgaard and Hüffel,** "Stochastic Quantization," *Phys. Rep.* 152:227--398 (1987). **The standard reference.** A 170-page review covering: scalar, gauge, tensor, and string field theories; fermion fields; supersymmetry connections (Nicolai map, Parisi--Sourlas dimensional reduction); large-$N$ limits; Minkowski-space formulations; stochastic regularization; and numerical applications. The review establishes the perturbative equivalence of stochastic quantization with conventional methods across a wide range of theories.
-
-**[S12] Namiki,** *Stochastic Quantization,* Springer Lecture Notes in Physics (1992). A comprehensive textbook treatment with emphasis on foundational issues and mathematical rigor. Complements the Damgaard--Hüffel review with a more pedagogical presentation.
-
-**[S14] Namiki,** "Basic Ideas," *Prog. Theor. Phys. Suppl.* 111 (1993). A concise overview of the basic ideas and key results, suitable as an entry point.
-
 | ID  | Link  | Notes |
 |-----|------ |-------|
 | S10 | [Damgaard and Huffel *“Stochastic Quantization”* 1987](https://homepage.univie.ac.at/helmuth.hueffel/PhysRep.pdf)  | Provides a comprehensive review of stochastic quantization techniques and their applications in field theory.  |
-| S11 | [Hu et al *“Quantum Brownian Motion I”* 1992](https://journals.aps.org/prd/abstract/10.1103/PhysRevD.45.2843) | Develops an influence functional approach for analyzing quantum Brownian motion of a system coupled to a thermal bath.|
 | S12 | [Namiki *“Stochastic Quantization”* 1992](https://link.springer.com/book/10.1007/978-3-540-47217-9) | Monograph detailing the foundations and various applications of stochastic quantization in quantum field theory. |
 | S14 | [Namiki *“Basic Ideas”* 1993](https://academic.oup.com/ptps/article/doi/10.1143/PTPS.111.1/1889428)| Outlines the fundamental concepts underlying stochastic quantization, with emphasis on gauge theories. |
 
 ### Quantum Brownian motion and open quantum systems
 
-**[S9] Goldschmidt,** "Decay of Magnetization," *Nucl. Phys. B* (1987). Explores stochastic methods in the context of magnetization dynamics, connecting to stochastic regularization ideas.
-
-**[S11] Hu, Paz, Zhang,** "Quantum Brownian Motion I," *Phys. Rev. D* 45 (1992). Develops the influence functional method for quantum Brownian motion: a quantum particle coupled to a thermal bath of oscillators. Derives the master equation for the reduced density matrix and connects to decoherence and the quantum-to-classical transition. Directly relevant to the interpretation of noise in stochastic quantization.
-
-**[S13] Hu, Paz, Zhang,** "Quantum Brownian Motion II," *Phys. Rev. D* 47 (1993). Extends the analysis to more general initial conditions and baths. Develops tools for treating quantum systems coupled to thermal environments that inform the stochastic quantization framework.
-
 | ID  | Link  | Notes |
 |-----|------ |-------|
 | S9  | [Goldschmidt *“Decay of Magnetization”* 1987](https://www.sciencedirect.com/science/article/abs/pii/055032138790352X)| Studies the time-dependent decay of magnetization near critical points using stochastic and renormalization methods.               |
-| S13 | [Hu et al *“Quantum Brownian Motion II”* 1993](https://journals.aps.org/prd/abstract/10.1103/PhysRevD.47.1576)                                                                                                                                                                       | Extends the quantum Brownian motion framework to relativistic fields and investigates decoherence processes.                        |
+| S11 | [Hu et al *“Quantum Brownian Motion I”* 1992](https://journals.aps.org/prd/abstract/10.1103/PhysRevD.45.2843) | Develops an influence functional approach for analyzing quantum Brownian motion of a system coupled to a thermal bath.|
+| S13 | [Hu et al *“Quantum Brownian Motion II”* 1993](https://journals.aps.org/prd/abstract/10.1103/PhysRevD.47.1576) | Extends the quantum Brownian motion framework to relativistic fields and investigates decoherence processes.|
 
 
 ### Non-equilibrium QFT and classical-statistical simulations
 
 **[S15] Berges,** "Non-equilibrium QFT," arXiv:hep-lat/0508030 (2005). Demonstrates stochastic quantization methods for simulating nonequilibrium quantum field dynamics, with analysis of convergence properties and numerical implementation issues. Builds on broader functional methods for non-equilibrium QFT but is focused on practical simulation rather than general review.
-
 **[S16] Hirayama,** "Classical Simulation of QFT I," arXiv:hep-th/0507126 (2005). Develops classical lattice simulation methods for quantum field theory, exploiting the correspondence between classical-statistical field theory and certain quantum regimes.
-
 **[S17] Hirayama et al.,** "Classical Simulation of QFT II," arXiv:hep-lat/0507014 (2005). Extension of [S16] with detailed numerical results and comparison with known quantum results.
-
 **[S18] Berges and Sexty,** "Gauge Theory Simulations," arXiv:0708.0779 (2007). Extends the classical-statistical simulation methods to gauge theories, addressing the specific challenges of gauge invariance in the stochastic framework.
-
 **[S32] Hirayama,** "Classical Simulation of QFT," arXiv:1912.01648 (2024). Updated treatment of classical-statistical simulation methods, incorporating developments since the earlier papers.
 
-
 | ID  | Link  | Notes |
 |-----|------ |-------|
-| S15 | [Berges *“Noneqilbrium QFT”* 2005](https://arxiv.org/abs/hep-lat/0508030)                                                                                                                                                                                                              | Reviews theoretical techniques for studying nonequilibrium quantum field dynamics using functional methods.                        |
-| S16 | [Hirayama *“Classical Simulation of QFT I”* 2005](https://arxiv.org/abs/hep-th/0507126)                                                                                                                                                                                               | Proposes a classical lattice simulation scheme for out-of-equilibrium quantum fields based on classical statistical analogies.    |
-| S17 | [Hirayama et al *“Classical Simulation of QFT II”* 2005](https://arxiv.org/abs/hep-lat/0507014)                                                                                                                                                                                      | Extends classical simulation methods to non-Abelian gauge theories, demonstrating feasibility in lattice frameworks.                |
-| S18 | [Berges and Sexty *“Gauge theory simulations”* 2007](https://arxiv.org/abs/0708.0779)                                                                                                                                                                                                 | Presents real-time lattice simulations of gauge theories using classical-statistical approximations to explore thermalization.    
-|
+| S15 | [Berges *“Noneqilbrium QFT”* 2005](https://arxiv.org/abs/hep-lat/0508030) | Reviews theoretical techniques for studying nonequilibrium quantum field dynamics using functional methods. |
+| S16 | [Hirayama *“Classical Simulation of QFT I”* 2005](https://arxiv.org/abs/hep-th/0507126) | Proposes a classical lattice simulation scheme for out-of-equilibrium quantum fields based on classical statistical analogies. |
+| S17 | [Hirayama et al *“Classical Simulation of QFT II”* 2005](https://arxiv.org/abs/hep-lat/0507014) | Extends classical simulation methods to non-Abelian gauge theories, demonstrating feasibility in lattice frameworks. |
+| S18 | [Berges and Sexty *“Gauge theory simulations”* 2007](https://arxiv.org/abs/0708.0779) | Presents real-time lattice simulations of gauge theories using classical-statistical approximations to explore thermalization. |
+| S32 | [Hiryama *“Classical simulation of QFT”* 2024](https://arxiv.org/abs/1912.01648) | Reviews classical-statistical lattice methods for simulating real-time quantum field dynamics in various contexts. |
 
 ### Stochastic gravity
-
-**[S19] de Aguiar et al.,** "Scalar Fields in de Sitter," arXiv:0809.2273 (2008). Studies scalar fields on de Sitter backgrounds using stochastic methods, directly relevant to the inflationary cosmology applications of the present program.
-
-**[S20] Hu and Verdaguer,** "Stochastic Gravity: Theory and Applications," *Living Rev. Rel.* (2008). **Major review.** The authoritative treatment of the stochastic gravity program: the Einstein--Langevin equation, the noise kernel, and applications to cosmology and black hole physics. Essential reading for understanding Tier 2 of the gravity-facing program (§7.4).
-
-**[S25] Iso and Okazawa,** "Stochastic Equations on Black Hole Backgrounds," arXiv:1104.2461 (2011). Studies stochastic field equations on black hole backgrounds, connecting the stochastic quantization framework to Hawking radiation and horizon physics.
-
-**[S29] Antonio dos Reis et al.,** "Semiclassical Gravity," arXiv:1804.04569 (2018). Further development of the semiclassical and stochastic gravity formalism for practical calculations.
-
-**[S30] Hu and Verdaguer,** *Semiclassical and Stochastic Gravity,* Cambridge University Press (2020). **Monograph.** The comprehensive book-length treatment of semiclassical and stochastic gravity, expanding on the 2008 review with additional topics and updated references. The definitive reference for the Einstein--Langevin framework.
-
 | ID  | Link  | Notes |
 |-----|------ |-------|
-| S19 | [de Aguiar et al *“Scalar fields in de Sitter”* 2008](https://arxiv.org/abs/0809.2273)                                                                                                                                                                                                  | Examines stochastic dynamics and correlation functions of scalar fields propagating in de Sitter spacetime.                        |
-| S20 | [Hu and Verdaguer *“Stochastic Gravity”* 2008](https://arxiv.org/abs/0802.0658)                                                                                                                                                                                                        | Provides a comprehensive review of stochastic gravity, where metric fluctuations are driven by quantum stress-energy noise.         
-|
-
-### Complex Langevin and the sign problem
-
-**[S21] Guralnik and Pehlevan,** "Complex Langevin and Schwinger--Dyson," arXiv:0710.3756 (2007). Studies the relationship between complex Langevin dynamics and Schwinger--Dyson equations, providing criteria for when the stochastic method satisfies the correct quantum equations of motion.
-
-**[S22] Kamenev and Levchenko,** "Keldysh and Sigma Models," arXiv:0901.3586 (2009). Modern treatment of the Keldysh formalism with connections to disorder physics and non-linear $\sigma$-models. Provides context for the non-equilibrium aspects of stochastic quantization.
-
-**[S23] De Dominicis and Giardina,** *Random Fields and Spin Glasses,* Cambridge University Press (2009). Develops the connection between classical stochastic dynamics (MSR formalism) and the Keldysh path integral in the context of disordered systems. Useful for understanding the structural relationships between the various formalisms discussed in §10.
-
-**[S24] Aarts et al.,** "Instabilities in Complex Langevin," arXiv:0912.0617 (2009). Identifies and characterizes specific failure modes of complex Langevin dynamics: cases where the stochastic process converges to incorrect results. Essential for understanding the limitations of the method.
-
-**[S26] Cassol-Seewald et al.,** "Landau--Ginzburg," *Int. J. Mod. Phys. C* (2012). Applies stochastic methods to Landau--Ginzburg theory, connecting the stochastic quantization framework to phase transitions and critical phenomena.
-
-**[S27] Seiler,** "Complex Langevin," arXiv:1708.08254 (2017). Comprehensive analysis of correctness conditions for complex Langevin dynamics, including the role of the imaginary-direction probability distribution.
-
-**[S28] Berger et al.,** "Sign Problem," arXiv:1907.10183 (2019). Review of the sign problem and approaches to it, including complex Langevin, Lefschetz thimbles, and density of states methods. Provides context for the role of stochastic methods within the broader landscape of sign-problem approaches.
-
-**[S31] Cai et al.,** "Regularization of Complex Langevin," arXiv:2109.12762 (2021). Proposes novel regularization techniques for complex Langevin dynamics, addressing known convergence issues. Represents the current state of the art in making complex Langevin reliable.
-
+| S19 | [de Aguiar et al *“Scalar fields in de Sitter”* 2008](https://arxiv.org/abs/0809.2273)| Examines stochastic dynamics and correlation functions of scalar fields propagating in de Sitter spacetime. |
+| S20 | [Hu and Verdaguer *“Stochastic Gravity”* 2008](https://arxiv.org/abs/0802.0658) | Provides a comprehensive review of stochastic gravity, where metric fluctuations are driven by quantum stress-energy noise.|
+| S25 | [Iso and Okazawa *“Stochastic equations on blackhole backgrounds”* 2011](https://arxiv.org/abs/1104.2461)| Formulates stochastic differential equations for quantum fields in black hole spacetimes to explore horizon fluctuations. |
+| S29 | [Antonio dos Reis et al *“Semiclassical Gravity”* 2018](https://arxiv.org/abs/1804.04569) | Develops semiclassical approximation schemes for gravity coupled to quantum fields, focusing on backreaction effects.|
+| S30 | [Hu and Verdaguer *“Semiclassical and Stochastic Gravity”* 2020](https://www.cambridge.org/core/books/semiclassical-and-stochastic-gravity/E3F88C9655023210C93ECCEE8ADEC199#) | Updates the theoretical framework blending semiclassical gravity with stochastic metric fluctuations for early-universe studies.|
 
 ### Complex Langevin and the sign problem
 | ID  | Link  | Notes |
 |-----|------ |-------|
-| S21 | [Guralnik and Pehlevan *“Complex Langevin and Shwinger Dyson”* 2007](https://arxiv.org/abs/0710.3756)                                                                                                                                                                                 | Investigates complex Langevin methods as a means to solve nonperturbative Schwinger-Dyson equations in quantum field theory.        |
-| S22 | [Kamenev and Levchenko *“Keldysh and sigma models”* 2009](https://arxiv.org/abs/0901.3586)                                                                                                                                                                                            | Reviews the Keldysh nonequilibrium formalism and its connection to nonlinear sigma models in condensed matter and field theory.    |
-| S23 | [De Dominicis and Giardina *“Random Fields and Spin Glasses”* 2009](https://www.cambridge.org/core/books/random-fields-and-spin-glasses/06E0CACD41F11FC90716329F5016B0E1)                                                                                                               | Textbook covering theoretical methods—such as replica and functional approaches—for random fields and spin glass phenomena.         |
-| S24 | [Aarts et al “Instabilities in complex Langevin”* 2009](https://arxiv.org/abs/0912.0617)                                                                                                                                                                                             | Studies numerical instabilities arising in complex Langevin simulations of quantum field theories with severe sign problems.       |
-| S25 | [Iso and Okazawa *“Stochastic equations on blackhole backgrounds”* 2011](https://arxiv.org/abs/1104.2461)                                                                                                                                                                            | Formulates stochastic differential equations for quantum fields in black hole spacetimes to explore horizon fluctuations.          |
-| S26 | [Cassol-Seewald et al *“Landau Ginzburg”* 2012](https://www.worldscientific.com/doi/abs/10.1142/S0129183112400165?srsltid=AfmBOopK9a_cFzkM1umzysl2uAi-IFnMiyzqg1c7lQJx_UoJh5rOGbs9)                                                                           | Applies stochastic quantization techniques to the Landau–Ginzburg model and analyzes critical scaling behavior.                    |
-| S27 | [Seiler *“Complex Langevin”* 2017](https://arxiv.org/abs/1708.08254)                                                                                                                                                                                                                   | Reviews advances and challenges in complex Langevin methods for tackling complex action problems in lattice field theories.        |
-| S28 | [Berger et al *“Sign problem”* 2019](https://arxiv.org/abs/1907.10183)                                                                                                                                                                                                                 | Surveys state-of-the-art approaches—such as Lefschetz thimbles and complex Langevin—to mitigate the sign problem in lattice QCD.  |
-| S29 | [Antonio dos Reis et al *“Semiclassical Gravity”* 2018](https://arxiv.org/abs/1804.04569)                                                                                                                                                                                              | Develops semiclassical approximation schemes for gravity coupled to quantum fields, focusing on backreaction effects.             |
-| S30 | [Hu and Verdaguer *“Semiclassical and Stochastic Gravity”* 2020](https://www.cambridge.org/core/books/semiclassical-and-stochastic-gravity/E3F88C9655023210C93ECCEE8ADEC199#)                                                                         | Updates the theoretical framework blending semiclassical gravity with stochastic metric fluctuations for early-universe studies.    |
-| S31 | [Cai et al *“Regulariztion of Complex Langevin”* 2021](https://arxiv.org/abs/2109.12762)                                                                                                                                                                                               | Proposes novel regularization techniques to improve convergence and reliability of complex Langevin simulations in field theories. |
-| S32 | [Hiryama *“Classical simulation of QFT”* 2024](https://arxiv.org/abs/1912.01648)                                                                                                                                                                                                      | Reviews classical-statistical lattice methods for simulating real-time quantum field dynamics in various contexts.                 |
+| S21 | [Guralnik and Pehlevan *“Complex Langevin and Shwinger Dyson”* 2007](https://arxiv.org/abs/0710.3756) | Investigates complex Langevin methods as a means to solve nonperturbative Schwinger-Dyson equations in quantum field theory.|
+| S22 | [Kamenev and Levchenko *“Keldysh and sigma models”* 2009](https://arxiv.org/abs/0901.3586) | Reviews the Keldysh nonequilibrium formalism and its connection to nonlinear sigma models in condensed matter and field theory.|
+| S23 | [De Dominicis and Giardina *“Random Fields and Spin Glasses”* 2009](https://www.cambridge.org/core/books/random-fields-and-spin-glasses/06E0CACD41F11FC90716329F5016B0E1)| Textbook covering theoretical methods—such as replica and functional approaches—for random fields and spin glass phenomena. |
+| S24 | [Aarts et al “Instabilities in complex Langevin”* 2009](https://arxiv.org/abs/0912.0617) | Studies numerical instabilities arising in complex Langevin simulations of quantum field theories with severe sign problems. |
+| S26 | [Cassol-Seewald et al *“Landau Ginzburg”* 2012](https://www.worldscientific.com/doi/abs/10.1142/S0129183112400165?srsltid=AfmBOopK9a_cFzkM1umzysl2uAi-IFnMiyzqg1c7lQJx_UoJh5rOGbs9) | Applies stochastic quantization techniques to the Landau–Ginzburg model and analyzes critical scaling behavior.|
+| S27 | [Seiler *“Complex Langevin”* 2017](https://arxiv.org/abs/1708.08254) | Reviews advances and challenges in complex Langevin methods for tackling complex action problems in lattice field theories. |
+| S28 | [Berger et al *“Sign problem”* 2019](https://arxiv.org/abs/1907.10183) | Surveys state-of-the-art approaches—such as Lefschetz thimbles and complex Langevin—to mitigate the sign problem in lattice QCD.  |
+| S31 | [Cai et al *“Regulariztion of Complex Langevin”* 2021](https://arxiv.org/abs/2109.12762) | Proposes novel regularization techniques to improve convergence and reliability of complex Langevin simulations in field theories. |
+
