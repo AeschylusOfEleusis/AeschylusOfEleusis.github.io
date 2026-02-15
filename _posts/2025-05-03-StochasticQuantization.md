@@ -499,6 +499,27 @@ The references are organized thematically, following the structure of the notes.
 | S12 | [Namiki *“Stochastic Quantization”* 1992](https://link.springer.com/book/10.1007/978-3-540-47217-9)                                                                                                                                                                                  | Monograph detailing the foundations and various applications of stochastic quantization in quantum field theory.                   |
 | S13 | [Hu et al *“Quantum Brownian Motion II”* 1993](https://journals.aps.org/prd/abstract/10.1103/PhysRevD.47.1576)                                                                                                                                                                       | Extends the quantum Brownian motion framework to relativistic fields and investigates decoherence processes.                        |
 | S14 | [Namiki *“Basic Ideas”* 1993](https://academic.oup.com/ptps/article/doi/10.1143/PTPS.111.1/1889428)                                                                                                                                                                                   | Outlines the fundamental concepts underlying stochastic quantization, with emphasis on gauge theories.                            |
+
+### Non-equilibrium QFT and classical-statistical simulations
+
+**[S15] Berges,** "Non-equilibrium QFT," arXiv:hep-lat/0508030 (2005). Demonstrates stochastic quantization methods for simulating nonequilibrium quantum field dynamics, with analysis of convergence properties and numerical implementation issues. Builds on broader functional methods for non-equilibrium QFT but is focused on practical simulation rather than general review.
+
+**[S16] Hirayama,** "Classical Simulation of QFT I," arXiv:hep-th/0507126 (2005). Develops classical lattice simulation methods for quantum field theory, exploiting the correspondence between classical-statistical field theory and certain quantum regimes.
+
+**[S17] Hirayama et al.,** "Classical Simulation of QFT II," arXiv:hep-lat/0507014 (2005). Extension of [S16] with detailed numerical results and comparison with known quantum results.
+
+**[S18] Berges and Sexty,** "Gauge Theory Simulations," arXiv:0708.0779 (2007). Extends the classical-statistical simulation methods to gauge theories, addressing the specific challenges of gauge invariance in the stochastic framework.
+
+**[S32] Hirayama,** "Classical Simulation of QFT," arXiv:1912.01648 (2024). Updated treatment of classical-statistical simulation methods, incorporating developments since the earlier papers.
+
+
+
+
+## Bibliography
+
+| ID  | Link                                                                                                                                                                                                                                                                              | Notes                                                                                                                            |
+|-----|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------|
+
 | S15 | [Berges *“Noneqilbrium QFT”* 2005](https://arxiv.org/abs/hep-lat/0508030)                                                                                                                                                                                                              | Reviews theoretical techniques for studying nonequilibrium quantum field dynamics using functional methods.                        |
 | S16 | [Hirayama *“Classical Simulation of QFT I”* 2005](https://arxiv.org/abs/hep-th/0507126)                                                                                                                                                                                               | Proposes a classical lattice simulation scheme for out-of-equilibrium quantum fields based on classical statistical analogies.    |
 | S17 | [Hirayama et al *“Classical Simulation of QFT II”* 2005](https://arxiv.org/abs/hep-lat/0507014)                                                                                                                                                                                      | Extends classical simulation methods to non-Abelian gauge theories, demonstrating feasibility in lattice frameworks.                |
