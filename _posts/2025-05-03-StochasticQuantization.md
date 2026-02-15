@@ -477,9 +477,8 @@ The references are organized thematically, following the structure of the notes.
 
 **[S14] Namiki,** "Basic Ideas," *Prog. Theor. Phys. Suppl.* 111 (1993). A concise overview of the basic ideas and key results, suitable as an entry point.
 
-
-| ID  | Link                                                                                                                                                                                                                                                                              | Notes                                                                                                                            |
-|-----|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------|
+| ID  | Link  | Notes |
+|-----|------ |-------|
 | S10 | [Damgaard and Huffel *“Stochastic Quantization”* 1987](https://homepage.univie.ac.at/helmuth.hueffel/PhysRep.pdf)                                                                                                                                                                        | Provides a comprehensive review of stochastic quantization techniques and their applications in field theory.                      |
 | S11 | [Hu et al *“Quantum Brownian Motion I”* 1992](https://journals.aps.org/prd/abstract/10.1103/PhysRevD.45.2843)                                                                                                                                                                        | Develops an influence functional approach for analyzing quantum Brownian motion of a system coupled to a thermal bath.            |
 | S12 | [Namiki *“Stochastic Quantization”* 1992](https://link.springer.com/book/10.1007/978-3-540-47217-9)                                                                                                                                                                                  | Monograph detailing the foundations and various applications of stochastic quantization in quantum field theory.                   |
@@ -492,11 +491,8 @@ The references are organized thematically, following the structure of the notes.
 
 **[S13] Hu, Paz, Zhang,** "Quantum Brownian Motion II," *Phys. Rev. D* 47 (1993). Extends the analysis to more general initial conditions and baths. Develops tools for treating quantum systems coupled to thermal environments that inform the stochastic quantization framework.
 
-## Bibliography
-
-| ID  | Link                                                                                                                                                                                                                                                                              | Notes                                                                                                                            |
-|-----|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------|
-
+| ID  | Link  | Notes |
+|-----|------ |-------|
 | S13 | [Hu et al *“Quantum Brownian Motion II”* 1993](https://journals.aps.org/prd/abstract/10.1103/PhysRevD.47.1576)                                                                                                                                                                       | Extends the quantum Brownian motion framework to relativistic fields and investigates decoherence processes.                        |
 | S14 | [Namiki *“Basic Ideas”* 1993](https://academic.oup.com/ptps/article/doi/10.1143/PTPS.111.1/1889428)                                                                                                                                                                                   | Outlines the fundamental concepts underlying stochastic quantization, with emphasis on gauge theories.                            
 |
@@ -514,13 +510,8 @@ The references are organized thematically, following the structure of the notes.
 **[S32] Hirayama,** "Classical Simulation of QFT," arXiv:1912.01648 (2024). Updated treatment of classical-statistical simulation methods, incorporating developments since the earlier papers.
 
 
-
-
-## Bibliography
-
-| ID  | Link                                                                                                                                                                                                                                                                              | Notes                                                                                                                            |
-|-----|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------|
-
+| ID  | Link  | Notes |
+|-----|------ |-------|
 | S15 | [Berges *“Noneqilbrium QFT”* 2005](https://arxiv.org/abs/hep-lat/0508030)                                                                                                                                                                                                              | Reviews theoretical techniques for studying nonequilibrium quantum field dynamics using functional methods.                        |
 | S16 | [Hirayama *“Classical Simulation of QFT I”* 2005](https://arxiv.org/abs/hep-th/0507126)                                                                                                                                                                                               | Proposes a classical lattice simulation scheme for out-of-equilibrium quantum fields based on classical statistical analogies.    |
 | S17 | [Hirayama et al *“Classical Simulation of QFT II”* 2005](https://arxiv.org/abs/hep-lat/0507014)                                                                                                                                                                                      | Extends classical simulation methods to non-Abelian gauge theories, demonstrating feasibility in lattice frameworks.                |
@@ -539,8 +530,8 @@ The references are organized thematically, following the structure of the notes.
 
 **[S30] Hu and Verdaguer,** *Semiclassical and Stochastic Gravity,* Cambridge University Press (2020). **Monograph.** The comprehensive book-length treatment of semiclassical and stochastic gravity, expanding on the 2008 review with additional topics and updated references. The definitive reference for the Einstein--Langevin framework.
 
-| ID  | Link                                                                                                                                                                                                                                                                              | Notes                                                                                                                            |
-|-----|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------|
+| ID  | Link  | Notes |
+|-----|------ |-------|
 | S19 | [de Aguiar et al *“Scalar fields in de Sitter”* 2008](https://arxiv.org/abs/0809.2273)                                                                                                                                                                                                  | Examines stochastic dynamics and correlation functions of scalar fields propagating in de Sitter spacetime.                        |
 | S20 | [Hu and Verdaguer *“Stochastic Gravity”* 2008](https://arxiv.org/abs/0802.0658)                                                                                                                                                                                                        | Provides a comprehensive review of stochastic gravity, where metric fluctuations are driven by quantum stress-energy noise.         
 |
@@ -565,8 +556,8 @@ The references are organized thematically, following the structure of the notes.
 
 
 ### Complex Langevin and the sign problem
-| ID  | Link                                                                                                                                                                                                                                                                              | Notes                                                                                                                            |
-|-----|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------|
+| ID  | Link  | Notes |
+|-----|------ |-------|
 | S21 | [Guralnik and Pehlevan *“Complex Langevin and Shwinger Dyson”* 2007](https://arxiv.org/abs/0710.3756)                                                                                                                                                                                 | Investigates complex Langevin methods as a means to solve nonperturbative Schwinger-Dyson equations in quantum field theory.        |
 | S22 | [Kamenev and Levchenko *“Keldysh and sigma models”* 2009](https://arxiv.org/abs/0901.3586)                                                                                                                                                                                            | Reviews the Keldysh nonequilibrium formalism and its connection to nonlinear sigma models in condensed matter and field theory.    |
 | S23 | [De Dominicis and Giardina *“Random Fields and Spin Glasses”* 2009](https://www.cambridge.org/core/books/random-fields-and-spin-glasses/06E0CACD41F11FC90716329F5016B0E1)                                                                                                               | Textbook covering theoretical methods—such as replica and functional approaches—for random fields and spin glass phenomena.         |
