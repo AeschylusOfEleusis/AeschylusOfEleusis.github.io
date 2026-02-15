@@ -12,6 +12,8 @@ math:       true        # enable KaTeX
 
 A view of stochastic quantization is sketched here; written from the perspective of numerical relativity. Examples from mathematical physics are considered as illustration.
 
+---
+
 These notes collect the essential ideas behind stochastic quantization---the program, initiated by Parisi and Wu (1981), of generating quantum field theory correlators from a classical stochastic process in a fictitious time variable. The notes are written as a guide to the literature for students and practitioners approaching the subject from the perspective of numerical computation, with particular attention to how the formalism connects to problems in numerical relativity and quantum field theory on curved spacetimes.
 
 The subject sits at a crossroads of several active research programs: lattice field theory and Monte Carlo simulation, the sign problem in finite-density QCD, semiclassical and stochastic gravity, and the broader enterprise of numerical approaches to quantum gravity. The bibliography collected here reflects that breadth, spanning from the Martin--Siggia--Rose formalism of the 1970s through contemporary work on complex Langevin regularization. The notes are intended to serve as both an orientation to the conceptual landscape and a framework for the computational projects that accompany them.
