@@ -325,9 +325,11 @@ In all cases, Wald's various overview papers [S13, S15, S22, S27] serve as usefu
 | S22  | [Wald *”History and Status of QFT in Curved Spacetime”* 2006](https://arxiv.org/abs/gr-qc/0608018) | Reviews the development and current status of QFT in curved spacetimes. |
 | S27  | [Wald *”Formulation of QFT in Curved Spacetime”* 2009](https://arxiv.org/abs/0907.0416) | Outlines key principles in constructing QFTs on general curved backgrounds. |
 
-## Spectral Methods
+## Global Hyperbolicity and Causal Structure
 
-**S16.** K. Kirsten, *Spectral Functions in Mathematics and Physics* (2000); arXiv:hep-th/0005133. Zeta functions, functional determinants, heat-kernel coefficients; mathematical technology for regularization and renormalization in curved space. *Note: author is Klaus Kirsten, not Wald as sometimes listed.*
+**S14.** B. S. Kay, M. J. Radzikowski, and R. M. Wald, "Quantum Field Theory on Spacetimes with a Compactly Generated Cauchy Horizon" (arXiv:gr-qc/9603012, 1996; *Commun. Math. Phys.* 1997). Demonstrates breakdown of standard QFTCS at base points of compactly generated Cauchy horizons; structural role of global hyperbolicity. *Note: this is a three-author paper, not a solo Wald paper.*
+
+## Spectral Methods
 
 | ID   | Link | Notes |
 |:-----|:-----|:------|
@@ -343,31 +345,28 @@ In all cases, Wald's various overview papers [S13, S15, S22, S27] serve as usefu
 | S23  | [Hollands and Wald *”Axiomatic QFT in curved spacetime”* 2008](https://arxiv.org/abs/0803.2003) | Presents an axiomatic approach to QFT in curved spacetime consistent with general covariance. |
 | S31  | [Wald *QFT in curved spacetime* 2014](https://arxiv.org/abs/1401.2026) | Synthesizes foundational issues and approaches in QFT in curved spacetime. |
 
-## Global Hyperbolicity and Causal Structure
-
-**S14.** B. S. Kay, M. J. Radzikowski, and R. M. Wald, "Quantum Field Theory on Spacetimes with a Compactly Generated Cauchy Horizon" (arXiv:gr-qc/9603012, 1996; *Commun. Math. Phys.* 1997). Demonstrates breakdown of standard QFTCS at base points of compactly generated Cauchy horizons; structural role of global hyperbolicity. *Note: this is a three-author paper, not a solo Wald paper.*
-
 ## Black Hole Applications
 
-**S19.** A. N. Lasenby et al., "Bound States and Decay Widths of Fermions in Schwarzschild Backgrounds" (2005). Fermion bound states and decay in black hole geometry; concrete application of QFTCS techniques.
-
-**S28.** T. Jacobson, "Black Holes and Hawking Radiation in Spacetime and Its Analogues" (arXiv:1212.6821, 2012). Pedagogical lecture notes on the Hawking effect and analogue gravity.
-
-**S29.** H. S. Vieira et al., "Exact Klein--Gordon Solution in Kerr--Newman Spacetime and Hawking Radiation" (2014). Exact solutions on charged, rotating backgrounds; implications for Hawking spectrum.
-
-**S30.** W. G. Unruh, "Has Hawking Radiation Been Measured?" (2014). Assessment of experimental status; what analogue experiments do and do not establish.
+| ID   | Link | Notes |
+|:-----|:-----|:------|
+| S19  | [Lasenby et al *”Bound states and fermions in black hole backgrounds”* 2005](https://arxiv.org/abs/gr-qc/0209090) | Studies the quantum states of fermions in the background of black holes. |
+| S28  | [Jacobson *”Hawking radiation in spacetime and analogues”* 2012](https://arxiv.org/abs/1212.6821) | Discusses the physical intuition and analog models related to Hawking radiation. |
+| S29  | [Vieira et al *”Exact KG in Kerr-Newman and Hawking Radiation”* 2014](https://arxiv.org/abs/1401.5397) | Analyzes exact Klein-Gordon solutions in Kerr-Newman spacetime and implications for Hawking radiation. |
+| S30  | [Unruh *”Has Hawking Radiation been Measured?”* 2014](https://arxiv.org/abs/1401.6612) | Reviews evidence and analog experiments related to detecting Hawking radiation. |
 
 ## Inflationary Cosmology
 
-**S21.** S. Weinberg, "Quantum Contributions to Cosmological Correlations" (2005). In-in formalism for loop corrections to inflationary correlators.
-
-**S32.** B.-L. Hu, "Infrared Behavior of Quantum Fields in Inflationary Cosmology" (2018). IR divergences, resummation, and nonperturbative approaches in de Sitter and inflationary backgrounds.
+| ID   | Link | Notes |
+|:-----|:-----|:------|
+| S21  | [Weinberg *”Quantum Contributions to Cosmological Correlations”* 2005](https://arxiv.org/abs/hep-th/0506236) | Analyzes quantum effects on cosmological correlation functions during inflation. |
+| S32  | [Hu *”Infrared QFT in Inflationary Cosmology”* 2018](https://arxiv.org/abs/1812.11851) | Studies infrared effects in quantum field theories during inflation. |
 
 ## Standard Model in Curved Spacetime
 
-**S33.** T. Markkanen, A. Rajantie, and S. Stopyra, "Cosmological Aspects of Higgs Vacuum Metastability" (2018). One-loop SM effective potential in curved spacetime; electroweak vacuum stability during inflation.
-
-**S34.** D. J. Toms, "Yang--Mills--Yukawa Model in Curved Spacetime" (2019). One-loop effective action divergences and RG functions for gauge theories with Yukawa couplings in curved backgrounds.
+| ID   | Link | Notes |
+|:-----|:-----|:------|
+| S33  | [Markkanen et al *”1-loop effective potential for standard model in curved spacetime”* 2018](https://arxiv.org/abs/1804.02020) | Computes one-loop corrections to the Standard Model effective potential in curved backgrounds. |
+| S34  | [Toms *”Yang-Mills Yukawa model in curved spacetime”* 2019](https://arxiv.org/abs/1906.02515#:~:text=The%20one%2Dloop%20effective%20action,G%20is%20arbitrary%2C%20is%20calculated.) | Calculates the one-loop effective action of the Yang-Mills Yukawa model in curved spacetime. |
 
 ## Worldline Methods
 
@@ -378,18 +377,5 @@ In all cases, Wald's various overview papers [S13, S15, S22, S27] serve as usefu
 
 | ID   | Link | Notes |
 |:-----|:-----|:------|
-| S17  | [Hollands and Wald *”Wick Polynomials and Quantum Fields in Curved Spacetime”* 2001](https://arxiv.org/abs/gr-qc/0103074) | Constructs Wick polynomials for fields in curved spacetime using local and covariant methods. |
-| S18  | [Hollands and Wald *”RG in Curved Spacetime”* 2002](https://arxiv.org/abs/gr-qc/0209029) | Applies renormalization group techniques to interacting quantum field theories in curved spacetime. |
-| S19  | [Lasenby et al *”Bound states and fermions in black hole backgrounds”* 2005](https://arxiv.org/abs/gr-qc/0209090) | Studies the quantum states of fermions in the background of black holes. |
-| S20  | [Hollands and Wald *”Interacting quantum field theory in curved spacetimes”* 2005](https://arxiv.org/abs/gr-qc/0404074) | Develops an interacting QFT in curved spacetime using perturbative algebraic methods. |
-| S21  | [Weinberg *”Quantum Contributions to Cosmological Correlations”* 2005](https://arxiv.org/abs/hep-th/0506236) | Analyzes quantum effects on cosmological correlation functions during inflation. |
-| S23  | [Hollands and Wald *”Axiomatic QFT in curved spacetime”* 2008](https://arxiv.org/abs/0803.2003) | Presents an axiomatic approach to QFT in curved spacetime consistent with general covariance. |
-| S28  | [Jacobson *”Hawking radiation in spacetime and analogues”* 2012](https://arxiv.org/abs/1212.6821) | Discusses the physical intuition and analog models related to Hawking radiation. |
-| S29  | [Vieira et al *”Exact KG in Kerr-Newman and Hawking Radiation”* 2014](https://arxiv.org/abs/1401.5397) | Analyzes exact Klein-Gordon solutions in Kerr-Newman spacetime and implications for Hawking radiation. |
-| S30  | [Unruh *”Has Hawking Radiation been Measured?”* 2014](https://arxiv.org/abs/1401.6612) | Reviews evidence and analog experiments related to detecting Hawking radiation. |
-| S31  | [Wald *QFT in curved spacetime* 2014](https://arxiv.org/abs/1401.2026) | Synthesizes foundational issues and approaches in QFT in curved spacetime. |
-| S32  | [Hu *”Infrared QFT in Inflationary Cosmology”* 2018](https://arxiv.org/abs/1812.11851) | Studies infrared effects in quantum field theories during inflation. |
-| S33  | [Markkanen et al *”1-loop effective potential for standard model in curved spacetime”* 2018](https://arxiv.org/abs/1804.02020) | Computes one-loop corrections to the Standard Model effective potential in curved backgrounds. |
-| S34  | [Toms *”Yang-Mills Yukawa model in curved spacetime”* 2019](https://arxiv.org/abs/1906.02515#:~:text=The%20one%2Dloop%20effective%20action,G%20is%20arbitrary%2C%20is%20calculated.) | Calculates the one-loop effective action of the Yang-Mills Yukawa model in curved spacetime. |
 | S35  | [Moguli et al *”Scattering from a worldline quantum field theory”* 2020](https://arxiv.org/abs/2010.02865) | Explores particle scattering in QFT using the worldline formalism. |
 | S36  | [Corradini and Muratori *”Monte Carlo Approach to Worldline Formalism in Curved Space”* 2020](https://arxiv.org/abs/2006.02911) | Applies Monte Carlo methods to study quantum fields in curved space via the worldline approach. |
