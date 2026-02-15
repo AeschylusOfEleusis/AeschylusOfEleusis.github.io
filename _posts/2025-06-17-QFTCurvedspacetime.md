@@ -268,8 +268,23 @@ The 36-source bibliography, while comprehensive in its coverage of the Hollands-
 **Quantum fields and cosmological singularities.** The behavior of quantum fields near cosmological (and black hole) singularities, including the BKL approach and quantum cosmology, connects QFTCS to quantum gravity proper.
 
 
-# Bibliography
+# Recommended Reading Paths
 
+The bibliography supports several distinct approaches depending on the reader's background and goals.
+
+**For physicists seeking broad orientation:** Begin with Birrell and Davies [S8] for physical intuition and comprehensive coverage, then read Parker and Toms [S26] for the modern perspective on effective actions and renormalization. Hawking's original paper [S4] remains essential. For the modern algebraic framework, the Hollands--Wald 2014 review [S31] provides a self-contained account.
+
+**For mathematically inclined readers:** Start with Wald's 1994 monograph [S12] for the conceptual framework, proceed to Bär and Fredenhagen [S24] for rigorous foundations, and then to the Hollands--Wald papers [S17, S18, S23] for the locally covariant perturbative construction.
+
+**For those interested in applications to cosmology:** Weinberg [S21] provides the in-in formalism for inflationary correlators. Hu [S32] surveys the IR problem. Markkanen et al. [S33] connects to Standard Model phenomenology.
+
+**For computational approaches:** The worldline papers [S35, S36] provide entry to numerical and Monte Carlo methods. Kirsten [S16] supplies the spectral function technology.
+
+**For the Hawking effect and analogue gravity:** Hawking [S4, S5, S6], Jacobson [S28], and Unruh [S30] form a coherent sequence from theory through phenomenology to experimental status.
+
+In all cases, Wald's various overview papers [S13, S15, S22, S27] serve as useful orientation at different stages of the reader's development, offering progressively more sophisticated perspectives on the same foundational material.
+
+# Bibliography
 
 ## Foundations and Early Work
 
@@ -285,23 +300,21 @@ The 36-source bibliography, while comprehensive in its coverage of the Hollands-
 
 ## Textbooks
 
-**S8.** N. D. Birrell and P. C. W. Davies, *Quantum Fields in Curved Space* (Cambridge, 1982). First comprehensive textbook; covers QFT formalism, stress-tensor renormalization, quantum black holes, and interacting fields. Widely cited.
-
-**S9.** S. A. Fulling, *Aspects of Quantum Field Theory in Curved Spacetime* (Cambridge, 1989). Conceptual and structural emphasis; vacuum ambiguity and particle definition problems treated with mathematical rigor.
-
-**S12.** R. M. Wald, *Quantum Field Theory in Curved Spacetime and Black Hole Thermodynamics* (Chicago, 1994). Algebraic approach to QFTCS; conceptual spine of the modern program.
-
-**S24.** C. Bär and K. Fredenhagen, eds., *Quantum Field Theory on Curved Spacetimes: Concepts and Mathematical Foundations* (Springer, 2009). Rigorous mathematical treatment; algebraic foundations.
-
-**S25.** H. Kleinert, "Field Quantization in Curved Spacetime" (2009). Path-integral perspective on curved-space quantization.
-
-**S26.** L. Parker and D. Toms, *Quantum Field Theory in Curved Spacetime: Quantized Fields and Gravity* (Cambridge, 2009). Comprehensive physics-oriented text; strong on effective action and renormalization tools.
+| ID   | Link | Notes |
+|:-----|:-----|:------|
+| S8   | [Birrell and Davies *Quantum Field Theory in Curved Space* 1982](https://www.cambridge.org/core/books/quantum-fields-in-curved-space/95376B0CAD78EE767FCD6205F8327F4C) | Comprehensive textbook introducing QFT in curved spacetime. |
+| S9   | [Fulling *”Aspects of QFT in Curved Spacetime”* 1989](https://www.cambridge.org/core/books/aspects-of-quantum-field-theory-in-curved-spacetime/D96D902C0432D20FA5F0CC75C5E93FE6) | Examines conceptual issues in QFT in curved spacetime. |
+| S12  | [Wald *”QFT in Curved Spacetime and Black Hole Thermodynamics”* 1994](https://press.uchicago.edu/ucp/books/book/chicago/Q/bo3684008.html) | Explores the interface between quantum field theory in curved spacetime and black hole thermodynamics. |
+| S24  | [Bär and Fredenhagen *”QFT in Curved Spacetime”* 2009](https://link.springer.com/book/10.1007/978-3-642-02780-2) | Textbook on rigorous mathematical formulation of QFT in curved spacetime. |
+| S25  | [Kleinert *”Field Quantization in Curved Spacetime”* 2009](https://arxiv.org/abs/0910.4034) | Introduces methods of quantizing fields in curved spacetime. |
+| S26  | [Parker and Toms *”QFT in Curved Spacetime”* 2009](https://www.cambridge.org/core/books/quantum-field-theory-in-curved-spacetime/DDFF5C8EAF145364DAC04BDA0B79C624) | Comprehensive textbook covering theory and applications of QFT in curved spacetime. |
 
 ## Renormalization Group and Effective Action Methods
 
-**S10.** E. Elizalde and S. D. Odintsov, "Renormalization Group Improved Effective Lagrangian for Interacting Theories in Curved Spacetime" (1993). RG improvement of effective potentials in curved backgrounds.
-
-**S11.** E. Elizalde et al., "Effective Lagrangian and the Back-Reaction Problem in a Self-Interacting $O(N)$ Scalar Theory in Curved Spacetime" (1994). Semiclassical backreaction via effective action tools.
+| ID   | Link | Notes |
+|:-----|:-----|:------|
+| S10  | [Elizalde and Odintsov *”RG Improved Effective Lagrangian in Curved Spacetime”* 1993](https://arxiv.org/abs/hep-th/9311087) | Applies renormalization group techniques to effective actions in curved spacetime. |
+| S11  | [Elizalde et al *”Effective Lagrangian and back reaction of O(N) scalar theory in curved spacetime”* 1994](https://arxiv.org/abs/hep-th/9404084) | Analyzes the backreaction effects of scalar fields in curved spacetime using effective Lagrangians. |
 
 ## Wald Reviews and Overviews
 
@@ -316,6 +329,10 @@ The 36-source bibliography, while comprehensive in its coverage of the Hollands-
 ## Spectral Methods
 
 **S16.** K. Kirsten, *Spectral Functions in Mathematics and Physics* (2000); arXiv:hep-th/0005133. Zeta functions, functional determinants, heat-kernel coefficients; mathematical technology for regularization and renormalization in curved space. *Note: author is Klaus Kirsten, not Wald as sometimes listed.*
+
+| ID   | Link | Notes |
+|:-----|:-----|:------|
+| S16  | [Wald *”Spectral functions in mathematics and physics”* 2000](https://arxiv.org/abs/hep-th/0005133) | Discusses spectral functions and their application in mathematical physics and QFT. |
 
 ## The Hollands--Wald Program
 
@@ -362,39 +379,9 @@ The 36-source bibliography, while comprehensive in its coverage of the Hollands-
 **S36.** O. Corradini and A. Muratori, "A Monte Carlo Approach to the Worldline Formalism in Curved Space" (2020). Numerical Monte Carlo methods for worldline path integrals in curved backgrounds.
 
 
-# Recommended Reading Paths
-
-The bibliography supports several distinct approaches depending on the reader's background and goals.
-
-**For physicists seeking broad orientation:** Begin with Birrell and Davies [S8] for physical intuition and comprehensive coverage, then read Parker and Toms [S26] for the modern perspective on effective actions and renormalization. Hawking's original paper [S4] remains essential. For the modern algebraic framework, the Hollands--Wald 2014 review [S31] provides a self-contained account.
-
-**For mathematically inclined readers:** Start with Wald's 1994 monograph [S12] for the conceptual framework, proceed to Bär and Fredenhagen [S24] for rigorous foundations, and then to the Hollands--Wald papers [S17, S18, S23] for the locally covariant perturbative construction.
-
-**For those interested in applications to cosmology:** Weinberg [S21] provides the in-in formalism for inflationary correlators. Hu [S32] surveys the IR problem. Markkanen et al. [S33] connects to Standard Model phenomenology.
-
-**For computational approaches:** The worldline papers [S35, S36] provide entry to numerical and Monte Carlo methods. Kirsten [S16] supplies the spectral function technology.
-
-**For the Hawking effect and analogue gravity:** Hawking [S4, S5, S6], Jacobson [S28], and Unruh [S30] form a coherent sequence from theory through phenomenology to experimental status.
-
-In all cases, Wald's various overview papers [S13, S15, S22, S27] serve as useful orientation at different stages of the reader's development, offering progressively more sophisticated perspectives on the same foundational material.
-
-
 | ID   | Link | Notes |
 |:-----|:-----|:------|
-| S1   | [Dewitt *”Point Transformations ”* 1952](https://journals.aps.org/pr/abstract/10.1103/PhysRev.85.653) | Introduces point transformations in quantum mechanics as a foundation for quantizing systems with general coordinate invariance. |
-| S2   | [Dewitt *”Dynamical Theory in Curved Space”* 1957](https://journals.aps.org/rmp/abstract/10.1103/RevModPhys.29.377) | Develops a covariant formulation of quantum mechanics in curved spacetime. |
-| S3   | [Dewitt *QFT in Curved Spacetime* 1975](https://www.sciencedirect.com/science/article/abs/pii/0370157375900514) | Reviews the formalism of quantum field theory in curved spacetime and its implications for particle creation. |
-| S4   | [Hawking “Particle Creation by Black Holes” 1975](https://projecteuclid.org/journals/communications-in-mathematical-physics/volume-43/issue-3/Particle-creation-by-black-holes/cmp/1103899181.full) | Derives Hawking radiation, demonstrating black holes emit thermal radiation. |
-| S5   | [Hawking *”Black holes and thermodynamics”* 1976](https://journals.aps.org/prd/abstract/10.1103/PhysRevD.13.191) | Connects black hole mechanics to the laws of thermodynamics. |
-| S6   | [Hawking *”Zeta Function Regularization”* 1976](https://projecteuclid.org/journals/communications-in-mathematical-physics/volume-55/issue-2/Zeta-function-regularization-of-path-integrals-in-curved-spacetime/cmp/1103900982.full) | Presents a method for regularizing path integrals using zeta functions in curved spacetime. |
-| S7   | [Sciama et al *”QFT, Horizons, and Thermodynamics”*](https://ora.ox.ac.uk/objects/uuid:79e20a5d-f8b5-4721-be7e-b0c56b6aedac) | Explores quantum field theory near horizons and its relationship with thermodynamics. |
-| S8   | [Birrell and Davies *Quantum Field Theory in Curved Space* 1982](https://www.cambridge.org/core/books/quantum-fields-in-curved-space/95376B0CAD78EE767FCD6205F8327F4C) | Comprehensive textbook introducing QFT in curved spacetime. |
-| S9   | [Fulling *”Aspects of QFT in Curved Spacetime”* 1989](https://www.cambridge.org/core/books/aspects-of-quantum-field-theory-in-curved-spacetime/D96D902C0432D20FA5F0CC75C5E93FE6) | Examines conceptual issues in QFT in curved spacetime. |
-| S10  | [Elizalde and Odintsov *”RG Improved Effective Lagrangian in Curved Spacetime”* 1993](https://arxiv.org/abs/hep-th/9311087) | Applies renormalization group techniques to effective actions in curved spacetime. |
-| S11  | [Elizalde et al *”Effective Lagrangian and back reaction of O(N) scalar theory in curved spacetime”* 1994](https://arxiv.org/abs/hep-th/9404084) | Analyzes the backreaction effects of scalar fields in curved spacetime using effective Lagrangians. |
-| S12  | [Wald *”QFT in Curved Spacetime and Black Hole Thermodynamics”* 1994](https://press.uchicago.edu/ucp/books/book/chicago/Q/bo3684008.html) | Explores the interface between quantum field theory in curved spacetime and black hole thermodynamics. |
 | S13  | [Wald *”QFT in Curved Spacetime”* 1995](https://arxiv.org/abs/gr-qc/9509057) | Provides an overview of the challenges and structure of quantum field theory in curved spacetimes. |
-| S14  | [Wald *”QFT in Curved Spacetime with Compact Cauchy Horizon”* 1997](https://arxiv.org/abs/gr-qc/9603012) | Investigates the structure of quantum fields in spacetimes with compact Cauchy horizons. |
 | S15  | [Wald *”QFT in Curved Spacetimes: GR15 Workshop”* 1998](https://arxiv.org/abs/gr-qc/9803088) | Summarizes developments in QFT in curved spacetimes presented at the GR15 workshop. |
 | S16  | [Wald *”Spectral functions in mathematics and physics”* 2000](https://arxiv.org/abs/hep-th/0005133) | Discusses spectral functions and their application in mathematical physics and QFT. |
 | S17  | [Hollands and Wald *”Wick Polynomials and Quantum Fields in Curved Spacetime”* 2001](https://arxiv.org/abs/gr-qc/0103074) | Constructs Wick polynomials for fields in curved spacetime using local and covariant methods. |
@@ -404,9 +391,6 @@ In all cases, Wald's various overview papers [S13, S15, S22, S27] serve as usefu
 | S21  | [Weinberg *”Quantum Contributions to Cosmological Correlations”* 2005](https://arxiv.org/abs/hep-th/0506236) | Analyzes quantum effects on cosmological correlation functions during inflation. |
 | S22  | [Wald *”History and Status of QFT in Curved Spacetime”* 2006](https://arxiv.org/abs/gr-qc/0608018) | Reviews the development and current status of QFT in curved spacetimes. |
 | S23  | [Hollands and Wald *”Axiomatic QFT in curved spacetime”* 2008](https://arxiv.org/abs/0803.2003) | Presents an axiomatic approach to QFT in curved spacetime consistent with general covariance. |
-| S24  | [Bär and Fredenhagen *”QFT in Curved Spacetime”* 2009](https://link.springer.com/book/10.1007/978-3-642-02780-2) | Textbook on rigorous mathematical formulation of QFT in curved spacetime. |
-| S25  | [Kleinert *”Field Quantization in Curved Spacetime”* 2009](https://arxiv.org/abs/0910.4034) | Introduces methods of quantizing fields in curved spacetime. |
-| S26  | [Parker and Toms *”QFT in Curved Spacetime”* 2009](https://www.cambridge.org/core/books/quantum-field-theory-in-curved-spacetime/DDFF5C8EAF145364DAC04BDA0B79C624) | Comprehensive textbook covering theory and applications of QFT in curved spacetime. |
 | S27  | [Wald *”Formulation of QFT in Curved Spacetime”* 2009](https://arxiv.org/abs/0907.0416) | Outlines key principles in constructing QFTs on general curved backgrounds. |
 | S28  | [Jacobson *”Hawking radiation in spacetime and analogues”* 2012](https://arxiv.org/abs/1212.6821) | Discusses the physical intuition and analog models related to Hawking radiation. |
 | S29  | [Vieira et al *”Exact KG in Kerr-Newman and Hawking Radiation”* 2014](https://arxiv.org/abs/1401.5397) | Analyzes exact Klein-Gordon solutions in Kerr-Newman spacetime and implications for Hawking radiation. |
