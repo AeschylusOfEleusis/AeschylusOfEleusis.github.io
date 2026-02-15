@@ -460,6 +460,9 @@ The references are organized thematically, following the structure of the notes.
 
 **[S8] Rumpf,** "Stochastic Quantization of Einstein Gravity," *Phys. Rev. D* 33 (1986). The first attempt at applying the Parisi--Wu procedure to the gravitational field. Identifies the conformal factor problem and other difficulties specific to gravity. An important reference for the long-term goals of the present program (Tier 3 of §7.4).
 
+
+| ID  | Link  | Notes |
+|-----|------ |-------|
 | S5  | [Parisi Wu *“Perturbation Theory Without Gauge Fixing”* 1980](https://inspirehep.net/literature/9589)                                                                                                                                                                               | Proposes a stochastic quantization approach that avoids explicit gauge fixing by introducing auxiliary time variables.            |
 | S6  | [Seiler *“Stochastic Quantization and Gauge Fixing”* 1984](https://link.springer.com/chapter/10.1007/978-3-7091-8780-7_11)                                                                                                                                                            | Analyzes the relationship between stochastic quantization techniques and conventional gauge-fixing procedures.                     |
 | S7  | [J. Zinn-Justin *“Renormalization and stochastic quantization”* 1986](https://www.sciencedirect.com/science/article/abs/pii/0550321386905924)                                                                                                                                         | Investigates the renormalization of quantum field theories within the stochastic quantization framework.                            |
