@@ -71,7 +71,7 @@ passing mention here. This reflects the present state of a living document,
 not a judgment about their importance.
 
 A word about prerequisites. The reader is assumed to have working familiarity
-with general relativity at the level of Carroll or Wald, partial differential
+with general relativity at the level of Wald, partial differential
 equations at the level of a standard graduate course, and some experience
 with numerical computation. Where the discussion touches on topics that
 require more specialized background---the conformal decomposition of the
