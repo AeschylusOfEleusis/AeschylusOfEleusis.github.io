@@ -268,7 +268,7 @@ Several concrete computational projects emerge naturally from this literature:
 
 The computational techniques surveyed here connect to several other chapters in this project. Numerical relativity methods for axisymmetric evolution draw on the same infrastructure used in binary black hole simulations. The Dirac equation in curved spacetime involves special function theory (Heun functions) that appears in quantum field theory chapters. Gravitational lensing shares ray-tracing methodology with computational optics. And the energy condition constraints connect to the path integral and functional methods treated in the quantum field theory portion of the project.
 
-
+## Bibliography
 
 ### Worm holes
 
