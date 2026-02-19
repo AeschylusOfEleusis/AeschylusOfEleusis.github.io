@@ -150,7 +150,7 @@ Visser, Kar, and Dadhich demonstrated that traversable wormholes can be construc
 
 $$I_V = \int (\rho + p_r) \, dV$$
 
-and showed that for suitably chosen shape functions, $|I_V|$ can be made arbitrarily small while maintaining traversability. The key insight is that while the NEC must be violated *locally* at the throat (this is a geometric theorem, following from the flare-out condition), the *integrated* amount of violation can be minimized through careful engineering of the wormhole geometry.
+and showed that for suitably chosen shape functions, $\vert I_V \vert$ can be made arbitrarily small while maintaining traversability. The key insight is that while the NEC must be violated *locally* at the throat (this is a geometric theorem, following from the flare-out condition), the *integrated* amount of violation can be minimized through careful engineering of the wormhole geometry.
 
 This is an important result for assessing the physical plausibility of wormholes: it means the "cost" in exotic matter is not fixed by the topology but can in principle be reduced. However, it does not eliminate the need for NEC violation entirely---that remains an inescapable consequence of traversability in classical GR.
 
