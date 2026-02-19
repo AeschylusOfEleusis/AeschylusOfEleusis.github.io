@@ -270,7 +270,7 @@ The computational techniques surveyed here connect to several other chapters in 
 
 
 
-### Section 1. Worm holes
+### Worm holes
 
 | ID  | Link                                                                                                                                                                                                                              | Notes                                                                                                                     |
 |-----|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------|
@@ -305,7 +305,7 @@ The computational techniques surveyed here connect to several other chapters in 
 
 ---
 
-### Section 2. Energy Conditions
+### Energy Conditions
 
 | ID  | Link                                                                                  | Notes                                                                                                          |
 |-----|---------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------|
@@ -313,7 +313,7 @@ The computational techniques surveyed here connect to several other chapters in 
 | S29 | [Wall *“Average Null Energy Condition”* 2009](https://arxiv.org/abs/0910.5751)            | Provides proofs of averaged null energy condition theorems in quantum field theory on curved spacetimes.        |
 
 ---
-### Section 3. Axisymmetry
+### Axisymmetry
 
 | ID  | Link                                                                                                                                                                        | Notes                                                                                                             |
 |-----|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------|
@@ -328,7 +328,7 @@ The computational techniques surveyed here connect to several other chapters in 
 
 ---
 
-### Section 4. Dirac fields in curved spacetime
+### Dirac fields in curved spacetime
 
 | ID  | Link                                                                                                                                                                        | Notes                                                                                                               |
 |-----|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------|
@@ -340,7 +340,7 @@ The computational techniques surveyed here connect to several other chapters in 
 
 ---
 
-### Section 5. Gravitational Lensing
+### Gravitational Lensing
 
 | ID  | Link                                                                                                                                                                                                              | Notes                                                                                                     |
 |-----|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------|
