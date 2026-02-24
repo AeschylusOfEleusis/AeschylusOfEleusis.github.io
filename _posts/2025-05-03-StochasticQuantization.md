@@ -212,7 +212,7 @@ In $1+1$ dimensions (or 2 Euclidean dimensions), the infinite-dimensional Viraso
 
 ### 6.3 $n = 3$: topological field theories and the fractional quantum Hall effect
 
-In $2+1$ dimensions, the relevant theories include Chern--Simons gauge theory and its application to the fractional quantum Hall effect (FQHE). Stochastic quantization of Chern--Simons theory is interesting because the action is first-order (linear in time derivatives) and topological, presenting different challenges from the standard scalar or Yang--Mills cases. The topological nature of the theory means that the stochastic quantization must respect the topological invariance, adding a layer of subtlety to the formalism.
+In $2+1$ dimensions, the relevant theories include Chern--Simons gauge theory and its application to the fractional quantum Hall effect (FQHE). Stochastic quantization of Chern--Simons theory is interesting because the action is first-order (linear in time derivatives) and topological, presenting different challenges from the standard scalar or Yang--Mills cases. The topological nature of the theory means that the stochastic quantization must respect the topological invariance, adding a layer of subtlety.
 
 ### 6.4 $n = 4$: triviality, confinement, and the Standard Model
 
@@ -270,7 +270,7 @@ The related work by Antonio dos Reis et al. (2018) [S29] on semiclassical gravit
 
 ### 7.5 The BTZ black hole as an intermediate target
 
-The author of these notes has suggested the BTZ black hole in $2+1$ gravity as a natural intermediate target for the quantum gravity program. The BTZ solution is exactly solvable classically (it is locally anti-de Sitter), exhibits genuine gravitational dynamics (horizons, thermodynamics, quasinormal modes), and lives in $2+1$ dimensions where quantum gravity is substantially simpler than in $3+1$. A program of stochastic quantization of matter coupled to BTZ gravity would test the formalism in a setting where exact results are available for comparison, before confronting the full difficulties of $3+1$ dimensional quantum gravity.
+The BTZ solution is exactly solvable classically (it is locally anti-de Sitter), exhibits genuine gravitational dynamics (horizons, thermodynamics, quasinormal modes), and lives in $2+1$ dimensions where the quantum theory is substantially simpler than in $3+1$. A program of stochastic quantization of matter coupled to BTZ gravity would test the formalism in a setting where exact results are available for comparison.
 
 ---
 
@@ -372,7 +372,7 @@ Cassol-Seewald et al. (2012) [S26] applied stochastic methods to Landau--Ginzbur
 
 ---
 
-## 11. Technical Assessment and Open Problems
+## 11. Open Problems
 
 ### 11.1 Mathematical status of the equivalence
 
@@ -386,31 +386,17 @@ The equivalence between stochastic quantization and Euclidean path integral quan
 
 ### 11.2 Computational considerations
 
-For numerical implementation, several practical issues arise:
+For numerical implementation:
 
-The discretization of stochastic time introduces systematic errors (analogous to the step-size dependence in any numerical ODE/SDE integration). The choice of discretization scheme (Itô, Stratonovich, or other) affects the convergence properties and must be matched to the continuum convention.
+1. The discretization of stochastic time introduces systematic errors (analogous to the step-size dependence in any numerical ODE/SDE integration). The choice of discretization scheme (Itô, Stratonovich, or other) affects the convergence properties and must be matched to the continuum convention.
 
-Autocorrelation times can be severe, especially near critical points where the correlation length diverges (critical slowing down). Stochastic quantization shares this problem with Monte Carlo methods; Fourier acceleration and multigrid techniques have been explored as remedies.
+2. Autocorrelation times can be severe, especially near critical points where the correlation length diverges (critical slowing down). Stochastic quantization shares this problem with Monte Carlo methods; Fourier acceleration and multigrid techniques have been explored as remedies.
 
-For gauge theories, the gauge-damping parameter $\alpha$ must be chosen carefully: too small, and the longitudinal modes wander; too large, and the dynamics is dominated by the gauge-fixing term rather than the physical action.
+3. For gauge theories, the gauge-damping parameter $\alpha$ must be chosen carefully: too small, and the longitudinal modes wander; too large, and the dynamics is dominated by the gauge-fixing term rather than the physical action.
 
-### 11.3 Open problems
+## 12. Prospects for the Computational Projects
 
-Several significant open problems bear on the program described in these notes:
-
-Rigorous control of the continuum limit for interacting theories beyond perturbation theory remains a major challenge. The triviality of $\phi^4$ theory in $3+1$ dimensions [§6.4] is a sharp instance of this problem: stochastic quantization reproduces the correct (trivial) continuum limit, but establishing this rigorously requires renormalization group methods that go beyond the stochastic framework itself.
-
-The correctness of complex Langevin dynamics [§8] for physically relevant theories (especially finite-density QCD) is an active research problem. The conditions for correctness are understood in principle but difficult to verify in practice for theories of interest.
-
-The stochastic quantization of gravity (Tier 3 of §7.4) faces the conformal factor problem (the Euclidean Einstein--Hilbert action is unbounded below) and the non-renormalizability of the theory. Whether stochastic quantization offers any advantage over canonical or path integral approaches to these problems is not clear.
-
-The extension to fully dynamical spacetimes with topology change---as would be required for a complete theory of quantum gravity---is beyond the current reach of any approach, stochastic or otherwise.
-
----
-
-## 12. Prospects for the Computational Program
-
-The notes outlined here suggest a staged computational program, ordered by increasing ambition and decreasing certainty:
+The notes outlined here suggest a staged computational program:
 
 **Stage 1: Matter fields on fixed backgrounds.** Implement the Langevin equation for scalar (and eventually spinor and gauge) fields on Schwarzschild and de Sitter backgrounds using $3+1$ numerical relativity infrastructure. Compare against known results (e.g., Hawking temperature, de Sitter particle production rates). This stage is well-defined and achievable with existing tools.
 
@@ -418,9 +404,7 @@ The notes outlined here suggest a staged computational program, ordered by incre
 
 **Stage 3: BTZ as a testing ground.** Implement stochastic quantization of a scalar field coupled to $2+1$ gravity in the BTZ sector. This tests the formalism in a controlled setting where exact classical results are available and the quantum theory is better understood than in $3+1$ dimensions.
 
-**Stage 4: Full $3+1$ quantum gravity (speculative).** Extend to the stochastic quantization of the full Einstein--Hilbert action, addressing the conformal factor problem, the non-renormalizability, and the definition of the functional measure. This is a long-term target that may require new ideas beyond the current framework.
-
-Each stage provides independent scientific value and publishable results, regardless of whether the later stages prove feasible.
+**Stage 4: Full $3+1$ gravity ** Extending stages 1-3 to the stochastic quantization of the Einstein--Hilbert action requires addressing: A. The conformal factor problem, B. Non-renormalizability, and C. Definition of the functional measure. This long-term target requires new ideas beyond the current framework.
 
 ---
 
