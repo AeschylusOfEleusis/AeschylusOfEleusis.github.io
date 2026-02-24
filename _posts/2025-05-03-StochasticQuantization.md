@@ -394,7 +394,7 @@ For numerical implementation:
 
 3. For gauge theories, the gauge-damping parameter $\alpha$ must be chosen carefully: too small, and the longitudinal modes wander; too large, and the dynamics is dominated by the gauge-fixing term rather than the physical action.
 
-## 12. Prospects for the Computational Projects
+## 12. Prospects for Computational Projects
 
 The notes outlined here suggest a staged computational program:
 
@@ -404,7 +404,7 @@ The notes outlined here suggest a staged computational program:
 
 **Stage 3: BTZ as a testing ground.** Implement stochastic quantization of a scalar field coupled to $2+1$ gravity in the BTZ sector. This tests the formalism in a controlled setting where exact classical results are available and the quantum theory is better understood than in $3+1$ dimensions.
 
-**Stage 4: Full $3+1$ gravity ** Extending stages 1-3 to the stochastic quantization of the Einstein--Hilbert action requires addressing: A. The conformal factor problem, B. Non-renormalizability, and C. Definition of the functional measure. This long-term target requires new ideas beyond the current framework.
+**Stage 4: Full $3+1$ gravity.** Extending stages 1-3 to the stochastic quantization of the Einstein--Hilbert action requires addressing: A. The conformal factor problem, B. Non-renormalizability, and C. Definition of the functional measure. This long-term target requires new ideas beyond the current framework posing a highly speculative and ambitious committment.
 
 ---
 
