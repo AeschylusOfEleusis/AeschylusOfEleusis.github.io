@@ -10,7 +10,7 @@ math:       true        # enable KaTeX
 
 ## Abstract
 
-These notes collect the essential ideas behind stochastic quantization; viewed from the perspective of numerical computation. Serving as a guide to the literature for students and practitioners, particular attention is paid to how the formalism connects to problems in numerical relativity and quantum field theory on curved spacetimes.
+Viewed from a numerical perspective, the notes here collect severl essential ideas behind stochastic quantization. The notes are intended as guide to the literature for students and practitioners; with particular emphasis on how the formalism connects to problems in numerical relativity and quantum field theory on curved spacetimes.
 
 ---
 
