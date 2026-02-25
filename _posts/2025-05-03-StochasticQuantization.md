@@ -14,13 +14,13 @@ The notes here collect several essential ideas behind stochastic quantization wh
 
 ---
 
-Stochastic quantiztion sits at a crossroads of several active research programs: lattice field theory and Monte Carlo simulation, the sign problem in finite-density QCD, semiclassical and stochastic gravity. The bibliography collected here reflects that breadth, spanning from the Martin--Siggia--Rose formalism of the 1970s through contemporary work on complex Langevin regularization. The notes are intended to serve as both an orientation to the conceptual landscape and a framework for the computational projects that accompany them.
+Stochastic quantization, broadly viewed, includes several active research programs: Lattice field theory / Monte Carlo simulation, the sign problem in finite-density QCD, semiclassical and stochastic gravity. The bibliography here reflects that breadth. Spanning from the Martin--Siggia--Rose formalism of the 1970s through contemporary work on complex Langevin regularization, the notes serve as both an orientation to the conceptual landscape and a framework for computational projects that accompany the notes.
 
-A note on conventions: Natural units $\hbar = c = 1$ are employed in the following unless otherwise indicated. The metric signature is $(-,+,+,\ldots)$ for Lorentzian spacetimes, and the Euclidean signature is $(+,+,+,\ldots)$ where explicitly stated. The stochastic or "fictitious" time is denoted $s$, to distinguish it from physical time $t$ or Euclidean time $\tau$.
+In the following, natural units $\hbar = c = 1$ are employed unless otherwise indicated. The metric signature is $(-,+,+,\ldots)$ for Lorentzian spacetimes. The Euclidean signature is $(+,+,+,\ldots)$ where explicitly stated. The stochastic or "fictitious" time is denoted $s$, to distinguish it from physical time $t$ or Euclidean time $\tau$.
 
 ---
 
-## 1. Introduction: Why Stochastic Quantization?
+## 1. Introduction
 
 The standard routes to quantum field theory---canonical quantization and Feynman path integrals---are by now thoroughly developed. Why introduce another? The answer is partly practical and partly conceptual, and the balance between these motivations has shifted over the decades since Parisi and Wu's foundational paper.
 
