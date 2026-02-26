@@ -76,8 +76,6 @@ A bibliographic note: the source page lists the authors as "Stoer and Burlisch,"
 
 Scott's *Numerical Analysis* (S10, 2011), published by Princeton University Press, provides a contemporary mathematical introduction to the field. The text balances theoretical rigor with attention to modern applications, emphasizing the mathematical structures underlying numerical methods. It complements the algorithmic focus of *Numerical Recipes* by supplying the convergence and stability arguments needed for research-level numerical work.
 
-A bibliographic note: the author is Larkin Ridgway Scott (single author). The source page's listing as "Ridgway and Scott" appears to reflect a parsing error on the compound surname.
-
 ---
 
 ## 4. Monte Carlo Methods
@@ -101,8 +99,6 @@ The treatment of MCMC connects the Monte Carlo tradition to Bayesian statistics 
 Cheng, Zhang, and Sra's "Efficient Sampling on Riemannian Manifolds via Langevin MCMC" (S13, 2024; originally NeurIPS 2022) represents the current research frontier. The paper addresses the problem of sampling from Gibbs distributions $\pi^* = e^{-h}\,d\mathrm{vol}_g$ on Riemannian manifolds using geometric Langevin dynamics. The key contributions are threefold: discretization bounds for the geometric Euler-Maruyama scheme that match Euclidean stepsize dependence under assumptions of Lipschitz $\nabla h$ and bounded sectional curvature; convergence guarantees via Kendall-Cranston coupling yielding $\tilde{O}(\varepsilon^{-2})$ iteration complexity in Wasserstein distance; and generality that does not require convexity of $h$ or positivity of Ricci curvature.
 
 This paper merits its inclusion in a scientific computing bibliography because it sits at the intersection of differential geometry, stochastic analysis, and practical algorithm design. The problem of sampling on curved spaces arises naturally in statistics (distributions on Lie groups, constrained parameter spaces), physics (gauge theories, general relativity), and optimization (constraint manifolds). The geometric Langevin approach generalizes the Euclidean Langevin dynamics that have become standard in machine learning, and the convergence analysis requires tools from Riemannian geometry (exponential maps, parallel transport, curvature bounds) that are not part of the standard numerical methods curriculum. The inclusion of this paper alongside the Metropolis-Ulam original creates a productive arc: from the basic insight of stochastic simulation to one of its most mathematically sophisticated contemporary extensions.
-
-A bibliographic note: the source page contains a misspelling ("Reimannian" for "Riemannian").
 
 ---
 
