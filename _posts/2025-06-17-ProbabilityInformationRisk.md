@@ -104,8 +104,6 @@ For the risk section, the relevant tools are laws of large numbers (which ground
 
 The companion exercise book is essential for self-study. It is difficult to internalize probability and process intuition without working substantial problem sets. The exercises range from routine calculations to substantial proofs that develop technique in conditioning, generating functions, and martingale arguments.
 
-A minor bibliographic note: the original webpage spells the authors' names as "Grimmet and Stirzacker." The correct spellings are Grimmett and Stirzaker.
-
 ---
 
 ## Part II: Information Theory
@@ -194,8 +192,6 @@ The decomposition clarifies a longstanding confusion about reversible computatio
 
 For the present notes, these papers serve two purposes. First, they legitimize "information" as more than communication theory---it is a physical quantity with thermodynamic consequences. Second, they demonstrate that the same Shannon/KL primitives introduced in the classical information theory texts (S10, S11, S14) have direct physical content, connecting the mathematical formalism to the natural world.
 
-A bibliographic note: the original page labels Wolpert's paper as 2018. The arXiv identifier (1901.00386) and the PDF revision dates indicate 2019. This is a minor discrepancy.
-
 ### 13. Accessible Introductions to Information Theory
 
 **S14: DeDeo, *Information Theory for Intelligent People* (2018)**
@@ -282,8 +278,6 @@ The volume makes explicit the practitioner tension at the heart of Kelly betting
 
 For the information-theoretic thread of these notes, the volume is significant because it collects in one place the various formalisms connecting Kelly's criterion to Shannon's theory: the gambling channel, the information rate of wealth growth, and the minimax properties of log-optimal portfolios relative to KL divergence.
 
-A bibliographic note: the original page spells the third editor's name as "Zeimba." The correct spelling is Ziemba.
-
 ### 17. Mathematics of Games and Gambling: Textbook Treatments
 
 The remaining sources in the risk section provide textbook treatments of gambling mathematics at various levels of rigor and accessibility.
@@ -336,7 +330,7 @@ Kullback-Leibler divergence $D_{\mathrm{KL}}(p \| q)$ provides a second unifying
 
 ### Three Learning Paths
 
-The bibliography supports at least three coherent self-study curricula, depending on the reader's goals and background:
+The bibliography supports at least three self-study curricula, depending on a reader's goals and background:
 
 **Foundations track (rigor-first):** Kolmogorov (S1) establishes the measure-theoretic framework. Grimmett and Stirzaker (S5, S6) build the stochastic process machinery. Cover and Thomas (S11) formalize information measures. Ethier (S24) applies rigorous probability to gambling. MacLean, Thorp, and Ziemba (S22) provide the research-level Kelly treatment.
 
@@ -346,7 +340,7 @@ The bibliography supports at least three coherent self-study curricula, dependin
 
 ### Gaps and Natural Extensions
 
-These notes, like the original bibliography, are deliberately selective. Several natural extensions suggest themselves but are not yet developed:
+These notes, are deliberately selective. Several natural extensions suggest themselves but are not yet developed:
 
 *Decision theory and utility beyond logarithmic utility.* The Kelly criterion implicitly assumes logarithmic utility. Alternative utility functions (CARA, CRRA, prospect theory) lead to different optimal strategies. The relationship between Kelly betting and expected utility maximization is well-studied but not surveyed here. Instead it appears in later chapters. 
 
