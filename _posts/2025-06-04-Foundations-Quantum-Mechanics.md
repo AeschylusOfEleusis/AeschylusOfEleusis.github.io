@@ -9,7 +9,7 @@ math:       true        # enable KaTeX
 # Notes on Quantum Foundations (Draft)
 
 ## Abstract
-These notes survey the foundations of quantum mechanics through a curated collection of 37 primary and contextual sources, organized by interpretive tradition. The collection spans wave mechanics and pilot-wave theory, the Copenhagen formalism, statistical and information-theoretic reconstructions, Bell's theorem and nonlocality, and the Everettian relative-state interpretation. For each source, the notes provide technical context, identify the interpretive work the source performs, and trace the conceptual threads connecting entries within and across sections. The notes are idiosyncratic rather than exhaustive: they reflect a particular path through the literature, chosen to illuminate the mathematical and physical structures underlying the interpretive debates. Where the collection has gaps — collapse theories, QBism, relational quantum mechanics, decoherent histories — these are documented and briefly discussed. The notes conclude with suggested reading paths for different audiences and a consolidated reference list.
+These notes survey the foundations of quantum mechanics through a curated collection of 37 primary and contextual sources, organized by interpretive tradition. The collection spans wave mechanics and pilot-wave theory, the Copenhagen formalism, statistical and information-theoretic reconstructions, Bell's theorem and nonlocality, and the Everettian relative-state interpretation. For each source, the notes provide technical context, identify the interpretive work the source performs, and trace the conceptual threads connecting entries within and across sections. The notes are idiosyncratic rather than exhaustive: they reflect a particular path through the literature, chosen to illuminate the mathematical and physical structures underlying the interpretive debates. Where the collection has gaps — collapse theories, QBism, decoherent histories — these are documented and briefly discussed. The notes conclude with suggested reading paths for different audiences and a consolidated reference list.
 
 # Introduction
 
@@ -19,7 +19,7 @@ The present notes survey these questions through primary sources. The approach i
 
 The collection comprises 37 entries, organized into five sections. It is a personal sampling, not an exhaustive survey. The selection emphasizes foundational primary sources interspersed with historical and pedagogical texts that contextualize the technical arguments. The goal is to equip the reader with enough orientation to the primary literature that they can form their own judgments about the interpretive landscape.
 
-A word on the gaps. The collection does not include sources on spontaneous collapse theories (GRW, CSL), QBism, relational quantum mechanics, consistent or decoherent histories, modal interpretations, or several other post-1950s interpretive programs. These omissions are discussed in the final section, along with suggestions for how a reader might extend the collection.
+A word on the gaps. The collection does not include sources on spontaneous collapse theories (GRW, CSL), QBism, relational quantum mechanics, consistent or decoherent histories, or several other post-1950s interpretive programs. These omissions are discussed in the final section, along with suggestions for how a reader might extend the collection.
 
 A remark on the relevance of quantum foundations to scientific computing. The interpretive questions surveyed here are not merely philosophical: they have direct computational consequences. The pilot-wave interpretation implies a particular class of stochastic differential equations. Phase-space methods (Moyal, Wigner) underwrite semiclassical simulation techniques. The information-theoretic reconstruction program connects to quantum computing and quantum error correction through the structure of generalized probabilistic theories. Bell inequality violations are now routinely simulated as benchmarks for quantum hardware. And the measurement problem, far from being a philosophical curiosity, determines the computational cost of simulating quantum systems on classical hardware — the exponential overhead of exact simulation is a direct consequence of the superposition principle and its entanglement-generating dynamics.
 
@@ -78,7 +78,7 @@ Placing PBR under "Wave Mechanics," is not historically standard. However, the t
 **S13: Landsman, "The Measurement Problem" (2017).** This Springer chapter provides a modern treatment of the measurement problem, tracing its development from von Neumann's formulation through decoherence theory to contemporary debates. It serves as a "modern synthesis" anchor for the wave mechanics section, connecting the historical sources to current technical work.
 
 
-## Summary of Wave Mechanics
+## Summary 
 
 The 13 sources in this section provide a path from the origins of wave mechanics through pilot-wave theory to modern $\psi$-ontology debates. The emphasis on the de Broglie--Bohm line is not the standard wave-mechanical formalism (Schrödinger's collected papers are included but not supplemented by, say, Dirac's *Principles*). The Bacciagaluppi--Valentini monograph provides the kind of deep historical-technical analysis that rewards extended study and illustrates why de Broglie--Bohm has been included in consideration of wave mechanics. Further, inclusion of Wallstrom and PBR gives the view here a foundational character beyond "wave mechanics" as conventionally understood. Finally, the Wheeler essay and the Joas--Lehner article together illuminate the optico-mechanical analogy in a way that is not available in standard textbook treatments. 
 
@@ -103,8 +103,6 @@ This section covers the mathematical and interpretive framework developed by Boh
 
 The hidden-variable argument deserves particular attention in these notes because it connects to both the Bohm entries in the wave mechanics section and the Bell entries later. Von Neumann's proof assumes that the expectation value of a sum of observables equals the sum of the expectation values, even for observables that cannot be simultaneously measured. This linearity assumption is not physically motivated for non-commuting observables, and it is precisely this assumption that Bohm's theory violates. Bell later made this criticism explicit and devastating.
 
-*A note on citation dates.* The website lists this entry under the year 1929. The book itself was published by Springer in **1932**. The year 1929 likely refers to earlier related papers and lectures (circa 1927--1931) that were later consolidated into the 1932 monograph. The canonical citation should read 1932.
-
 **S18: Heisenberg, *The Physical Principles of the Quantum Theory* (1930).** Heisenberg's monograph presents quantum mechanics from the matrix-mechanical perspective. It contains the detailed exposition of the uncertainty principle and its physical consequences, treating the uncertainty relations not merely as mathematical results but as interpretive cornerstones of the Copenhagen framework. The book is one of the primary sources for understanding what "the Copenhagen interpretation" meant to its architects, as opposed to the various simplified or caricatured versions that circulate in textbook presentations.
 
 
@@ -122,7 +120,7 @@ The hidden-variable argument deserves particular attention in these notes becaus
 **S22: Cassidy, *Beyond Uncertainty: The Life of Werner Heisenberg* (2009).** This biography examines Heisenberg's scientific achievements within their historical context, including the development of matrix mechanics and the uncertainty principle. It complements the Pais volume by providing the Heisenberg-side perspective on the formative years of quantum mechanics.
 
 
-## Summary of the Copenhagen Intepretation
+## Summary 
 
 The nine sources provide the formal backbone of quantum mechanics as it was consolidated in the late 1920s and early 1930s. The Dirac--von Neumann--Heisenberg sequence establishes the mathematical framework; the Weyl--Wigner entries add the group-theoretic perspective that would prove essential for later developments; and the biographical works supply historical context.
 
@@ -177,7 +175,7 @@ The purification postulate has a natural information-theoretic reading: it says 
 **S28: Banks, "Probability and Quantum Mechanics" (2011, guest post on *Preposterous Universe*).** Tom Banks' essay argues that quantum mechanics is an inevitable generalization of probability theory once one recognizes that observables need not commute. The essay's central claims include: that classical logic implicitly assumes the probability sum rule $P(A \text{ or } B) = P(A) + P(B)$, which fails for quantum systems; that non-commuting observables are already implicit in classical physics via the Koopman--von Neumann formalism; and that decoherence explains the emergence of classicality by suppressing interference terms by factors of order $10^{-N}$ where $N \sim 10^{20}$ for macroscopic objects.
 
 
-## Summary of Probability/Information/Statistics
+## Summary 
 
 This section most directly engages with the "reconstruction" culture in modern quantum foundations — the program of deriving the quantum formalism from simple, physically motivated axioms. The Hardy and Chiribella papers represent the two most influential entries, and their inclusion brings the collection a contemporary character.
 
@@ -218,7 +216,7 @@ Bell's collected papers are valuable not only for the theorem itself but for his
 Peres is placed in the Bell's theorem section because of his extensive and influential treatment of Bell inequalities and contextuality, but the book's scope is much broader. It functions as a foundations-and-methods reference that a reader could profitably consult alongside almost any other source in the collection.
 
 
-## Summary of Bell's Theorem
+## Summary 
 
 The four sources provide the essential chain: EPR poses the problem; Bell sharpens it into a testable prediction; Coleman makes the argument accessible; Peres provides the technical apparatus in full generality. This approach to the material is compact but sufficient.
 
@@ -250,7 +248,7 @@ The key technical move is to replace the collapse postulate with the claim that 
 **S37: Barrett and Byrne, eds., *The Everett Interpretation of Quantum Mechanics: Collected Works 1955--1980 with Commentary* (2012).** This Princeton volume provides modern, comprehensive analysis of the Everett interpretation. It collects Everett's original writings (including unpublished material), Wheeler's correspondence and assessments, and critical commentary addressing the major open problems: the preferred basis problem (what determines the branching structure?), the probability problem (how does the Born rule emerge from deterministic unitary evolution?), and the ontological status of the branches.
 
 
-## Summary of the Everett Interpretation
+## Summary 
 
 The four sources trace a minimal but canonical path from Everett's original formulation through Wheeler's early assessment and DeWitt's popularization to modern philosophical and technical analysis. This is a minimal introduction. Note that a  significant body of technical work has accumulated since the 1990s on the preferred basis problem and the probability problem. Zurek's work on decoherence and "environment-assisted invariance" (envariance), the decision-theoretic approaches of Deutsch and Wallace, and Saunders' philosophical analysis substantially expand on the original view from the 1950's. The Barrett--Byrne volume provides pointers to some of this work, but dedicated sources are beyond the scope considered here.
 
@@ -261,7 +259,7 @@ For computational purposes, the Everettian perspective suggests viewing quantum 
 
 # Gaps 
 
-The collection is an idiosyncratic sampling. Several major interpretive programs of the 20th and 21st centuries are not represented. This section documents the principal gaps and provides entry points for readers who wish to extend the collection.
+The collection here is an idiosyncratic sampling. Several major interpretive programs of the 20th and 21st centuries are not represented. This section documents the principal gaps and provides entry points for readers who wish to extend the collection.
 
 
 ## Spontaneous Collapse Theories
@@ -277,7 +275,7 @@ Current experimental efforts to test collapse models focus on mechanical oscilla
 
 ## QBism
 
-QBism (Quantum Bayesianism, later rebranded as "Quantum Bettabilitarianism" by Fuchs) interprets quantum states as expressions of an agent's personal beliefs about future measurement outcomes, updated via a quantum generalization of Bayesian conditioning. The Born rule becomes a normative constraint on rational belief rather than a law of nature. QBism dissolves the measurement problem by denying that quantum states are objective features of the world.
+QBism (Quantum Bayesianism) interprets quantum states as expressions of an agent's personal beliefs about future measurement outcomes, updated via a quantum generalization of Bayesian conditioning. The Born rule becomes a normative constraint on rational belief rather than a law of nature. QBism dissolves the measurement problem by denying that quantum states are objective features of the world.
 
 *Entry points:* Fuchs, Mermin, and Schack, "An introduction to QBism with an application to the locality of quantum mechanics," American Journal of Physics **82**, 749 (2014); Caves, Fuchs, and Schack, "Quantum probabilities as Bayesian probabilities," Physical Review A **65**, 022305 (2002).
 
