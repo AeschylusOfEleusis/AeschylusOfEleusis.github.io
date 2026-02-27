@@ -109,15 +109,13 @@ The seven entries in this section cover the software engineering and computer ar
 
 Stroustrup's *The C++ Programming Language* (S14, 4th edition, 2013) is the definitive reference by the language's creator. The fourth edition covers C++11 and C++14 features---move semantics, lambda expressions, constexpr, variadic templates, and the standard library---that have substantially changed how performance-critical scientific code is written. C++ remains the dominant language for high-performance scientific computing (alongside Fortran), and understanding its memory model, object lifetime semantics, and template metaprogramming facilities is essential for anyone working with production numerical codes.
 
-The source page lists the publication year as 1997, which corresponds to an earlier edition. The linked page points to the 2013 fourth edition, which covers the modern language.
-
 ### 5.2 Architecture-Aware Computing
 
 Three texts address the interaction between algorithms and hardware, at increasing levels of specialization.
 
 Hennessy and Patterson's *Computer Architecture: A Quantitative Approach* (S20, 7th edition, 2025) is the canonical architecture text, updated in its most recent edition to cover domain-specific architectures (GPUs, TPUs), warehouse-scale computing, and energy efficiency. For scientific computing, the relevant material includes the treatment of memory hierarchy (cache performance, bandwidth constraints), instruction-level parallelism, and the quantitative methodology for evaluating performance tradeoffs. Understanding why a particular algorithm runs slowly often requires understanding the memory access patterns it generates and how they interact with the cache hierarchy---information that lives in architecture textbooks rather than in numerical analysis.
 
-Viswanath's *Scientific Programming and Computer Architecture* (S15, MIT Press) examines this interaction directly, with attention to cache-efficient algorithms, vectorization, and performance optimization strategies, as well as concrete parallel programming models (Pthreads, OpenMP, MPI, CUDA). A bibliographic note: the MIT Press listing indicates a 2017 publication date, not 2007 as listed on the source page.
+Viswanath's *Scientific Programming and Computer Architecture* (S15, MIT Press) examines this interaction directly, with attention to cache-efficient algorithms, vectorization, and performance optimization strategies, as well as concrete parallel programming models (Pthreads, OpenMP, MPI, CUDA).
 
 Eijkhout's *The Art of HPC* (S18, 2022), a four-volume series freely available online, provides the most comprehensive treatment of high-performance computing in the collection. Volume 1 covers the science of computing (architecture, parallel models, floating-point arithmetic, numerical methods); Volume 2 covers parallel programming (MPI, OpenMP, PETSc, Kokkos); Volume 3 covers scientific programming in C++ and Fortran; and Volume 4 covers practical carpentry (build systems, version control, workflows). The breadth and free availability of this series make it an exceptionally valuable self-study resource. Eijkhout's treatment of floating-point arithmetic and its implications for numerical accuracy is particularly relevant: understanding IEEE 754 representation, rounding modes, and catastrophic cancellation is prerequisite knowledge for any serious numerical work, yet it is often treated superficially in methods textbooks.
 
@@ -147,7 +145,6 @@ The IBM illustrates a broader theme in computational modeling: the choice of rep
 
 Chung's *Computational Fluid Dynamics* (S24, 2nd edition, 2010) provides comprehensive coverage of CFD, including governing equations, turbulence modeling, finite difference and finite volume methods, adaptive mesh refinement, and applications spanning combustion, heat transfer, and relativistic astrophysical flows. The breadth of application domains covered makes this text useful as a reference for the diversity of physical regimes in which CFD operates---from incompressible low-Reynolds-number flows to compressible, high-Mach-number astrophysical flows.
 
-A bibliographic note: the source page contains a minor typographical error ("astrophyics" for "astrophysics").
 
 ### 6.3 Computational Physics
 
