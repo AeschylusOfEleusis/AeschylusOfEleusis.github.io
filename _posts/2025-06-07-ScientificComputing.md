@@ -70,7 +70,6 @@ Lanczos's *Applied Analysis* (S8, 1952) is a classic in the specific sense: it c
 
 Stoer and Bulirsch's *Introduction to Numerical Analysis* (S9, 1980/2002) represents the rigorous German-school tradition of numerical mathematics. The text provides a systematic treatment of error analysis and conditioning, interpolation and approximation, numerical integration, systems of equations (linear and nonlinear), eigenvalue problems, and ODE boundary value problems, with attention throughout to the estimation of errors and the conditions under which algorithms can be expected to perform well. The emphasis on rigorous error bounds distinguishes this text from more recipe-oriented references. For a reader who needs to know not just *how* to solve a system of equations but *how well* the solution can be trusted, Stoer and Bulirsch remains an authoritative source.
 
-A bibliographic note: the source page lists the authors as "Stoer and Burlisch," which is a misspelling. The correct name is Bulirsch (Roland Bulirsch, 1932--2022), who also contributed significantly to the theory of extrapolation methods and the Bulirsch-Stoer algorithm for ODE integration.
 
 ### 3.3 Modern Perspectives
 
