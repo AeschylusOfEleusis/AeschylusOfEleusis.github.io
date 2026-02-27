@@ -207,7 +207,7 @@ $$
 
 which governs the backreaction of quantum fields on the geometry. Computing this backreaction is essential for understanding black hole evaporation dynamics and the quantum corrections to inflationary evolution. The semiclassical equation is an approximation that neglects fluctuations of the stress tensor about its mean; the stochastic gravity program extends this by including the noise kernel, the two-point correlator of stress-tensor fluctuations, providing a fluctuation-dissipation framework for quantum backreaction.
 
-Spectral methods provide an elegant approach to these problems. Kirsten's monograph *Spectral Functions in Mathematics and Physics* [S16] develops the zeta-function, heat-kernel, and functional-determinant technology that underpins regularization in curved backgrounds. (Note: this source is attributed to Klaus Kirsten, not to Wald as the original bibliography entry indicates.)
+Spectral methods provide an elegant approach to these problems. Kirsten's monograph *Spectral Functions in Mathematics and Physics* [S16] develops the zeta-function, heat-kernel, and functional-determinant technology that underpins regularization in curved backgrounds. 
 
 
 # The Hollands--Wald Program
