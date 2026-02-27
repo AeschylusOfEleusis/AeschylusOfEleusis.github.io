@@ -41,7 +41,7 @@ The position of QFTCS within the broader landscape of theoretical physics deserv
 
 From a computational perspective, QFTCS provides a natural testing ground for the interplay between analytical and numerical methods. The Schwinger--DeWitt expansion, heat-kernel techniques, and zeta-function regularization offer analytically tractable approximation schemes, while the worldline formalism and lattice-inspired methods open avenues for Monte Carlo computation. Several of the projects in the associated repositories implement these methods explicitly.
 
-The chapter is organized as follows. Section 2 covers the historical foundations, from DeWitt through Hawking's derivation of black hole radiance. Section 3 describes the three central physical phenomena---Hawking radiation, the Unruh effect, and cosmological particle creation---that motivate and constrain the theoretical framework. Section 4 discusses the textbooks that consolidated the field. Section 5 presents the modern mathematical framework: the algebraic approach, the Hadamard condition, microlocal analysis, and local covariance. Section 6 traces the Hollands--Wald program that brought the framework to maturity. Section 7 covers applications: inflationary cosmology, the Standard Model in curved backgrounds, and worldline methods. Section 8 identifies gaps in the current bibliography and directions for future expansion. Section 9 provides the complete annotated bibliography with corrected metadata. Section 10 offers recommended reading paths at different levels of preparation.
+The chapter is organized as follows. Section 2 covers the historical foundations, from DeWitt through Hawking's derivation of black hole radiance. Section 3 describes the three central physical phenomena---Hawking radiation, the Unruh effect, and cosmological particle creation---that motivate and constrain the theoretical framework. Section 4 discusses the textbooks that consolidated the field. Section 5 presents the modern mathematical framework: the algebraic approach, the Hadamard condition, microlocal analysis, and local covariance. Section 6 traces the Hollands--Wald program that brought the framework to maturity. Section 7 covers applications: inflationary cosmology, the Standard Model in curved backgrounds, and worldline methods. Section 8 identifies gaps in the current bibliography and directions for future expansion. The last section offers recommended reading paths at different levels of preparation.
 
 
 # Historical Foundations (1952--1981)
@@ -62,7 +62,7 @@ where $\sigma(x,x')$ is one-half the squared geodesic distance between $x$ and $
 
 ## Hawking and the Discovery of Black Hole Radiance
 
-The intellectual center of gravity of QFTCS shifted dramatically in 1974--1975 with Hawking's demonstration that black holes are not truly black. In his 1975 paper "Particle Creation by Black Holes" [S4], Hawking showed that quantum field theory on a Schwarzschild background predicts a steady flux of thermal radiation at the temperature
+The intellectual center of QFTCS shifted dramatically in 1974--1975 with Hawking's demonstration that black holes are not truly black. In his 1975 paper "Particle Creation by Black Holes" [S4], Hawking showed that quantum field theory on a Schwarzschild background predicts a steady flux of thermal radiation at the temperature
 
 $$
 T_H = \frac{\hbar \kappa}{2\pi c k_B}
@@ -187,8 +187,6 @@ Local covariance is a strong constraint. It implies, for instance, that the reno
 
 The requirement of global hyperbolicity---that the spacetime admits a Cauchy surface---is not merely a technical convenience but a structural necessity for the standard QFTCS framework. The Kay--Radzikowski--Wald theorem [S14] demonstrates this concretely: on spacetimes with compactly generated Cauchy horizons, the standard construction of quantum field theory breaks down at the base points of the horizon. This result, sometimes interpreted as a quantum-field-theoretic enforcement of cosmic censorship, shows that the globally hyperbolic category is the natural domain for the algebraic QFTCS program.
 
-A note on attribution: the paper is by Kay, Radzikowski, and Wald (arXiv:gr-qc/9603012, 1996; published in Communications in Mathematical Physics, 1997), not by Wald alone as sometimes mislabeled.
-
 ## Renormalization in Curved Spacetime
 
 Renormalization in curved spacetime introduces complications beyond those of flat-space QFT. The curvature of the background generates new divergences and requires additional counterterms involving curvature invariants: terms proportional to $R$, $R^2$, $R_{\mu\nu}R^{\mu\nu}$, and the Gauss--Bonnet combination $R_{\mu\nu\rho\sigma}R^{\mu\nu\rho\sigma}$. The most striking consequence is the conformal (trace) anomaly: even for a classically conformally invariant field, the renormalized expectation value $\langle T^\mu{}_\mu \rangle$ is nonvanishing and is given by a universal expression involving curvature invariants.
@@ -253,7 +251,7 @@ A persistent difficulty in inflationary QFTCS is the treatment of infrared effec
 
 A natural extension of the RG methods developed in the Hollands--Wald program is to apply them to the Standard Model itself in a curved background. The early work by Elizalde and Odintsov [S10, S11] in the 1990s developed RG-improved effective Lagrangians in curved space and studied backreaction effects of $O(N)$ scalar theories. This line of work addressed how quantum field fluctuations modify the background geometry through the semiclassical Einstein equation.
 
-Markkanen, Rajantie, and Stopyra's 2018 paper [S33] computed the one-loop effective potential for the full Standard Model in curved spacetime, including the dependence on the non-minimal coupling $\xi R |\phi|^2$ of the Higgs field. This is directly relevant to the question of electroweak vacuum stability during inflation: if the Higgs effective potential becomes unstable at large field values and curvature provides an additional contribution, the early universe could have triggered a catastrophic vacuum decay. The paper provides the quantitative framework for assessing this risk.
+Markkanen, Rajantie, and Stopyra's 2018 paper [S33] computed the one-loop effective potential for the full Standard Model in curved spacetime, including the dependence on the non-minimal coupling $\xi R \vert \phi \vert^2$ of the Higgs field. This is directly relevant to the question of electroweak vacuum stability during inflation: if the Higgs effective potential becomes unstable at large field values and curvature provides an additional contribution, the early universe could have triggered a catastrophic vacuum decay. The paper provides the quantitative framework for assessing this risk.
 
 Toms' 2019 paper [S34] extended the analysis to Yang--Mills theory with Yukawa couplings in curved spacetime, computing one-loop effective action divergences and the associated RG functions. Together with the Markkanen et al. results, this work represents the state of the art for the curved-space Standard Model effective field theory.
 
@@ -293,18 +291,11 @@ The neural network--quantum field theory correspondence, treated in Part II of t
 
 The 36-source bibliography, while comprehensive in its coverage of the Hollands--Wald program and its historical antecedents, has several identifiable gaps that future expansions should address.
 
-**Entanglement entropy and holography.** The connection between QFTCS and entanglement entropy---particularly the Ryu--Takayanagi formula and its generalizations---is one of the most active areas in theoretical physics. The bibliography does not include sources on this topic, which bridges QFTCS, quantum information theory, and quantum gravity.
-
 **Stochastic gravity.** The stochastic gravity program of Hu and Verdaguer extends the semiclassical framework by including the noise kernel (the connected two-point function of the stress tensor) alongside its expectation value. This provides a fluctuation-dissipation description of quantum fields interacting with geometry and is relevant for understanding the validity of the semiclassical approximation.
 
 **Numerical methods for QFTCS.** Beyond the Monte Carlo worldline methods of S36, numerical approaches to QFTCS---including lattice methods on curved backgrounds and spectral methods for mode-sum calculations---represent a growing computational frontier.
 
-**The information paradox and recent developments.** The post-2019 developments around the Page curve, quantum extremal surfaces, the island rule, and the gravitational path integral have reshaped the discussion of black hole information. These developments build directly on QFTCS and deserve representation in an expanded bibliography.
-
 **The Casimir effect in curved spacetime.** While the flat-space Casimir effect is well understood, its curved-space generalizations---including the role of topology and the connection to vacuum energy---are relevant to both the cosmological constant problem and the analogue gravity program.
-
-**Quantum fields and cosmological singularities.** The behavior of quantum fields near cosmological (and black hole) singularities, including the BKL approach and quantum cosmology, connects QFTCS to quantum gravity proper.
-
 
 # Recommended Reading Paths
 
