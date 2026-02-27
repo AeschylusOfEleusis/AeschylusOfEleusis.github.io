@@ -192,7 +192,7 @@ James et al.'s *An Introduction to Statistical Learning* (S37, with editions in 
 
 ### 7.5 Practical Data Science
 
-Das's *Data Science* (S32, 2017), available online, provides a practical guide to data science workflows including data wrangling, visualization, statistical modeling, and machine learning algorithms with applications in finance. McNicholas and Tait's *Data Science with Julia* (S36, 2019) adds language diversity to the collection, covering data science workflows in Julia. A bibliographic note: the source page lists the second author as "Tair," which is a misspelling of Tait.
+Das's *Data Science* (S32, 2017), available online, provides a practical guide to data science workflows including data wrangling, visualization, statistical modeling, and machine learning algorithms with applications in finance. McNicholas and Tait's *Data Science with Julia* (S36, 2019) adds language diversity to the collection, covering data science workflows in Julia.
 
 ### 7.6 Model Identifiability and Sloppiness
 
