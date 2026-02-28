@@ -10,7 +10,7 @@ math: true        # enable KaTeX
 # Notes on Koopman von Neumann Mechanics (Draft)
 
 ## Abstract
-These notes provide a guide to the literature on Koopman–von Neumann (KvN) mechanics and its extensions, organized around three interconnected themes: the operatorial formulation of classical Hamiltonian dynamics on Hilbert space, Feynman's commutator-based approach to gauge theory foundations, and the classical path integral (CPI) formalism with its hidden supersymmetric structures. The material spans from Koopman's foundational 1931 paper through contemporary work, with particular emphasis on the contributions of the Gozzi school to the CPI program. A recurring motif is the appearance of gauge-like symmetry in multiple guises---phase freedom in KvN wavefunctions, emergent electromagnetic structure from commutator algebras, and BRS invariance in the classical path integral---reflecting deep geometric properties of classical phase space. The notes address a subtlety in the Helmholtz conditions for the inverse variational problem as it pertains to first-order systems, and discuss the remarkable correspondence between supersymmetry breaking in the CPI and ergodic properties of classical dynamical systems. Throughout, the emphasis is on mathematical structure and on providing the reader with a map of the primary literature sufficient to pursue any of these threads independently.
+These notes provide a guide to the literature on Koopman–von Neumann (KvN) mechanics and its extensions, organized around three interconnected themes: the operatorial formulation of classical Hamiltonian dynamics on Hilbert space, Feynman's commutator-based approach to gauge theory foundations, and the classical path integral (CPI) formalism with its hidden supersymmetric structures. The material spans from Koopman's foundational 1931 paper through contemporary work, with particular emphasis on the contributions of the Gozzi school to the CPI program. A recurring motif is the appearance of gauge-like symmetry in multiple guises---phase freedom in KvN wavefunctions, emergent electromagnetic structure from commutator algebras, and BRS invariance in the classical path integral---reflecting deep geometric properties of classical phase space. The notes address a subtlety in the Helmholtz conditions for the inverse variational problem as it pertains to first-order systems, and discuss the remarkable correspondence between supersymmetry in the CPI and ergodic properties of classical dynamical systems. Throughout, the emphasis is on mathematical structure and on providing the reader with a map of the primary literature sufficient to pursue any of these threads independently.
 
 # Introduction
 
@@ -282,7 +282,7 @@ The BRS cohomology construction provides a path-integral explanation for why cla
 
 ## $\mathcal{N}=2$ Supersymmetry and Cartan Calculus
 
-The BRS symmetry of the CPI turns out to be part of a larger structure: a hidden $\mathcal{N}=2$ supersymmetry. This was demonstrated in a sequence of papers [S16, S20, S21, S22] spanning 1997--2009.
+The BRS symmetry of the CPI turns out to be part of a larger structure: a hidden $\mathcal{N}=2$ supersymmetry. This was demonstrated in a sequence of papers [S16, S20, S21] spanning 1997--2009.
 
 The two supercharges $\hat{Q}$ and $\hat{\bar{Q}}$ of this $\mathcal{N}=2$ algebra have a remarkable geometric interpretation. They are identified with the **exterior derivative** $d$ and the **interior contraction** $\iota_v$ (where $v$ is the Hamiltonian vector field) on the symplectic manifold $\Gamma$. The anticommutator $\{\hat{Q}, \hat{\bar{Q}}\}$ yields the **Lie derivative** $\mathcal{L}_v$, which generates the Hamiltonian flow. Thus the $\mathcal{N}=2$ superalgebra of the CPI *is* the Cartan calculus on phase space, realized through Grassmann variables.
 
@@ -290,21 +290,6 @@ Gozzi (1997) [S14] (arXiv: q-alg/9702032) established this identification explic
 
 The Nijenhuis brackets (Nijenhuis--Schouten and Frölicher--Nijenhuis) on tensor and form spaces are also accommodated within this framework, as shown in [S18] (arXiv: hep-th/9907065). These brackets are algebraic structures generalizing the Lie bracket to tensor-valued forms, and their appearance in the CPI extends the geometric reach of the formalism.
 
-## Supersymmetry and Ergodicity
-
-One of the most striking results of the CPI program is the connection between the supersymmetric structure and the ergodic properties of classical dynamical systems. This result, developed by the Gozzi school, can be stated as follows:
-
-- **Unbroken supersymmetry** (the SUSY ground state is normalizable) corresponds to **ergodic** systems.
-- **Spontaneously broken supersymmetry** corresponds to **integrable** (non-ergodic) systems with many constants of motion.
-
-The logic runs roughly as follows. The SUSY ground state $\vert 0\rangle$ satisfies $\hat{Q}\vert 0\rangle = \hat{\bar{Q}}\vert 0\rangle = 0$, which translates geometrically into the condition that the ground-state waveform is both closed and co-closed on phase space. For an ergodic system, the only such state is the microcanonical (or, in the appropriate thermodynamic setting, the Gibbs) distribution, which is normalizable. The SUSY ground state is then identified with the thermal equilibrium state---specifically, a **Gibbs/KMS state**.
-
-For integrable systems, the existence of conserved quantities partitions phase space into invariant tori, and the ground state cannot be normalizable in the same sense. The supersymmetry is spontaneously broken: the supercharges do not annihilate the vacuum, and the Witten index (the partition function weighted by $(-1)^F$) vanishes.
-
-This provides a geometric and algebraic characterization of ergodicity that complements the standard measure-theoretic definition. It also suggests connections to the broader theory of topological field theories, where the Witten index similarly tracks the topology of the target space.
-
-**The SUSY--ergodicity correspondence should be understood as a characterization within the CPI framework, not as a new definition of ergodicity. The measure-theoretic definition (time averages equal ensemble averages for almost all initial conditions) remains primary. What the CPI adds is a structural explanation in terms of symmetry breaking: ergodicity is the condition under which the CPI supersymmetry is realized on the ground state.
-**
 
 ## Quantization as Constraints
 
@@ -437,7 +422,6 @@ For the reader approaching this material with specific goals, the following path
 | S18 | [Gozzi and Mauro “Nijenhuis brackets and Symplectic Spaces” 1999](https://arxiv.org/abs/hep-th/9907065) | Investigates the role of Nijenhuis brackets in the symplectic geometry underpinning classical path integrals. |
 | S19 | [Gozzi “Funcational techniques in Classical Mechanics” 2001](https://arxiv.org/abs/quant-ph/0107060) | Develops functional integral methods tailored specifically to classical mechanics. |
 | S20 | [Gozzi “N = 2 Supersymmetry of Classical Mechanics” 2001](https://arxiv.org/abs/hep-th/0012177) | Demonstrates that an N=2 supersymmetry algebra arises naturally in the classical mechanical path integral. |
-| S21 | [Gozzi “Supersymmetry in Classical Mechanics” 2001](https://arxiv.org/abs/hep-th/0012177) | Surveys supersymmetric features manifest in the classical mechanical path integral. |
 | S22 | [Gozzi “Supersymmetrics in Time” 2009](https://arxiv.org/abs/0910.1812) | Explores supersymmetric transformations acting on temporal evolution within classical path integrals. |
 | S23 | [Gozzi “Local symmetries and non superposition in classical mechanics” 2010](https://arxiv.org/abs/1006.3029) | Analyzes local gauge-like symmetries and the absence of linear superposition in classical mechanics. |
 | S24 | [Cattaruzza et al “Diagrammar in Classical Scalar Field Theory” 2010](https://arxiv.org/abs/1010.0818) | Develops a diagrammatic expansion for classical scalar field theory analogous to quantum Feynman diagrams. |
