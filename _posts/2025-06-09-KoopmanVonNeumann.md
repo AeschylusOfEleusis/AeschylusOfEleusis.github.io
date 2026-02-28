@@ -370,23 +370,16 @@ Several important related topics are not covered in the bibliography curated her
 
 **Sudarshan's contributions.** E. C. G. Sudarshan's work on KvN-related topics (Pramana, 1976) represents an independent development that is not represented in the current bibliography.
 
-**Data-driven Koopman methods.** The modern revival of Koopman operator theory in applied mathematics and engineering---particularly the Dynamic Mode Decomposition (DMD) and its variants for data-driven analysis of nonlinear dynamical systems---is an enormous field that is entirely absent from these notes. This is a deliberate scope decision (these notes focus on foundational and structural aspects) but should be acknowledged.
+**Data-driven Koopman methods.** The modern revival of Koopman operator theory in applied mathematics and engineering---particularly the Dynamic Mode Decomposition (DMD) and its variants for data-driven analysis of nonlinear dynamical systems---is an enormous field entirely absent from consideration in these notes. This is a deliberate scope decision. Readers versed in the KVN-related topics considered here are encouraged to consider applications of the formalism to data.
 
-**Stochastic quantization.** The connection between the CPI formalism and the Parisi--Wu stochastic quantization program is natural and has been noted in the literature, but is not developed in the current bibliography. This is a topic addressed elsewhere in the broader textbook project.
-
-## Claims Requiring Verification
-
-**The Helmholtz conditions for first-order systems.** The claim that first-order systems $\dot{x}^i = \varphi^i(x)$ universally admit a variational formulation (Section 4.2) is correct in the sense of the degenerate variational principle with auxiliary variables. The precise relationship to the standard Helmholtz conditions, and the implications for quantization of such systems, deserve careful verification against the primary sources cited on the webpage.
-
-**The SUSY--ergodicity correspondence.** The statement that unbroken CPI supersymmetry corresponds to ergodicity (Section 5.5) is a result of the Gozzi school that has been developed in multiple papers. The precise conditions under which this correspondence holds, and its relationship to the standard measure-theoretic definitions, would benefit from a critical review with attention to mathematical rigor.
 
 ## Open Questions
 
-Several questions naturally suggest themselves from this material:
+Several questions naturally present themselves:
 
 1. Can the different manifestations of gauge structure (KvN phase freedom, Feynman--Dyson emergent gauge fields, CPI BRS symmetry) be unified within a single framework? The CPI provides partial unification, but a complete picture is lacking.
 
-2. What is the relationship between the CPI $\mathcal{N}=2$ supersymmetry and the supersymmetric quantum mechanics of Witten (1982)? The algebraic structures are similar, but they arise in different physical contexts (classical mechanics versus quantum mechanics).
+2. What is the relationship between the CPI $\mathcal{N}=2$ supersymmetry and the supersymmetric quantum mechanics of Witten (1982)? The algebraic structures are similar, but they arise in different physical contexts (classical versus quantum mechanics).
 
 3. Can the CPI formalism contribute to the program of mixed quantum--classical theories proposed by Wilczek [S5]? If so, what role does the CPI supersymmetry play in the coupled system?
 
