@@ -137,7 +137,7 @@ This section addresses statistical and information-theoretic approaches to quant
 **S23: Moyal, "Quantum Mechanics as a Statistical Theory" (1949).** Moyal's paper reformulates quantum mechanics in phase space using the Wigner function and the Moyal bracket. The Moyal bracket is a deformation of the classical Poisson bracket:
 
 $$
-\{f, g\}_{\text{Moyal}} = \frac{2}{\hbar} f \sin \left(\frac{\hbar}{2}\left(\overleftarrow{\partial}_q \overrightarrow{\partial}_p - \overleftarrow{\partial}_p \overrightarrow{\partial}_q\right)\right) g
+\{f(q,p), g(q,p)\}_{\text{Moyal}} = \frac{2}{\hbar} f(q,p) \sin \left(\frac{\hbar}{2}\left(\overleftarrow{\partial}_q \overrightarrow{\partial}_p - \overleftarrow{\partial}_p \overrightarrow{\partial}_q\right)\right) g(q,p)
 $$
 
 which reduces to the Poisson bracket in the limit $\hbar \to 0$. This approach reveals quantum mechanics as a deformation of classical statistical mechanics — the noncommutativity of quantum observables is encoded in the star product rather than in the operator formalism. The phase-space formulation makes the classical limit transparent and provides a natural framework for semiclassical approximations.
