@@ -151,11 +151,11 @@ For scientific computing, the phase-space formulation is particularly valuable. 
 
 ## The Statistical Interpretation
 
-**S24: Born, "The Interpretation of Quantum Mechanics" (1953).** Born's paper articulates and defends the probabilistic interpretation of the wave function — the Born rule, which states that $|\psi(x)|^2$ gives the probability density for finding a particle at position $x$. While the Born rule was introduced much earlier (1926), this later paper represents Born's mature philosophical defense of the statistical interpretation and its foundational role in quantum theory.
+**S24: Born, "The Interpretation of Quantum Mechanics" (1953).** Born's paper articulates and defends the probabilistic interpretation of the wave function — the Born rule, which states that $\vert \psi(x) \vert^2$ gives the probability density for finding a particle at position $x$. While the Born rule was introduced much earlier (1926), this later paper represents Born's mature philosophical defense of the statistical interpretation and its foundational role in quantum theory.
 
 **S25: Ballentine, "The Statistical Interpretation of Quantum Mechanics" (1970).** Ballentine's influential Reviews of Modern Physics article advocates treating quantum mechanics as a purely statistical theory that applies to ensembles rather than individual systems, without invoking wave function collapse. On this view, the quantum state describes the statistical properties of a preparation procedure, not the physical state of an individual system. The ensemble interpretation avoids the measurement problem — there is no collapse because there is nothing to collapse — but at the cost of leaving unanswered the question of what determines individual measurement outcomes.
 
-Ballentine's paper is useful for clearly distinguishing two different things that "the statistical interpretation" might mean: (1) that $|\psi|^2$ gives probabilities (the Born rule, which is accepted by essentially all interpretations), and (2) that the quantum state *is* a statistical description of an ensemble and nothing more (a substantive interpretive claim that not all physicists accept).
+Ballentine's paper is useful for clearly distinguishing two different things that "the statistical interpretation" might mean: (1) that $\vert \psi \vert^2$ gives probabilities (the Born rule, which is accepted by essentially all interpretations), and (2) that the quantum state *is* a statistical description of an ensemble and nothing more (a substantive interpretive claim that not all physicists accept).
 
 
 ## Axiomatic Reconstructions
