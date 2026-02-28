@@ -215,7 +215,7 @@ The Helmholtz conditions are algebraic and differential constraints involving th
 
 ## The First-Order Exception
 
-The abstract of the source webpage signals a "subtlety in the Helmholtz conditions" concerning first-order systems of the form
+There is a subtlety in the Helmholtz conditions concerning first-order systems of the form
 
 $$
 \dot{x}^i = \varphi^i(x^j), \qquad i = 1, \ldots, n.
