@@ -345,13 +345,13 @@ Central to fractional quantum mechanics and to the connection with Lévy process
 
 $$\mathcal{F}[(-\Delta)^{\alpha/2} f](\mathbf{k}) = |\mathbf{k}|^\alpha \, \mathcal{F}[f](\mathbf{k})$$
 
-This is the most transparent definition: the fractional Laplacian multiplies each Fourier mode by $|\mathbf{k}|^\alpha$. For $\alpha = 2$, this recovers the standard Laplacian (up to sign).
+This is the most transparent definition: the fractional Laplacian multiplies each Fourier mode by $\vert \mathbf{k} \vert^\alpha$. For $\alpha = 2$, this recovers the standard Laplacian (up to sign).
 
 **Singular integral (Riesz) definition:**
 
 $$(-\Delta)^{\alpha/2} f(\mathbf{x}) = C_{n,\alpha} \, \text{P.V.} \int_{\mathbb{R}^n} \frac{f(\mathbf{x}) - f(\mathbf{y})}{|\mathbf{x} - \mathbf{y}|^{n + \alpha}} \, d\mathbf{y}$$
 
-where $C_{n,\alpha}$ is a normalization constant depending on the spatial dimension $n$ and the order $\alpha$, and P.V. denotes the Cauchy principal value. This definition makes the non-locality explicit: the fractional Laplacian at a point depends on the values of $f$ throughout all of $\mathbb{R}^n$, weighted by a power-law kernel that decays as $|\mathbf{x} - \mathbf{y}|^{-(n+\alpha)}$.
+where $C_{n,\alpha}$ is a normalization constant depending on the spatial dimension $n$ and the order $\alpha$, and P.V. denotes the Cauchy principal value. This definition makes the non-locality explicit: the fractional Laplacian at a point depends on the values of $f$ throughout all of $\mathbb{R}^n$, weighted by a power-law kernel that decays as $\vert \mathbf{x} - \mathbf{y}\vert^{-(n+\alpha)}$.
 
 **Probabilistic interpretation:** $(-\Delta)^{\alpha/2}$ is the infinitesimal generator of the semigroup of a symmetric $\alpha$-stable Lévy process. This is the precise mathematical statement connecting Section 2 (Lévy flights) to Section 5 (fractional Schrödinger equation).
 
@@ -392,7 +392,7 @@ Fractional operators are inherently non-local: the fractional derivative of a fu
 - **Extended paths** in Lévy flight diffusion: the occasional large jumps that characterize Lévy processes mean that transport at a point depends on the source distribution at distant locations.
 - **Non-local kinetic terms** in fractional quantum mechanics: the fractional Laplacian in the Schrödinger equation means that the time evolution of $\psi(\mathbf{x}, t)$ depends on $\psi$ throughout space, not just on local derivatives.
 
-The connection between non-locality and non-integer order is fundamental: it is the power-law kernel $(t - \tau)^{\alpha - 1}$ or $|\mathbf{x} - \mathbf{y}|^{-(n+\alpha)}$ that makes fractional operators non-local, and this kernel is inextricably linked to the non-integer order $\alpha$.
+The connection between non-locality and non-integer order is fundamental: it is the power-law kernel $(t - \tau)^{\alpha - 1}$ or $\vert \mathbf{x} - \mathbf{y} \vert^{-(n+\alpha)}$ that makes fractional operators non-local, and this kernel is inextricably linked to the non-integer order $\alpha$.
 
 ### 7.3 Anomalous Scaling and Dimensional Flow
 
