@@ -51,7 +51,7 @@ This point has practical consequences for numerical simulation. The standard ref
 
 ### 2.3. Reverse-Time Diffusion and Modern Connections
 
-Anderson's 1982 paper on reverse-time diffusion [S2] establishes the mathematical framework for running diffusion processes backward in time. While the original motivation was probabilistic, this work has acquired unexpected contemporary relevance through its connection to score-based generative models and Schrödinger bridge problems. The time-reversal of a Markov diffusion replaces the forward drift with a backward drift that depends on the score function (gradient of the log-density), a structure that underlies modern diffusion-model architectures. The page's bibliography does not develop this connection explicitly, but the inclusion of Anderson's paper alongside the "Machine Learning" tag signals awareness of the bridge.
+Anderson's 1982 paper on reverse-time diffusion [S2] establishes the mathematical framework for running diffusion processes backward in time. While the original motivation was probabilistic, this work has acquired unexpected contemporary relevance through its connection to score-based generative models and Schrödinger bridge problems. The time-reversal of a Markov diffusion replaces the forward drift with a backward drift that depends on the score function (gradient of the log-density), a structure that underlies modern diffusion-model architectures. 
 
 ### 2.4. Applied and Computational Perspectives
 
@@ -61,7 +61,7 @@ Dengler [S9] addresses a question that is fundamental but often overlooked in th
 
 Baine [S8] examines the algebraic structure of stochastic calculus through the lens of commutation relations in Fock space. This connects the standard Itô theory to the operator methods of quantum probability, providing a bridge to the stochastic mechanics discussion in Section 4.
 
-### 2.5. Summary of the Foundational Section
+### 2.5. Summary
 
 The conceptual architecture of Brownian motion can be summarized as follows. One begins with a physical system coupled to a heat bath. The Langevin equation describes the resulting stochastic dynamics in terms of forces, friction, and noise. The Itô or Stratonovich SDE reformulates this dynamics in terms of a well-defined stochastic integral. The Fokker--Planck equation describes the evolution of the probability density and determines the approach to equilibrium. For additive noise these three descriptions are straightforwardly equivalent; for multiplicative noise the equivalence requires specifying a discretization convention, which carries physical content.
 
