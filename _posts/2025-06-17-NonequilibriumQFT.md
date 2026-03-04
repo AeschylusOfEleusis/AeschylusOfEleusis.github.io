@@ -34,9 +34,10 @@ The transition from equilibrium to nonequilibrium is then, in part, the transiti
 
 The bibliography is oriented toward four families of physical applications:
 
-- **Bose--Einstein condensation and superfluids**: systems where macroscopic quantum coherence emerges and the relevant dynamics involve condensate formation, phase ordering, and vortex dynamics.
-- **Relativistic heavy-ion collisions**: the quark-gluon plasma, where the system starts far from equilibrium (two colliding nuclei) and must thermalize on femtosecond timescales, raising deep questions about the mechanisms of equilibration in strongly coupled gauge theories.
 - **Early universe cosmology**: reheating after inflation, cosmological phase transitions, and baryogenesis---all processes where nonequilibrium field dynamics play a central role.
+- **Relativistic heavy-ion collisions**: the quark-gluon plasma, where the system starts far from equilibrium (two colliding nuclei) and must thermalize on femtosecond timescales, raising deep questions about the mechanisms of equilibration in strongly coupled gauge theories.
+- **Bose--Einstein condensation and superfluids**: systems where macroscopic quantum coherence emerges and the relevant dynamics involve condensate formation, phase ordering, and vortex dynamics.
+- **Active matter and driven systems**: biological and soft-matter systems maintained out of equilibrium by internal energy sources, where detailed balance is violated and new universality classes can emerge.
 
 These applications span an enormous range of energy scales and coupling strengths, but the common thread is the need for real-time, nonperturbative methods for many-body quantum (or classical-statistical) systems.
 
