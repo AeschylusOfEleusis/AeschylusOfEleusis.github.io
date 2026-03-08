@@ -84,7 +84,7 @@ Aaronson's lecture notes from UT Austin [S16] (2018) provide a comprehensive ped
 
 ### 2.5 Information-Theoretic Foundations
 
-Witten's "A Mini-Introduction to Information Theory" [S17] (arXiv:1805.11965, 2018) provides classical and quantum information measures: entropy, relative entropy, mutual information, and their quantum generalizations. The paper brings insights from mathematical physics to bear on information-theoretic questions and serves as a bridge between the physics-oriented and information-theoretic perspectives on quantum computation. The entropic tools introduced here connect to several later topics: channel capacity (relevant to quantum networking in Section 3), quantum learning theory (Section 5), and quantum thermodynamics.
+Witten's "A Mini-Introduction to Information Theory" [S17] (arXiv:1805.11965, 2018) provides classical and quantum information measures: entropy, relative entropy, mutual information, etc. The paper brings insights from mathematical physics to bear on information-theoretic questions and serves as a bridge between the physics-oriented and information-theoretic perspectives on quantum computation. The entropic tools introduced here connect to several later topics: channel capacity (relevant to quantum networking in Section 3), quantum learning theory (Section 5), and quantum thermodynamics.
 
 ---
 
