@@ -96,7 +96,7 @@ The engineering of quantum computing systems encompasses hardware implementation
 
 *Quantum Quenching, Annealing and Computation* [S18] (Springer, 2010) examines quantum quenching protocols in condensed matter systems and their relationship to quantum annealing as a computational paradigm. The book connects nonequilibrium dynamics and quench phenomena to the design of annealing hardware. Readers should note the distinction between two related but separable goals: (i) quantum annealing as an optimization technique (where the computational goal is primary) and (ii) quench dynamics as many-body physics (where the physical phenomena are of intrinsic interest). 
 
-The paper "Quantum annealing amid local ruggedness and global frustration" [S19] (arXiv:1701.04579, 2017) is a focused study of how energy landscape structure---specifically local ruggedness and global frustration---affects quantum annealing performance. This is not a general hardware review, as the original page implies, but a targeted analysis of performance landscapes. The result is relevant to understanding when and why quantum annealing may or may not outperform classical optimization heuristics on specific problem classes.
+The paper "Quantum annealing amid local ruggedness and global frustration" [S19] (arXiv:1701.04579, 2017) is a focused study of how energy landscape structure---specifically local ruggedness and global frustration---affects quantum annealing performance. This is not a general hardware review, but a targeted analysis of performance landscapes. The result is relevant to understanding when and why quantum annealing may or may not outperform classical optimization heuristics on specific problem classes.
 
 *Practical Quantum Computing for Developers* [S20] (Springer, 2018) provides hands-on guidance for programming and deploying quantum algorithms on commercial quantum processors (IBM Q, Rigetti, and similar platforms). It complements the theory-heavy items in the foundations section and serves readers who wish to gain practical experience with actual quantum hardware.
 
@@ -104,7 +104,7 @@ The paper "Quantum annealing amid local ruggedness and global frustration" [S19]
 
 ### 3.2 Quantum Networking
 
-Two papers address the engineering of quantum communication infrastructure. "Networking Challenges in Distributed Quantum Computing" [S22] (arXiv:1810.08421, 2018) frames distributed quantum computation as a systems and networking problem, discussing architectural constraints for entanglement distribution, teleportation-based links, and coordination protocols. The original page describes "error-corrected links" and concrete protocol designs; this overstates the paper's scope, which is better characterized as an *architectural discussion of challenges and tradeoffs* rather than a complete protocol specification.
+Two papers address the engineering of quantum communication infrastructure. "Networking Challenges in Distributed Quantum Computing" [S22] (arXiv:1810.08421, 2018) frames distributed quantum computation as a systems and networking problem, discussing architectural constraints for entanglement distribution, teleportation-based links, and coordination protocols. The paper's scope is an architectural discussion of challenges and tradeoffs as opposed to a complete protocol specification.
 
 "Quantum Internet: from Communication to Distributed Computing!" [S23] (arXiv:1805.04360, 2018) is a short invited overview (4 pages) relating quantum networking to distributed quantum computation and cloud computing frameworks. It highlights entanglement and teleportation as primitives and lists open challenges. Readers should treat it as a high-level roadmap rather than a technical design document.
 
@@ -116,9 +116,9 @@ The observation of discrete time crystals on a quantum processor [S25] (arXiv:21
 
 ### 3.4 Coverage Gaps in Engineering
 
-Note that there is no systematic treatment of hardware modalities as a comparative set: superconducting qubits (IBM, Google), trapped ions (IonQ, Honeywell/Quantinuum), photonic systems (Xanadu, PsiQuantum), neutral atoms (QuEra, Pasqal), and spin qubits in semiconductors each have distinct characteristics in terms of coherence times, gate fidelities, connectivity, and scalability. If this were a comprehensive engineering section then at least one key review per modality would appear.
+Note that there is no systematic treatment of hardware modalities as a comparative set: superconducting qubits (IBM, Google), trapped ions (IonQ, Honeywell/Quantinuum), photonic systems (Xanadu, PsiQuantum), neutral atoms (QuEra, Pasqal), and spin qubits in semiconductors each have distinct characteristics in terms of coherence times, gate fidelities, connectivity, and scalability. If this were a comprehensive engineering section then at least one key review per modality would be included.
 
-Quantum error correction and fault tolerance are indirectly treated through the Oskin notes [S10] and Rieffel and Polak [S3]. However, error correction is the central engineering challenge separating current NISQ devices from fault-tolerant quantum computers; modern surface-code and resource-estimation research are both required for readers seeking a comphrehensive consideration of engineering aspects of quantum computing.
+Quantum error correction and fault tolerance are indirectly treated through the Oskin notes [S10] and Rieffel and Polak [S3]. However, error correction is the central engineering challenge separating current NISQ devices from fault-tolerant quantum computers; modern surface-code and resource-estimation research are both required for readers seeking a comprehensive consideration of engineering aspects of quantum computing.
 
 ---
 
@@ -138,7 +138,7 @@ McArdle *et al.*, "Quantum Computational Chemistry" [S28] (arXiv:1808.10402, 201
 
 ### 4.3 Many-Body Physics and High-Energy Physics
 
-"Quantum computing with and for many-body physics" [S29] (arXiv:2303.04850, 2023) is a broad modern review of many-body physics use cases, simulation strategies, and the feedback loop between many-body theory and quantum computing methods. The original page describes it as focused on "fragmentation techniques to reduce circuit depth"; while this is one topic the paper addresses, the scope is substantially broader and includes a survey of the full landscape of many-body quantum simulation.
+"Quantum computing with and for many-body physics" [S29] (arXiv:2303.04850, 2023) is a broad modern review of many-body physics use cases, simulation strategies, and the feedback loop between many-body theory and quantum computing methods. Fragmentation techniques to reduce circuit depth is one topic the paper addresses; as well as a broader survey of the full landscape of many-body quantum simulation.
 
 The high-energy physics survey [S30] (arXiv:2307.03236, 2024) is a community-style overview of HEP use cases including lattice gauge theory simulation, event generation, optimization problems in detector design, and machine learning applications. It provides resource estimates for meaningful calculations and a mapping between HEP tasks and the corresponding algorithmic primitives (Hamiltonian simulation, quantum linear systems, sampling). This paper represents the current state of assessment regarding when quantum computers might contribute meaningfully to high-energy physics research.
 
