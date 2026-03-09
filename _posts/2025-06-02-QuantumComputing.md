@@ -44,7 +44,7 @@ Roser [S6] (arXiv:1012.4843, 2010) examines quantum computation from the de Brog
 
 Harrow and Montanaro [S7] (arXiv:1809.07442, 2018) provide a survey of what "quantum supremacy" (now often called "quantum advantage") means as a theoretical and experimental concept. The paper analyzes evidence standards, candidate tasks (particularly random circuit sampling), and noise thresholds for near-term devices. It preceded Google's 2019 experimental demonstration [S24] and provides the conceptual framework for interpreting that result.
 
-Ossorio-Castillo and Tornero [S8] (arXiv:1810.08277, updated 2025) is a self-contained, mathematically oriented exposition of the quantum circuit model. It covers foundational definitions, complexity class discussions (including BQP), and standard algorithmic building blocks. The original page describes this as "quantum circuit synthesis techniques reducing gate depth for NISQ," which is not the paper's thrust. It is expository rather than a contribution to compilation or synthesis. Readers seeking gate-depth reduction techniques for NISQ processors should look to the variational quantum eigensolver literature and dedicated compilation papers.
+Ossorio-Castillo and Tornero [S8] (arXiv:1810.08277, updated 2025) is a self-contained, mathematically oriented exposition of the quantum circuit model. It covers foundational definitions, complexity class discussions (including BQP), and standard algorithmic building blocks. It is expository rather than a contribution to compilation or synthesis. Readers seeking gate-depth reduction techniques for NISQ processors should look to the variational quantum eigensolver literature and dedicated compilation papers.
 
 ---
 
