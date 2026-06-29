@@ -428,7 +428,6 @@ There are several notable topics absent from consideration and a deeper dive int
 - **The Caputo derivative** is mentioned in several textbooks but does not receive dedicated treatment proportional to its importance, particularly for applied problems.
 - **Fractional Brownian motion** is absent. While distinct from Lévy processes (it is Gaussian, with long-range dependence rather than heavy tails), it is a major application of fractional calculus in its own right.
 - **Applications in control theory and signal processing**, which represent some of the most developed engineering applications of fractional calculus, are covered only through the general textbooks.
-- A **glossary of operator conventions**—clarifying the relationships among Riemann-Liouville, Caputo, Grünwald-Letnikov, Marchaud, Weyl, and spectral definitions—would substantially improve navigability.
 
 ### 8.3 Status of Theoretical Proposals
 
